@@ -142,6 +142,28 @@ export function withSubSteps(periods: Period[], steps: number): Period[] {
  * Formatiert eine Periode anhand einer Vorlage.
  * Platzhalter: YYYY, YY, MM, M, MMM, MMMM, DD, D, Q, LABEL
  */
+/**
+ * Liefert die Periode, die für das große Datum angezeigt werden soll.
+ *
+ * Zwischen zwei echten Perioden liegen Zwischenschritte, deren Werte interpoliert sind.
+ * Würde dort stur die vorherige Periode beschriftet, stünde bei 99 Prozent des Weges nach 2024
+ * immer noch „2023“ über Werten, die praktisch die von 2024 sind. Deshalb wird auf die nähere
+ * echte Periode gerundet: Der Abstand zwischen Beschriftung und gezeigtem Wert bleibt so
+ * höchstens ein halber Zeitschritt.
+ */
+export function periodForLabel(periods: Period[], index: number): Period {
+  const i = Math.min(periods.length - 1, Math.max(0, index))
+  const p = periods[i]
+  if (!p) return periods[0]
+  if (p.real !== false) return p
+  if ((p.fraction ?? 0) < 0.5) {
+    for (let k = i; k >= 0; k--) if (periods[k].real !== false) return periods[k]
+  } else {
+    for (let k = i; k < periods.length; k++) if (periods[k].real !== false) return periods[k]
+  }
+  return p
+}
+
 export function formatPeriod(p: Period, template: string, locale = 'de-DE'): string {
   if (p.kind === 'ordinal' || template === 'LABEL' || !template) return p.label
   const [y, m, d] = p.iso.split('-').map(Number)

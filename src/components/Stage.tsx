@@ -8,7 +8,7 @@ import type { ChartHandle } from '@/lib/chart/types'
 import { preview, usePreview } from '@/lib/preview/controller'
 import { BRAND_FONTS, ensureFontsLoaded } from '@/lib/fonts'
 import { stageColors } from '@/lib/stageColors'
-import { formatPeriod } from '@/lib/data/dates'
+import { formatPeriod, periodForLabel } from '@/lib/data/dates'
 
 const measure = createMeasurer()
 
@@ -81,7 +81,7 @@ export function Stage() {
   useEffect(() => () => { preview.detach(); handleRef.current?.destroy() }, [])
   useEffect(() => { preview.holdStart = settings.holdStart; preview.holdEnd = settings.holdEnd; preview.loop = settings.loopPreview }, [settings.holdStart, settings.holdEnd, settings.loopPreview])
 
-  const dateLabel = input ? formatPeriod(input.periods[Math.min(input.periods.length - 1, Math.max(0, snap.index))] ?? input.periods[0], settings.dateTemplate) : ''
+  const dateLabel = input ? formatPeriod(periodForLabel(input.periods, snap.index), settings.dateTemplate) : ''
   const W = format.width, H = format.height
 
   return (

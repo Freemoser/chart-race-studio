@@ -34,7 +34,7 @@ export const SAMPLES: SampleDataset[] = [
     category: 'praxis',
     title: 'Die Kleintierpraxis wird zum Normalfall',
     subtitle: 'Praxisinhaberinnen und Praxisinhaber nach Schwerpunkt, 1991 bis 2025',
-    source: 'Quelle: Statistik der Deutschen Tierärzteschaft/BTK, Deutsches Tierärzteblatt (1990–1995 zit. n. Maure 1998). Ab 2019 werden Pferde getrennt abgefragt, daher der Versatz. Reihe „Ketten“: gesundheitsmarkt.de, Standorte statt Inhaber',
+    source: 'Quelle: Statistik der Deutschen Tierärzteschaft/BTK, Deutsches Tierärzteblatt (1991–1995 zit. n. Maure 1998). Ab 2019 werden Pferde getrennt abgefragt, daher der Versatz. Reihe „Ketten“: Angaben der Betreiber und Bundeskartellamt, Standorte statt Inhaber',
     sourceUrl: 'https://www.bundestieraerztekammer.de/btk/statistik/',
     unit: 'Praxisinhaber:innen',
     description: "2002 ziehen die reinen Kleintierpraxen mit den gemischten gleich, danach übernehmen sie.",

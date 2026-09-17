@@ -5,7 +5,7 @@ import { computeLayout, createMeasurer } from '../layout'
 import { prepareChartInput } from '../chart/prepare'
 import { buildTimeline, frameTime, indexAt } from '../chart/timeline'
 import { embeddedFontMap, fontFaceCss, BRAND_FONTS, type BrandId } from '../fonts'
-import { formatPeriod } from '../data/dates'
+import { formatPeriod, periodForLabel } from '../data/dates'
 import { serializeSvg, svgToImage } from './svgSerialize'
 import { drawChrome } from './compose'
 import { stageColors } from '../stageColors'
@@ -98,7 +98,7 @@ export async function runExport(opts: ExportOptions): Promise<ExportResult> {
       lastSvg = str
     }
     const idx = Math.min(input.periods.length - 1, Math.floor(indexAt(tl, timeMs) + 1e-6))
-    const dateLabel = formatPeriod(input.periods[idx], settings.dateTemplate)
+    const dateLabel = formatPeriod(periodForLabel(input.periods, idx), settings.dateTemplate)
     drawChrome(ctx, layout, settings, colors, family, dateLabel, logo)
     ctx.drawImage(lastImg, layout.chart.x, layout.chart.y, input.width, input.height)
   }
