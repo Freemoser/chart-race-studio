@@ -14,7 +14,6 @@ const d2bClean = { rows: d2b.rows.filter((r) => r.date !== '1992') }
 const d3 = load('ds3-hunderassen.json'), d3b = load('ds3b-hunderassen-1990-2010.json'), d3c = load('ds3c-hunderassen-2011-2025.json')
 const d4 = load('ds4-nutztiere.json'), d5 = load('ds5-tieraerzte-bundesland-1991-2005.json'), d7 = load('ds7-viehbestand-1991-2009.json')
 const d8 = load('ds8-praxisarten-1996-2025.json'), d9 = load('ds9-fachtieraerzte.json'), d10 = load('ds10-kleintiere-bundesland.json')
-const d11 = load('ds11-ketten.json')
 const d12 = load('ds12-ketten-modell.json')
 
 /** long rows -> wide table (Jahr × names). Bei Dubletten gewinnt die zuerst genannte Quelle. */
@@ -197,11 +196,6 @@ const praxisNeu = ['2019', '2020', '2021', '2022', '2023', '2024', '2025'].flatM
 // keinen Wert, nicht den Wert null. 2025 ist kein Ranking erschienen und wird interpoliert.
 // Alles andere aus dieser Rohdatei (Bundeskartellamt, zm-online, Eigenangaben) sind datierte Einzelbelege
 // mit abweichender Zählweise; sie stehen in der Dateninfo, nicht in der Reihe.
-const kettenRanking = byMetric(d11, 'Standorte je Gruppe (Reihe)')
-// Die Reihe besteht aus drei Arten belegter Werte: dem Ranking (eine Quelle, eine Methode, aber nur die
-// Top 5 je Jahrgang), datierten Einzelmeldungen davor und belegten Nullen für Jahre, in denen die deutsche
-// Gesellschaft noch nicht existierte. Widersprüchliche Werte anderer Zählweisen liegen unter „Kontext“ in
-// der Rohdatei und bleiben draußen, damit ein Quellenwechsel nicht wie ein Rückgang aussieht.
 // Modellreihe 2015–2026 nach der Vorgabe vom 17.09.2026: lückenlos, jeder Wert mit Marker
 // (B belegt, B~ rund, B≥ Untergrenze, B/P Praxenzahl als Näherung, S geschätzt, 0 existierte nicht).
 // Die Marker stehen in data/raw/ds12-ketten-modell.json je Zelle; die Tabelle hier trägt nur die Zahlen.
@@ -211,24 +205,13 @@ const MODELL_NAMEN = ['TOTAL Deutschland', 'IVC Evidensia', 'Tierarzt Plus Partn
   'Cadomo Vets', 'Wolf & Tiger', 'activet (bis 2022)', 'Weitere Gruppen (Long Tail)']
 const w10 = wide(byMetric(d12, 'Standorte je Gruppe'), { names: MODELL_NAMEN })
 
-// Sammelreihe „Ketten“ für den Schwerpunkte-Chart: Summe der fünf größten Gruppen je Ranking-Jahrgang.
-// Bewusst dieselbe Definition in jedem Jahr (die Top 5, nicht dieselben Namen), damit die Werte
-// vergleichbar bleiben. Einheit ist STANDORTE, nicht Praxisinhaber – siehe Dateninfo des Datensatzes.
-const KETTEN = 'Ketten (5 große Gruppen, Standorte)'
-// WICHTIG: Die Sammelreihe summiert in jedem Jahr DIESELBEN fünf Gruppen. Nähme man einfach alle
-// Gruppen mit Wert, wüchse die Reihe auch dadurch, dass für spätere Jahre mehr Gruppen belegt sind –
-// der Anstieg wäre dann teils ein Abdeckungseffekt und keine echte Entwicklung.
-// Zur Einordnung der Untererfassung: Der Tierärzte Atlas zählte im August 2024 rd. 450 Standorte
-// von 16 Ketten. Diese fünf Gruppen kommen 2024 auf 292 – also gut 60 Prozent. Steht in der Dateninfo.
-const KETTEN_BASIS = ['IVC Evidensia', 'Tierarzt Plus Partner', 'AniCura', 'SmartVet → Medivet', 'Veternicum Nesto']
-const kettenJahre = ['2023', '2024', '2026']
-const kettenSumme = kettenJahre.map((date) => ({
-  date, name: KETTEN,
-  value: KETTEN_BASIS.reduce((sum, n) => sum + (kettenRanking.find((r) => r.date === date && r.name === n)?.value ?? 0), 0),
-}))
-// 2025 ist kein Erhebungsjahr; linear zwischen 2024 und 2026, damit die Reihe im Schlussbild nicht fehlt.
-const val = (y) => kettenSumme.find((r) => r.date === String(y))?.value
-kettenSumme.push({ date: '2025', name: KETTEN, value: Math.round((val(2024) + val(2026)) / 2) })
+// Sammelreihe „Ketten“ für den Schwerpunkte-Chart: dieselbe TOTAL-Reihe wie im Ketten-Datensatz und im
+// Artikel. Vorher stand hier ein eigener Fünf-Gruppen-Korb – das ergab für dasselbe Wort zwei verschiedene
+// Zahlen im selben Produkt (320 hier gegen 514 dort). Es gibt jetzt nur noch eine Kettenzahl.
+const KETTEN = 'Ketten (Standorte in Deutschland)'
+const kettenSumme = byMetric(d12, 'Standorte je Gruppe')
+  .filter((r) => r.name === 'TOTAL Deutschland')
+  .map((r) => ({ date: r.date, name: KETTEN, value: r.value }))
 
 const w7 = wide(
   [
