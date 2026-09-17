@@ -41,6 +41,25 @@ Die Seite hat neben dem Studio eine zweite Ansicht: den **Redaktionsplan** unter
 - Inhalte: [`src/content/roadmap.ts`](src/content/roadmap.ts) – hier nach der Veröffentlichung `linkedInUrl` und `publishedOn` eintragen, dann verlinkt die Ansicht den Beitrag.
 - Angaben zur Seite und Datenschutztext: [`src/content/site.ts`](src/content/site.ts). **Das Impressum ist bewusst leer** und muss vor dem öffentlichen Betrieb ausgefüllt werden; solange `impressum.anschrift` leer ist, blendet die Seite den Block aus.
 
+## Artikel und SEO
+
+Die Studio-Oberfläche ist eine Single-Page-Anwendung mit Hash-Routen (`#redaktionsplan`, `#impressum`). **Fragmente sind für Suchmaschinen keine eigenen Seiten**, und viele Crawler von Antwort-Maschinen führen kein JavaScript aus. Inhalte, die gefunden werden sollen, gehören deshalb in eigene statische HTML-Seiten unter `artikel/`:
+
+- Inhalt steht im Quelltext, kein JavaScript nötig
+- eigenes schlankes Stylesheet (`src/article.css`), unabhängig vom Utility-Scanner
+- JSON-LD mit `Article` und `FAQPage` für Antwort-Maschinen
+- als Build-Eingang in [`vite.config.ts`](vite.config.ts) eintragen, dann landet die Seite auch in der Sitemap
+
+Vorhanden: [`artikel/tierarztketten-deutschland.html`](artikel/tierarztketten-deutschland.html).
+
+## Inhaltsprüfung
+
+```bash
+npm run check:content
+```
+
+Findet dünne, doppelte und unverlinkte Inhalte: Posts mit zu wenig Kennzahlen, Datensätze mit zu knapper Kachel oder zu wenig Datenkunde, Artikel unter 600 Wörtern oder ohne strukturierte Daten, Beiträge, auf die kein anderer verweist, und Platzhalter im Text. Trennt Mängel von Hinweisen, Exit-Code 1 bei Mängeln.
+
 ## Deployment auf GitHub Pages
 
 1. Repository auf GitHub anlegen und Code pushen (Branch `main`).

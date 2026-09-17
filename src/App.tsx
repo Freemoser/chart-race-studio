@@ -107,6 +107,10 @@ export default function App() {
             Läuft komplett im Browser, keine Daten verlassen das Gerät. Diagramm-Animation mit{' '}
             <a className="underline hover:text-ink" href="https://github.com/hatemhosny/racing-bars" target="_blank" rel="noreferrer">racing-bars</a> (MIT). Open Source unter MIT.
             <br />
+            <a className="underline hover:text-ink" href="#redaktionsplan">Redaktionsplan</a>
+            {' · '}
+            <a className="underline hover:text-ink" href="artikel/tierarztketten-deutschland.html">Artikel</a>
+            {' · '}
             <a className="underline hover:text-ink" href="#impressum">Impressum</a>
             {' · '}
             <a className="underline hover:text-ink" href="#datenschutz">Datenschutz</a>

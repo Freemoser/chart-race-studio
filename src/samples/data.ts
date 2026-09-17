@@ -214,7 +214,7 @@ export const HEIMTIERMARKT = {
 }
 
 export const PRAXISSCHWERPUNKTE = {
-  headers: ["Jahr","Nur Kleintiere","Gemischt (Nutz- und Kleintiere)","Nur Nutz- und Großtiere","Ketten (Standorte)"],
+  headers: ["Jahr","Nur Kleintiere","Gemischt (Nutz- und Kleintiere)","Nur Nutz- und Großtiere","Ketten (5 große Gruppen, Standorte)"],
   rows: [
     ["1990", 1953, 2741, 1206, null],
     ["1991", 2298, 4086, 1859, null],
@@ -242,9 +242,9 @@ export const PRAXISSCHWERPUNKTE = {
     ["2020", 6217, 3547, 1815, null],
     ["2021", 5899, 3249, 1787, null],
     ["2022", 5802, 3108, 1799, null],
-    ["2023", 5629, 3003, 1809, 222],
-    ["2024", 6241, 3329, 1959, 270],
-    ["2025", 5930, 3031, 1932, 307],
+    ["2023", 5629, 3003, 1809, 230],
+    ["2024", 6241, 3329, 1959, 292],
+    ["2025", 5930, 3031, 1932, 320],
   ],
 }
 
@@ -291,18 +291,18 @@ export const KLEINTIERE_BUNDESLAND = {
 }
 
 export const KETTEN = {
-  headers: ["Jahr","IVC Evidensia","Tierarzt Plus Partner","AniCura","VetPartners","VetGruppen (Vetopia)","Veternicum Nesto","TeamVet","Medivet (vormals SmartVet)","Cadomo Vets"],
+  headers: ["Jahr","IVC Evidensia","Tierarzt Plus Partner","AniCura","VetPartners","VetGruppen (Vetopia)","Veternicum Nesto","TeamVet","SmartVet → Medivet","Rex","filu","Altano (Pferde)","Cadomo Vets","Wolf & Tiger"],
   rows: [
-    ["2015", 0, 0, null, null, 0, 0, null, null, null],
-    ["2016", null, 0, 8, null, 0, 0, null, null, null],
-    ["2017", null, 0, null, null, 0, 0, null, null, null],
-    ["2018", null, null, 30, null, 0, 0, null, null, null],
-    ["2019", null, null, null, null, 0, null, null, null, null],
-    ["2020", null, null, null, null, 0, null, null, null, null],
-    ["2021", null, 26, null, null, null, null, null, 18, null],
-    ["2022", 60, null, null, null, null, null, null, null, null],
-    ["2023", 61, 64, 65, null, null, 12, null, 20, null],
-    ["2024", 76, 86, 67, 17, null, 21, null, 20, null],
-    ["2026", 115, 106, 69, 28, 26, 23, 24, 20, 4],
+    ["2015", 0, 0, 7, null, 0, 0, null, 20, null, null, null, null, null],
+    ["2016", null, 0, 8, null, 0, 0, null, null, null, null, null, null, null],
+    ["2017", null, 0, null, null, 0, 0, null, null, null, null, null, null, null],
+    ["2018", null, null, 30, null, 0, 0, null, null, null, null, null, null, null],
+    ["2019", null, null, null, null, 0, null, null, null, null, null, null, null, null],
+    ["2020", null, null, null, null, 0, null, null, null, null, null, null, null, null],
+    ["2021", 50, 30, 60, null, null, null, null, 18, null, null, null, null, null],
+    ["2022", 70, null, 70, null, null, null, null, null, null, null, null, null, null],
+    ["2023", 61, 72, 65, null, null, 12, null, 20, null, null, 26, null, null],
+    ["2024", 76, 96, 79, 17, null, 21, null, 20, null, null, null, null, null],
+    ["2026", 120, 106, 78, 28, 26, 23, 24, 20, 13, 12, null, 4, 3],
   ],
 }

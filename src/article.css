@@ -1,0 +1,43 @@
+/* Eigenes, schlankes Stylesheet für die Artikelseiten.
+   Bewusst ohne Tailwind: Die Seite soll auch dann korrekt aussehen, wenn der Utility-Scanner
+   die Artikel-HTML nicht erfasst, und sie soll ohne JavaScript vollständig lesbar sein. */
+@import './brand/tokens.css';
+@import '@fontsource-variable/inter/index.css';
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--brand-bg);
+  color: var(--brand-ink);
+  font-family: var(--brand-font);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'tnum' 1;
+}
+.wrap { max-width: 44rem; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; }
+header.site { border-bottom: 1px solid var(--brand-line); background: var(--brand-surface); }
+header.site .wrap { padding: 0.9rem 1.25rem; display: flex; gap: 1rem; align-items: baseline; flex-wrap: wrap; }
+header.site a { color: var(--brand-ink-muted); text-decoration: none; font-size: 0.875rem; }
+header.site a:hover { color: var(--brand-ink); }
+header.site strong { font-size: 0.95rem; margin-right: auto; }
+h1 { font-size: 2rem; line-height: 1.2; letter-spacing: -0.02em; margin: 2rem 0 0.75rem; }
+h2 { font-size: 1.25rem; line-height: 1.3; margin: 2.5rem 0 0.5rem; }
+h3 { font-size: 1rem; margin: 1.75rem 0 0.25rem; }
+p, li { color: var(--brand-ink-muted); }
+p { margin: 0.75rem 0; }
+.lead { font-size: 1.1rem; color: var(--brand-ink); }
+.meta { font-size: 0.8125rem; color: var(--brand-ink-faint); margin-top: 0.5rem; }
+a { color: var(--brand-primary); }
+strong { color: var(--brand-ink); }
+table { width: 100%; border-collapse: collapse; margin: 1.25rem 0; font-size: 0.9375rem; }
+.scroll { overflow-x: auto; }
+th, td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--brand-line); }
+th { color: var(--brand-ink); font-weight: 600; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+td { color: var(--brand-ink-muted); }
+.note { background: var(--brand-surface-2); border-radius: var(--brand-radius); padding: 0.85rem 1rem; margin: 1.25rem 0; font-size: 0.9375rem; }
+blockquote { margin: 1.25rem 0; padding-left: 1rem; border-left: 3px solid var(--brand-primary); font-style: italic; color: var(--brand-ink); }
+.faq dt { font-weight: 600; color: var(--brand-ink); margin-top: 1.25rem; }
+.faq dd { margin: 0.35rem 0 0; color: var(--brand-ink-muted); }
+footer.site { border-top: 1px solid var(--brand-line); margin-top: 3rem; padding-top: 1.25rem; font-size: 0.8125rem; color: var(--brand-ink-faint); }

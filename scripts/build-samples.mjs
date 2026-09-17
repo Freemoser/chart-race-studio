@@ -196,31 +196,35 @@ const praxisNeu = ['2019', '2020', '2021', '2022', '2023', '2024', '2025'].flatM
 // keinen Wert, nicht den Wert null. 2025 ist kein Ranking erschienen und wird interpoliert.
 // Alles andere aus dieser Rohdatei (Bundeskartellamt, zm-online, Eigenangaben) sind datierte Einzelbelege
 // mit abweichender Zählweise; sie stehen in der Dateninfo, nicht in der Reihe.
-const kettenRanking = byMetric(d11, 'Standorte je Gruppe (Ranking)')
+const kettenRanking = byMetric(d11, 'Standorte je Gruppe (Reihe)')
 // Die Reihe besteht aus drei Arten belegter Werte: dem Ranking (eine Quelle, eine Methode, aber nur die
 // Top 5 je Jahrgang), datierten Einzelmeldungen davor und belegten Nullen für Jahre, in denen die deutsche
 // Gesellschaft noch nicht existierte. Widersprüchliche Werte anderer Zählweisen liegen unter „Kontext“ in
 // der Rohdatei und bleiben draußen, damit ein Quellenwechsel nicht wie ein Rückgang aussieht.
-const kettenRows = [...kettenRanking, ...byMetric(d11, 'Standorte je Gruppe (Einzelbeleg)'), ...byMetric(d11, 'Vor Markteintritt (belegte Null)')]
+const kettenRows = [...kettenRanking, ...byMetric(d11, 'Vor Markteintritt (belegte Null)')]
 const w10 = wide(kettenRows, {
   names: ['IVC Evidensia', 'Tierarzt Plus Partner', 'AniCura', 'VetPartners', 'VetGruppen (Vetopia)',
-    'Veternicum Nesto', 'TeamVet', 'Medivet (vormals SmartVet)', 'Cadomo Vets'],
+    'Veternicum Nesto', 'TeamVet', 'SmartVet → Medivet', 'Rex', 'filu', 'Altano (Pferde)', 'Cadomo Vets', 'Wolf & Tiger'],
 })
 
 // Sammelreihe „Ketten“ für den Schwerpunkte-Chart: Summe der fünf größten Gruppen je Ranking-Jahrgang.
 // Bewusst dieselbe Definition in jedem Jahr (die Top 5, nicht dieselben Namen), damit die Werte
 // vergleichbar bleiben. Einheit ist STANDORTE, nicht Praxisinhaber – siehe Dateninfo des Datensatzes.
-const KETTEN = 'Ketten (Standorte)'
-const kettenJahre = [...new Set(kettenRanking.map((r) => r.date))].sort()
+const KETTEN = 'Ketten (5 große Gruppen, Standorte)'
+// WICHTIG: Die Sammelreihe summiert in jedem Jahr DIESELBEN fünf Gruppen. Nähme man einfach alle
+// Gruppen mit Wert, wüchse die Reihe auch dadurch, dass für spätere Jahre mehr Gruppen belegt sind –
+// der Anstieg wäre dann teils ein Abdeckungseffekt und keine echte Entwicklung.
+// Zur Einordnung der Untererfassung: Der Tierärzte Atlas zählte im August 2024 rd. 450 Standorte
+// von 16 Ketten. Diese fünf Gruppen kommen 2024 auf 292 – also gut 60 Prozent. Steht in der Dateninfo.
+const KETTEN_BASIS = ['IVC Evidensia', 'Tierarzt Plus Partner', 'AniCura', 'SmartVet → Medivet', 'Veternicum Nesto']
+const kettenJahre = ['2023', '2024', '2026']
 const kettenSumme = kettenJahre.map((date) => ({
-  date, name: KETTEN, value: kettenRanking.filter((r) => r.date === date).reduce((s, r) => s + r.value, 0),
+  date, name: KETTEN,
+  value: KETTEN_BASIS.reduce((sum, n) => sum + (kettenRanking.find((r) => r.date === date && r.name === n)?.value ?? 0), 0),
 }))
-// Für 2025 ist kein Ranking erschienen. Damit die Reihe im Schlussbild des Charts (Stand 2025) nicht
-// fehlt, wird 2025 linear zwischen den Rankings 2024 und 2026 interpoliert – dieselbe Operation, die
-// die Anwendung für die Lückenjahre der BTK-Reihen ohnehin ausführt. Steht so in der Dateninfo.
+// 2025 ist kein Erhebungsjahr; linear zwischen 2024 und 2026, damit die Reihe im Schlussbild nicht fehlt.
 const val = (y) => kettenSumme.find((r) => r.date === String(y))?.value
-const ketten2025 = Math.round((val(2024) + val(2026)) / 2)
-kettenSumme.push({ date: '2025', name: KETTEN, value: ketten2025 })
+kettenSumme.push({ date: '2025', name: KETTEN, value: Math.round((val(2024) + val(2026)) / 2) })
 
 const w7 = wide(
   [

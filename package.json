@@ -9,6 +9,7 @@
     "lint": "oxlint",
     "test": "vitest run",
     "check:launch": "node scripts/check-launch.mjs",
+    "check:content": "node scripts/check-content.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

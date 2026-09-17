@@ -73,6 +73,17 @@ export function Roadmap({ onOpenStudio }: { onOpenStudio: () => void }) {
         <p className="mb-6 border-l-2 border-primary pl-4 text-sm italic text-ink-muted">{ARCS.find((a) => a.id === arc)?.claim}</p>
       )}
 
+      {(arc === 'alle' || arc === 'ketten') && (
+        <a href="artikel/tierarztketten-deutschland.html" className="card mb-6 block p-4 transition-colors hover:border-primary">
+          <span className="text-[11px] font-medium tracking-wide text-ink-faint uppercase">Artikel</span>
+          <span className="mt-1 block text-base font-semibold text-ink">Wer betreibt die Tierarztpraxen in Deutschland?</span>
+          <span className="mt-1 block text-[13px] leading-relaxed text-ink-muted">
+            Die Langfassung zu den Posts 5 bis 9: 13 Gruppen mit belegten Standortzahlen, die einzige verfügbare
+            Gesamtzahl aus dem Tierärzte Atlas und die Abgrenzung zu Einkaufsnetzwerken wie VetFamily.
+          </span>
+        </a>
+      )}
+
       <ol className="flex flex-col gap-3">
         {sichtbar.map((post) => {
           const arcInfo = ARCS.find((a) => a.id === post.arc)
@@ -148,6 +159,8 @@ export function Roadmap({ onOpenStudio }: { onOpenStudio: () => void }) {
           <a className="underline hover:text-ink" href="https://github.com/hatemhosny/racing-bars" target="_blank" rel="noreferrer">racing-bars</a> (MIT).
         </p>
         <p className="mt-3 text-[13px] text-ink-muted">
+          <a className="underline hover:text-ink" href="artikel/tierarztketten-deutschland.html">Artikel: Wer betreibt die Tierarztpraxen?</a>
+          {' · '}
           <a className="underline hover:text-ink" href="#impressum">Impressum</a>
           {' · '}
           <a className="underline hover:text-ink" href="#datenschutz">Datenschutz</a>
