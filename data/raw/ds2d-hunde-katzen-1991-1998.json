@@ -1,0 +1,878 @@
+{
+ "title": "Hunde, Katzen und Heimtiere in Deutschland 1991–2003 (ZZF/IVH-Jahresberichte „Der deutsche Heimtiermarkt“) – Lückenschluss zu ds2b/ds2c",
+ "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Jahresberichte „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten“ 1995–2003 und ZZF-Presse-Infos (Januar 1997, März 1998, Mai 1999); Populationszahlen laut ZZF von IVH – Industrieverband Heimtierbedarf e.V. (Ausnahme 1999: BBE-Branchenreport Heimtierbedarf). Sämtliche Seiten über das Internet Archive.",
+ "sourceUrl": "https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html ; https://web.archive.org/web/19991021224029id_/http://www.zzf.de:80/markt/markt1996.html ; https://web.archive.org/web/19991021235001id_/http://www.zzf.de:80/markt/markt1997.html ; https://web.archive.org/web/19991022004516id_/http://www.zzf.de:80/markt/markt1998.html ; https://web.archive.org/web/20020911074811id_/http://zzf.de:80/markt/markt1999-1.gif ; https://web.archive.org/web/20011224122039id_/http://www.zzf.de:80/markt/markt2000.html ; https://web.archive.org/web/20020816090830id_/http://www.zzf.de:80/markt/markt2001.html ; https://web.archive.org/web/20041016134142id_/http://www.zzf.de:80/dateiarchiv/markt2002.ppt ; https://web.archive.org/web/20040605161736id_/http://www.zzf.de:80/presse/markt/markt2003.html",
+ "unit": "Bestand in Mio. Tieren; Aquarien/Gartenteiche/Terrarien in Mio. Stück; Haushalte in Mio.",
+ "license": "Verbandsdaten ZZF/IVH, Zitat mit Quellenangabe",
+ "notes": "Nur publizierte Originalwerte, nichts geschätzt oder interpoliert. Einzige berechnete Größe ist die Vergleichsachse „Hunde + Katzen (Summe, berechnet)“ (einfache Addition zweier publizierter Werte desselben Jahres und derselben Quelle). ERHEBUNG: Bis 1998 und ab 2000 IVH-Verbandsschätzung („Quelle: ZZF und IVH, Angaben ohne Gewähr“); 1999 abweichend BBE-Branchenreport Heimtierbedarf (+ Allensbacher Werbeträger-Analyse, Statistisches Bundesamt). BRÜCHE: (1) 1994 „modifizierte Berechnungsgrundlage“ bei Ziervögeln (Volieren-/Aufzuchtvögel 1991/1993 +1,0 Mio., 1994/1995 +3,6 Mio.); Hunde/Katzen davon nicht betroffen. (2) 1999 Quellenwechsel auf BBE – der ZZF warnt ausdrücklich: „Da wir für das Jahr 1999 auf eine neue Datenquelle zurückgegriffen haben, sind die Zahlen der Jahre 1995 bis 1998 nicht mit den Strukturdaten des Jahres 1999 zu vergleichen.“ (3) 2000 „neue Erhebungsmethoden“, Vergleich mit Vorjahren laut ZZF „nicht schlüssig“. (4) 2002 Umdefinition der Aquaristik (bis 2001 3,0 Mio. Aquarien; ab 2002 1,9 Mio. Aquarien + 1,7 Mio. Gartenteiche + 0,4 Mio. Terrarien). (5) 1996 ist die Gesamtzahl 23,6 Mio. inklusive der 3,2 Mio. Aquarien gebildet, ab 1997 ohne – Gesamtzahlen 1996 vs. 1997 ff. nicht vergleichbar. 2002 wurde die Population laut ZZF-Umsatzbericht 2002 „nicht erhoben“; die hier erfassten 2002er-Werte stammen aus dem im Dezember 2003 erstellten ZZF/IVH-Foliensatz („Quelle: IVH 2003 / Zahlen beziehen sich auf das Jahr 2002“) und sind durch die Summenprobe gegen den im Bericht 2003 genannten Vorjahreswert 22,7 Mio. abgesichert. KORREKTUREN an bestehenden Datensätzen: (a) Die in ds2c als „1999“ geführten IVH-Website-Werte (Hunde 5,1/Katzen 6,2, 15 %/16 % HH, 12,3 Mio. Haushalte) sind zeichengleich mit dem ZZF/IVH-Bericht für 1996 und gehören zu 1996, nicht zu 1999; der echte 1999er-Wert ist Hunde 4,8/Katzen 6,3. (b) Die 1992er-Werte in ds2b (Hunde 4,1, Katzen 6,0, Aquarien 0,9) stammen aus einem unbelegten Wikipedia-Satz und widersprechen der zeitgenössischen IVH/ZZF-Reihe (1991: 4,6/5,3/3,0; 1993: 4,8/5,5/3,1) – als unzuverlässig behandeln. (c) 2003 Katzen = 7,3 Mio. (nicht 7,5; 7,5 ist der Wert für 2004). NICHT GEFUNDEN: 1992 (die ZZF/IVH-Zeitreihe überspringt 1992 ausdrücklich: Spalten 1991, 1993, 1994, 1995); Haushaltszahlen vor 1996. Vergeblich geprüft: WHO Rabies Bulletin Europe 1995/1997 und WHO World Survey of Rabies Nr. 27–34 (1991–1998) – enthalten keine Hunde-/Katzenpopulationen; Google-Books-API (gesperrt); DIP-Bundestag-API (Key erforderlich); Repositorien TiHo Hannover und Gießen (Bot-Schutz/SPA); bft-online.de 1999–2003; ivh-online.de 1999; 101 ZZF-Pressemitteilungen 1995–2005; ZZF-Chronik „50 Jahre ZZF“ (nur gerundete, undatierte Angaben).",
+ "attribution": "Quelle: ZZF/IVH, „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten“ 1995–2003 (Populationszahlen 1999: BBE-Branchenreport Heimtierbedarf), abgerufen über das Internet Archive",
+ "rows": [
+  {
+   "date": "1991",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 4.6,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)"
+  },
+  {
+   "date": "1991",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 5.3,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)"
+  },
+  {
+   "date": "1991",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 6.8,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)",
+   "note": "Original: „6,8*“ mit Fußnote „* plus 1 Mio Vögel“ (Volieren-/Aufzuchthaltung)."
+  },
+  {
+   "date": "1991",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 3.0,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)"
+  },
+  {
+   "date": "1991",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 3.0,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)",
+   "note": "Einheit: Mio. Aquarien (nicht Zierfische)."
+  },
+  {
+   "date": "1993",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 4.8,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)"
+  },
+  {
+   "date": "1993",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 5.5,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)"
+  },
+  {
+   "date": "1993",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 6.8,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)",
+   "note": "Original: „6,8*“ mit Fußnote „* plus 1 Mio Vögel“ (Volieren-/Aufzuchthaltung)."
+  },
+  {
+   "date": "1993",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 3.5,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)"
+  },
+  {
+   "date": "1993",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 3.1,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)",
+   "note": "Einheit: Mio. Aquarien (nicht Zierfische)."
+  },
+  {
+   "date": "1994",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 4.9,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)"
+  },
+  {
+   "date": "1994",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 5.8,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)"
+  },
+  {
+   "date": "1994",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 5.5,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)",
+   "note": "Original: „5,5**“ mit Fußnote „** plus 3,6 Mio Vögel“; ab 1994 laut Quelle „modifizierte Berechnungsgrundlage“ – Vogelreihe vor/nach 1994 nicht vergleichbar."
+  },
+  {
+   "date": "1994",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 3.7,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)"
+  },
+  {
+   "date": "1994",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 3.1,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)",
+   "note": "Einheit: Mio. Aquarien (nicht Zierfische)."
+  },
+  {
+   "date": "1995",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.0,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)"
+  },
+  {
+   "date": "1995",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 6.0,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)"
+  },
+  {
+   "date": "1995",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 5.4,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)",
+   "note": "Original: „5,4**“ mit Fußnote „** plus 3,6 Mio Vögel“; ab 1994 laut Quelle „modifizierte Berechnungsgrundlage“."
+  },
+  {
+   "date": "1995",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 3.8,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)"
+  },
+  {
+   "date": "1995",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 3.1,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "publiziert (IVH/ZZF-Angabe)",
+   "note": "Einheit: Mio. Aquarien (nicht Zierfische)."
+  },
+  {
+   "date": "1996",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.1,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1996“ („Quelle: ZZF und IVH“) – https://web.archive.org/web/19991021224029id_/http://www.zzf.de:80/markt/markt1996.html ; identisch als ZZF-Presse-Info März 1998 – https://web.archive.org/web/19980703071824id_/http://www.zzf.de:80/presse/pm0398-1.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„5,1 Mio. Hunde leben in 15 % der Haushalte.“"
+  },
+  {
+   "date": "1996",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 6.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1996“ („Quelle: ZZF und IVH“) – https://web.archive.org/web/19991021224029id_/http://www.zzf.de:80/markt/markt1996.html ; identisch als ZZF-Presse-Info März 1998 – https://web.archive.org/web/19980703071824id_/http://www.zzf.de:80/presse/pm0398-1.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„6,2 Mio. Katzen leben in 16 % der Haushalte.“ ACHTUNG: Dieses 1996er-Zahlenpaket wurde auf der IVH-Website noch 2001 unverändert angezeigt und in ds2c irrtümlich als „1999“ geführt."
+  },
+  {
+   "date": "1996",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 5.1,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1996“ („Quelle: ZZF und IVH“) – https://web.archive.org/web/19991021224029id_/http://www.zzf.de:80/markt/markt1996.html ; identisch als ZZF-Presse-Info März 1998 – https://web.archive.org/web/19980703071824id_/http://www.zzf.de:80/presse/pm0398-1.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„5,1* Mio. Ziervögel … in 8 % der Haushalte“, Fußnote: zusätzlich 3,6 Mio. Volierenvögel und Vögel in der Aufzuchthaltung."
+  },
+  {
+   "date": "1996",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 4.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1996“ („Quelle: ZZF und IVH“) – https://web.archive.org/web/19991021224029id_/http://www.zzf.de:80/markt/markt1996.html ; identisch als ZZF-Presse-Info März 1998 – https://web.archive.org/web/19980703071824id_/http://www.zzf.de:80/presse/pm0398-1.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„4,0 Mio. Kleintiere u. andere Heimtiere … in 7 % der Haushalte“"
+  },
+  {
+   "date": "1996",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 3.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1996“ („Quelle: ZZF und IVH“) – https://web.archive.org/web/19991021224029id_/http://www.zzf.de:80/markt/markt1996.html ; identisch als ZZF-Presse-Info März 1998 – https://web.archive.org/web/19980703071824id_/http://www.zzf.de:80/presse/pm0398-1.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„3,2 Mio. Aquarien … in 6 % der Haushalte“"
+  },
+  {
+   "date": "1996",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (ohne Zierfische)",
+   "value": 23.6,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1996“ („Quelle: ZZF und IVH“) – https://web.archive.org/web/19991021224029id_/http://www.zzf.de:80/markt/markt1996.html ; identisch als ZZF-Presse-Info März 1998 – https://web.archive.org/web/19980703071824id_/http://www.zzf.de:80/presse/pm0398-1.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„23,6 Mio. Tiere (ohne Zierfische)“. ABWEICHENDE ABGRENZUNG: 5,1+6,2+5,1+4,0 = 20,4; erst mit den 3,2 Mio. Aquarien ergibt sich 23,6 – 1996 ist deshalb nicht mit den Gesamtzahlen 1997 ff. vergleichbar."
+  },
+  {
+   "date": "1996",
+   "metric": "Haushalte",
+   "name": "Haushalte mit Heimtieren",
+   "value": 12.3,
+   "unit": "Mio. Haushalte",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1996“ („Quelle: ZZF und IVH“) – https://web.archive.org/web/19991021224029id_/http://www.zzf.de:80/markt/markt1996.html ; identisch als ZZF-Presse-Info März 1998 – https://web.archive.org/web/19980703071824id_/http://www.zzf.de:80/presse/pm0398-1.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„in 12,3 Mio. Haushalten … In 34 % aller Haushalte werden Tiere gehalten.“"
+  },
+  {
+   "date": "1997",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1997“ („Quelle: ZZF und IVH, Angaben ohne Gewähr“) – https://web.archive.org/web/19991021235001id_/http://www.zzf.de:80/markt/markt1997.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„5,0 Mio. Hunde leben in 14 % der Haushalte.“"
+  },
+  {
+   "date": "1997",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 6.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1997“ („Quelle: ZZF und IVH, Angaben ohne Gewähr“) – https://web.archive.org/web/19991021235001id_/http://www.zzf.de:80/markt/markt1997.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„6,3 Mio. Katzen leben in 16 % der Haushalte.“"
+  },
+  {
+   "date": "1997",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 5.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1997“ („Quelle: ZZF und IVH, Angaben ohne Gewähr“) – https://web.archive.org/web/19991021235001id_/http://www.zzf.de:80/markt/markt1997.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "zusätzlich 3,1 Mio. Volierenvögel/Aufzuchtvögel (Fußnote)"
+  },
+  {
+   "date": "1997",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 4.5,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1997“ („Quelle: ZZF und IVH, Angaben ohne Gewähr“) – https://web.archive.org/web/19991021235001id_/http://www.zzf.de:80/markt/markt1997.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "8 % der Haushalte"
+  },
+  {
+   "date": "1997",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 3.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1997“ („Quelle: ZZF und IVH, Angaben ohne Gewähr“) – https://web.archive.org/web/19991021235001id_/http://www.zzf.de:80/markt/markt1997.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "6 % der Haushalte"
+  },
+  {
+   "date": "1997",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (ohne Zierfische)",
+   "value": 20.8,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1997“ („Quelle: ZZF und IVH, Angaben ohne Gewähr“) – https://web.archive.org/web/19991021235001id_/http://www.zzf.de:80/markt/markt1997.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„20,8 Mio. Tiere (ohne Zierfische)“; Rechenprobe 5,0+6,3+5,0+4,5 = 20,8 (ohne Aquarien)."
+  },
+  {
+   "date": "1997",
+   "metric": "Haushalte",
+   "name": "Haushalte mit Heimtieren",
+   "value": 11.0,
+   "unit": "Mio. Haushalte",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1997“ („Quelle: ZZF und IVH, Angaben ohne Gewähr“) – https://web.archive.org/web/19991021235001id_/http://www.zzf.de:80/markt/markt1997.html",
+   "quality": "gerundet (Original: „rund 11 Mio.“)",
+   "note": "„in rund 11 Mio. Haushalten … In 34 % aller Haushalte“"
+  },
+  {
+   "date": "1998",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.1,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1998“ – https://web.archive.org/web/19991022004516id_/http://www.zzf.de:80/markt/markt1998.html ; bestätigt durch ZZF-Pressemitteilung „Milliarden für Heimtiere“, Langen, 17.05.1999 (pma 0599) – https://web.archive.org/web/20030321044708id_/http://www.zzf.de:80/presse/pma0599.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„5,1 Mio. Hunde leben in 14 % der Haushalte.“ In der ZZF-PM vom 17.05.1999 bestätigt."
+  },
+  {
+   "date": "1998",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 6.4,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1998“ – https://web.archive.org/web/19991022004516id_/http://www.zzf.de:80/markt/markt1998.html ; bestätigt durch ZZF-Pressemitteilung „Milliarden für Heimtiere“, Langen, 17.05.1999 (pma 0599) – https://web.archive.org/web/20030321044708id_/http://www.zzf.de:80/presse/pma0599.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„6,4 Mio. Katzen leben in 14 % der Haushalte.“ In der ZZF-PM vom 17.05.1999 bestätigt."
+  },
+  {
+   "date": "1998",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 5.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1998“ – https://web.archive.org/web/19991022004516id_/http://www.zzf.de:80/markt/markt1998.html ; bestätigt durch ZZF-Pressemitteilung „Milliarden für Heimtiere“, Langen, 17.05.1999 (pma 0599) – https://web.archive.org/web/20030321044708id_/http://www.zzf.de:80/presse/pma0599.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "zusätzlich 3,1 Mio. Volierenvögel/Aufzuchtvögel (Fußnote)"
+  },
+  {
+   "date": "1998",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 4.5,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1998“ – https://web.archive.org/web/19991022004516id_/http://www.zzf.de:80/markt/markt1998.html ; bestätigt durch ZZF-Pressemitteilung „Milliarden für Heimtiere“, Langen, 17.05.1999 (pma 0599) – https://web.archive.org/web/20030321044708id_/http://www.zzf.de:80/presse/pma0599.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "8 % der Haushalte"
+  },
+  {
+   "date": "1998",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 3.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1998“ – https://web.archive.org/web/19991022004516id_/http://www.zzf.de:80/markt/markt1998.html ; bestätigt durch ZZF-Pressemitteilung „Milliarden für Heimtiere“, Langen, 17.05.1999 (pma 0599) – https://web.archive.org/web/20030321044708id_/http://www.zzf.de:80/presse/pma0599.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "6 % der Haushalte"
+  },
+  {
+   "date": "1998",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (ohne Zierfische)",
+   "value": 21.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1998“ – https://web.archive.org/web/19991022004516id_/http://www.zzf.de:80/markt/markt1998.html ; bestätigt durch ZZF-Pressemitteilung „Milliarden für Heimtiere“, Langen, 17.05.1999 (pma 0599) – https://web.archive.org/web/20030321044708id_/http://www.zzf.de:80/presse/pma0599.html",
+   "quality": "gerundet (Original: „21 Mio.“)",
+   "note": "„21 Mio. Tiere (ohne Zierfische)“; Rechenprobe 5,1+6,4+5,0+4,5 = 21,0."
+  },
+  {
+   "date": "1998",
+   "metric": "Haushalte",
+   "name": "Haushalte mit Heimtieren",
+   "value": 11.0,
+   "unit": "Mio. Haushalte",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1998“ – https://web.archive.org/web/19991022004516id_/http://www.zzf.de:80/markt/markt1998.html ; bestätigt durch ZZF-Pressemitteilung „Milliarden für Heimtiere“, Langen, 17.05.1999 (pma 0599) – https://web.archive.org/web/20030321044708id_/http://www.zzf.de:80/presse/pma0599.html",
+   "quality": "gerundet (Original: „rund 11 Mio.“)",
+   "note": "„in rund 11 Mio. Haushalten“"
+  },
+  {
+   "date": "1999",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 4.8,
+   "unit": "Mio.",
+   "source": "ZZF „Der deutsche Heimtiermarkt – Umsatz & Strukturdaten 1999“, Grafik „Heimtierpopulation in Deutschland in Mio 1999“ (Spalten Gesamt/West/Ost); Datenquelle laut ZZF-Verzeichnis: BBE-Branchenreport Heimtierbedarf (nicht IVH) – Grafik: https://web.archive.org/web/20020911074811id_/http://zzf.de:80/markt/markt1999-1.gif ; Seite: https://web.archive.org/web/20010412021713id_/http://www.zzf.de:80/markt/markt1999-1.html",
+   "quality": "publiziert (BBE/ZZF-Angabe)",
+   "note": "Grafik: Gesamt 4,8 (West 3,6 / Ost 1,2). METHODENBRUCH: Für 1999 wurde laut ZZF eine neue Datenquelle (BBE) verwendet; der ZZF weist selbst darauf hin, dass die Jahre 1995–1998 mit 1999 nicht vergleichbar sind (https://web.archive.org/web/20000916042836id_/http://www.zzf.de:80/markt/index.html)."
+  },
+  {
+   "date": "1999",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 6.3,
+   "unit": "Mio.",
+   "source": "ZZF „Der deutsche Heimtiermarkt – Umsatz & Strukturdaten 1999“, Grafik „Heimtierpopulation in Deutschland in Mio 1999“ (Spalten Gesamt/West/Ost); Datenquelle laut ZZF-Verzeichnis: BBE-Branchenreport Heimtierbedarf (nicht IVH) – Grafik: https://web.archive.org/web/20020911074811id_/http://zzf.de:80/markt/markt1999-1.gif ; Seite: https://web.archive.org/web/20010412021713id_/http://www.zzf.de:80/markt/markt1999-1.html",
+   "quality": "publiziert (BBE/ZZF-Angabe)",
+   "note": "Grafik: Gesamt 6,3 (West 5,0 / Ost 1,3). METHODENBRUCH: Für 1999 wurde laut ZZF eine neue Datenquelle (BBE) verwendet; der ZZF weist selbst darauf hin, dass die Jahre 1995–1998 mit 1999 nicht vergleichbar sind (https://web.archive.org/web/20000916042836id_/http://www.zzf.de:80/markt/index.html)."
+  },
+  {
+   "date": "1999",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 6.5,
+   "unit": "Mio.",
+   "source": "ZZF „Der deutsche Heimtiermarkt – Umsatz & Strukturdaten 1999“, Grafik „Heimtierpopulation in Deutschland in Mio 1999“ (Spalten Gesamt/West/Ost); Datenquelle laut ZZF-Verzeichnis: BBE-Branchenreport Heimtierbedarf (nicht IVH) – Grafik: https://web.archive.org/web/20020911074811id_/http://zzf.de:80/markt/markt1999-1.gif ; Seite: https://web.archive.org/web/20010412021713id_/http://www.zzf.de:80/markt/markt1999-1.html",
+   "quality": "publiziert (BBE/ZZF-Angabe)",
+   "note": "Grafik: Gesamt 6,5 (West 6,0 / Ost 0,5). Sprung gegenüber 1998 (5,0) ist quellenbedingt."
+  },
+  {
+   "date": "1999",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 4.6,
+   "unit": "Mio.",
+   "source": "ZZF „Der deutsche Heimtiermarkt – Umsatz & Strukturdaten 1999“, Grafik „Heimtierpopulation in Deutschland in Mio 1999“ (Spalten Gesamt/West/Ost); Datenquelle laut ZZF-Verzeichnis: BBE-Branchenreport Heimtierbedarf (nicht IVH) – Grafik: https://web.archive.org/web/20020911074811id_/http://zzf.de:80/markt/markt1999-1.gif ; Seite: https://web.archive.org/web/20010412021713id_/http://www.zzf.de:80/markt/markt1999-1.html",
+   "quality": "publiziert (BBE/ZZF-Angabe)",
+   "note": "Grafik: Gesamt 4,6 (West 3,7 / Ost 0,9)"
+  },
+  {
+   "date": "1999",
+   "metric": "Bestand",
+   "name": "Zierfische",
+   "value": 84.6,
+   "unit": "Mio.",
+   "source": "ZZF „Der deutsche Heimtiermarkt – Umsatz & Strukturdaten 1999“, Grafik „Heimtierpopulation in Deutschland in Mio 1999“ (Spalten Gesamt/West/Ost); Datenquelle laut ZZF-Verzeichnis: BBE-Branchenreport Heimtierbedarf (nicht IVH) – Grafik: https://web.archive.org/web/20020911074811id_/http://zzf.de:80/markt/markt1999-1.gif ; Seite: https://web.archive.org/web/20010412021713id_/http://www.zzf.de:80/markt/markt1999-1.html",
+   "quality": "publiziert (BBE/ZZF-Angabe)",
+   "note": "Grafik: Gesamt 84,6 (West 73,2 / Ost 11,4); Summe aller Arten 106,8 Mio."
+  },
+  {
+   "date": "1999",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (ohne Zierfische)",
+   "value": 22.2,
+   "unit": "Mio.",
+   "source": "ZZF „Der deutsche Heimtiermarkt – Umsatz & Strukturdaten 1999“, Grafik „Heimtierpopulation in Deutschland in Mio 1999“ (Spalten Gesamt/West/Ost); Datenquelle laut ZZF-Verzeichnis: BBE-Branchenreport Heimtierbedarf (nicht IVH) – Grafik: https://web.archive.org/web/20020911074811id_/http://zzf.de:80/markt/markt1999-1.gif ; Seite: https://web.archive.org/web/20010412021713id_/http://www.zzf.de:80/markt/markt1999-1.html",
+   "quality": "publiziert (BBE/ZZF-Angabe)",
+   "note": "„Rund 22,2 Mio. Tiere (ohne Zierfische) leben in deutschen Haushalten.“ Rechenprobe 4,8+6,3+6,5+4,6 = 22,2."
+  },
+  {
+   "date": "2000",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2000“ (Quellen: IVH Marktforschungsdaten der Mitgliedsfirmen; ZZF/BBE-Branchenreport 2000) – https://web.archive.org/web/20011224122039id_/http://www.zzf.de:80/markt/markt2000.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„Hunden (5 Mio. in 14 % der Haushalte)“. METHODENBRUCH: Der Bericht 2000 vermerkt „wegen neuer Erhebungsmethoden ist ein Vergleich mit früheren Jahren nicht schlüssig“."
+  },
+  {
+   "date": "2000",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 6.8,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2000“ (Quellen: IVH Marktforschungsdaten der Mitgliedsfirmen; ZZF/BBE-Branchenreport 2000) – https://web.archive.org/web/20011224122039id_/http://www.zzf.de:80/markt/markt2000.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„6,8 Mio. Katzen leben in mehr als jedem 10. Haushalt (15 %)“. METHODENBRUCH: Der Bericht 2000 vermerkt „wegen neuer Erhebungsmethoden ist ein Vergleich mit früheren Jahren nicht schlüssig“."
+  },
+  {
+   "date": "2000",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 4.9,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2000“ (Quellen: IVH Marktforschungsdaten der Mitgliedsfirmen; ZZF/BBE-Branchenreport 2000) – https://web.archive.org/web/20011224122039id_/http://www.zzf.de:80/markt/markt2000.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "7 % der Haushalte"
+  },
+  {
+   "date": "2000",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 4.8,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2000“ (Quellen: IVH Marktforschungsdaten der Mitgliedsfirmen; ZZF/BBE-Branchenreport 2000) – https://web.archive.org/web/20011224122039id_/http://www.zzf.de:80/markt/markt2000.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "8 % der Haushalte"
+  },
+  {
+   "date": "2000",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 3.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2000“ (Quellen: IVH Marktforschungsdaten der Mitgliedsfirmen; ZZF/BBE-Branchenreport 2000) – https://web.archive.org/web/20011224122039id_/http://www.zzf.de:80/markt/markt2000.html",
+   "quality": "gerundet (Original: „rund 3 Mio.“)",
+   "note": "„rund 85 Millionen Zierfische schwimmen in 3 Mio. Aquarien (= 6 % der Haushalte)“"
+  },
+  {
+   "date": "2000",
+   "metric": "Bestand",
+   "name": "Zierfische",
+   "value": 85.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2000“ (Quellen: IVH Marktforschungsdaten der Mitgliedsfirmen; ZZF/BBE-Branchenreport 2000) – https://web.archive.org/web/20011224122039id_/http://www.zzf.de:80/markt/markt2000.html",
+   "quality": "gerundet (Original: „rund 85 Millionen“)"
+  },
+  {
+   "date": "2000",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (ohne Zierfische)",
+   "value": 21.5,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2000“ (Quellen: IVH Marktforschungsdaten der Mitgliedsfirmen; ZZF/BBE-Branchenreport 2000) – https://web.archive.org/web/20011224122039id_/http://www.zzf.de:80/markt/markt2000.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„Ohne Zierfische lebten im vergangenen Jahr 21,5 Mio. Tiere in deutschen Haushalten“. Rechenprobe 5,0+6,8+4,9+4,8 = 21,5."
+  },
+  {
+   "date": "2001",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 4.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2001“ (IVH-Angaben) – https://web.archive.org/web/20020816090830id_/http://www.zzf.de:80/markt/markt2001.html ; bestätigt im ZZF/IVH-Foliensatz „markt2001.ppt“ – https://web.archive.org/web/20041016142125id_/http://www.zzf.de:80/dateiarchiv/markt2001.ppt",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„reduzierte sich die Anzahl der Hunde, die in 13 % der Haushalte leben, um 6 % auf 4,7 Mio. Tiere“"
+  },
+  {
+   "date": "2001",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 6.9,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2001“ (IVH-Angaben) – https://web.archive.org/web/20020816090830id_/http://www.zzf.de:80/markt/markt2001.html ; bestätigt im ZZF/IVH-Foliensatz „markt2001.ppt“ – https://web.archive.org/web/20041016142125id_/http://www.zzf.de:80/dateiarchiv/markt2001.ppt",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„Die Anzahl der Katzen, die unverändert in 14 % der deutschen Haushalte gehalten werden, sei um 1,5 % auf 6,9 Mio. Tiere angestiegen“"
+  },
+  {
+   "date": "2001",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 4.9,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2001“ (IVH-Angaben) – https://web.archive.org/web/20020816090830id_/http://www.zzf.de:80/markt/markt2001.html ; bestätigt im ZZF/IVH-Foliensatz „markt2001.ppt“ – https://web.archive.org/web/20041016142125id_/http://www.zzf.de:80/dateiarchiv/markt2001.ppt",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "7 % der Haushalte, unverändert gegenüber 2000"
+  },
+  {
+   "date": "2001",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2001“ (IVH-Angaben) – https://web.archive.org/web/20020816090830id_/http://www.zzf.de:80/markt/markt2001.html ; bestätigt im ZZF/IVH-Foliensatz „markt2001.ppt“ – https://web.archive.org/web/20041016142125id_/http://www.zzf.de:80/dateiarchiv/markt2001.ppt",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "8 % der Haushalte; „um 0,9 Mio. auf 5,7 Mio. Tiere angewachsen“"
+  },
+  {
+   "date": "2001",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 3.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2001“ (IVH-Angaben) – https://web.archive.org/web/20020816090830id_/http://www.zzf.de:80/markt/markt2001.html ; bestätigt im ZZF/IVH-Foliensatz „markt2001.ppt“ – https://web.archive.org/web/20041016142125id_/http://www.zzf.de:80/dateiarchiv/markt2001.ppt",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "6 % der Haushalte, unverändert"
+  },
+  {
+   "date": "2001",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (ohne Zierfische)",
+   "value": 22.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2001“ (IVH-Angaben) – https://web.archive.org/web/20020816090830id_/http://www.zzf.de:80/markt/markt2001.html ; bestätigt im ZZF/IVH-Foliensatz „markt2001.ppt“ – https://web.archive.org/web/20041016142125id_/http://www.zzf.de:80/dateiarchiv/markt2001.ppt",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„von 21,5 Mio. Tieren (ohne Zierfische) auf 22,2 Mio. Tiere um 3,3 % angestiegen“. Rechenprobe 4,7+6,9+4,9+5,7 = 22,2."
+  },
+  {
+   "date": "2002",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Foliensatz „markt2002.ppt“, Folie „Heimtierhaltung in Deutschland“, Quellenvermerk der Folie: „Quelle: IVH 2003 / Zahlen beziehen sich auf das Jahr 2002“ (Datei erstellt 03.12.2003) – https://web.archive.org/web/20041016134142id_/http://www.zzf.de:80/dateiarchiv/markt2002.ppt",
+   "quality": "publiziert (IVH-Angabe), gerundet (Original: „5 Mio. Hunde“)",
+   "note": "Wert aus der Diagrammgrafik der Folie extrahiert. WICHTIG: Der ZZF-Umsatzbericht 2002 vermerkt „Die Heimtierpopulation wurde für 2002 nicht erhoben“ – die Zahlen wurden erst 2003 nachgereicht. Verifikation: 5+7,2+4,7+5,8 = 22,7 = der im ZZF-Bericht 2003 ausdrücklich genannte Vorjahreswert „2002: 22,7 Mio.“"
+  },
+  {
+   "date": "2002",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 7.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Foliensatz „markt2002.ppt“, Folie „Heimtierhaltung in Deutschland“, Quellenvermerk der Folie: „Quelle: IVH 2003 / Zahlen beziehen sich auf das Jahr 2002“ (Datei erstellt 03.12.2003) – https://web.archive.org/web/20041016134142id_/http://www.zzf.de:80/dateiarchiv/markt2002.ppt",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "Wert aus der Diagrammgrafik der Folie extrahiert. WICHTIG: Der ZZF-Umsatzbericht 2002 vermerkt „Die Heimtierpopulation wurde für 2002 nicht erhoben“ – die Zahlen wurden erst 2003 nachgereicht. Verifikation: 5+7,2+4,7+5,8 = 22,7 = der im ZZF-Bericht 2003 ausdrücklich genannte Vorjahreswert „2002: 22,7 Mio.“"
+  },
+  {
+   "date": "2002",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 4.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Foliensatz „markt2002.ppt“, Folie „Heimtierhaltung in Deutschland“, Quellenvermerk der Folie: „Quelle: IVH 2003 / Zahlen beziehen sich auf das Jahr 2002“ (Datei erstellt 03.12.2003) – https://web.archive.org/web/20041016134142id_/http://www.zzf.de:80/dateiarchiv/markt2002.ppt",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„4,7 Mio. Vögel“ (Folie)"
+  },
+  {
+   "date": "2002",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.8,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Foliensatz „markt2002.ppt“, Folie „Heimtierhaltung in Deutschland“, Quellenvermerk der Folie: „Quelle: IVH 2003 / Zahlen beziehen sich auf das Jahr 2002“ (Datei erstellt 03.12.2003) – https://web.archive.org/web/20041016134142id_/http://www.zzf.de:80/dateiarchiv/markt2002.ppt",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„5,8 Mio.“ Kleintiere (Folie)"
+  },
+  {
+   "date": "2002",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 1.9,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Foliensatz „markt2002.ppt“, Folie „Heimtierhaltung in Deutschland“, Quellenvermerk der Folie: „Quelle: IVH 2003 / Zahlen beziehen sich auf das Jahr 2002“ (Datei erstellt 03.12.2003) – https://web.archive.org/web/20041016134142id_/http://www.zzf.de:80/dateiarchiv/markt2002.ppt",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "ABGRENZUNGSWECHSEL: bis 2001 „3,0 Mio. Aquarien“, ab 2002 1,9 Mio. Aquarien plus separat 1,7 Mio. Gartenteiche und 0,4 Mio. Terrarien."
+  },
+  {
+   "date": "2002",
+   "metric": "Bestand",
+   "name": "Gartenteiche mit Fischen",
+   "value": 1.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Foliensatz „markt2002.ppt“, Folie „Heimtierhaltung in Deutschland“, Quellenvermerk der Folie: „Quelle: IVH 2003 / Zahlen beziehen sich auf das Jahr 2002“ (Datei erstellt 03.12.2003) – https://web.archive.org/web/20041016134142id_/http://www.zzf.de:80/dateiarchiv/markt2002.ppt",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "erstmals separat ausgewiesen"
+  },
+  {
+   "date": "2002",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.4,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Foliensatz „markt2002.ppt“, Folie „Heimtierhaltung in Deutschland“, Quellenvermerk der Folie: „Quelle: IVH 2003 / Zahlen beziehen sich auf das Jahr 2002“ (Datei erstellt 03.12.2003) – https://web.archive.org/web/20041016134142id_/http://www.zzf.de:80/dateiarchiv/markt2002.ppt",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "erstmals separat ausgewiesen"
+  },
+  {
+   "date": "2002",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (ohne Zierfische)",
+   "value": 22.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2003“, Tabelle „Heimtierpopulation in Deutschland 2003“ (IVH-Studie) – https://web.archive.org/web/20040605161736id_/http://www.zzf.de:80/presse/markt/markt2003.html (Vorjahresangabe im Bericht 2003: „gegenüber 2002 (22,7 Mio.)“)",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "Im Bericht 2003 als Vergleichswert genannt; stimmt mit der Summe der Folienwerte 2002 überein."
+  },
+  {
+   "date": "2003",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2003“, Tabelle „Heimtierpopulation in Deutschland 2003“ (IVH-Studie) – https://web.archive.org/web/20040605161736id_/http://www.zzf.de:80/presse/markt/markt2003.html",
+   "quality": "publiziert (IVH-Angabe), gerundet (Original: „5 Mio.“)",
+   "note": "„Hunde 5 Mio. in 13,3 % der Haushalte“"
+  },
+  {
+   "date": "2003",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 7.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2003“, Tabelle „Heimtierpopulation in Deutschland 2003“ (IVH-Studie) – https://web.archive.org/web/20040605161736id_/http://www.zzf.de:80/presse/markt/markt2003.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„Katzen 7,3 Mio in 15,2 % der Haushalte“. KORREKTUR zu ds2b: der dort für 2003 geführte Wert 7,5 gehört zu 2004."
+  },
+  {
+   "date": "2003",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 4.6,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2003“, Tabelle „Heimtierpopulation in Deutschland 2003“ (IVH-Studie) – https://web.archive.org/web/20040605161736id_/http://www.zzf.de:80/presse/markt/markt2003.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„Vögel 4,6 Mio. in 6 % der Haushalte“"
+  },
+  {
+   "date": "2003",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.9,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2003“, Tabelle „Heimtierpopulation in Deutschland 2003“ (IVH-Studie) – https://web.archive.org/web/20040605161736id_/http://www.zzf.de:80/presse/markt/markt2003.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„Kleintiere 5,9 Mio. in 5,6 % der Haushalte“"
+  },
+  {
+   "date": "2003",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 1.9,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2003“, Tabelle „Heimtierpopulation in Deutschland 2003“ (IVH-Studie) – https://web.archive.org/web/20040605161736id_/http://www.zzf.de:80/presse/markt/markt2003.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "4,1 % der Haushalte"
+  },
+  {
+   "date": "2003",
+   "metric": "Bestand",
+   "name": "Gartenteiche mit Fischen",
+   "value": 1.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2003“, Tabelle „Heimtierpopulation in Deutschland 2003“ (IVH-Studie) – https://web.archive.org/web/20040605161736id_/http://www.zzf.de:80/presse/markt/markt2003.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "3,5 % der Haushalte"
+  },
+  {
+   "date": "2003",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.4,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2003“, Tabelle „Heimtierpopulation in Deutschland 2003“ (IVH-Studie) – https://web.archive.org/web/20040605161736id_/http://www.zzf.de:80/presse/markt/markt2003.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "1,1 % der Haushalte"
+  },
+  {
+   "date": "2003",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (ohne Zierfische)",
+   "value": 22.8,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2003“, Tabelle „Heimtierpopulation in Deutschland 2003“ (IVH-Studie) – https://web.archive.org/web/20040605161736id_/http://www.zzf.de:80/presse/markt/markt2003.html",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„insgesamt 22,8 Mio. Heimtiere (ohne Zierfische und Reptilien)“. Rechenprobe 5,0+7,3+4,6+5,9 = 22,8."
+  },
+  {
+   "date": "1991",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 9.9,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "berechnet (Summe publizierter Einzelwerte)",
+   "note": "4.6 + 5.3 = 9.9"
+  },
+  {
+   "date": "1993",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 10.3,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "berechnet (Summe publizierter Einzelwerte)",
+   "note": "4.8 + 5.5 = 10.3"
+  },
+  {
+   "date": "1994",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 10.7,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "berechnet (Summe publizierter Einzelwerte)",
+   "note": "4.9 + 5.8 = 10.7"
+  },
+  {
+   "date": "1995",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 11.0,
+   "unit": "Mio.",
+   "source": "ZZF – Zentralverband Zoologischer Fachbetriebe Deutschlands e.V., Presse-Info „Der Heimtiermarkt 1995“ (Januar 1997), Tabelle „1. Anzahl der Heimtiere in Mio“, Spalten 1991/1993/1994/1995; Quelle laut ZZF: ZZF und IVH – https://web.archive.org/web/19980703072051id_/http://www.zzf.de:80/presse/pm0197-1.html (wortgleich: https://web.archive.org/web/19991021205559id_/http://www.zzf.de:80/markt/markt1995.html)",
+   "quality": "berechnet (Summe publizierter Einzelwerte)",
+   "note": "5.0 + 6.0 = 11.0"
+  },
+  {
+   "date": "1996",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 11.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1996“ („Quelle: ZZF und IVH“) – https://web.archive.org/web/19991021224029id_/http://www.zzf.de:80/markt/markt1996.html ; identisch als ZZF-Presse-Info März 1998 – https://web.archive.org/web/19980703071824id_/http://www.zzf.de:80/presse/pm0398-1.html",
+   "quality": "berechnet (Summe publizierter Einzelwerte)",
+   "note": "5.1 + 6.2 = 11.3"
+  },
+  {
+   "date": "1997",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 11.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1997“ („Quelle: ZZF und IVH, Angaben ohne Gewähr“) – https://web.archive.org/web/19991021235001id_/http://www.zzf.de:80/markt/markt1997.html",
+   "quality": "berechnet (Summe publizierter Einzelwerte)",
+   "note": "5.0 + 6.3 = 11.3"
+  },
+  {
+   "date": "1998",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 11.5,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 1998“ – https://web.archive.org/web/19991022004516id_/http://www.zzf.de:80/markt/markt1998.html ; bestätigt durch ZZF-Pressemitteilung „Milliarden für Heimtiere“, Langen, 17.05.1999 (pma 0599) – https://web.archive.org/web/20030321044708id_/http://www.zzf.de:80/presse/pma0599.html",
+   "quality": "berechnet (Summe publizierter Einzelwerte)",
+   "note": "5.1 + 6.4 = 11.5"
+  },
+  {
+   "date": "1999",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 11.1,
+   "unit": "Mio.",
+   "source": "ZZF „Der deutsche Heimtiermarkt – Umsatz & Strukturdaten 1999“, Grafik „Heimtierpopulation in Deutschland in Mio 1999“ (Spalten Gesamt/West/Ost); Datenquelle laut ZZF-Verzeichnis: BBE-Branchenreport Heimtierbedarf (nicht IVH) – Grafik: https://web.archive.org/web/20020911074811id_/http://zzf.de:80/markt/markt1999-1.gif ; Seite: https://web.archive.org/web/20010412021713id_/http://www.zzf.de:80/markt/markt1999-1.html",
+   "quality": "berechnet (Summe publizierter Einzelwerte)",
+   "note": "4.8 + 6.3 = 11.1  – METHODENBRUCH: Für 1999 wurde laut ZZF eine neue Datenquelle (BBE) verwendet; der ZZF weist selbst darauf hin, dass die Jahre 1995–1998 mit 1999 nicht vergleichbar sind (https://web.archive.org/web/20000916042836id_/http://www.zzf.de:80/markt/index.html)."
+  },
+  {
+   "date": "2000",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 11.8,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2000“ (Quellen: IVH Marktforschungsdaten der Mitgliedsfirmen; ZZF/BBE-Branchenreport 2000) – https://web.archive.org/web/20011224122039id_/http://www.zzf.de:80/markt/markt2000.html",
+   "quality": "berechnet (Summe publizierter Einzelwerte)",
+   "note": "5.0 + 6.8 = 11.8  – METHODENBRUCH: Der Bericht 2000 vermerkt „wegen neuer Erhebungsmethoden ist ein Vergleich mit früheren Jahren nicht schlüssig“."
+  },
+  {
+   "date": "2001",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 11.6,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2001“ (IVH-Angaben) – https://web.archive.org/web/20020816090830id_/http://www.zzf.de:80/markt/markt2001.html ; bestätigt im ZZF/IVH-Foliensatz „markt2001.ppt“ – https://web.archive.org/web/20041016142125id_/http://www.zzf.de:80/dateiarchiv/markt2001.ppt",
+   "quality": "berechnet (Summe publizierter Einzelwerte)",
+   "note": "4.7 + 6.9 = 11.6"
+  },
+  {
+   "date": "2002",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 12.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Foliensatz „markt2002.ppt“, Folie „Heimtierhaltung in Deutschland“, Quellenvermerk der Folie: „Quelle: IVH 2003 / Zahlen beziehen sich auf das Jahr 2002“ (Datei erstellt 03.12.2003) – https://web.archive.org/web/20041016134142id_/http://www.zzf.de:80/dateiarchiv/markt2002.ppt",
+   "quality": "berechnet (Summe publizierter Einzelwerte)",
+   "note": "5.0 + 7.2 = 12.2"
+  },
+  {
+   "date": "2003",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 12.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH „Der deutsche Heimtiermarkt – Struktur & Umsatzdaten 2003“, Tabelle „Heimtierpopulation in Deutschland 2003“ (IVH-Studie) – https://web.archive.org/web/20040605161736id_/http://www.zzf.de:80/presse/markt/markt2003.html",
+   "quality": "berechnet (Summe publizierter Einzelwerte)",
+   "note": "5.0 + 7.3 = 12.3"
+  }
+ ]
+}

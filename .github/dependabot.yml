@@ -1,0 +1,25 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "06:00"
+      timezone: Europe/Berlin
+    open-pull-requests-limit: 8
+    groups:
+      # racing-bars bekommt eigene PRs, damit Updates gezielt gegen docs/UPGRADING.md geprüft werden
+      racing-bars:
+        patterns: ["racing-bars"]
+      export-stack:
+        patterns: ["mp4-muxer", "@ffmpeg/*", "gifenc"]
+      react:
+        patterns: ["react", "react-dom", "@types/react", "@types/react-dom"]
+      tooling:
+        patterns: ["vite", "@vitejs/*", "typescript", "vitest", "oxlint", "tailwindcss", "@tailwindcss/*", "jsdom"]
+    labels: ["dependencies"]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

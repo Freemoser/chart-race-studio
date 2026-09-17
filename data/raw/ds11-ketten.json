@@ -1,0 +1,351 @@
+{
+ "title": "Betreiber von Tierarztpraxen in Deutschland (Praxisketten / Klinikgruppen), Standorte je Gruppe, 2015–2026",
+ "source": "gesundheitsmarkt.de, jährliches Ranking der größten Betreiber (2023, 2024, 2026); Werte davor und für die kleineren Gruppen aus datierten Einzelmeldungen, Eigenangaben und Gründungsjahren.",
+ "sourceUrl": "https://www.gesundheitsmarkt.de/liste-groesste-betreiber-tierarztpraxen-2026/",
+ "notes": "KEINE amtliche Statistik; die Bundestierärztekammer erhebt Ketten nicht. Drei Arten von Werten, je Zeile in 'src' belegt: Ranking, datierter Einzelbeleg, belegte Null (Gesellschaft existierte noch nicht). ZUSAMMENGEFASSTE NAMEN, um Doppelzählung zu vermeiden: SmartVet (2005 gegründet, 2021 18 Praxen) gehört seit 2021/2023 zu Medivet und steht in derselben Reihe; Vetopia ist die europäische Muttergruppe von VetGruppen Deutschland; Nesto ist seit dem Zusammenschluss Teil von Veternicum; die activet-Praxen sind seit 08/2023 in Tierarzt Plus enthalten. NICHT ENTHALTEN, weil keine Kette: VetFamily ist eine Einkaufsgemeinschaft rechtlich selbstständiger Praxen (über 1.300 Mitglieder in Deutschland) und besitzt keine Praxen. NICHT IN DER KLEINTIER-REIHE: Altano (Pferde) sowie filu und Rex, die neu gründen statt aufzukaufen. TeamVet ist ein Verbund mit Beteiligungen, aber ohne Investmentfonds, und wird deshalb in der Dateninfo eigens gekennzeichnet.",
+ "rows": [
+  {
+   "date": "2015",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "IVC Evidensia",
+   "value": 0,
+   "src": "Evidensia Deutschland GmbH Anfang 2016 gegründet"
+  },
+  {
+   "date": "2015",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "Tierarzt Plus Partner",
+   "value": 0,
+   "src": "Tierarzt Plus GmbH 2018 gegründet, Netzwerkaufbau ab Anfang 2019"
+  },
+  {
+   "date": "2016",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "Tierarzt Plus Partner",
+   "value": 0,
+   "src": "Tierarzt Plus GmbH 2018 gegründet, Netzwerkaufbau ab Anfang 2019"
+  },
+  {
+   "date": "2017",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "Tierarzt Plus Partner",
+   "value": 0,
+   "src": "Tierarzt Plus GmbH 2018 gegründet, Netzwerkaufbau ab Anfang 2019"
+  },
+  {
+   "date": "2015",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "Veternicum Nesto",
+   "value": 0,
+   "src": "Veternicum GmbH, Hamburg, Ende 2019 gegründet; 2025 Zusammenschluss mit Nesto (BE/LU)"
+  },
+  {
+   "date": "2016",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "Veternicum Nesto",
+   "value": 0,
+   "src": "Veternicum GmbH, Hamburg, Ende 2019 gegründet; 2025 Zusammenschluss mit Nesto (BE/LU)"
+  },
+  {
+   "date": "2017",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "Veternicum Nesto",
+   "value": 0,
+   "src": "Veternicum GmbH, Hamburg, Ende 2019 gegründet; 2025 Zusammenschluss mit Nesto (BE/LU)"
+  },
+  {
+   "date": "2018",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "Veternicum Nesto",
+   "value": 0,
+   "src": "Veternicum GmbH, Hamburg, Ende 2019 gegründet; 2025 Zusammenschluss mit Nesto (BE/LU)"
+  },
+  {
+   "date": "2015",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "src": "VetGruppen Deutschland GmbH, Hamburg, 2021 gegründet; Teil der europäischen Vetopia-Gruppe (Axcel)"
+  },
+  {
+   "date": "2016",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "src": "VetGruppen Deutschland GmbH, Hamburg, 2021 gegründet; Teil der europäischen Vetopia-Gruppe (Axcel)"
+  },
+  {
+   "date": "2017",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "src": "VetGruppen Deutschland GmbH, Hamburg, 2021 gegründet; Teil der europäischen Vetopia-Gruppe (Axcel)"
+  },
+  {
+   "date": "2018",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "src": "VetGruppen Deutschland GmbH, Hamburg, 2021 gegründet; Teil der europäischen Vetopia-Gruppe (Axcel)"
+  },
+  {
+   "date": "2019",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "src": "VetGruppen Deutschland GmbH, Hamburg, 2021 gegründet; Teil der europäischen Vetopia-Gruppe (Axcel)"
+  },
+  {
+   "date": "2020",
+   "metric": "Vor Markteintritt (belegte Null)",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "src": "VetGruppen Deutschland GmbH, Hamburg, 2021 gegründet; Teil der europäischen Vetopia-Gruppe (Axcel)"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe (Einzelbeleg)",
+   "name": "AniCura",
+   "value": 8,
+   "src": "wir-sind-tierarzt.de, 02/2016: „AniCura jetzt mit acht Standorten“"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe (Einzelbeleg)",
+   "name": "AniCura",
+   "value": 30,
+   "src": "Berichterstattung zur Übernahme durch Mars Petcare, 06/2018: 30 Standorte in Deutschland"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe (Einzelbeleg)",
+   "name": "Tierarzt Plus Partner",
+   "value": 26,
+   "src": "Just4Vets, 2021: 26 Praxen im Netzwerk; im November 2021 „mehr als 30“"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe (Einzelbeleg)",
+   "name": "Medivet (vormals SmartVet)",
+   "value": 18,
+   "src": "SmartVet Tierarztpraxen GmbH, 2005 gegründet, 2021 mit 18 Praxen; Medivet übernimmt 2021 die Mehrheit, Ende 2023 vollständig"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe (Einzelbeleg)",
+   "name": "IVC Evidensia",
+   "value": 60,
+   "src": "Bundeskartellamt, Pressemitteilung 27.06.2022: „In Deutschland ist sie mit 60 Tierarztpraxen und Tierkliniken vertreten“"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe (Einzelbeleg)",
+   "name": "VetPartners",
+   "value": 17,
+   "src": "Ralph Rückert, 28.09.2024, nach Eigenangabe VetPartners"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe (Einzelbeleg)",
+   "name": "TeamVet",
+   "value": 24,
+   "src": "TeamVet, Eigenangabe 2026: 24 Standorte, über 660 Mitarbeitende (die Partnerliste der Website führt 33 Einträge)"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe (Einzelbeleg)",
+   "name": "Veternicum Nesto",
+   "value": 23,
+   "src": "Veternicum Nesto, eigene Standortliste, gezählt 09/2026: 23 Standorte in Deutschland (Eigenangabe an anderer Stelle: „über 25“)"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe (Einzelbeleg)",
+   "name": "Medivet (vormals SmartVet)",
+   "value": 20,
+   "src": "Medivet Deutschland, Eigenangabe 2026: 20 Praxen"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe (Einzelbeleg)",
+   "name": "Cadomo Vets",
+   "value": 4,
+   "src": "Cadomo Vets, eigene Standortliste 09/2026: Memmingen, Delmenhorst, Bremen-Huchting, Oldenburg"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "AniCura",
+   "value": 65,
+   "src": "gesundheitsmarkt.de, Ranking 2023 (27.04.2023)"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "Tierarzt Plus Partner",
+   "value": 64,
+   "src": "gesundheitsmarkt.de, Ranking 2023 (27.04.2023)"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "IVC Evidensia",
+   "value": 61,
+   "src": "gesundheitsmarkt.de, Ranking 2023 (27.04.2023)"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "Medivet (vormals SmartVet)",
+   "value": 20,
+   "src": "gesundheitsmarkt.de, Ranking 2023 (27.04.2023)"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "Veternicum Nesto",
+   "value": 12,
+   "src": "gesundheitsmarkt.de, Ranking 2023 (27.04.2023)"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "Tierarzt Plus Partner",
+   "value": 86,
+   "src": "gesundheitsmarkt.de, Ranking 2024"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "IVC Evidensia",
+   "value": 76,
+   "src": "gesundheitsmarkt.de, Ranking 2024"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "AniCura",
+   "value": 67,
+   "src": "gesundheitsmarkt.de, Ranking 2024"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "Veternicum Nesto",
+   "value": 21,
+   "src": "gesundheitsmarkt.de, Ranking 2024"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "Medivet (vormals SmartVet)",
+   "value": 20,
+   "src": "gesundheitsmarkt.de, Ranking 2024"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "IVC Evidensia",
+   "value": 115,
+   "src": "gesundheitsmarkt.de, Ranking 2026 (Stichtag 08.07.2026)"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "Tierarzt Plus Partner",
+   "value": 106,
+   "src": "gesundheitsmarkt.de, Ranking 2026 (Stichtag 08.07.2026)"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "AniCura",
+   "value": 69,
+   "src": "gesundheitsmarkt.de, Ranking 2026 (Stichtag 08.07.2026)"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "VetPartners",
+   "value": 28,
+   "src": "gesundheitsmarkt.de, Ranking 2026 (Stichtag 08.07.2026)"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe (Ranking)",
+   "name": "VetGruppen (Vetopia)",
+   "value": 26,
+   "src": "gesundheitsmarkt.de, Ranking 2026 (Stichtag 08.07.2026)"
+  },
+  {
+   "date": "2022",
+   "metric": "Kontext (nicht in der Reihe)",
+   "name": "Alle Investorengruppen zusammen",
+   "value": 200,
+   "src": "zm-online, 11/2022: „nicht mehr als 200 Praxen und Kliniken in Investoren- beziehungsweise Konzernhand“ bei rund 10.000 Praxen"
+  },
+  {
+   "date": "2022",
+   "metric": "Kontext (nicht in der Reihe)",
+   "name": "AniCura",
+   "value": 70,
+   "src": "zm-online, 11/2022: „rund 70“ – andere Zählweise als das Ranking (2023: 65)"
+  },
+  {
+   "date": "2023",
+   "metric": "Kontext (nicht in der Reihe)",
+   "name": "AniCura",
+   "value": 75,
+   "src": "Bayerisches Landwirtschaftliches Wochenblatt, 10.10.2023: „rund 75“ je für AniCura, Tierarzt Plus und Evidensia"
+  },
+  {
+   "date": "2023",
+   "metric": "Kontext (nicht in der Reihe)",
+   "name": "Tierarzt Plus Partner",
+   "value": 72,
+   "src": "Tierarzt Plus Partner, Eigenangabe 04/2023: 72 Standorte (Ranking: 64)"
+  },
+  {
+   "date": "2024",
+   "metric": "Kontext (nicht in der Reihe)",
+   "name": "Tierarzt Plus Partner",
+   "value": 96,
+   "src": "Tierarzt Plus Partner, Eigenangabe Mitte 2024: 96 Standorte (Ranking: 86)"
+  },
+  {
+   "date": "2026",
+   "metric": "Kontext (nicht in der Reihe)",
+   "name": "Altano (Pferdekliniken)",
+   "value": 26,
+   "src": "Altano Gruppe, Dülmen: 15 Kliniken und Praxen an 26 Standorten – Schwerpunkt Pferd, deshalb nicht in der Kleintier-Reihe"
+  },
+  {
+   "date": "2026",
+   "metric": "Kontext (nicht in der Reihe)",
+   "name": "filu (Neugründung)",
+   "value": 8,
+   "src": "filu.vet, Eigenangabe: 8 Praxen – gründet neu, kauft nicht auf"
+  },
+  {
+   "date": "2026",
+   "metric": "Kontext (nicht in der Reihe)",
+   "name": "Rex (Neugründung)",
+   "value": 9,
+   "src": "Börsen-Zeitung, 2026: neun Praxen – gründet neu, kauft nicht auf"
+  },
+  {
+   "date": "2026",
+   "metric": "Kontext (nicht in der Reihe)",
+   "name": "VetFamily (KEINE Kette)",
+   "value": 1300,
+   "src": "VetFamily: Einkaufsgemeinschaft rechtlich selbstständiger Praxen, 2000 in Dänemark gegründet, über 1.300 Mitgliedspraxen in Deutschland. Besitzt keine Praxen und darf nicht als Kette gezählt werden"
+  },
+  {
+   "date": "2023",
+   "metric": "Kontext (nicht in der Reihe)",
+   "name": "activet (in Tierarzt Plus aufgegangen)",
+   "value": 5,
+   "src": "Die activet-Praxen Weiterstadt, Hannover, Duisburg, Krefeld und Potsdam gehören seit 01.08.2023 zu Tierarzt Plus; in dessen Standortzahl bereits enthalten"
+  }
+ ]
+}

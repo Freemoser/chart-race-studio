@@ -1,0 +1,2678 @@
+{
+ "title": "Praktizierende/niedergelassene Tierärzt:innen in Deutschland nach Praxisart bzw. Tierartenschwerpunkt, 1990–2025",
+ "source": "Bundestierärztekammer, Statistik „Tierärzteschaft in der Bundesrepublik Deutschland“ (Deutsches Tierärzteblatt); 1990–1995 nach Maure 1998; 2001–2004 Schöne & Ulrich / Schöne & Jöhrens",
+ "sourceUrl": "https://www.bundestieraerztekammer.de/btk/statistik/",
+ "notes": "VIER NICHT VERGLEICHBARE SEGMENTE: (I) 1990–1995 Groß-/Klein-/Gemischtpraxis (Maure 1998). (II) 2001–2004 „Praxis für überwiegend Großtiere / überwiegend Kleintiere / Groß- und Kleintiere“ – erschöpfend, Summe = Zahl der praktizierenden TÄ. (III) 2006–2018 „Nutztiere / Kleintiere / Nutztiere und Kleintiere“ (Pferde in „Nutztiere“ enthalten); 2006–2015 summieren sich die drei Kategorien exakt auf die Zahl der Niedergelassenen, ab 2016 bleibt die Summe darunter (fehlende Angaben). (IV) ab 2019 sieben Kategorien mit separat erhobenen Pferden; BTK selbst: „eine Vergleichbarkeit der Daten mit den Jahren vor 2019 ist ausgeschlossen“ (DTBl 8/2024, S. 990). LÜCKEN: 1996–2000 und 2005 (nicht publiziert bzw. in der jeweiligen Statistik nicht enthalten). 2005 enthält die BTK-Statistik keine Praxisart-Gliederung. Alle Werte = Personen, nicht Praxen.",
+ "rows": [
+  {
+   "date": "1990",
+   "metric": "Praxisart",
+   "name": "Großtierpraxis",
+   "value": 1206,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1990",
+   "metric": "Praxisart",
+   "name": "Kleintierpraxis",
+   "value": 1953,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1990",
+   "metric": "Praxisart",
+   "name": "Gemischtpraxis",
+   "value": 2741,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1991",
+   "metric": "Praxisart",
+   "name": "Großtierpraxis",
+   "value": 1859,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1991",
+   "metric": "Praxisart",
+   "name": "Kleintierpraxis",
+   "value": 2298,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1991",
+   "metric": "Praxisart",
+   "name": "Gemischtpraxis",
+   "value": 4086,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1992",
+   "metric": "Praxisart",
+   "name": "Großtierpraxis",
+   "value": 1696,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1992",
+   "metric": "Praxisart",
+   "name": "Kleintierpraxis",
+   "value": 2453,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1992",
+   "metric": "Praxisart",
+   "name": "Gemischtpraxis",
+   "value": 4150,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1993",
+   "metric": "Praxisart",
+   "name": "Großtierpraxis",
+   "value": 1658,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1993",
+   "metric": "Praxisart",
+   "name": "Kleintierpraxis",
+   "value": 2601,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1993",
+   "metric": "Praxisart",
+   "name": "Gemischtpraxis",
+   "value": 4171,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1994",
+   "metric": "Praxisart",
+   "name": "Großtierpraxis",
+   "value": 1632,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1994",
+   "metric": "Praxisart",
+   "name": "Kleintierpraxis",
+   "value": 2842,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1994",
+   "metric": "Praxisart",
+   "name": "Gemischtpraxis",
+   "value": 4275,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1995",
+   "metric": "Praxisart",
+   "name": "Großtierpraxis",
+   "value": 1630,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1995",
+   "metric": "Praxisart",
+   "name": "Kleintierpraxis",
+   "value": 3024,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "1995",
+   "metric": "Praxisart",
+   "name": "Gemischtpraxis",
+   "value": 4306,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Maure, C. (1998): Frauen als Tierärztinnen, Diss. FU Berlin (Tabellen nach Schöne & Ulrich, DTBl)",
+   "quality": "publiziert",
+   "notes": "Segment I (1990–1995); Kategorien Groß-/Klein-/Gemischtpraxis; vorgegebene Werte"
+  },
+  {
+   "date": "2001",
+   "metric": "Praxisart",
+   "name": "Praxis für überwiegend Großtiere",
+   "value": 1655,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Schöne & Ulrich, Statistische Untersuchungen über die Tierärzteschaft in der BRD (Stand 31.12.2002), DTBl 6/2003, Tab. 1 A Nr. 1a, Spalte „Summe 2001“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": "Segment II; Kategorien erschöpfend (Summe = praktizierende TÄ)"
+  },
+  {
+   "date": "2001",
+   "metric": "Praxisart_weiblich",
+   "name": "Praxis für überwiegend Großtiere",
+   "value": 193,
+   "unit": "weibliche Praxisinhaberinnen",
+   "source": "Schöne & Ulrich, Statistische Untersuchungen über die Tierärzteschaft in der BRD (Stand 31.12.2002), DTBl 6/2003, Tab. 1 A Nr. 1a, Spalte „Summe 2001“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2001",
+   "metric": "Praxisart",
+   "name": "Praxis für überwiegend Kleintiere",
+   "value": 4235,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Schöne & Ulrich, Statistische Untersuchungen über die Tierärzteschaft in der BRD (Stand 31.12.2002), DTBl 6/2003, Tab. 1 A Nr. 1a, Spalte „Summe 2001“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": "Segment II; Kategorien erschöpfend (Summe = praktizierende TÄ)"
+  },
+  {
+   "date": "2001",
+   "metric": "Praxisart_weiblich",
+   "name": "Praxis für überwiegend Kleintiere",
+   "value": 2340,
+   "unit": "weibliche Praxisinhaberinnen",
+   "source": "Schöne & Ulrich, Statistische Untersuchungen über die Tierärzteschaft in der BRD (Stand 31.12.2002), DTBl 6/2003, Tab. 1 A Nr. 1a, Spalte „Summe 2001“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2001",
+   "metric": "Praxisart",
+   "name": "Praxis für Groß- und Kleintiere",
+   "value": 4495,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Schöne & Ulrich, Statistische Untersuchungen über die Tierärzteschaft in der BRD (Stand 31.12.2002), DTBl 6/2003, Tab. 1 A Nr. 1a, Spalte „Summe 2001“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": "Segment II; Kategorien erschöpfend (Summe = praktizierende TÄ)"
+  },
+  {
+   "date": "2001",
+   "metric": "Praxisart_weiblich",
+   "name": "Praxis für Groß- und Kleintiere",
+   "value": 780,
+   "unit": "weibliche Praxisinhaberinnen",
+   "source": "Schöne & Ulrich, Statistische Untersuchungen über die Tierärzteschaft in der BRD (Stand 31.12.2002), DTBl 6/2003, Tab. 1 A Nr. 1a, Spalte „Summe 2001“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2002",
+   "metric": "Praxisart",
+   "name": "Praxis für überwiegend Großtiere",
+   "value": 1637,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Schöne & Ulrich (Stand 31.12.2002), DTBl 6/2003, Tab. 1 A Nr. 1a (a4/a5/a6) sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": "Segment II; Kategorien erschöpfend (Summe = praktizierende TÄ)"
+  },
+  {
+   "date": "2002",
+   "metric": "Praxisart_weiblich",
+   "name": "Praxis für überwiegend Großtiere",
+   "value": 209,
+   "unit": "weibliche Praxisinhaberinnen",
+   "source": "Schöne & Ulrich (Stand 31.12.2002), DTBl 6/2003, Tab. 1 A Nr. 1a (a4/a5/a6) sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2002",
+   "metric": "Praxisart",
+   "name": "Praxis für überwiegend Kleintiere",
+   "value": 4419,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Schöne & Ulrich (Stand 31.12.2002), DTBl 6/2003, Tab. 1 A Nr. 1a (a4/a5/a6) sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": "Segment II; Kategorien erschöpfend (Summe = praktizierende TÄ)"
+  },
+  {
+   "date": "2002",
+   "metric": "Praxisart_weiblich",
+   "name": "Praxis für überwiegend Kleintiere",
+   "value": 2438,
+   "unit": "weibliche Praxisinhaberinnen",
+   "source": "Schöne & Ulrich (Stand 31.12.2002), DTBl 6/2003, Tab. 1 A Nr. 1a (a4/a5/a6) sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2002",
+   "metric": "Praxisart",
+   "name": "Praxis für Groß- und Kleintiere",
+   "value": 4419,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Schöne & Ulrich (Stand 31.12.2002), DTBl 6/2003, Tab. 1 A Nr. 1a (a4/a5/a6) sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": "Segment II; Kategorien erschöpfend (Summe = praktizierende TÄ)"
+  },
+  {
+   "date": "2002",
+   "metric": "Praxisart_weiblich",
+   "name": "Praxis für Groß- und Kleintiere",
+   "value": 804,
+   "unit": "weibliche Praxisinhaberinnen",
+   "source": "Schöne & Ulrich (Stand 31.12.2002), DTBl 6/2003, Tab. 1 A Nr. 1a (a4/a5/a6) sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2003",
+   "metric": "Praxisart",
+   "name": "Praxis für überwiegend Großtiere",
+   "value": 1635,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Schöne & Jöhrens (Stand 31.12.2003), DTBl 2004, Tab. 1 A Nr. 1a sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik03.pdf",
+   "quality": "publiziert",
+   "notes": "Segment II; Kategorien erschöpfend (Summe = praktizierende TÄ)"
+  },
+  {
+   "date": "2003",
+   "metric": "Praxisart_weiblich",
+   "name": "Praxis für überwiegend Großtiere",
+   "value": 226,
+   "unit": "weibliche Praxisinhaberinnen",
+   "source": "Schöne & Jöhrens (Stand 31.12.2003), DTBl 2004, Tab. 1 A Nr. 1a sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik03.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2003",
+   "metric": "Praxisart",
+   "name": "Praxis für überwiegend Kleintiere",
+   "value": 4560,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Schöne & Jöhrens (Stand 31.12.2003), DTBl 2004, Tab. 1 A Nr. 1a sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik03.pdf",
+   "quality": "publiziert",
+   "notes": "Segment II; Kategorien erschöpfend (Summe = praktizierende TÄ)"
+  },
+  {
+   "date": "2003",
+   "metric": "Praxisart_weiblich",
+   "name": "Praxis für überwiegend Kleintiere",
+   "value": 2535,
+   "unit": "weibliche Praxisinhaberinnen",
+   "source": "Schöne & Jöhrens (Stand 31.12.2003), DTBl 2004, Tab. 1 A Nr. 1a sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik03.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2003",
+   "metric": "Praxisart",
+   "name": "Praxis für Groß- und Kleintiere",
+   "value": 4372,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Schöne & Jöhrens (Stand 31.12.2003), DTBl 2004, Tab. 1 A Nr. 1a sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik03.pdf",
+   "quality": "publiziert",
+   "notes": "Segment II; Kategorien erschöpfend (Summe = praktizierende TÄ)"
+  },
+  {
+   "date": "2003",
+   "metric": "Praxisart_weiblich",
+   "name": "Praxis für Groß- und Kleintiere",
+   "value": 834,
+   "unit": "weibliche Praxisinhaberinnen",
+   "source": "Schöne & Jöhrens (Stand 31.12.2003), DTBl 2004, Tab. 1 A Nr. 1a sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik03.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2004",
+   "metric": "Praxisart",
+   "name": "Praxis für überwiegend Großtiere",
+   "value": 1648,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Schöne & Jöhrens (Stand 31.12.2004), DTBl 2005 S. 644–645, Tab. 1 A Nr. 1a sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf",
+   "quality": "publiziert",
+   "notes": "Segment II; Kategorien erschöpfend (Summe = praktizierende TÄ)"
+  },
+  {
+   "date": "2004",
+   "metric": "Praxisart_weiblich",
+   "name": "Praxis für überwiegend Großtiere",
+   "value": 252,
+   "unit": "weibliche Praxisinhaberinnen",
+   "source": "Schöne & Jöhrens (Stand 31.12.2004), DTBl 2005 S. 644–645, Tab. 1 A Nr. 1a sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2004",
+   "metric": "Praxisart",
+   "name": "Praxis für überwiegend Kleintiere",
+   "value": 4687,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Schöne & Jöhrens (Stand 31.12.2004), DTBl 2005 S. 644–645, Tab. 1 A Nr. 1a sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf",
+   "quality": "publiziert",
+   "notes": "Segment II; Kategorien erschöpfend (Summe = praktizierende TÄ)"
+  },
+  {
+   "date": "2004",
+   "metric": "Praxisart_weiblich",
+   "name": "Praxis für überwiegend Kleintiere",
+   "value": 2643,
+   "unit": "weibliche Praxisinhaberinnen",
+   "source": "Schöne & Jöhrens (Stand 31.12.2004), DTBl 2005 S. 644–645, Tab. 1 A Nr. 1a sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2004",
+   "metric": "Praxisart",
+   "name": "Praxis für Groß- und Kleintiere",
+   "value": 4376,
+   "unit": "Praxisinhaber:innen (praktizierende TÄ)",
+   "source": "Schöne & Jöhrens (Stand 31.12.2004), DTBl 2005 S. 644–645, Tab. 1 A Nr. 1a sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf",
+   "quality": "publiziert",
+   "notes": "Segment II; Kategorien erschöpfend (Summe = praktizierende TÄ)"
+  },
+  {
+   "date": "2004",
+   "metric": "Praxisart_weiblich",
+   "name": "Praxis für Groß- und Kleintiere",
+   "value": 885,
+   "unit": "weibliche Praxisinhaberinnen",
+   "source": "Schöne & Jöhrens (Stand 31.12.2004), DTBl 2005 S. 644–645, Tab. 1 A Nr. 1a sowie Textabschnitt 1.1.1 | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 2631,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2006, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2006.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“ | ACHTUNG: Kammer Baden-Württemberg meldete 2006 fehlerhaft (Kleintiere 0, Nutztiere 1.138) – Bundeswert verzerrt"
+  },
+  {
+   "date": "2006",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 729,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2006, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2006.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 4673,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2006, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2006.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“ | ACHTUNG: Kammer Baden-Württemberg meldete 2006 fehlerhaft (Kleintiere 0, Nutztiere 1.138) – Bundeswert verzerrt"
+  },
+  {
+   "date": "2006",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 2690,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2006, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2006.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4054,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2006, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2006.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“ | ACHTUNG: Kammer Baden-Württemberg meldete 2006 fehlerhaft (Kleintiere 0, Nutztiere 1.138) – Bundeswert verzerrt"
+  },
+  {
+   "date": "2006",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 909,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2006, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2006.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 1438,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2007, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2007",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 263,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2007, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5337,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2007, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2007",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3133,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2007, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4667,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2007, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2007",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 1158,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2007, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 1414,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2008, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2008",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 270,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2008, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5423,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2008, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2008",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3255,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2008, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4709,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2008, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2008",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 1237,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2008, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 1380,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2009, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2009",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 268,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2009, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5504,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2009, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2009",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3332,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2009, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4753,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2009, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2009",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 1305,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2009, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 1320,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2010, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2010",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 259,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2010, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5636,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2010, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2010",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3453,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2010, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4801,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2010, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2010",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 1389,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2010, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 1259,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2011, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2011",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 249,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2011, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5751,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2011, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2011",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3545,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2011, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4822,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2011, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2011",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 1459,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2011, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 1218,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2012, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2012",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 243,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2012, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5881,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2012, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2012",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3661,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2012, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4807,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2012, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2012",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 1526,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2012, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 1182,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2013, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2013",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 243,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2013, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5949,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2013, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2013",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3712,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2013, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4807,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2013, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2013",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 1616,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2013, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 1166,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2014, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2014",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 246,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2014, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5994,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2014, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2014",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3774,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2014, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4773,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2014, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2014",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 1663,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2014, Tab. 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2015",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 1140,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2015, Tab 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2015.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2015",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 252,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2015, Tab 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2015.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2015",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 6010,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2015, Tab 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2015.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2015",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3818,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2015, Tab 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2015.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2015",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4776,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2015, Tab 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2015.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2015",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 1706,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2015, Tab 1 Art der Berufsausübung, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2015.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2016",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 1010,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2016, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2016.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2016",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 229,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2016, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2016.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2016",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 6157,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2016, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2016.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2016",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3984,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2016, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2016.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2016",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4662,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2016, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2016.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2016",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 1811,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2016, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2016.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2017",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 1125,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2017, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2017.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2017",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 325,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2017, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2017.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2017",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 6099,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2017, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2017.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2017",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3985,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2017, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2017.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2017",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4538,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2017, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2017.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2017",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 1716,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2017, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2017.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 971,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2018, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2018",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 242,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2018, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 6142,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2018, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2018",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 4033,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2018, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 4554,
+   "unit": "Niedergelassene/praktizierende TÄ",
+   "source": "BTK Statistik 2018, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": "Segment III; Kategorien Nutztiere/Kleintiere/Nutztiere und Kleintiere; Fußnote „zusätzliche Angaben, die sich nicht in der Gesamtzahl widerspiegeln“"
+  },
+  {
+   "date": "2018",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 1744,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2018, Tab. 1 Art der Berufsausübung, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5912,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 4082,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart",
+   "name": "Pferde",
+   "value": 693,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_weiblich",
+   "name": "Pferde",
+   "value": 439,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 838,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 214,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart",
+   "name": "Kleintiere und Pferde",
+   "value": 662,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere und Pferde",
+   "value": 493,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Pferde",
+   "value": 182,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Pferde",
+   "value": 62,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 2651,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 879,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 68,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 35,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere",
+   "value": 1318,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_Assistenten",
+   "name": "Pferde",
+   "value": 111,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere",
+   "value": 73,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere und Pferde",
+   "value": 72,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Pferde",
+   "value": 20,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Kleintiere",
+   "value": 461,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2019",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 10,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2019, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 6217,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 4163,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart",
+   "name": "Pferde",
+   "value": 766,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_weiblich",
+   "name": "Pferde",
+   "value": 459,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 848,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 212,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart",
+   "name": "Kleintiere und Pferde",
+   "value": 748,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere und Pferde",
+   "value": 503,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Pferde",
+   "value": 201,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Pferde",
+   "value": 68,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 2659,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 832,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 140,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 45,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere",
+   "value": 1430,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_Assistenten",
+   "name": "Pferde",
+   "value": 140,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere",
+   "value": 83,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere und Pferde",
+   "value": 78,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Pferde",
+   "value": 32,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Kleintiere",
+   "value": 392,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2020",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 64,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2020, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2020.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5899,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 4022,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart",
+   "name": "Pferde",
+   "value": 827,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_weiblich",
+   "name": "Pferde",
+   "value": 486,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 768,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 203,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart",
+   "name": "Kleintiere und Pferde",
+   "value": 746,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere und Pferde",
+   "value": 514,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Pferde",
+   "value": 192,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Pferde",
+   "value": 66,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 2325,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 754,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 178,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 60,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere",
+   "value": 1508,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_Assistenten",
+   "name": "Pferde",
+   "value": 146,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere",
+   "value": 94,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere und Pferde",
+   "value": 84,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Pferde",
+   "value": 22,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Kleintiere",
+   "value": 314,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2021",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 84,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2021, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5802,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3996,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart",
+   "name": "Pferde",
+   "value": 866,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_weiblich",
+   "name": "Pferde",
+   "value": 513,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 728,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 199,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart",
+   "name": "Kleintiere und Pferde",
+   "value": 746,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere und Pferde",
+   "value": 519,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Pferde",
+   "value": 205,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Pferde",
+   "value": 71,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 2183,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 736,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 179,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 61,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere",
+   "value": 1508,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_Assistenten",
+   "name": "Pferde",
+   "value": 163,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere",
+   "value": 92,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere und Pferde",
+   "value": 84,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Pferde",
+   "value": 32,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Kleintiere",
+   "value": 303,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2022",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 84,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2022, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5629,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 3884,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart",
+   "name": "Pferde",
+   "value": 891,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_weiblich",
+   "name": "Pferde",
+   "value": 543,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 705,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 193,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart",
+   "name": "Kleintiere und Pferde",
+   "value": 749,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere und Pferde",
+   "value": 519,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Pferde",
+   "value": 213,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Pferde",
+   "value": 80,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 2071,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 718,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 183,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 67,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere",
+   "value": 1523,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_Assistenten",
+   "name": "Pferde",
+   "value": 185,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere",
+   "value": 101,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere und Pferde",
+   "value": 74,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Pferde",
+   "value": 41,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Kleintiere",
+   "value": 301,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2023",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 76,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2023, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 6241,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 4354,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart",
+   "name": "Pferde",
+   "value": 987,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_weiblich",
+   "name": "Pferde",
+   "value": 619,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 741,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 215,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart",
+   "name": "Kleintiere und Pferde",
+   "value": 798,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere und Pferde",
+   "value": 559,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Pferde",
+   "value": 231,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Pferde",
+   "value": 82,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 2326,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 831,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 205,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 83,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere",
+   "value": 2448,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_Assistenten",
+   "name": "Pferde",
+   "value": 266,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere",
+   "value": 159,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere und Pferde",
+   "value": 110,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Pferde",
+   "value": 48,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Kleintiere",
+   "value": 338,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2024",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 78,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2024, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart",
+   "name": "Kleintiere",
+   "value": 5930,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere",
+   "value": 4122,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart",
+   "name": "Pferde",
+   "value": 989,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_weiblich",
+   "name": "Pferde",
+   "value": 616,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart",
+   "name": "Nutztiere",
+   "value": 718,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere",
+   "value": 218,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart",
+   "name": "Kleintiere und Pferde",
+   "value": 763,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_weiblich",
+   "name": "Kleintiere und Pferde",
+   "value": 531,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Pferde",
+   "value": 225,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Pferde",
+   "value": 83,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart",
+   "name": "Nutztiere und Kleintiere",
+   "value": 2014,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere und Kleintiere",
+   "value": 731,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 254,
+   "unit": "Niedergelassene TÄ",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Segment IV; ab 2019 Pferde separat erhoben – laut BTK (DTBl 8/2024) ist ein Vergleich mit den Jahren vor 2019 ausgeschlossen"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_weiblich",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 118,
+   "unit": "weibliche Niedergelassene",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere",
+   "value": 3742,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_Assistenten",
+   "name": "Pferde",
+   "value": 446,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere",
+   "value": 263,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_Assistenten",
+   "name": "Kleintiere und Pferde",
+   "value": 151,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Pferde",
+   "value": 82,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere und Kleintiere",
+   "value": 344,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  },
+  {
+   "date": "2025",
+   "metric": "Praxisart_Assistenten",
+   "name": "Nutztiere, Pferde und Kleintiere",
+   "value": 138,
+   "unit": "Praxisassistent:innen",
+   "source": "BTK Statistik 2025, Tab. 2 Praktisch Tätige nach Tierarten, Spalte „Summe“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Block „Praxisassistent:innen“ der Tab. 2; viele Kammern melden k. A., Bundeswert daher stark untererfasst"
+  }
+ ]
+}

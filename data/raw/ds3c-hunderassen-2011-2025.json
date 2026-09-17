@@ -1,0 +1,2891 @@
+{
+ "title": "VDH-Welpenstatistik: registrierte Welpen je Rasse, 2011–2025 (Ergänzung zu ds3 für die in ds3b enthaltenen Rassen)",
+ "source": "Verband für das Deutsche Hundewesen (VDH) e.V., „Welpenstatistik der VDH-Mitgliedsvereine“ (Onlinetabelle mit allen 304 VDH/FCI-Rassen, Jahre 2011–2025)",
+ "sourceUrl": "https://www.vdh.de/ueber-den-vdh/welpenstatistik/",
+ "unit": "Anzahl in VDH-Zuchtbüchern eingetragene Welpen pro Kalenderjahr",
+ "license": "© VDH – Verbandsstatistik, Zitat mit Quellenangabe",
+ "notes": "Schließt die Lücke zwischen ds3b (1992–2010, 45 Rassen) und ds3 (2011–2025, nur 23 Rassen): enthält für 2011–2025 die 22 Rassen, die in ds3b, aber nicht in ds3 stehen, plus 2 weitere Rassen, die 2011–2025 in mindestens einem Jahr zu den Top 20 gehören und in keiner der beiden Dateien enthalten waren (Whippet: Rang 18 in 2025; Lagotto Romagnolo: Rang 18 in 2023). Alle 360 Werte (24 Rassen × 15 Jahre) sind publizierte Originalzahlen aus der VDH-Onlinetabelle (Stand 15.09.2026, identisch mit der lokal gesicherten Kopie vdh.html); kein Wert fehlt, kein Wert ist 0, nichts interpoliert. Rassennamen wie in ds3/ds3b: die Onlinetabelle schreibt heute „Fox Terrier (Drahthaar)“, hier (wie in ds3b und in den alten VDH-Tabellen) „Foxterrier (Drahthaar)“. Die Gesamtsumme steht bereits in ds3 („Alle VDH-Rassen (Summe der Tabelle)“) und wird hier nicht wiederholt; sie ist als eigene Tabelle „Gesamt – Alle Rassen“ auf derselben VDH-Seite publiziert (2011: 80.719 … 2025: 55.053) und stimmt exakt mit der Spaltensumme der 304 Rassen überein. Gegenprobe: alle 360 Werte von ds3 (23 Rassen + Summe, u. a. Labrador Retriever und Deutscher Schäferhund) sind aus derselben Tabelle reproduzierbar – 0 Abweichungen; die Spalte 2011 dieser Tabelle ist zudem zellengleich mit dem Wayback-Snapshot vom 25.10.2012 (vdh.de/welpenstatistik-liste.html), aus dem ds3b stammt, und die ds3b-Werte für 2010 stimmen mit dem 2010er-Spaltenwert desselben Snapshots überein – die Reihen 1992–2010 und 2011–2025 sind also bruchfrei verkettbar. Nur Rassehunde mit VDH-Papieren (keine Mischlinge, keine Dissidenzzuchten). Hinweis „Collie“: ds3b führt „Collie“ ohne Haarart; das entspricht „Collie (Langhaar)“ in ds3 – „Collie (Kurzhaar)“ wird in der VDH-Tabelle separat geführt (nicht Teil dieser Datei).",
+ "attribution": "Quelle: VDH, Welpenstatistik der VDH-Mitgliedsvereine 2011–2025",
+ "rows": [
+  {
+   "date": "2011",
+   "name": "West Highland White Terrier",
+   "value": 872,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "West Highland White Terrier",
+   "value": 838,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "West Highland White Terrier",
+   "value": 751,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "West Highland White Terrier",
+   "value": 734,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "West Highland White Terrier",
+   "value": 709,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "West Highland White Terrier",
+   "value": 694,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "West Highland White Terrier",
+   "value": 611,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "West Highland White Terrier",
+   "value": 642,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "West Highland White Terrier",
+   "value": 553,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "West Highland White Terrier",
+   "value": 546,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "West Highland White Terrier",
+   "value": 595,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "West Highland White Terrier",
+   "value": 482,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "West Highland White Terrier",
+   "value": 435,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "West Highland White Terrier",
+   "value": 364,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "West Highland White Terrier",
+   "value": 378,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Yorkshire Terrier",
+   "value": 606,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Yorkshire Terrier",
+   "value": 620,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Yorkshire Terrier",
+   "value": 495,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Yorkshire Terrier",
+   "value": 528,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Yorkshire Terrier",
+   "value": 432,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Yorkshire Terrier",
+   "value": 416,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Yorkshire Terrier",
+   "value": 401,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Yorkshire Terrier",
+   "value": 366,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Yorkshire Terrier",
+   "value": 347,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Yorkshire Terrier",
+   "value": 366,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Yorkshire Terrier",
+   "value": 387,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Yorkshire Terrier",
+   "value": 308,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Yorkshire Terrier",
+   "value": 228,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Yorkshire Terrier",
+   "value": 241,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Yorkshire Terrier",
+   "value": 225,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Airedale Terrier",
+   "value": 890,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Airedale Terrier",
+   "value": 764,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Airedale Terrier",
+   "value": 814,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Airedale Terrier",
+   "value": 792,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Airedale Terrier",
+   "value": 821,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Airedale Terrier",
+   "value": 784,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Airedale Terrier",
+   "value": 753,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Airedale Terrier",
+   "value": 761,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Airedale Terrier",
+   "value": 639,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Airedale Terrier",
+   "value": 834,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Airedale Terrier",
+   "value": 725,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Airedale Terrier",
+   "value": 632,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Airedale Terrier",
+   "value": 463,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Airedale Terrier",
+   "value": 470,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Airedale Terrier",
+   "value": 353,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Deutscher Jagdterrier",
+   "value": 907,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Deutscher Jagdterrier",
+   "value": 828,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Deutscher Jagdterrier",
+   "value": 741,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Deutscher Jagdterrier",
+   "value": 847,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Deutscher Jagdterrier",
+   "value": 724,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Deutscher Jagdterrier",
+   "value": 766,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Deutscher Jagdterrier",
+   "value": 743,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Deutscher Jagdterrier",
+   "value": 739,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Deutscher Jagdterrier",
+   "value": 739,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Deutscher Jagdterrier",
+   "value": 738,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Deutscher Jagdterrier",
+   "value": 796,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Deutscher Jagdterrier",
+   "value": 590,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Deutscher Jagdterrier",
+   "value": 473,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Deutscher Jagdterrier",
+   "value": 514,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Deutscher Jagdterrier",
+   "value": 547,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Dobermann",
+   "value": 616,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Dobermann",
+   "value": 604,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Dobermann",
+   "value": 597,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Dobermann",
+   "value": 635,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Dobermann",
+   "value": 478,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Dobermann",
+   "value": 583,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Dobermann",
+   "value": 491,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Dobermann",
+   "value": 417,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Dobermann",
+   "value": 478,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Dobermann",
+   "value": 442,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Dobermann",
+   "value": 442,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Dobermann",
+   "value": 417,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Dobermann",
+   "value": 302,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Dobermann",
+   "value": 363,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Dobermann",
+   "value": 416,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Parson Russell Terrier",
+   "value": 751,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Parson Russell Terrier",
+   "value": 781,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Parson Russell Terrier",
+   "value": 788,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Parson Russell Terrier",
+   "value": 768,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Parson Russell Terrier",
+   "value": 794,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Parson Russell Terrier",
+   "value": 767,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Parson Russell Terrier",
+   "value": 738,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Parson Russell Terrier",
+   "value": 699,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Parson Russell Terrier",
+   "value": 816,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Parson Russell Terrier",
+   "value": 677,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Parson Russell Terrier",
+   "value": 825,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Parson Russell Terrier",
+   "value": 603,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Parson Russell Terrier",
+   "value": 609,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Parson Russell Terrier",
+   "value": 532,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Parson Russell Terrier",
+   "value": 540,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Chihuahua",
+   "value": 903,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Chihuahua",
+   "value": 879,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Chihuahua",
+   "value": 989,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Chihuahua",
+   "value": 913,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Chihuahua",
+   "value": 872,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Chihuahua",
+   "value": 821,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Chihuahua",
+   "value": 677,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Chihuahua",
+   "value": 643,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Chihuahua",
+   "value": 598,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Chihuahua",
+   "value": 602,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Chihuahua",
+   "value": 620,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Chihuahua",
+   "value": 496,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Chihuahua",
+   "value": 446,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Chihuahua",
+   "value": 298,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Chihuahua",
+   "value": 263,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Bearded Collie",
+   "value": 798,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Bearded Collie",
+   "value": 745,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Bearded Collie",
+   "value": 687,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Bearded Collie",
+   "value": 695,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Bearded Collie",
+   "value": 607,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Bearded Collie",
+   "value": 630,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Bearded Collie",
+   "value": 588,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Bearded Collie",
+   "value": 548,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Bearded Collie",
+   "value": 577,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Bearded Collie",
+   "value": 504,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Bearded Collie",
+   "value": 735,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Bearded Collie",
+   "value": 416,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Bearded Collie",
+   "value": 374,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Bearded Collie",
+   "value": 405,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Bearded Collie",
+   "value": 334,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Cairn Terrier",
+   "value": 518,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Cairn Terrier",
+   "value": 496,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Cairn Terrier",
+   "value": 423,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Cairn Terrier",
+   "value": 527,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Cairn Terrier",
+   "value": 323,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Cairn Terrier",
+   "value": 430,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Cairn Terrier",
+   "value": 466,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Cairn Terrier",
+   "value": 434,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Cairn Terrier",
+   "value": 403,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Cairn Terrier",
+   "value": 362,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Cairn Terrier",
+   "value": 536,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Cairn Terrier",
+   "value": 368,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Cairn Terrier",
+   "value": 312,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Cairn Terrier",
+   "value": 294,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Cairn Terrier",
+   "value": 259,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Neufundländer",
+   "value": 471,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Neufundländer",
+   "value": 454,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Neufundländer",
+   "value": 335,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Neufundländer",
+   "value": 462,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Neufundländer",
+   "value": 318,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Neufundländer",
+   "value": 445,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Neufundländer",
+   "value": 340,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Neufundländer",
+   "value": 290,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Neufundländer",
+   "value": 389,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Neufundländer",
+   "value": 262,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Neufundländer",
+   "value": 318,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Neufundländer",
+   "value": 210,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Neufundländer",
+   "value": 195,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Neufundländer",
+   "value": 176,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Neufundländer",
+   "value": 175,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Tibet Terrier",
+   "value": 571,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Tibet Terrier",
+   "value": 598,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Tibet Terrier",
+   "value": 515,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Tibet Terrier",
+   "value": 543,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Tibet Terrier",
+   "value": 525,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Tibet Terrier",
+   "value": 478,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Tibet Terrier",
+   "value": 445,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Tibet Terrier",
+   "value": 465,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Tibet Terrier",
+   "value": 429,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Tibet Terrier",
+   "value": 429,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Tibet Terrier",
+   "value": 544,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Tibet Terrier",
+   "value": 338,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Tibet Terrier",
+   "value": 279,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Tibet Terrier",
+   "value": 290,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Tibet Terrier",
+   "value": 233,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 408,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 347,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 323,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 332,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 293,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 313,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 279,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 259,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 306,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 300,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 363,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 281,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 233,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 175,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Foxterrier (Drahthaar)",
+   "value": 197,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Deutscher Wachtelhund",
+   "value": 577,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Deutscher Wachtelhund",
+   "value": 578,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Deutscher Wachtelhund",
+   "value": 556,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Deutscher Wachtelhund",
+   "value": 642,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Deutscher Wachtelhund",
+   "value": 564,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Deutscher Wachtelhund",
+   "value": 590,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Deutscher Wachtelhund",
+   "value": 604,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Deutscher Wachtelhund",
+   "value": 569,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Deutscher Wachtelhund",
+   "value": 619,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Deutscher Wachtelhund",
+   "value": 568,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Deutscher Wachtelhund",
+   "value": 662,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Deutscher Wachtelhund",
+   "value": 536,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Deutscher Wachtelhund",
+   "value": 411,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Deutscher Wachtelhund",
+   "value": 443,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Deutscher Wachtelhund",
+   "value": 357,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Schnauzer",
+   "value": 436,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Schnauzer",
+   "value": 373,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Schnauzer",
+   "value": 422,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Schnauzer",
+   "value": 460,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Schnauzer",
+   "value": 453,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Schnauzer",
+   "value": 449,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Schnauzer",
+   "value": 370,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Schnauzer",
+   "value": 470,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Schnauzer",
+   "value": 392,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Schnauzer",
+   "value": 416,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Schnauzer",
+   "value": 541,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Schnauzer",
+   "value": 381,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Schnauzer",
+   "value": 265,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Schnauzer",
+   "value": 271,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Schnauzer",
+   "value": 246,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Beagle",
+   "value": 711,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Beagle",
+   "value": 757,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Beagle",
+   "value": 626,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Beagle",
+   "value": 692,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Beagle",
+   "value": 585,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Beagle",
+   "value": 650,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Beagle",
+   "value": 643,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Beagle",
+   "value": 581,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Beagle",
+   "value": 433,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Beagle",
+   "value": 602,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Beagle",
+   "value": 610,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Beagle",
+   "value": 445,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Beagle",
+   "value": 411,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Beagle",
+   "value": 327,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Beagle",
+   "value": 312,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Siberian Husky",
+   "value": 278,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Siberian Husky",
+   "value": 339,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Siberian Husky",
+   "value": 341,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Siberian Husky",
+   "value": 339,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Siberian Husky",
+   "value": 324,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Siberian Husky",
+   "value": 337,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Siberian Husky",
+   "value": 364,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Siberian Husky",
+   "value": 327,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Siberian Husky",
+   "value": 371,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Siberian Husky",
+   "value": 333,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Siberian Husky",
+   "value": 438,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Siberian Husky",
+   "value": 357,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Siberian Husky",
+   "value": 234,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Siberian Husky",
+   "value": 271,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Siberian Husky",
+   "value": 184,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Weimaraner",
+   "value": 418,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Weimaraner",
+   "value": 607,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Weimaraner",
+   "value": 429,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Weimaraner",
+   "value": 510,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Weimaraner",
+   "value": 464,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Weimaraner",
+   "value": 450,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Weimaraner",
+   "value": 482,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Weimaraner",
+   "value": 449,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Weimaraner",
+   "value": 390,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Weimaraner",
+   "value": 500,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Weimaraner",
+   "value": 473,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Weimaraner",
+   "value": 431,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Weimaraner",
+   "value": 346,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Weimaraner",
+   "value": 301,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Weimaraner",
+   "value": 334,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Mops",
+   "value": 693,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Mops",
+   "value": 545,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Mops",
+   "value": 479,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Mops",
+   "value": 448,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Mops",
+   "value": 398,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Mops",
+   "value": 395,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Mops",
+   "value": 428,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Mops",
+   "value": 282,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Mops",
+   "value": 272,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Mops",
+   "value": 251,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Mops",
+   "value": 296,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Mops",
+   "value": 207,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Mops",
+   "value": 136,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Mops",
+   "value": 152,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Mops",
+   "value": 133,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Havaneser",
+   "value": 733,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Havaneser",
+   "value": 777,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Havaneser",
+   "value": 804,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Havaneser",
+   "value": 639,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Havaneser",
+   "value": 828,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Havaneser",
+   "value": 828,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Havaneser",
+   "value": 857,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Havaneser",
+   "value": 812,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Havaneser",
+   "value": 741,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Havaneser",
+   "value": 811,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Havaneser",
+   "value": 851,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Havaneser",
+   "value": 678,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Havaneser",
+   "value": 522,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Havaneser",
+   "value": 562,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Havaneser",
+   "value": 530,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Französische Bulldogge",
+   "value": 301,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Französische Bulldogge",
+   "value": 312,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Französische Bulldogge",
+   "value": 274,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Französische Bulldogge",
+   "value": 299,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Französische Bulldogge",
+   "value": 232,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Französische Bulldogge",
+   "value": 210,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Französische Bulldogge",
+   "value": 237,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Französische Bulldogge",
+   "value": 154,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Französische Bulldogge",
+   "value": 131,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Französische Bulldogge",
+   "value": 193,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Französische Bulldogge",
+   "value": 209,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Französische Bulldogge",
+   "value": 118,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Französische Bulldogge",
+   "value": 125,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Französische Bulldogge",
+   "value": 62,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Französische Bulldogge",
+   "value": 43,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Australian Shepherd",
+   "value": 406,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Australian Shepherd",
+   "value": 448,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Australian Shepherd",
+   "value": 356,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Australian Shepherd",
+   "value": 378,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Australian Shepherd",
+   "value": 341,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Australian Shepherd",
+   "value": 318,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Australian Shepherd",
+   "value": 425,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Australian Shepherd",
+   "value": 373,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Australian Shepherd",
+   "value": 332,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Australian Shepherd",
+   "value": 408,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Australian Shepherd",
+   "value": 448,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Australian Shepherd",
+   "value": 387,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Australian Shepherd",
+   "value": 421,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Australian Shepherd",
+   "value": 523,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Australian Shepherd",
+   "value": 493,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Jack Russell Terrier",
+   "value": 148,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Jack Russell Terrier",
+   "value": 154,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Jack Russell Terrier",
+   "value": 174,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Jack Russell Terrier",
+   "value": 169,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Jack Russell Terrier",
+   "value": 186,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Jack Russell Terrier",
+   "value": 164,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Jack Russell Terrier",
+   "value": 142,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Jack Russell Terrier",
+   "value": 203,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Jack Russell Terrier",
+   "value": 182,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Jack Russell Terrier",
+   "value": 164,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Jack Russell Terrier",
+   "value": 248,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Jack Russell Terrier",
+   "value": 189,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Jack Russell Terrier",
+   "value": 250,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Jack Russell Terrier",
+   "value": 196,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Jack Russell Terrier",
+   "value": 221,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Lagotto Romagnolo",
+   "value": 156,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Lagotto Romagnolo",
+   "value": 166,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Lagotto Romagnolo",
+   "value": 248,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Lagotto Romagnolo",
+   "value": 229,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Lagotto Romagnolo",
+   "value": 316,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Lagotto Romagnolo",
+   "value": 407,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Lagotto Romagnolo",
+   "value": 308,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Lagotto Romagnolo",
+   "value": 368,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Lagotto Romagnolo",
+   "value": 517,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Lagotto Romagnolo",
+   "value": 562,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Lagotto Romagnolo",
+   "value": 736,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Lagotto Romagnolo",
+   "value": 639,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Lagotto Romagnolo",
+   "value": 645,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Lagotto Romagnolo",
+   "value": 549,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Lagotto Romagnolo",
+   "value": 534,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2011",
+   "name": "Whippet",
+   "value": 531,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2012",
+   "name": "Whippet",
+   "value": 567,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2013",
+   "name": "Whippet",
+   "value": 588,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2014",
+   "name": "Whippet",
+   "value": 605,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2015",
+   "name": "Whippet",
+   "value": 568,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2016",
+   "name": "Whippet",
+   "value": 627,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2017",
+   "name": "Whippet",
+   "value": 517,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2018",
+   "name": "Whippet",
+   "value": 542,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2019",
+   "name": "Whippet",
+   "value": 630,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2020",
+   "name": "Whippet",
+   "value": 712,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2021",
+   "name": "Whippet",
+   "value": 873,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2022",
+   "name": "Whippet",
+   "value": 649,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2023",
+   "name": "Whippet",
+   "value": 593,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2024",
+   "name": "Whippet",
+   "value": 520,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2025",
+   "name": "Whippet",
+   "value": 584,
+   "unit": "Welpen",
+   "source": "VDH Welpenstatistik, Onlinetabelle „Welpenstatistik der VDH-Mitgliedsvereine“ (304 Rassen, Jahre 2011–2025), https://www.vdh.de/ueber-den-vdh/welpenstatistik/, abgerufen 15.09.2026",
+   "quality": "publiziert"
+  }
+ ]
+}

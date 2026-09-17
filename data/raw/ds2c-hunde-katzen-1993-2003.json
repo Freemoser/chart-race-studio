@@ -1,0 +1,252 @@
+{
+ "title": "Hunde und Katzen in Deutschland 1993–2003 – Lückenschluss (Ergänzung zu ds2b): IVH-Angaben 1999 und 2001, sekundäre Angabe 2000",
+ "source": "IVH – Industrieverband Heimtierbedarf e.V. (Website-Snapshots Feb./März 2001 im Internet Archive, Marktdaten „Stand 1999“); IVH-Angaben zur Struktur des Heimtiermarktes 2001 zit. n. Pharmazeutische Zeitung 50/2002; t-online 24.08.2025 zit. Statista (2000, sekundär)",
+ "sourceUrl": "https://web.archive.org/web/20010222051736/http://ivh-online.de:80/htm/presse/themen/hunde/hunde.htm ; https://web.archive.org/web/20010222052004/http://ivh-online.de:80/htm/presse/themen/katzen/katzen.htm ; https://web.archive.org/web/20010308235022/http://ivh-online.de:80/htm/presse/wir/markt.htm ; https://www.pharmazeutische-zeitung.de/titel-50-2002 ; https://www.t-online.de/leben/aktuelles/id_100871762/haustiere-so-viel-geben-deutsche-fuer-ihre-tiere-aus.html",
+ "unit": "Bestand in Mio. Tieren; Haushalte in Mio. bzw. %",
+ "license": "Verbandsdaten IVH, Zitat mit Quellenangabe",
+ "notes": "Nur publizierte Werte. 1999-Werte stammen von den IVH-„Themen-Service“-Seiten (Snapshot 22.02.2001), die Marktdatenseite derselben Site trägt den Vermerk „Stand 1999“ – Zuordnung zu 1999 daher wahrscheinlich, 2000 nicht ausgeschlossen. 2001-Werte sind IVH-Angaben im Sekundärzitat (PZ 50/2002). 2000-Werte sind eine Presseangabe (t-online) unter Berufung auf Statista und ohne eingesehene Primärquelle – mit quality „SEKUNDÄR“ markiert, ggf. herausfiltern. Die IVH-Reihe vor 2004 ist methodisch eine Schätzung/„gesonderte Untersuchung“ und nicht stetig (Hunde 1992 4,1 → 1999 5,1 → 2000 5,0 → 2001 4,7 → 2004 5,3). WEITERHIN NICHT GEFUNDEN: 1993–1998, 2002, 2003 (Einzelarten). Geprüft ohne Erfolg: Wayback ivh-online.de 2002–2004 (nur Startseite archiviert), zzf.de 2000–2006 (nicht archiviert), FEDIAF-Website 2003 (nur Europa-Summen), FEDIAF Facts & Figures 2010/2012/2014 (nur 2010er-Werte 5,3/8,2), presseportal (IVH erst später aktiv), Wikipedia Hauskatze/Haushund/Heimtierbedarf (nur 1992/2004/2019), Ohr & Zeddies 2006 (nur „ca. 5 Mio. Hunde, 4,8 [VDH]–5,3 [IVH]“ ohne Jahr), Tierschutzbund-Katzenschutzreport (ab 2008), Statista (kostenpflichtig, Reihen ab 2008/2015).",
+ "attribution": "Quelle: IVH (Der Deutsche Heimtiermarkt, Stand 1999 und 2001), zit. n. ivh-online.de (Internet Archive) und Pharmazeutische Zeitung 50/2002; 2000: t-online/Statista (sekundär)",
+ "rows": [
+  {
+   "date": "1999",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.1,
+   "unit": "Mio.",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010222051736/http://ivh-online.de:80/htm/presse/themen/hunde/hunde.htm",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„5,1 Mio Hunde leben in 15 Prozent der deutschen Haushalte.“ Jahreszuordnung: IVH-Marktdatenseite derselben Site nennt „Stand 1999“ (https://web.archive.org/web/20010308235022/http://ivh-online.de:80/htm/presse/wir/markt.htm); Snapshot Februar 2001, ein Bezug auf 2000 kann nicht ausgeschlossen werden"
+  },
+  {
+   "date": "1999",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 6.2,
+   "unit": "Mio.",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010222052004/http://ivh-online.de:80/htm/presse/themen/katzen/katzen.htm",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„6,2 Mio Katzen leben in 16 Prozent der deutschen Haushalte.“ Jahreszuordnung: IVH-Marktdatenseite derselben Site nennt „Stand 1999“ (https://web.archive.org/web/20010308235022/http://ivh-online.de:80/htm/presse/wir/markt.htm); Snapshot Februar 2001, ein Bezug auf 2000 kann nicht ausgeschlossen werden"
+  },
+  {
+   "date": "1999",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 4.0,
+   "unit": "Mio.",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010222051209/http://ivh-online.de:80/htm/presse/themen/kleintiere/kleintiere1.htm",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„4 Mio Kleintiere wie z.B. Meerschweinchen, Zwergkaninchen und Goldhamster leben in 7 Prozent der deutschen Haushalte.“"
+  },
+  {
+   "date": "1999",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 5.1,
+   "unit": "Mio.",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010222080425/http://ivh-online.de:80/htm/presse/themen/voegel/voegel.htm",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„5,1 Mio Ziervögel … leben in 8 Prozent der deutschen Haushalte.“"
+  },
+  {
+   "date": "1999",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 3.2,
+   "unit": "Mio.",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010309123945/http://ivh-online.de:80/htm/presse/themen/fische/fische.htm",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„3,2 Mio Aquarien befinden sich in 6 Prozent der deutschen Haushalte.“"
+  },
+  {
+   "date": "1999",
+   "metric": "Haushalte",
+   "name": "Haushalte mit Heimtieren",
+   "value": 12.3,
+   "unit": "Mio. Haushalte",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010308231739/http://ivh-online.de:80/htm/presse/themen/heimtiere/allgemein.htm",
+   "quality": "publiziert (IVH-Angabe)",
+   "note": "„In 12,3 Mio. Haushalten in Deutschland werden Heimtiere gehalten.“"
+  },
+  {
+   "date": "1999",
+   "metric": "Haushalte mit …",
+   "name": "Hunde",
+   "value": 15,
+   "unit": "%",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010222051736/http://ivh-online.de:80/htm/presse/themen/hunde/hunde.htm",
+   "quality": "publiziert (IVH-Angabe)"
+  },
+  {
+   "date": "1999",
+   "metric": "Haushalte mit …",
+   "name": "Katzen",
+   "value": 16,
+   "unit": "%",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010222052004/http://ivh-online.de:80/htm/presse/themen/katzen/katzen.htm",
+   "quality": "publiziert (IVH-Angabe)"
+  },
+  {
+   "date": "1999",
+   "metric": "Haushalte mit …",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 7,
+   "unit": "%",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010222051209/http://ivh-online.de:80/htm/presse/themen/kleintiere/kleintiere1.htm",
+   "quality": "publiziert (IVH-Angabe)"
+  },
+  {
+   "date": "1999",
+   "metric": "Haushalte mit …",
+   "name": "Ziervögel",
+   "value": 8,
+   "unit": "%",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010222080425/http://ivh-online.de:80/htm/presse/themen/voegel/voegel.htm",
+   "quality": "publiziert (IVH-Angabe)"
+  },
+  {
+   "date": "1999",
+   "metric": "Haushalte mit …",
+   "name": "Aquarien",
+   "value": 6,
+   "unit": "%",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010309123945/http://ivh-online.de:80/htm/presse/themen/fische/fische.htm",
+   "quality": "publiziert (IVH-Angabe)"
+  },
+  {
+   "date": "1999",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 11.3,
+   "unit": "Mio.",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010222051736/http://ivh-online.de:80/htm/presse/themen/hunde/hunde.htm ; https://web.archive.org/web/20010222052004/http://ivh-online.de:80/htm/presse/themen/katzen/katzen.htm",
+   "quality": "berechnet",
+   "note": "5,1 + 6,2"
+  },
+  {
+   "date": "1999",
+   "metric": "Vergleichsachse",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel) – berechnet",
+   "value": 20.4,
+   "unit": "Mio.",
+   "source": "IVH – Industrieverband Heimtierbedarf e.V., Website „Themen-Service“ (Snapshot Internet Archive 22.02./08.03.2001; Marktdaten-Seite: „Struktur & Umsatzdaten zum deutschen Heimtiermarkt … Stand 1999“) – https://web.archive.org/web/20010222051736/http://ivh-online.de:80/htm/presse/themen/hunde/hunde.htm",
+   "quality": "berechnet",
+   "note": "5,1 + 6,2 + 4,0 + 5,1 = 20,4; passt zur ZZF-Angabe „20 Millionen im Jahr 2000“ (https://www.zzf.de/marktdaten/entwicklung-des-heimtiermarktes)"
+  },
+  {
+   "date": "2000",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.0,
+   "unit": "Mio.",
+   "source": "t-online.de, „Katzen oder Hunde? Dieses Haustier dominiert deutsche Haushalte“ (24.08.2025), zit. Statista (Datenbasis ZZF/IVH) – https://www.t-online.de/leben/aktuelles/id_100871762/haustiere-so-viel-geben-deutsche-fuer-ihre-tiere-aus.html",
+   "quality": "SEKUNDÄR – Presseangabe unter Berufung auf Statista; Primärquelle (Statista-Grafik/IVH) nicht eingesehen",
+   "note": "„Im Jahr 2000 lebten 6,8 Millionen Katzen und 5 Millionen Hunde in Deutschland“"
+  },
+  {
+   "date": "2000",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 6.8,
+   "unit": "Mio.",
+   "source": "t-online.de, „Katzen oder Hunde? Dieses Haustier dominiert deutsche Haushalte“ (24.08.2025), zit. Statista (Datenbasis ZZF/IVH) – https://www.t-online.de/leben/aktuelles/id_100871762/haustiere-so-viel-geben-deutsche-fuer-ihre-tiere-aus.html",
+   "quality": "SEKUNDÄR – Presseangabe unter Berufung auf Statista; Primärquelle (Statista-Grafik/IVH) nicht eingesehen",
+   "note": "„Im Jahr 2000 lebten 6,8 Millionen Katzen und 5 Millionen Hunde in Deutschland“"
+  },
+  {
+   "date": "2000",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 11.8,
+   "unit": "Mio.",
+   "source": "t-online.de, „Katzen oder Hunde? Dieses Haustier dominiert deutsche Haushalte“ (24.08.2025), zit. Statista (Datenbasis ZZF/IVH) – https://www.t-online.de/leben/aktuelles/id_100871762/haustiere-so-viel-geben-deutsche-fuer-ihre-tiere-aus.html",
+   "quality": "berechnet aus sekundären Werten",
+   "note": "5,0 + 6,8"
+  },
+  {
+   "date": "2001",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 6.9,
+   "unit": "Mio.",
+   "source": "Pharmazeutische Zeitung 50/2002, Titelbeitrag „Tierarzneimittel in der Apotheke“, zit. IVH „Angaben zur Struktur des deutschen Heimtiermarktes in 2001“ – https://www.pharmazeutische-zeitung.de/titel-50-2002",
+   "quality": "publiziert (IVH-Angabe, Sekundärzitat PZ)",
+   "note": "„In 14 Prozent der deutschen Haushalte wird eine Katze gehalten, das sind rund 6,9 Millionen Tiere.“"
+  },
+  {
+   "date": "2001",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 4.7,
+   "unit": "Mio.",
+   "source": "Pharmazeutische Zeitung 50/2002, Titelbeitrag „Tierarzneimittel in der Apotheke“, zit. IVH „Angaben zur Struktur des deutschen Heimtiermarktes in 2001“ – https://www.pharmazeutische-zeitung.de/titel-50-2002",
+   "quality": "publiziert (IVH-Angabe, Sekundärzitat PZ)",
+   "note": "„In 13 Prozent aller Haushalte ist einer der 4,7 Millionen Hunde zu Hause.“ Achtung: niedriger als IVH 1999 (5,1) und 2004 (5,3) – IVH-Schätzreihe vor 2004 nicht stetig"
+  },
+  {
+   "date": "2001",
+   "metric": "Bestand",
+   "name": "Klein- und andere Heimtiere",
+   "value": 5.7,
+   "unit": "Mio.",
+   "source": "Pharmazeutische Zeitung 50/2002, Titelbeitrag „Tierarzneimittel in der Apotheke“, zit. IVH „Angaben zur Struktur des deutschen Heimtiermarktes in 2001“ – https://www.pharmazeutische-zeitung.de/titel-50-2002",
+   "quality": "publiziert (IVH-Angabe, Sekundärzitat PZ)",
+   "note": "„Die Zahl der Klein- und anderen Heimtiere, die in 8 Prozent der Haushalte gehalten werden, ist laut IVH auf 5,7 Millionen angewachsen.“"
+  },
+  {
+   "date": "2001",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (ohne Zierfische)",
+   "value": 22.2,
+   "unit": "Mio.",
+   "source": "Pharmazeutische Zeitung 50/2002, Titelbeitrag „Tierarzneimittel in der Apotheke“, zit. IVH „Angaben zur Struktur des deutschen Heimtiermarktes in 2001“ – https://www.pharmazeutische-zeitung.de/titel-50-2002",
+   "quality": "publiziert (IVH-Angabe, Sekundärzitat PZ)",
+   "note": "„22,2 Millionen Heimtiere (ohne Zierfische) leben in mehr als 12 Millionen Haushalten“; „in jedem dritten Haushalt“"
+  },
+  {
+   "date": "2001",
+   "metric": "Haushalte",
+   "name": "Haushalte mit Heimtieren – Mindestangabe („mehr als 12 Millionen“)",
+   "value": 12.0,
+   "unit": "Mio. Haushalte",
+   "source": "Pharmazeutische Zeitung 50/2002, Titelbeitrag „Tierarzneimittel in der Apotheke“, zit. IVH „Angaben zur Struktur des deutschen Heimtiermarktes in 2001“ – https://www.pharmazeutische-zeitung.de/titel-50-2002",
+   "quality": "publiziert, Mindestangabe"
+  },
+  {
+   "date": "2001",
+   "metric": "Haushalte mit …",
+   "name": "Katzen",
+   "value": 14,
+   "unit": "%",
+   "source": "Pharmazeutische Zeitung 50/2002, Titelbeitrag „Tierarzneimittel in der Apotheke“, zit. IVH „Angaben zur Struktur des deutschen Heimtiermarktes in 2001“ – https://www.pharmazeutische-zeitung.de/titel-50-2002",
+   "quality": "publiziert (IVH-Angabe, Sekundärzitat PZ)"
+  },
+  {
+   "date": "2001",
+   "metric": "Haushalte mit …",
+   "name": "Hunde",
+   "value": 13,
+   "unit": "%",
+   "source": "Pharmazeutische Zeitung 50/2002, Titelbeitrag „Tierarzneimittel in der Apotheke“, zit. IVH „Angaben zur Struktur des deutschen Heimtiermarktes in 2001“ – https://www.pharmazeutische-zeitung.de/titel-50-2002",
+   "quality": "publiziert (IVH-Angabe, Sekundärzitat PZ)"
+  },
+  {
+   "date": "2001",
+   "metric": "Haushalte mit …",
+   "name": "Klein- und andere Heimtiere",
+   "value": 8,
+   "unit": "%",
+   "source": "Pharmazeutische Zeitung 50/2002, Titelbeitrag „Tierarzneimittel in der Apotheke“, zit. IVH „Angaben zur Struktur des deutschen Heimtiermarktes in 2001“ – https://www.pharmazeutische-zeitung.de/titel-50-2002",
+   "quality": "publiziert (IVH-Angabe, Sekundärzitat PZ)"
+  },
+  {
+   "date": "2001",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 11.6,
+   "unit": "Mio.",
+   "source": "Pharmazeutische Zeitung 50/2002, Titelbeitrag „Tierarzneimittel in der Apotheke“, zit. IVH „Angaben zur Struktur des deutschen Heimtiermarktes in 2001“ – https://www.pharmazeutische-zeitung.de/titel-50-2002",
+   "quality": "berechnet",
+   "note": "4,7 + 6,9"
+  }
+ ]
+}

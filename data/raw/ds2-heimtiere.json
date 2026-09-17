@@ -1,0 +1,2299 @@
+{
+ "title": "Heimtierbestand und Heimtiermarkt in Deutschland (IVH/ZZF), 2008–2025",
+ "source": "Industrieverband Heimtierbedarf (IVH) e.V. und Zentralverband Zoologischer Fachbetriebe (ZZF) e.V.: jährliches Datenblatt „Der Deutsche Heimtiermarkt – Struktur & Umsatzdaten“ und Pressemitteilungen; Populationszahlen: repräsentative Haushaltsbefragung (Skopos) im Auftrag von IVH/ZZF",
+ "sourceUrl": "https://www.ivh-online.de/der-verband/daten-fakten/der-deutsche-heimtiermarkt.html ; https://www.zzf.de/marktdaten/heimtiere-in-deutschland ; https://www.zzf.de/marktdaten/der-deutsche-heimtiermarkt",
+ "unit": "Bestand in Mio. Tieren bzw. Mio. Aquarien/Terrarien/Gartenteiche; Haushalte in %; Umsatz in Mio. Euro (Endverbraucherpreise)",
+ "license": "Verbandsdaten, keine offene Lizenz – Zitat/Verwendung mit Quellenangabe „IVH/ZZF“ üblich (Pressematerial)",
+ "notes": "Lücken: 2000–2007 (außer gerundete Gesamtzahl 2000), 2009 keine Datenblattwerte gefunden; 2012 nur Sekundärquelle (Wikipedia zitiert ZZF); 2013 unvollständig und sekundär. Methodikbruch 2012/2013: Umstellung der Befragung (Skopos, größere Stichprobe/Hochrechnung) – Sprung von ~22 auf ~28–31 Mio. Tiere ist überwiegend methodisch; ab 2014 konsistente Reihe (Stichprobe 2019: 7.000, ab 2024: 5.000 Haushalte). Umsatz 2024: veränderte Datenbasis, Vergleich mit 2023 „nur bedingt möglich“ (Quelle). Gesamtumsatz ab 2017 inkl. Online und Wildvogelfutter. Keine Interpolation vorgenommen.",
+ "attribution": "Quelle: IVH/ZZF, „Der Deutsche Heimtiermarkt“ (Datenblätter 2008–2025), Populationszahlen: Skopos im Auftrag von IVH/ZZF",
+ "rows": [
+  {
+   "date": "2008",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 8.2,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.5,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 6.2,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.4,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.0,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 2.3,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.4,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 23.3,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2010",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 8.2,
+   "unit": "Mio.",
+   "source": "IVH-Pressemitteilung „In jedem dritten Haushalt lebt ein Tier“, 01.06.2011 (ivh-online.de, Presse-Archiv)"
+  },
+  {
+   "date": "2010",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.3,
+   "unit": "Mio.",
+   "source": "IVH-Pressemitteilung „In jedem dritten Haushalt lebt ein Tier“, 01.06.2011 (ivh-online.de, Presse-Archiv)"
+  },
+  {
+   "date": "2010",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.3,
+   "unit": "Mio.",
+   "source": "IVH-Pressemitteilung „In jedem dritten Haushalt lebt ein Tier“, 01.06.2011 (ivh-online.de, Presse-Archiv)"
+  },
+  {
+   "date": "2010",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.5,
+   "unit": "Mio.",
+   "source": "IVH-Pressemitteilung „In jedem dritten Haushalt lebt ein Tier“, 01.06.2011 (ivh-online.de, Presse-Archiv)"
+  },
+  {
+   "date": "2010",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.0,
+   "unit": "Mio.",
+   "source": "IVH-Pressemitteilung „In jedem dritten Haushalt lebt ein Tier“, 01.06.2011 (ivh-online.de, Presse-Archiv)"
+  },
+  {
+   "date": "2010",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 2.2,
+   "unit": "Mio.",
+   "source": "IVH-Pressemitteilung „In jedem dritten Haushalt lebt ein Tier“, 01.06.2011 (ivh-online.de, Presse-Archiv)"
+  },
+  {
+   "date": "2010",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.44,
+   "unit": "Mio.",
+   "source": "IVH-Pressemitteilung „In jedem dritten Haushalt lebt ein Tier“, 01.06.2011 (ivh-online.de, Presse-Archiv)"
+  },
+  {
+   "date": "2010",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 22.3,
+   "unit": "Mio.",
+   "source": "IVH-Pressemitteilung „In jedem dritten Haushalt lebt ein Tier“, 01.06.2011 (ivh-online.de, Presse-Archiv)"
+  },
+  {
+   "date": "2011",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 8.2,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2011",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.4,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2011",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.1,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2011",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.3,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2011",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 1.9,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2011",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 2.2,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2011",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.4,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2011",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 22.0,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 12.3,
+   "unit": "Mio.",
+   "source": "ZZF-Angaben (Skopos-Erhebung) zitiert in de.wikipedia.org/wiki/Heimtier – Originaldatenblatt 2012 enthält keine Populationszahlen; sekundär belegt"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 7.4,
+   "unit": "Mio.",
+   "source": "ZZF-Angaben (Skopos-Erhebung) zitiert in de.wikipedia.org/wiki/Heimtier – Originaldatenblatt 2012 enthält keine Populationszahlen; sekundär belegt"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 7.6,
+   "unit": "Mio.",
+   "source": "ZZF-Angaben (Skopos-Erhebung) zitiert in de.wikipedia.org/wiki/Heimtier – Originaldatenblatt 2012 enthält keine Populationszahlen; sekundär belegt"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.7,
+   "unit": "Mio.",
+   "source": "ZZF-Angaben (Skopos-Erhebung) zitiert in de.wikipedia.org/wiki/Heimtier – Originaldatenblatt 2012 enthält keine Populationszahlen; sekundär belegt"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.3,
+   "unit": "Mio.",
+   "source": "ZZF-Angaben (Skopos-Erhebung) zitiert in de.wikipedia.org/wiki/Heimtier – Originaldatenblatt 2012 enthält keine Populationszahlen; sekundär belegt"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 2.6,
+   "unit": "Mio.",
+   "source": "ZZF-Angaben (Skopos-Erhebung) zitiert in de.wikipedia.org/wiki/Heimtier – Originaldatenblatt 2012 enthält keine Populationszahlen; sekundär belegt"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.8,
+   "unit": "Mio.",
+   "source": "ZZF-Angaben (Skopos-Erhebung) zitiert in de.wikipedia.org/wiki/Heimtier – Originaldatenblatt 2012 enthält keine Populationszahlen; sekundär belegt"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 11.5,
+   "unit": "Mio.",
+   "source": "IVH/ZZF-Erhebung Ende 2013 (Skopos), zitiert u. a. vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“ und ZZF-Pressemeldung zum Heimtiermarkt 2014 (Vergleichswerte) – sekundär"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 6.9,
+   "unit": "Mio.",
+   "source": "IVH/ZZF-Erhebung Ende 2013 (Skopos), zitiert u. a. vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“ und ZZF-Pressemeldung zum Heimtiermarkt 2014 (Vergleichswerte) – sekundär"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 6.1,
+   "unit": "Mio.",
+   "source": "IVH/ZZF-Erhebung Ende 2013 (Skopos), zitiert u. a. vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“ und ZZF-Pressemeldung zum Heimtiermarkt 2014 (Vergleichswerte) – sekundär"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.4,
+   "unit": "Mio.",
+   "source": "IVH/ZZF-Erhebung Ende 2013 (Skopos), zitiert u. a. vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“ und ZZF-Pressemeldung zum Heimtiermarkt 2014 (Vergleichswerte) – sekundär"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 28.0,
+   "unit": "Mio.",
+   "source": "IVH/ZZF-Erhebung Ende 2013 (Skopos), zitiert u. a. vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“ und ZZF-Pressemeldung zum Heimtiermarkt 2014 (Vergleichswerte) – sekundär"
+  },
+  {
+   "date": "2014",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 11.8,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 6.8,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.9,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 4.0,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.1,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.8,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.8,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 28.5,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Haushalte mit Heimtier",
+   "name": "Haushalte mit mindestens einem Heimtier",
+   "value": 38,
+   "unit": "%",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 12.9,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 7.9,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.1,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 4.2,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.0,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.6,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.7,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 30.0,
+   "unit": "Mio.",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Haushalte mit Heimtier",
+   "name": "Haushalte mit mindestens einem Heimtier",
+   "value": 43,
+   "unit": "%",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 13.4,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 8.6,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 4.6,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.6,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 31.6,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Haushalte mit Heimtier",
+   "name": "Haushalte mit mindestens einem Heimtier",
+   "value": 44,
+   "unit": "%",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 13.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 9.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 6.1,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 5.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.1,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.6,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.8,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 34.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Haushalte mit Heimtier",
+   "name": "Haushalte mit mindestens einem Heimtier",
+   "value": 45,
+   "unit": "%",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2018",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 14.8,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 9.4,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.4,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 4.8,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 1.9,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.5,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 1.0,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 34.4,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Haushalte mit Heimtier",
+   "name": "Haushalte mit mindestens einem Heimtier",
+   "value": 45,
+   "unit": "%",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2019",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 14.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 10.1,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 4.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 1.6,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 1.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 34.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Haushalte mit Heimtier",
+   "name": "Haushalte mit mindestens einem Heimtier",
+   "value": 45,
+   "unit": "%",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 15.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 10.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.5,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 1.8,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.4,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 1.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 34.9,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Haushalte mit Heimtier",
+   "name": "Haushalte mit mindestens einem Heimtier",
+   "value": 47,
+   "unit": "%",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 16.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 10.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 4.6,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.1,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.4,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 1.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 34.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Haushalte mit Heimtier",
+   "name": "Haushalte mit mindestens einem Heimtier",
+   "value": 47,
+   "unit": "%",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 15.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 10.6,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 4.9,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.4,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 1.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 34.4,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Haushalte mit Heimtier",
+   "name": "Haushalte mit mindestens einem Heimtier",
+   "value": 46,
+   "unit": "%",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 15.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 10.5,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 4.6,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.5,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 1.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 34.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Haushalte mit Heimtier",
+   "name": "Haushalte mit mindestens einem Heimtier",
+   "value": 45,
+   "unit": "%",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 15.9,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 10.5,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 4.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.2,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.1,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 1.1,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 33.9,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Haushalte mit Heimtier",
+   "name": "Haushalte mit mindestens einem Heimtier",
+   "value": 44,
+   "unit": "%",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2025",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 15.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 10.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 4.4,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.3,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.1,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 1.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 33.4,
+   "unit": "Mio.",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Haushalte mit Heimtier",
+   "name": "Haushalte mit mindestens einem Heimtier",
+   "value": 43,
+   "unit": "%",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2000",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 20.0,
+   "unit": "Mio.",
+   "source": "ZZF, „Die Entwicklung des Heimtiermarktes“ (https://www.zzf.de/marktdaten/entwicklung-des-heimtiermarktes): „Von 20 Millionen im Jahr 2000 …“ – gerundete Angabe"
+  },
+  {
+   "date": "2008",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 2594,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 906,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 3500,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1037,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 1311,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Ziervogelfutter",
+   "value": 58,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Zierfischfutter",
+   "value": 70,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2008",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Futter für Kleintiere",
+   "value": 118,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2008“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Heimtiermarkt_08_A4.pdf) und IVH-Pressemitteilung 28.05.2009"
+  },
+  {
+   "date": "2011",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 2866,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2011",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 916,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2011",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 3782,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2011",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1146,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2011",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 1486,
+   "unit": "Mio. Euro",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2011“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2011.pdf)"
+  },
+  {
+   "date": "2012",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 2939,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Angaben (Skopos-Erhebung) zitiert in de.wikipedia.org/wiki/Heimtier – Originaldatenblatt 2012 enthält keine Populationszahlen; sekundär belegt"
+  },
+  {
+   "date": "2012",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 928,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Angaben (Skopos-Erhebung) zitiert in de.wikipedia.org/wiki/Heimtier – Originaldatenblatt 2012 enthält keine Populationszahlen; sekundär belegt"
+  },
+  {
+   "date": "2012",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 3867,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Angaben (Skopos-Erhebung) zitiert in de.wikipedia.org/wiki/Heimtier – Originaldatenblatt 2012 enthält keine Populationszahlen; sekundär belegt"
+  },
+  {
+   "date": "2012",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1176,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Angaben (Skopos-Erhebung) zitiert in de.wikipedia.org/wiki/Heimtier – Originaldatenblatt 2012 enthält keine Populationszahlen; sekundär belegt"
+  },
+  {
+   "date": "2012",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 1537,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Angaben (Skopos-Erhebung) zitiert in de.wikipedia.org/wiki/Heimtier – Originaldatenblatt 2012 enthält keine Populationszahlen; sekundär belegt"
+  },
+  {
+   "date": "2013",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 2974,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF-Erhebung Ende 2013 (Skopos), zitiert u. a. vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“ und ZZF-Pressemeldung zum Heimtiermarkt 2014 (Vergleichswerte) – sekundär"
+  },
+  {
+   "date": "2013",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 935,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF-Erhebung Ende 2013 (Skopos), zitiert u. a. vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“ und ZZF-Pressemeldung zum Heimtiermarkt 2014 (Vergleichswerte) – sekundär"
+  },
+  {
+   "date": "2013",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 3909,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF-Erhebung Ende 2013 (Skopos), zitiert u. a. vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“ und ZZF-Pressemeldung zum Heimtiermarkt 2014 (Vergleichswerte) – sekundär"
+  },
+  {
+   "date": "2013",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1204,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF-Erhebung Ende 2013 (Skopos), zitiert u. a. vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“ und ZZF-Pressemeldung zum Heimtiermarkt 2014 (Vergleichswerte) – sekundär"
+  },
+  {
+   "date": "2013",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 1538,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF-Erhebung Ende 2013 (Skopos), zitiert u. a. vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“ und ZZF-Pressemeldung zum Heimtiermarkt 2014 (Vergleichswerte) – sekundär"
+  },
+  {
+   "date": "2013",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 400,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF-Erhebung Ende 2013 (Skopos), zitiert u. a. vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“ und ZZF-Pressemeldung zum Heimtiermarkt 2014 (Vergleichswerte) – sekundär"
+  },
+  {
+   "date": "2014",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 3067,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 956,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 4023,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1265,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 1569,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 420,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2014",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Gesamtumsatz (stationär + online + Wildvogelfutter)",
+   "value": 4443,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt „Der Deutsche Heimtiermarkt 2014“ (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2014.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 3157,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 953,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 4110,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1323,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 1610,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 450,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2015",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Gesamtumsatz (stationär + online + Wildvogelfutter)",
+   "value": 4560,
+   "unit": "Mio. Euro",
+   "source": "IVH/ZZF Datenblatt 2015 (https://www.ivh-online.de/fileadmin/ivh/user_upload/Daten_und_Fakten/Der_Deutsche_Heimtiermarkt_2015.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 3170,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 977,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 4147,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1354,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 1602,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 510,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2016",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Gesamtumsatz (stationär + online + Wildvogelfutter)",
+   "value": 4657,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2016 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2016.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 3173,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 987,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 4160,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1384,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 1583,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 580,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Wildvogelfutter",
+   "value": 98,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2017",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Gesamtumsatz (stationär + online + Wildvogelfutter)",
+   "value": 4838,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2017 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2017.pdf)"
+  },
+  {
+   "date": "2018",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 3226,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 997,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 4223,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1446,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 1577,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Ziervogelfutter",
+   "value": 66,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Zierfischfutter",
+   "value": 52,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Futter für Kleintiere",
+   "value": 85,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 625,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Wildvogelfutter",
+   "value": 100,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2018",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Gesamtumsatz (stationär + online + Wildvogelfutter)",
+   "value": 4948,
+   "unit": "Mio. Euro",
+   "source": "ZZF-Pressemeldung „Zahl der Heimtiere bleibt auch 2018 stabil“, 09.05.2019 (https://www.zzf.de/pressemeldung/zahl-der-heimtiere-bleibt-auch-2018-stabil-1); Umsatz: zza-online.de „Deutscher Heimtiermarkt 2018“"
+  },
+  {
+   "date": "2019",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 3308,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 1017,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 4325,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1507,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 1596,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Ziervogelfutter",
+   "value": 65,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Zierfischfutter",
+   "value": 53,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Futter für Kleintiere",
+   "value": 87,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 705,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Wildvogelfutter",
+   "value": 125,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2019",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Gesamtumsatz (stationär + online + Wildvogelfutter)",
+   "value": 5155,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2019 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2019.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 3460,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 1053,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 4513,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1567,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 1680,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Ziervogelfutter",
+   "value": 67,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Zierfischfutter",
+   "value": 55,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Futter für Kleintiere",
+   "value": 91,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 822,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Wildvogelfutter",
+   "value": 128,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2020",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Gesamtumsatz (stationär + online + Wildvogelfutter)",
+   "value": 5463,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2020 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Datenblatt_Der_Deutsche_Heimtiermarkt_und_Heimtiere_2020.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 3685,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 1101,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 4786,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1677,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 1787,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Ziervogelfutter",
+   "value": 67,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Zierfischfutter",
+   "value": 56,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Futter für Kleintiere",
+   "value": 98,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 1055,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Wildvogelfutter",
+   "value": 162,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2021",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Gesamtumsatz (stationär + online + Wildvogelfutter)",
+   "value": 6003,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2021 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2021.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 4035,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 1091,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 5126,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1807,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 2011,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Ziervogelfutter",
+   "value": 67,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Zierfischfutter",
+   "value": 59,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Futter für Kleintiere",
+   "value": 91,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 1203,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Wildvogelfutter",
+   "value": 158,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2022",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Gesamtumsatz (stationär + online + Wildvogelfutter)",
+   "value": 6487,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2022 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_Anzahl_Heimtiere_2022.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 4495,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 1121,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 5616,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1972,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 2300,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Ziervogelfutter",
+   "value": 74,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Zierfischfutter",
+   "value": 60,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Futter für Kleintiere",
+   "value": 89,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 1316,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Wildvogelfutter",
+   "value": 161,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2023",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Gesamtumsatz (stationär + online + Wildvogelfutter)",
+   "value": 7093,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2023 (https://www.zzf.de/fileadmin/ZZF/Pressemeldungen/2024/2024_04_16_Marktdaten/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2023.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 4259,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 1114,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 5373,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1759,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 2285,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Ziervogelfutter",
+   "value": 71,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Zierfischfutter",
+   "value": 62,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Futter für Kleintiere",
+   "value": 82,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 1512,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Wildvogelfutter",
+   "value": 145,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2024",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Gesamtumsatz (stationär + online + Wildvogelfutter)",
+   "value": 7030,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2024 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/ZZF_IVH_Der_Deutsche_Heimtiermarkt_2024.pdf)"
+  },
+  {
+   "date": "2025",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Fertignahrung gesamt (stationär)",
+   "value": 4272,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Bedarfsartikel und Zubehör (stationär)",
+   "value": 1063,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Stationärer Handel gesamt",
+   "value": 5335,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Hundefutter",
+   "value": 1753,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Katzenfutter",
+   "value": 2315,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Ziervogelfutter",
+   "value": 68,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Zierfischfutter",
+   "value": 60,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Futter für Kleintiere",
+   "value": 76,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Online-Handel (Schätzung)",
+   "value": 1521,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Wildvogelfutter",
+   "value": 134,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  },
+  {
+   "date": "2025",
+   "metric": "Umsatz Heimtiermarkt",
+   "name": "Gesamtumsatz (stationär + online + Wildvogelfutter)",
+   "value": 6990,
+   "unit": "Mio. Euro",
+   "source": "ZZF/IVH Datenblatt 2025 (https://www.zzf.de/fileadmin/ZZF/Dokumente/Heimtiermarkt/Marktdaten_2025/ZZF_IVH_Der_deutsche_Heimtiermarkt_2025.pdf), veröffentlicht 23.04.2026"
+  }
+ ]
+}

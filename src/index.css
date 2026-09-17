@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+@import './brand/tokens.css';
+@import '@fontsource-variable/inter/index.css';
+@import '@fontsource/ibm-plex-sans/400.css';
+@import '@fontsource/ibm-plex-sans/500.css';
+@import '@fontsource/ibm-plex-sans/600.css';
+@import '@fontsource/ibm-plex-sans/700.css';
+@import '@fontsource-variable/manrope/index.css';
+
+@theme inline {
+  --font-sans: var(--brand-font);
+  --color-primary: var(--brand-primary);
+  --color-primary-strong: var(--brand-primary-strong);
+  --color-accent: var(--brand-accent);
+  --color-accent-soft: var(--brand-accent-soft);
+  --color-ink: var(--brand-ink);
+  --color-ink-muted: var(--brand-ink-muted);
+  --color-ink-faint: var(--brand-ink-faint);
+  --color-line: var(--brand-line);
+  --color-surface: var(--brand-surface);
+  --color-surface-2: var(--brand-surface-2);
+  --color-bg: var(--brand-bg);
+  --color-ok: var(--brand-ok, #2e7d5b);
+  --color-warn: var(--brand-warn, #b7791f);
+  --color-err: var(--brand-err, #b3261e);
+  --radius-brand: var(--brand-radius);
+}
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: var(--brand-bg);
+  color: var(--brand-ink);
+  font-family: var(--brand-font);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'tnum' 1, 'cv11' 1;
+}
+
+/* Kompakte Formularelemente – als @utility, damit @apply sie kennt */
+@utility field { @apply flex flex-col gap-1 text-[13px]; }
+@utility input { @apply w-full rounded-md border border-line bg-surface px-2.5 py-1.5 text-sm text-ink outline-none focus:border-primary focus:ring-2 focus:ring-primary/15 disabled:opacity-50; }
+@utility btn { @apply inline-flex min-h-10 items-center justify-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors select-none disabled:cursor-not-allowed disabled:opacity-50; }
+@utility btn-primary { @apply inline-flex min-h-10 items-center justify-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors select-none disabled:cursor-not-allowed disabled:opacity-50 bg-primary text-white hover:bg-primary-strong; }
+@utility btn-ghost { @apply inline-flex min-h-10 items-center justify-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors select-none disabled:cursor-not-allowed disabled:opacity-50 border border-line bg-surface text-ink hover:bg-surface-2; }
+@utility btn-accent { @apply inline-flex min-h-10 items-center justify-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors select-none disabled:cursor-not-allowed disabled:opacity-50 bg-accent text-white hover:brightness-95; }
+@utility seg { @apply inline-flex rounded-md border border-line bg-surface p-0.5; }
+@utility card { @apply rounded-[var(--radius-brand)] border border-line bg-surface; }
+
+.field > span { @apply text-ink-muted text-xs font-medium tracking-wide; }
+.seg > button { @apply min-h-9 rounded px-2.5 py-1.5 text-sm text-ink-muted transition-colors; }
+.seg > button[aria-pressed='true'] { @apply bg-primary text-white; }
+input[type='range'] { accent-color: var(--brand-primary); }
+input[type='color'] { @apply h-8 w-8 cursor-pointer rounded border border-line bg-transparent p-0; }
+
+/* Racing-bars: keine Bedienelemente/Overlays */
+.controls, .overlay { display: none !important; }

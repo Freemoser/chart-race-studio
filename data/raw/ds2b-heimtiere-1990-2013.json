@@ -1,0 +1,990 @@
+{
+ "title": "Heimtierbestand in Deutschland 1992–2013 (IVH/ZZF) – Ergänzung zu ds2 (2008–2025)",
+ "source": "Industrieverband Heimtierbedarf (IVH) e.V.: Datenblätter „Der Deutsche Heimtiermarkt“ 2004–2009 und IVH-Pressedienst (archivierte Seiten von ivh-online.de im Internet Archive); ZZF-Pressemitteilungen 2012 (IMR) und 2014 (Skopos), wiedergegeben auf petcom.at; Wikipedia „Heimtierbedarf“ (IVH-Schätzung 1992); ZZF „Entwicklung des Heimtiermarktes“ (2000)",
+ "sourceUrl": "https://web.archive.org/web/20071025114328/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv.html ; https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland.html",
+ "unit": "Bestand in Mio. Tieren bzw. Mio. Aquarien/Terrarien/Gartenteiche; Haushalte in %",
+ "license": "Verbandsdaten IVH/ZZF, Zitat mit Quellenangabe",
+ "notes": "Bis 2011 IVH-Schätzung auf Basis der Haushaltsbefragung (Basis 2007: 37,5 Mio. Haushalte; Gesamtzahl ohne Zierfische und Terrarientiere). 2012: erste haushaltsrepräsentative Erhebung des IMR im Auftrag des ZZF (31 Mio.); ab Ende 2013 Skopos im Auftrag von IVH+ZZF (28 Mio.) – der Sprung 2011→2012 (22 → 31 Mio.) ist ein Methodenbruch. 1993–1999, 2001–2002 nicht gefunden (IVH-Website erst ab 2001 archiviert, damals ohne Bestandszahlen; IVH-Archiv online beginnt mit 2004). 2000 nur gerundete Gesamtzahl (ZZF). 2003 nur Gesamtzahl 22,8 Mio. (IVH-PM 2005); der Katzenwert 7,5 Mio. für 2003 (petcom „Katze als Trendtier“) widerspricht der IVH-PM 2005 (7,5 Mio. = 2004) und ist markiert. 1992-Werte sind Sekundärzitat (Wikipedia) einer IVH-Schätzung. Snapshots der IVH-Datenblätter: 2005-PDF enthält Bestand nur als Grafik (Werte aus Archivseite/PM übernommen). „Hunde + Katzen (Summe, berechnet)“ = Vergleichsachse, aus publizierten Einzelwerten addiert (2014–2025 aus ds2).",
+ "attribution": "Quelle: IVH (Der Deutsche Heimtiermarkt 2004–2011, Pressedienst), ZZF (2012 IMR; 2013 Skopos); 1992 IVH-Schätzung zit. n. Wikipedia",
+ "rows": [
+  {
+   "date": "1992",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 4.1,
+   "unit": "Mio.",
+   "source": "Wikipedia (de) „Heimtierbedarf“, Abschnitt Marktentwicklung, zitiert Schätzungen des Industrieverbands Heimtierbedarf (IVH) für 1992 und 2004 (https://de.wikipedia.org/wiki/Heimtierbedarf) – Sekundärquelle, Originalpublikation IVH nicht online"
+  },
+  {
+   "date": "1992",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 6.0,
+   "unit": "Mio.",
+   "source": "Wikipedia (de) „Heimtierbedarf“, Abschnitt Marktentwicklung, zitiert Schätzungen des Industrieverbands Heimtierbedarf (IVH) für 1992 und 2004 (https://de.wikipedia.org/wiki/Heimtierbedarf) – Sekundärquelle, Originalpublikation IVH nicht online"
+  },
+  {
+   "date": "1992",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 0.9,
+   "unit": "Mio.",
+   "source": "Wikipedia (de) „Heimtierbedarf“, Abschnitt Marktentwicklung, zitiert Schätzungen des Industrieverbands Heimtierbedarf (IVH) für 1992 und 2004 (https://de.wikipedia.org/wiki/Heimtierbedarf) – Sekundärquelle, Originalpublikation IVH nicht online"
+  },
+  {
+   "date": "1992",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 3.0,
+   "unit": "Mio.",
+   "source": "Wikipedia (de) „Heimtierbedarf“, Abschnitt Marktentwicklung, zitiert Schätzungen des Industrieverbands Heimtierbedarf (IVH) für 1992 und 2004 (https://de.wikipedia.org/wiki/Heimtierbedarf) – Sekundärquelle, Originalpublikation IVH nicht online",
+   "note": "Quelle: „ca. 3 Millionen“ (gerundet)"
+  },
+  {
+   "date": "2000",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 20.0,
+   "unit": "Mio.",
+   "source": "ZZF, „Die Entwicklung des Heimtiermarktes“: „Von 20 Millionen im Jahr 2000 stieg die Zahl der Hunde, Katzen, Kleinsäuger und Ziervögel auf heute knapp 34 Millionen“ (https://www.zzf.de/marktdaten/entwicklung-des-heimtiermarktes, abgerufen 14.09.2026) – gerundet",
+   "note": "gerundete Angabe („20 Millionen“)"
+  },
+  {
+   "date": "2003",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 22.8,
+   "unit": "Mio.",
+   "source": "IVH-Pressedienst „Immer mehr Heimtiere in Deutschland“ (2005, Daten 2004 mit Vergleich 2003), Wayback: https://web.archive.org/web/20071024092227/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/immer-mehr-heimtiere-in-deutschland//browse/11/cHash/491819c8b8/backpid/271.html"
+  },
+  {
+   "date": "2003",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 7.5,
+   "unit": "Mio.",
+   "source": "IVH/TheConsumerView „Die Katze als Trendtier“ (petcom.at, undatiert, ca. 2004): „Im Jahr 2003 ist … die Zahl der Katzen um weitere 2,7 Prozent auf siebeneinhalb Millionen angewachsen. In 15,3 Prozent aller deutschen Haushalte lebt mindestens eine Katze“ – https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Katze-Trendtier.html (WIDERSPRUCH zur IVH-PM 2005, die dieselben Werte 7,5 Mio./15,3 %/+2,7 % dem Jahr 2004 zuordnet)",
+   "note": "unsicher: IVH-PM 2005 nennt 7,5 Mio. für 2004 (2003 wäre dann ≈7,3 Mio.); Wert nur mit Vorbehalt verwenden"
+  },
+  {
+   "date": "2004",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 7.5,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.3,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 6.1,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 4.2,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 1.95,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.25,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.42,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 23.1,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Haushalte mit …",
+   "name": "Katzen",
+   "value": 15.3,
+   "unit": "% der Haushalte",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Haushalte mit …",
+   "name": "Hunde",
+   "value": 13.4,
+   "unit": "% der Haushalte",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Haushalte mit …",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.9,
+   "unit": "% der Haushalte",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Haushalte mit …",
+   "name": "Ziervögel",
+   "value": 5.8,
+   "unit": "% der Haushalte",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Haushalte mit …",
+   "name": "Aquarien",
+   "value": 4.4,
+   "unit": "% der Haushalte",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Haushalte mit …",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 3.6,
+   "unit": "% der Haushalte",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2004",
+   "metric": "Haushalte mit …",
+   "name": "Terrarien",
+   "value": 1.1,
+   "unit": "% der Haushalte",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html"
+  },
+  {
+   "date": "2005",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 7.6,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2005: Der deutsche Heimtiermarkt 2005“ + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Heimtier“ (2006), Wayback: https://web.archive.org/web/20071025114417/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2005.html ; https://web.archive.org/web/20071024175405/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/in-jedem-dritten-haushalt-lebt-ein-heimtier-mit-foto//browse/6/cHash/d46c5adea7/backpid/271.html"
+  },
+  {
+   "date": "2005",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.3,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2005: Der deutsche Heimtiermarkt 2005“ + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Heimtier“ (2006), Wayback: https://web.archive.org/web/20071025114417/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2005.html ; https://web.archive.org/web/20071024175405/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/in-jedem-dritten-haushalt-lebt-ein-heimtier-mit-foto//browse/6/cHash/d46c5adea7/backpid/271.html"
+  },
+  {
+   "date": "2005",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 6.2,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2005: Der deutsche Heimtiermarkt 2005“ + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Heimtier“ (2006), Wayback: https://web.archive.org/web/20071025114417/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2005.html ; https://web.archive.org/web/20071024175405/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/in-jedem-dritten-haushalt-lebt-ein-heimtier-mit-foto//browse/6/cHash/d46c5adea7/backpid/271.html"
+  },
+  {
+   "date": "2005",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.9,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2005: Der deutsche Heimtiermarkt 2005“ + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Heimtier“ (2006), Wayback: https://web.archive.org/web/20071025114417/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2005.html ; https://web.archive.org/web/20071024175405/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/in-jedem-dritten-haushalt-lebt-ein-heimtier-mit-foto//browse/6/cHash/d46c5adea7/backpid/271.html"
+  },
+  {
+   "date": "2005",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 1.9,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2005: Der deutsche Heimtiermarkt 2005“ + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Heimtier“ (2006), Wayback: https://web.archive.org/web/20071025114417/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2005.html ; https://web.archive.org/web/20071024175405/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/in-jedem-dritten-haushalt-lebt-ein-heimtier-mit-foto//browse/6/cHash/d46c5adea7/backpid/271.html"
+  },
+  {
+   "date": "2005",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.3,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2005: Der deutsche Heimtiermarkt 2005“ + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Heimtier“ (2006), Wayback: https://web.archive.org/web/20071025114417/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2005.html ; https://web.archive.org/web/20071024175405/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/in-jedem-dritten-haushalt-lebt-ein-heimtier-mit-foto//browse/6/cHash/d46c5adea7/backpid/271.html"
+  },
+  {
+   "date": "2005",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.42,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2005: Der deutsche Heimtiermarkt 2005“ + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Heimtier“ (2006), Wayback: https://web.archive.org/web/20071025114417/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2005.html ; https://web.archive.org/web/20071024175405/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/in-jedem-dritten-haushalt-lebt-ein-heimtier-mit-foto//browse/6/cHash/d46c5adea7/backpid/271.html"
+  },
+  {
+   "date": "2005",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 23.0,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2005: Der deutsche Heimtiermarkt 2005“ + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Heimtier“ (2006), Wayback: https://web.archive.org/web/20071025114417/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2005.html ; https://web.archive.org/web/20071024175405/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/in-jedem-dritten-haushalt-lebt-ein-heimtier-mit-foto//browse/6/cHash/d46c5adea7/backpid/271.html"
+  },
+  {
+   "date": "2005",
+   "metric": "Haushalte mit …",
+   "name": "Katzen",
+   "value": 15.4,
+   "unit": "% der Haushalte",
+   "source": "IVH „Daten & Fakten – Archiv 2005: Der deutsche Heimtiermarkt 2005“ + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Heimtier“ (2006), Wayback: https://web.archive.org/web/20071025114417/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2005.html ; https://web.archive.org/web/20071024175405/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/in-jedem-dritten-haushalt-lebt-ein-heimtier-mit-foto//browse/6/cHash/d46c5adea7/backpid/271.html"
+  },
+  {
+   "date": "2005",
+   "metric": "Haushalte mit …",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 6.0,
+   "unit": "% der Haushalte",
+   "source": "IVH „Daten & Fakten – Archiv 2005: Der deutsche Heimtiermarkt 2005“ + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Heimtier“ (2006), Wayback: https://web.archive.org/web/20071025114417/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2005.html ; https://web.archive.org/web/20071024175405/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/in-jedem-dritten-haushalt-lebt-ein-heimtier-mit-foto//browse/6/cHash/d46c5adea7/backpid/271.html"
+  },
+  {
+   "date": "2005",
+   "metric": "Haushalte mit …",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 3.7,
+   "unit": "% der Haushalte",
+   "source": "IVH „Daten & Fakten – Archiv 2005: Der deutsche Heimtiermarkt 2005“ + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Heimtier“ (2006), Wayback: https://web.archive.org/web/20071025114417/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2005.html ; https://web.archive.org/web/20071024175405/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/in-jedem-dritten-haushalt-lebt-ein-heimtier-mit-foto//browse/6/cHash/d46c5adea7/backpid/271.html"
+  },
+  {
+   "date": "2006",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 7.8,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2006 – Struktur & Umsatzdaten“ (PDF, März 2007), Wayback: https://web.archive.org/web/20090216155719/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/IVH_Datenblatt_2006_dbb.pdf"
+  },
+  {
+   "date": "2006",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.3,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2006 – Struktur & Umsatzdaten“ (PDF, März 2007), Wayback: https://web.archive.org/web/20090216155719/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/IVH_Datenblatt_2006_dbb.pdf"
+  },
+  {
+   "date": "2006",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 6.3,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2006 – Struktur & Umsatzdaten“ (PDF, März 2007), Wayback: https://web.archive.org/web/20090216155719/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/IVH_Datenblatt_2006_dbb.pdf"
+  },
+  {
+   "date": "2006",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.8,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2006 – Struktur & Umsatzdaten“ (PDF, März 2007), Wayback: https://web.archive.org/web/20090216155719/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/IVH_Datenblatt_2006_dbb.pdf"
+  },
+  {
+   "date": "2006",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 1.95,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2006 – Struktur & Umsatzdaten“ (PDF, März 2007), Wayback: https://web.archive.org/web/20090216155719/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/IVH_Datenblatt_2006_dbb.pdf"
+  },
+  {
+   "date": "2006",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.4,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2006 – Struktur & Umsatzdaten“ (PDF, März 2007), Wayback: https://web.archive.org/web/20090216155719/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/IVH_Datenblatt_2006_dbb.pdf"
+  },
+  {
+   "date": "2006",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.42,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2006 – Struktur & Umsatzdaten“ (PDF, März 2007), Wayback: https://web.archive.org/web/20090216155719/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/IVH_Datenblatt_2006_dbb.pdf"
+  },
+  {
+   "date": "2006",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 23.2,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2006 – Struktur & Umsatzdaten“ (PDF, März 2007), Wayback: https://web.archive.org/web/20090216155719/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/IVH_Datenblatt_2006_dbb.pdf"
+  },
+  {
+   "date": "2006",
+   "metric": "Haushalte mit …",
+   "name": "Terrarien",
+   "value": 1.1,
+   "unit": "% der Haushalte",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2006 – Struktur & Umsatzdaten“ (PDF, März 2007), Wayback: https://web.archive.org/web/20090216155719/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/IVH_Datenblatt_2006_dbb.pdf"
+  },
+  {
+   "date": "2007",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 7.9,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2007“ (PDF, März 2008) + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Tier“ (2008), Wayback: https://web.archive.org/web/20100406023959/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/Heimtiere.2007.Markt.Gesamt.pdf"
+  },
+  {
+   "date": "2007",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.3,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2007“ (PDF, März 2008) + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Tier“ (2008), Wayback: https://web.archive.org/web/20100406023959/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/Heimtiere.2007.Markt.Gesamt.pdf"
+  },
+  {
+   "date": "2007",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 6.6,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2007“ (PDF, März 2008) + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Tier“ (2008), Wayback: https://web.archive.org/web/20100406023959/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/Heimtiere.2007.Markt.Gesamt.pdf"
+  },
+  {
+   "date": "2007",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.4,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2007“ (PDF, März 2008) + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Tier“ (2008), Wayback: https://web.archive.org/web/20100406023959/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/Heimtiere.2007.Markt.Gesamt.pdf"
+  },
+  {
+   "date": "2007",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.1,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2007“ (PDF, März 2008) + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Tier“ (2008), Wayback: https://web.archive.org/web/20100406023959/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/Heimtiere.2007.Markt.Gesamt.pdf"
+  },
+  {
+   "date": "2007",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 2.3,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2007“ (PDF, März 2008) + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Tier“ (2008), Wayback: https://web.archive.org/web/20100406023959/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/Heimtiere.2007.Markt.Gesamt.pdf"
+  },
+  {
+   "date": "2007",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.42,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2007“ (PDF, März 2008) + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Tier“ (2008), Wayback: https://web.archive.org/web/20100406023959/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/Heimtiere.2007.Markt.Gesamt.pdf"
+  },
+  {
+   "date": "2007",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 23.2,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2007“ (PDF, März 2008) + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Tier“ (2008), Wayback: https://web.archive.org/web/20100406023959/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/Heimtiere.2007.Markt.Gesamt.pdf"
+  },
+  {
+   "date": "2007",
+   "metric": "Haushalte mit …",
+   "name": "Hunde",
+   "value": 13.4,
+   "unit": "% der Haushalte",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2007“ (PDF, März 2008) + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Tier“ (2008), Wayback: https://web.archive.org/web/20100406023959/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/Heimtiere.2007.Markt.Gesamt.pdf"
+  },
+  {
+   "date": "2007",
+   "metric": "Haushalte mit …",
+   "name": "Ziervögel",
+   "value": 5.0,
+   "unit": "% der Haushalte",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2007“ (PDF, März 2008) + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Tier“ (2008), Wayback: https://web.archive.org/web/20100406023959/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/Heimtiere.2007.Markt.Gesamt.pdf"
+  },
+  {
+   "date": "2008",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.43,
+   "unit": "Mio.",
+   "source": "IVH-Pressedienst 28.05.2009 „Anzahl der Heimtiere steigt weiter an“ (https://www.ivh-online.de/presse-medien/archiv/mitteilung-des-ivh-pressedienstes/news/detail/News/anzahl-der-heimtiere-steigt-weiter-an-hunde-und-katzen-besonders-beliebt.html)",
+   "note": "ds2 enthält 0,4 (Datenblatt); PM nennt 430.000"
+  },
+  {
+   "date": "2008",
+   "metric": "Haushalte mit …",
+   "name": "Katzen",
+   "value": 16.5,
+   "unit": "% der Haushalte",
+   "source": "IVH-Pressedienst 28.05.2009 „Anzahl der Heimtiere steigt weiter an“ (ivh-online.de, s. o.)"
+  },
+  {
+   "date": "2008",
+   "metric": "Haushalte mit …",
+   "name": "Hunde",
+   "value": 13.8,
+   "unit": "% der Haushalte",
+   "source": "IVH-Pressedienst 28.05.2009 „Anzahl der Heimtiere steigt weiter an“ (ivh-online.de, s. o.)"
+  },
+  {
+   "date": "2008",
+   "metric": "Haushalte mit …",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.9,
+   "unit": "% der Haushalte",
+   "source": "IVH-Pressedienst 28.05.2009 „Anzahl der Heimtiere steigt weiter an“ (ivh-online.de, s. o.)"
+  },
+  {
+   "date": "2008",
+   "metric": "Haushalte mit …",
+   "name": "Ziervögel",
+   "value": 4.8,
+   "unit": "% der Haushalte",
+   "source": "IVH-Pressedienst 28.05.2009 „Anzahl der Heimtiere steigt weiter an“ (ivh-online.de, s. o.)"
+  },
+  {
+   "date": "2009",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 8.2,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 5.4,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.6,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.4,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.0,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 2.1,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.44,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 22.6,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Haushalte mit …",
+   "name": "Katzen",
+   "value": 16.5,
+   "unit": "% der Haushalte",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Haushalte mit …",
+   "name": "Hunde",
+   "value": 13.3,
+   "unit": "% der Haushalte",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Haushalte mit …",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 5.4,
+   "unit": "% der Haushalte",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Haushalte mit …",
+   "name": "Ziervögel",
+   "value": 4.9,
+   "unit": "% der Haushalte",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Haushalte mit …",
+   "name": "Aquarien",
+   "value": 4.4,
+   "unit": "% der Haushalte",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Haushalte mit …",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 4.0,
+   "unit": "% der Haushalte",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2009",
+   "metric": "Haushalte mit …",
+   "name": "Terrarien",
+   "value": 1.2,
+   "unit": "% der Haushalte",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 12.3,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemitteilung „Heimtierhaltung in Deutschland 2012“ (haushaltsrepräsentative Erhebung IMR – Institute for Marketing Research, April 2012, im Auftrag des ZZF), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtierhaltung-in-Deutschland-2012.html ; ebenso Wikipedia „Heimtier“ (ZZF/IMR 20.06.2012)",
+   "note": "Methodenbruch: neue haushaltsrepräsentative Erhebung (IMR im Auftrag ZZF) – nicht mit IVH-Reihe bis 2011 vergleichbar"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 7.4,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemitteilung „Heimtierhaltung in Deutschland 2012“ (haushaltsrepräsentative Erhebung IMR – Institute for Marketing Research, April 2012, im Auftrag des ZZF), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtierhaltung-in-Deutschland-2012.html ; ebenso Wikipedia „Heimtier“ (ZZF/IMR 20.06.2012)",
+   "note": "Methodenbruch: neue haushaltsrepräsentative Erhebung (IMR im Auftrag ZZF) – nicht mit IVH-Reihe bis 2011 vergleichbar"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 7.6,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemitteilung „Heimtierhaltung in Deutschland 2012“ (haushaltsrepräsentative Erhebung IMR – Institute for Marketing Research, April 2012, im Auftrag des ZZF), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtierhaltung-in-Deutschland-2012.html ; ebenso Wikipedia „Heimtier“ (ZZF/IMR 20.06.2012)",
+   "note": "Methodenbruch: neue haushaltsrepräsentative Erhebung (IMR im Auftrag ZZF) – nicht mit IVH-Reihe bis 2011 vergleichbar"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.7,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemitteilung „Heimtierhaltung in Deutschland 2012“ (haushaltsrepräsentative Erhebung IMR – Institute for Marketing Research, April 2012, im Auftrag des ZZF), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtierhaltung-in-Deutschland-2012.html ; ebenso Wikipedia „Heimtier“ (ZZF/IMR 20.06.2012)",
+   "note": "Methodenbruch: neue haushaltsrepräsentative Erhebung (IMR im Auftrag ZZF) – nicht mit IVH-Reihe bis 2011 vergleichbar"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.3,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemitteilung „Heimtierhaltung in Deutschland 2012“ (haushaltsrepräsentative Erhebung IMR – Institute for Marketing Research, April 2012, im Auftrag des ZZF), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtierhaltung-in-Deutschland-2012.html ; ebenso Wikipedia „Heimtier“ (ZZF/IMR 20.06.2012)",
+   "note": "Methodenbruch: neue haushaltsrepräsentative Erhebung (IMR im Auftrag ZZF) – nicht mit IVH-Reihe bis 2011 vergleichbar"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 2.6,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemitteilung „Heimtierhaltung in Deutschland 2012“ (haushaltsrepräsentative Erhebung IMR – Institute for Marketing Research, April 2012, im Auftrag des ZZF), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtierhaltung-in-Deutschland-2012.html ; ebenso Wikipedia „Heimtier“ (ZZF/IMR 20.06.2012)",
+   "note": "Methodenbruch: neue haushaltsrepräsentative Erhebung (IMR im Auftrag ZZF) – nicht mit IVH-Reihe bis 2011 vergleichbar"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.8,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemitteilung „Heimtierhaltung in Deutschland 2012“ (haushaltsrepräsentative Erhebung IMR – Institute for Marketing Research, April 2012, im Auftrag des ZZF), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtierhaltung-in-Deutschland-2012.html ; ebenso Wikipedia „Heimtier“ (ZZF/IMR 20.06.2012)",
+   "note": "Methodenbruch: neue haushaltsrepräsentative Erhebung (IMR im Auftrag ZZF) – nicht mit IVH-Reihe bis 2011 vergleichbar"
+  },
+  {
+   "date": "2012",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 31.0,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemitteilung „Heimtierhaltung in Deutschland 2012“ (haushaltsrepräsentative Erhebung IMR – Institute for Marketing Research, April 2012, im Auftrag des ZZF), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtierhaltung-in-Deutschland-2012.html ; ebenso Wikipedia „Heimtier“ (ZZF/IMR 20.06.2012)",
+   "note": "Methodenbruch: neue haushaltsrepräsentative Erhebung (IMR im Auftrag ZZF) – nicht mit IVH-Reihe bis 2011 vergleichbar"
+  },
+  {
+   "date": "2012",
+   "metric": "Haushalte mit …",
+   "name": "Katzen",
+   "value": 16.5,
+   "unit": "% der Haushalte",
+   "source": "ZZF-Pressemitteilung „Heimtierhaltung in Deutschland 2012“ (haushaltsrepräsentative Erhebung IMR – Institute for Marketing Research, April 2012, im Auftrag des ZZF), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtierhaltung-in-Deutschland-2012.html ; ebenso Wikipedia „Heimtier“ (ZZF/IMR 20.06.2012)"
+  },
+  {
+   "date": "2012",
+   "metric": "Haushalte mit …",
+   "name": "Hunde",
+   "value": 13.4,
+   "unit": "% der Haushalte",
+   "source": "ZZF-Pressemitteilung „Heimtierhaltung in Deutschland 2012“ (haushaltsrepräsentative Erhebung IMR – Institute for Marketing Research, April 2012, im Auftrag des ZZF), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtierhaltung-in-Deutschland-2012.html ; ebenso Wikipedia „Heimtier“ (ZZF/IMR 20.06.2012)"
+  },
+  {
+   "date": "2012",
+   "metric": "Haushalte mit …",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 6.2,
+   "unit": "% der Haushalte",
+   "source": "ZZF-Pressemitteilung „Heimtierhaltung in Deutschland 2012“ (haushaltsrepräsentative Erhebung IMR – Institute for Marketing Research, April 2012, im Auftrag des ZZF), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtierhaltung-in-Deutschland-2012.html ; ebenso Wikipedia „Heimtier“ (ZZF/IMR 20.06.2012)"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Katzen",
+   "value": 11.5,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Pressemitteilung „28 Millionen Heimtiere leben in Deutschland“ (Erhebung Skopos, Ende 2013; veröffentlicht 2014), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2014.html ; vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“",
+   "note": "erste Skopos-Erhebung (IVH/ZZF), Basis der ab 2014 konsistenten Reihe"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Hunde",
+   "value": 6.9,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Pressemitteilung „28 Millionen Heimtiere leben in Deutschland“ (Erhebung Skopos, Ende 2013; veröffentlicht 2014), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2014.html ; vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“",
+   "note": "erste Skopos-Erhebung (IVH/ZZF), Basis der ab 2014 konsistenten Reihe"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 6.1,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Pressemitteilung „28 Millionen Heimtiere leben in Deutschland“ (Erhebung Skopos, Ende 2013; veröffentlicht 2014), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2014.html ; vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“",
+   "note": "erste Skopos-Erhebung (IVH/ZZF), Basis der ab 2014 konsistenten Reihe"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Ziervögel",
+   "value": 3.4,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Pressemitteilung „28 Millionen Heimtiere leben in Deutschland“ (Erhebung Skopos, Ende 2013; veröffentlicht 2014), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2014.html ; vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“",
+   "note": "erste Skopos-Erhebung (IVH/ZZF), Basis der ab 2014 konsistenten Reihe"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Aquarien",
+   "value": 2.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Pressemitteilung „28 Millionen Heimtiere leben in Deutschland“ (Erhebung Skopos, Ende 2013; veröffentlicht 2014), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2014.html ; vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“",
+   "note": "erste Skopos-Erhebung (IVH/ZZF), Basis der ab 2014 konsistenten Reihe"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Gartenteiche (mit Zierfischen)",
+   "value": 1.7,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Pressemitteilung „28 Millionen Heimtiere leben in Deutschland“ (Erhebung Skopos, Ende 2013; veröffentlicht 2014), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2014.html ; vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“",
+   "note": "erste Skopos-Erhebung (IVH/ZZF), Basis der ab 2014 konsistenten Reihe"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Terrarien",
+   "value": 0.8,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Pressemitteilung „28 Millionen Heimtiere leben in Deutschland“ (Erhebung Skopos, Ende 2013; veröffentlicht 2014), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2014.html ; vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“",
+   "note": "erste Skopos-Erhebung (IVH/ZZF), Basis der ab 2014 konsistenten Reihe"
+  },
+  {
+   "date": "2013",
+   "metric": "Bestand",
+   "name": "Heimtiere gesamt (Hunde, Katzen, Kleinsäuger, Ziervögel)",
+   "value": 28.0,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Pressemitteilung „28 Millionen Heimtiere leben in Deutschland“ (Erhebung Skopos, Ende 2013; veröffentlicht 2014), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2014.html ; vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“",
+   "note": "erste Skopos-Erhebung (IVH/ZZF), Basis der ab 2014 konsistenten Reihe"
+  },
+  {
+   "date": "2013",
+   "metric": "Haushalte mit …",
+   "name": "Katzen",
+   "value": 19,
+   "unit": "% der Haushalte",
+   "source": "ZZF/IVH-Pressemitteilung „28 Millionen Heimtiere leben in Deutschland“ (Erhebung Skopos, Ende 2013; veröffentlicht 2014), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2014.html ; vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“"
+  },
+  {
+   "date": "2013",
+   "metric": "Haushalte mit …",
+   "name": "Hunde",
+   "value": 14,
+   "unit": "% der Haushalte",
+   "source": "ZZF/IVH-Pressemitteilung „28 Millionen Heimtiere leben in Deutschland“ (Erhebung Skopos, Ende 2013; veröffentlicht 2014), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2014.html ; vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“"
+  },
+  {
+   "date": "2013",
+   "metric": "Haushalte mit …",
+   "name": "Kleintiere (Kleinsäuger)",
+   "value": 6,
+   "unit": "% der Haushalte",
+   "source": "ZZF/IVH-Pressemitteilung „28 Millionen Heimtiere leben in Deutschland“ (Erhebung Skopos, Ende 2013; veröffentlicht 2014), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2014.html ; vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“"
+  },
+  {
+   "date": "1992",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 10.1,
+   "unit": "Mio.",
+   "source": "Wikipedia (de) „Heimtierbedarf“, Abschnitt Marktentwicklung, zitiert Schätzungen des Industrieverbands Heimtierbedarf (IVH) für 1992 und 2004 (https://de.wikipedia.org/wiki/Heimtierbedarf) – Sekundärquelle, Originalpublikation IVH nicht online",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2004",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 12.8,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2004: Heimtierhaltung 2004“ (ivh-online.de), Wayback 25.10.2007: https://web.archive.org/web/20071025114545/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2004.html",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2005",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 12.9,
+   "unit": "Mio.",
+   "source": "IVH „Daten & Fakten – Archiv 2005: Der deutsche Heimtiermarkt 2005“ + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Heimtier“ (2006), Wayback: https://web.archive.org/web/20071025114417/http://www.ivh-online.de/de/home/der-verband/daten-fakten/archiv/2005.html ; https://web.archive.org/web/20071024175405/http://www.ivh-online.de/de/home/pressedienst/archiv/mitteilung-des-ivh-pressedienstes/artikel/in-jedem-dritten-haushalt-lebt-ein-heimtier-mit-foto//browse/6/cHash/d46c5adea7/backpid/271.html",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2006",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 13.1,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2006 – Struktur & Umsatzdaten“ (PDF, März 2007), Wayback: https://web.archive.org/web/20090216155719/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/IVH_Datenblatt_2006_dbb.pdf",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2007",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 13.2,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2007“ (PDF, März 2008) + IVH-Pressedienst „In jedem dritten Haushalt lebt ein Tier“ (2008), Wayback: https://web.archive.org/web/20100406023959/http://www.ivh-online.de/fileadmin/user_upload/Dokumente/Heimtiere.2007.Markt.Gesamt.pdf",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2008",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 13.7,
+   "unit": "Mio.",
+   "source": "ds2 (IVH Datenblatt 2008)",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2009",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 13.6,
+   "unit": "Mio.",
+   "source": "IVH Datenblatt „Der Deutsche Heimtiermarkt 2009“ (PDF, 2010) + IVH-Pressedienst „In jedem dritten deutschen Haushalt lebt ein Tier“ (2010), Wayback: https://web.archive.org/web/20110615102839/http://www.ivh-online.de/fileadmin/user_upload/Heimtiermarkt_A4_2009.pdf ; petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2009.html",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2010",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 13.5,
+   "unit": "Mio.",
+   "source": "ds2 (IVH Datenblatt 2010)",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2011",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 13.6,
+   "unit": "Mio.",
+   "source": "ds2 (IVH Datenblatt 2011)",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2012",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 19.7,
+   "unit": "Mio.",
+   "source": "ZZF-Pressemitteilung „Heimtierhaltung in Deutschland 2012“ (haushaltsrepräsentative Erhebung IMR – Institute for Marketing Research, April 2012, im Auftrag des ZZF), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtierhaltung-in-Deutschland-2012.html ; ebenso Wikipedia „Heimtier“ (ZZF/IMR 20.06.2012)",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2013",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 18.4,
+   "unit": "Mio.",
+   "source": "ZZF/IVH-Pressemitteilung „28 Millionen Heimtiere leben in Deutschland“ (Erhebung Skopos, Ende 2013; veröffentlicht 2014), wiedergegeben auf petcom.at: https://petcom.at/deutschland/marktdaten/Heimtier-Populationen-Deutschland/Heimtiere-Deutschland-2014.html ; vet-magazin.de „28 Millionen Heimtiere leben in Deutschland“",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2014",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 18.6,
+   "unit": "Mio.",
+   "source": "ds2",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2015",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 20.8,
+   "unit": "Mio.",
+   "source": "ds2",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2016",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 22.0,
+   "unit": "Mio.",
+   "source": "ds2",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2017",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 22.9,
+   "unit": "Mio.",
+   "source": "ds2",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2018",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 24.2,
+   "unit": "Mio.",
+   "source": "ds2",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2019",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 24.8,
+   "unit": "Mio.",
+   "source": "ds2",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2020",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 26.4,
+   "unit": "Mio.",
+   "source": "ds2",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2021",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 27.0,
+   "unit": "Mio.",
+   "source": "ds2",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2022",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 25.8,
+   "unit": "Mio.",
+   "source": "ds2",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2023",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 26.2,
+   "unit": "Mio.",
+   "source": "ds2",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2024",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 26.4,
+   "unit": "Mio.",
+   "source": "ds2",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  },
+  {
+   "date": "2025",
+   "metric": "Vergleichsachse",
+   "name": "Hunde + Katzen (Summe, berechnet)",
+   "value": 25.7,
+   "unit": "Mio.",
+   "source": "ds2",
+   "note": "Summe der publizierten Einzelwerte Hunde und Katzen (keine eigene Erhebung); 2012 IMR/ZZF, ab 2013 Skopos – Methodenbruch 2011/2012"
+  }
+ ]
+}

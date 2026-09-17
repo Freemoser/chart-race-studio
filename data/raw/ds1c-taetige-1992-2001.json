@@ -1,0 +1,736 @@
+{
+ "title": "Tierärzteschaft in Deutschland 1990–2001 – Lückenschluss (Ergänzung zu ds1b): tierärztlich Tätige 1998, Praxisassistent:innen 1991–2001, Praxisinhaber 1997, Kammermitglieder 1998/2000",
+ "source": "Bundestierärztekammer, Pressemitteilungen 2/98, 6/99 und 5/01 zur jährlichen „Statistischen Untersuchung über die Tierärzteschaft“ (Zentrale Tierärztedatei/Planungs- und Informationszentrum der TiHo Hannover, veröffentlicht im Deutschen Tierärzteblatt Heft 6 des Folgejahres), archiviert im Internet Archive; Friedrich (2007, Diss. TiHo, Tab. 6); Osburg (2010, Diss. TiHo, Tab. 6)",
+ "sourceUrl": "https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html ; https://web.archive.org/web/20020720092646/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm98_002_b.html ; https://web.archive.org/web/20020707000723/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm01_005.html ; https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf ; https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001157/osburga_ws10.pdf",
+ "unit": "Personen (Stand 31.12., sofern nicht anders vermerkt)",
+ "license": "Urheberrecht Bundestierärztekammer / Deutsches Tierärzteblatt bzw. der zitierten Autorinnen – Zitat mit Quellenangabe",
+ "notes": "Nur publizierte Originalzahlen; Zeilen mit quality=„berechnet“ sind einfache Differenzen aus publizierten Zahlen derselben Pressemitteilung (Rechenweg in note). „Tierärztlich Tätige“ 1998 (19.879) ist wie der ds1-Wert 2002 (21.931) abgegrenzt: Kammermitglieder ohne Ruhestand, ohne Berufsausübung, Doktoranden, Arbeitslose und berufsfremd Tätige – d. h. inkl. der im Ausland Tätigen (Kontrollrechnung exakt). Praxisassistent:innen nach Friedrich (2007) OHNE Praxisvertreter:innen (1991: 1.880 + 170 Vertreter = 2.050 bei Maure/ds1b); 2002/2003 identisch mit ds1. Zwischenstände 30.07.1999 sind keine Jahresendwerte und entsprechend benannt. WEITERHIN NICHT GEFUNDEN: tierärztlich Tätige 31.12.1992–1997 und 1999–2001; Praxisinhaber 1996, 1999–2001; Kammermitglieder gesamt 1996, 1999 (nur Juli). Geprüft ohne Erfolg: Statistisches Jahrbuch 1997–2004 (statistischebibliothek.de, PDFs 1999/2001 heruntergeladen – reine Scans ohne Textebene, kein OCR verfügbar), GBE-Bund (keine Tierärzte-Reihe), Bundestagsdrucksachen, vetline.de (1998–2003 nicht archiviert), BTK-Pressemitteilungen 1998–2001 außer den drei genannten (nicht archiviert), Osburg 2010 (nur Fachtierärzte/ohne-Ruhestand-Reihe).",
+ "attribution": "Quelle: Bundestierärztekammer (Pressemitteilungen 2/98, 6/99, 5/01 zur Tierärztestatistik, Zentrale Tierärztedatei/DTBl), Friedrich 2007 (Diss. TiHo), Osburg 2010 (Diss. TiHo)",
+ "rows": [
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen ohne Ruhestand (In- und Ausland)",
+   "value": 15619,
+   "unit": "Personen",
+   "source": "Osburg, A. (2010): Die Weiterbildung zum Fachtierarzt. Diss. TiHo Hannover, Anhang Tab. 6 (nach Schöne u. Ulrich 1991–1993, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001157/osburga_ws10.pdf (Wayback-Kopie: https://web.archive.org/web/20220308101234id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001157/osburga_ws10.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.1990, nur alte Bundesländer inkl. Ost-Berlin (Schöne u. Ulrich 1991, DTBl S. 577–578)"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen ohne Ruhestand (In- und Ausland)",
+   "value": 20610,
+   "unit": "Personen",
+   "source": "Osburg, A. (2010): Die Weiterbildung zum Fachtierarzt. Diss. TiHo Hannover, Anhang Tab. 6 (nach Schöne u. Ulrich 1991–1993, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001157/osburga_ws10.pdf (Wayback-Kopie: https://web.archive.org/web/20220308101234id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001157/osburga_ws10.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.1991, erstmals inkl. neue Bundesländer (Schöne u. Ulrich 1992, DTBl S. 987–991)"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen ohne Ruhestand (In- und Ausland)",
+   "value": 21072,
+   "unit": "Personen",
+   "source": "Osburg, A. (2010): Die Weiterbildung zum Fachtierarzt. Diss. TiHo Hannover, Anhang Tab. 6 (nach Schöne u. Ulrich 1991–1993, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001157/osburga_ws10.pdf (Wayback-Kopie: https://web.archive.org/web/20220308101234id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001157/osburga_ws10.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.1992 (Schöne u. Ulrich 1993, DTBl S. 383–387); Anschluss an BTK-Tab. 2 (1993 = 21.691) in ds1b"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 1880,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.; Summe alte BL + neue BL + Berlin; 2002 = 3.784 und 2003 = 4.035 (Friedrich) identisch mit ds1"
+  },
+  {
+   "date": "1991",
+   "metric": "Alte Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 1805,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1991",
+   "metric": "Neue Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 45,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1991",
+   "metric": "Berlin",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 30,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 1966,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.; Summe alte BL + neue BL + Berlin; 2002 = 3.784 und 2003 = 4.035 (Friedrich) identisch mit ds1"
+  },
+  {
+   "date": "1992",
+   "metric": "Alte Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 1877,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1992",
+   "metric": "Neue Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 60,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1992",
+   "metric": "Berlin",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 29,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 2198,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.; Summe alte BL + neue BL + Berlin; 2002 = 3.784 und 2003 = 4.035 (Friedrich) identisch mit ds1"
+  },
+  {
+   "date": "1993",
+   "metric": "Alte Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 2074,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1993",
+   "metric": "Neue Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 90,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1993",
+   "metric": "Berlin",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 34,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 2483,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.; Summe alte BL + neue BL + Berlin; 2002 = 3.784 und 2003 = 4.035 (Friedrich) identisch mit ds1"
+  },
+  {
+   "date": "1994",
+   "metric": "Alte Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 2305,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1994",
+   "metric": "Neue Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 118,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1994",
+   "metric": "Berlin",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 60,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 2685,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.; Summe alte BL + neue BL + Berlin; 2002 = 3.784 und 2003 = 4.035 (Friedrich) identisch mit ds1"
+  },
+  {
+   "date": "1995",
+   "metric": "Alte Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 2451,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1995",
+   "metric": "Neue Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 165,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1995",
+   "metric": "Berlin",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 69,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1996",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 2885,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.; Summe alte BL + neue BL + Berlin; 2002 = 3.784 und 2003 = 4.035 (Friedrich) identisch mit ds1"
+  },
+  {
+   "date": "1996",
+   "metric": "Alte Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 2611,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1996",
+   "metric": "Neue Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 205,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1996",
+   "metric": "Berlin",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 69,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1997",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 3040,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.; Summe alte BL + neue BL + Berlin; 2002 = 3.784 und 2003 = 4.035 (Friedrich) identisch mit ds1"
+  },
+  {
+   "date": "1997",
+   "metric": "Alte Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 2736,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1997",
+   "metric": "Neue Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 238,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1997",
+   "metric": "Berlin",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 66,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 3101,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.; Summe alte BL + neue BL + Berlin; 2002 = 3.784 und 2003 = 4.035 (Friedrich) identisch mit ds1"
+  },
+  {
+   "date": "1998",
+   "metric": "Alte Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 2797,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1998",
+   "metric": "Neue Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 238,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1998",
+   "metric": "Berlin",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 66,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1999",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 3266,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.; Summe alte BL + neue BL + Berlin; 2002 = 3.784 und 2003 = 4.035 (Friedrich) identisch mit ds1"
+  },
+  {
+   "date": "1999",
+   "metric": "Alte Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 2937,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1999",
+   "metric": "Neue Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 257,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1999",
+   "metric": "Berlin",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 72,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2000",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 3493,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.; Summe alte BL + neue BL + Berlin; 2002 = 3.784 und 2003 = 4.035 (Friedrich) identisch mit ds1"
+  },
+  {
+   "date": "2000",
+   "metric": "Alte Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 3130,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2000",
+   "metric": "Neue Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 286,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2000",
+   "metric": "Berlin",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 77,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2001",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 3615,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert",
+   "note": "Stand 31.12.; Summe alte BL + neue BL + Berlin; 2002 = 3.784 und 2003 = 4.035 (Friedrich) identisch mit ds1"
+  },
+  {
+   "date": "2001",
+   "metric": "Alte Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 3223,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2001",
+   "metric": "Neue Bundesländer",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 303,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "2001",
+   "metric": "Berlin",
+   "name": "Praxisassistent:innen (ohne Praxisvertreter:innen)",
+   "value": 89,
+   "unit": "Personen",
+   "source": "Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1997",
+   "metric": "Deutschland",
+   "name": "Praktizierende Tierärzt:innen (Praxisinhaber)",
+   "value": 9538,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 2/98 „Keine Reklame von Tierärzten“ (1998; Stand 1.1.1998 = 31.12.1997) – https://web.archive.org/web/20020720092646/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm98_002_b.html",
+   "quality": "publiziert",
+   "note": "„Von den 9.538 praktischen Tierärztinnen und Tierärzten in Deutschland (Stand 1.1.1998)“ = Stand 31.12.1997"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Tierärztlich Tätige (In- und Ausland; BTK-Definition wie 2002)",
+   "value": 19879,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert",
+   "note": "„Zum Stichtag … 31. Dezember 1998, waren es erst 19.879 gewesen.“ Kontrolle: 29.088 − 4.398 − 1.854 − 1.233 − 905 − 819 = 19.879, d. h. gleiche Abgrenzung wie der ds1-Wert 2002 (21.931 = 26.564 − nicht Tätige), inkl. Auslandstätige"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen gesamt (Kammermitglieder inkl. Ruhestand)",
+   "value": 29088,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert",
+   "note": "„Die Gesamtzahl … stieg in den letzten sieben Monaten von 29.088 auf 29.354“ (29.088 = Stand 31.12.1998)"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Öffentliches Veterinärwesen",
+   "value": 2812,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert",
+   "note": "„arbeiteten 1998 noch 2812 Tierärztinnen und Tierärzte“ (14 % der Berufstätigen); 47 weniger als 1997"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Hochschulen (Universitäten)",
+   "value": 1178,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert",
+   "note": "5,9 % der Berufstätigen"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Industrie",
+   "value": 1107,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert",
+   "note": "5,5 % der Berufstätigen"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Forschungsanstalten",
+   "value": 510,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert",
+   "note": "2,6 % der Berufstätigen"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "davon Ruhestand",
+   "value": 4398,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "davon ohne Berufsausübung",
+   "value": 1854,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "davon Doktoranden",
+   "value": 1233,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "davon arbeitslos gemeldet",
+   "value": 905,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "davon berufsfremd tätig",
+   "value": 819,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Anteil Bereich Praxis an den Berufstätigen (%)",
+   "value": 65,
+   "unit": "%",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Anteil öffentliches Veterinärwesen an den Berufstätigen (%)",
+   "value": 14,
+   "unit": "%",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Zuwachs Bereich Praxis (niedergelassene + Assistent:innen) im Jahr",
+   "value": 264,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert",
+   "note": "„1998 um 264“"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Staatsexamen (Absolvent:innen im Jahr)",
+   "value": 840,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Studienanfänger:innen (im Jahr)",
+   "value": 1074,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Ausgeschieden aus dem Berufsleben (im Jahr)",
+   "value": 274,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert"
+  },
+  {
+   "date": "1999",
+   "metric": "Deutschland",
+   "name": "Tierärztlich Tätige – Zwischenstand 30.07.1999 (kein Jahresendwert)",
+   "value": 20072,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert (Stichtag 30.07.1999)",
+   "note": "„Genau 20.072 Tierärztinnen und Tierärzte waren am 30. Juli in ihrem Beruf tätig“"
+  },
+  {
+   "date": "1999",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen gesamt – Zwischenstand 30.07.1999 (kein Jahresendwert)",
+   "value": 29354,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert (Stichtag 30.07.1999)"
+  },
+  {
+   "date": "1999",
+   "metric": "Deutschland",
+   "name": "Bereich Praxis (niedergelassene + Assistent:innen) – Zwischenstand 30.07.1999 (kein Jahresendwert)",
+   "value": 13088,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "publiziert (Stichtag 30.07.1999)",
+   "note": "„bis zum 30. Juli um weitere 181 auf 13.088“"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Bereich Praxis (niedergelassene + Assistent:innen) – berechnet",
+   "value": 12907,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "berechnet",
+   "note": "13.088 (30.07.1999) − 181 (Zuwachs Jan–Jul 1999) = 12.907 zum 31.12.1998"
+  },
+  {
+   "date": "1997",
+   "metric": "Deutschland",
+   "name": "Bereich Praxis (niedergelassene + Assistent:innen) – berechnet",
+   "value": 12643,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "berechnet",
+   "note": "12.907 − 264 (Zuwachs 1998) = 12.643 zum 31.12.1997; Plausibilität: 9.538 Praxisinhaber (PM 2/98) + 3.040 Assistent:innen (Friedrich) = 12.578, Differenz 65 (Abgrenzung Praxisvertreter/Rundung)"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Praktizierende Tierärzt:innen (Praxisinhaber) – berechnet",
+   "value": 9806,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html ; Assistent:innen 1998 aus Friedrich, B. J. (2007): Untersuchungen zur beruflichen und privaten Situation tierärztlicher Praxisassistentinnen und -assistenten in Deutschland. Diss. TiHo Hannover, Tab. 6 (nach Schöne u. Ulrich 1992–2003, DTBl) – https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf (Wayback-Kopie: https://web.archive.org/web/2id_/https://elib.tiho-hannover.de/servlets/MCRFileNodeServlet/etd_derivate_00001819/friedrichb_ws07.pdf)",
+   "quality": "berechnet",
+   "note": "12.907 (Bereich Praxis, berechnet) − 3.101 Praxisassistent:innen 1998 (Friedrich Tab. 6) = 9.806"
+  },
+  {
+   "date": "1997",
+   "metric": "Deutschland",
+   "name": "Öffentliches Veterinärwesen – berechnet",
+   "value": 2859,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 6/99 „Sorgen um den Nachwuchs: Zahl der Tierärzte erstmals über 20.000“ (Juli 1999; Statistik Stand 31.12.1998, DTBl 6/1999) – https://web.archive.org/web/20020725232744/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm99_006.html",
+   "quality": "berechnet",
+   "note": "2.812 + 47 („47 weniger als 1997“) = 2.859"
+  },
+  {
+   "date": "2000",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen gesamt (Kammermitglieder inkl. Ruhestand)",
+   "value": 30282,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 5/01 „Tiermediziner jenseits der 30.000“ (Juni 2001; Statistik Stand 31.12.2000, DTBl 6/2001) – https://web.archive.org/web/20020707000723/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm01_005.html",
+   "quality": "publiziert",
+   "note": "„Auf 30.282 ist jetzt die Zahl der approbierten Tierärztinnen und Tierärzte in Deutschland angewachsen“ (Stand 31.12.2000)"
+  },
+  {
+   "date": "2000",
+   "metric": "Deutschland",
+   "name": "Bereich Praxis (niedergelassene + Assistent:innen) – gerundete Angabe („gut 14.000“)",
+   "value": 14000,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 5/01 „Tiermediziner jenseits der 30.000“ (Juni 2001; Statistik Stand 31.12.2000, DTBl 6/2001) – https://web.archive.org/web/20020707000723/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm01_005.html",
+   "quality": "publiziert, gerundet",
+   "note": "„von den insgesamt gut 14.000 in der Praxis Tätigen sind weniger als 41 % weiblich“"
+  },
+  {
+   "date": "2000",
+   "metric": "Deutschland",
+   "name": "Nicht oder berufsfremd tätig im arbeitsfähigen Alter – Mindestangabe („mehr als 4.700“)",
+   "value": 4700,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 5/01 „Tiermediziner jenseits der 30.000“ (Juni 2001; Statistik Stand 31.12.2000, DTBl 6/2001) – https://web.archive.org/web/20020707000723/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm01_005.html",
+   "quality": "publiziert, Mindestangabe",
+   "note": "„mehr als 4.700, also 14 % aller approbierten Tierärzte im arbeitsfähigen Alter gar nicht oder in anderen Berufen tätig“"
+  },
+  {
+   "date": "2000",
+   "metric": "Deutschland",
+   "name": "Studierende der Tiermedizin – Mindestangabe („mehr als 6.500“)",
+   "value": 6500,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer, Pressemitteilung 5/01 „Tiermediziner jenseits der 30.000“ (Juni 2001; Statistik Stand 31.12.2000, DTBl 6/2001) – https://web.archive.org/web/20020707000723/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm01_005.html",
+   "quality": "publiziert, Mindestangabe",
+   "note": "fünf tierärztliche Bildungsstätten; Frauenanteil etwa 3:1"
+  },
+  {
+   "date": "2000",
+   "metric": "Deutschland",
+   "name": "Frauenanteil im Bereich Praxis (%) – Obergrenze („weniger als 41 %“)",
+   "value": 41,
+   "unit": "%",
+   "source": "Bundestierärztekammer, Pressemitteilung 5/01 „Tiermediziner jenseits der 30.000“ (Juni 2001; Statistik Stand 31.12.2000, DTBl 6/2001) – https://web.archive.org/web/20020707000723/http://www.bundestieraerztekammer.de:80/aktuelles/pm/pm01_005.html",
+   "quality": "publiziert, Obergrenze"
+  }
+ ]
+}

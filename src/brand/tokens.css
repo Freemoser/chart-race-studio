@@ -1,0 +1,75 @@
+/*
+ * Branding-Tokens für Thomas Freimoser – drei Richtungen, umschaltbar über
+ * data-brand am <html>. Alle Farben/Schriften nur hier ändern.
+ *
+ *  klar      – Inter, Petrol + warmes Orange, kühle Neutrals (Standard)
+ *  editorial – IBM Plex Sans, Anthrazit + Bernstein, Papierton
+ *  signal    – Manrope, Tiefblau + Smaragd, klare Technik-Anmutung
+ */
+:root, [data-brand='klar'] {
+  --brand-font: 'Inter Variable', Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --brand-primary: #0f4c5c;
+  --brand-primary-strong: #0a3641;
+  --brand-accent: #e36414;
+  --brand-accent-soft: #fbe6d8;
+  --brand-ink: #1c2229;
+  --brand-ink-muted: #5c6670;
+  --brand-ink-faint: #8a939c;
+  --brand-line: #dfe3e8;
+  --brand-surface: #ffffff;
+  --brand-surface-2: #f1f3f6;
+  --brand-bg: #f6f7f9;
+  --brand-ok: #2e7d5b;
+  --brand-warn: #b7791f;
+  --brand-err: #b3261e;
+  --brand-radius: 10px;
+  /* Bühne (Video) */
+  --stage-bg-light: #ffffff;
+  --stage-fg-light: #1c2229;
+  --stage-muted-light: #6b7680;
+  --stage-bg-dark: #0f1418;
+  --stage-fg-dark: #f2f4f7;
+  --stage-muted-dark: #98a2ad;
+}
+[data-brand='editorial'] {
+  --brand-font: 'IBM Plex Sans', system-ui, sans-serif;
+  --brand-primary: #1f2933;
+  --brand-primary-strong: #111820;
+  --brand-accent: #c98a1c;
+  --brand-accent-soft: #f6e8cc;
+  --brand-ink: #1b1f24;
+  --brand-ink-muted: #5f6771;
+  --brand-ink-faint: #8f979f;
+  --brand-line: #e3ded3;
+  --brand-surface: #fffdf9;
+  --brand-surface-2: #f3efe6;
+  --brand-bg: #faf8f3;
+  --brand-radius: 6px;
+  --stage-bg-light: #fdfbf7;
+  --stage-fg-light: #1b1f24;
+  --stage-muted-light: #6c737b;
+  --stage-bg-dark: #14161a;
+  --stage-fg-dark: #f4f1ea;
+  --stage-muted-dark: #a4a9b0;
+}
+[data-brand='signal'] {
+  --brand-font: 'Manrope Variable', Manrope, system-ui, sans-serif;
+  --brand-primary: #14213d;
+  --brand-primary-strong: #0b1326;
+  --brand-accent: #2a9d8f;
+  --brand-accent-soft: #d8efec;
+  --brand-ink: #131a26;
+  --brand-ink-muted: #58637a;
+  --brand-ink-faint: #8792a8;
+  --brand-line: #dce1ea;
+  --brand-surface: #ffffff;
+  --brand-surface-2: #eef1f6;
+  --brand-bg: #f4f6f8;
+  --brand-radius: 14px;
+  --stage-bg-light: #ffffff;
+  --stage-fg-light: #131a26;
+  --stage-muted-light: #66718a;
+  --stage-bg-dark: #0d1220;
+  --stage-fg-dark: #eef2f9;
+  --stage-muted-dark: #98a4bf;
+}

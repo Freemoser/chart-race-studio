@@ -1,0 +1,2171 @@
+{
+ "title": "VDH-Welpenstatistik: registrierte Welpen je Rasse, 2011–2025",
+ "source": "Verband für das Deutsche Hundewesen (VDH) e.V., „Welpenstatistik der VDH-Mitgliedsvereine“ (Onlinetabelle, alle FCI/VDH-Rassen, Stand 2026)",
+ "sourceUrl": "https://www.vdh.de/ueber-den-vdh/welpenstatistik/",
+ "unit": "Anzahl in VDH-Zuchtbüchern eingetragene Welpen pro Kalenderjahr",
+ "license": "© VDH – Verbandsstatistik, Zitat mit Quellenangabe; Presseinfos unter https://www.vdh.de/presse/welpenstatistik/",
+ "notes": "Die VDH-Onlinetabelle umfasst nur 2011–2025 (304 Rassen). Ältere Jahrgänge (2000–2010) sind online nicht mehr als Tabelle verfügbar; Einzelwerte aus Sekundärquellen: Teckel 1998: 10 479 Welpen; Deutsch Drahthaar 2013: 2 838 (WILD UND HUND 14/2015, VDH-Daten). Nur Rassehunde mit VDH-Papieren – keine Mischlinge, keine Dissidenz-Zuchten. Enthalten sind alle Rassen, die in mindestens einem Jahr zu den Top 15 gehörten (23 Rassen) plus Gesamtsumme. Teckel = Dackel (alle Haararten/Größen zusammen). Keine Interpolation nötig.",
+ "attribution": "Quelle: VDH, Welpenstatistik der VDH-Mitgliedsvereine 2011–2025",
+ "rows": [
+  {
+   "date": "2025",
+   "name": "Deutscher Schäferhund",
+   "value": 6374,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Deutscher Schäferhund",
+   "value": 6316,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Deutscher Schäferhund",
+   "value": 6242,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Deutscher Schäferhund",
+   "value": 8395,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Deutscher Schäferhund",
+   "value": 10031,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Deutscher Schäferhund",
+   "value": 10003,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Deutscher Schäferhund",
+   "value": 8634,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Deutscher Schäferhund",
+   "value": 10679,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Deutscher Schäferhund",
+   "value": 9766,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Deutscher Schäferhund",
+   "value": 10202,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Deutscher Schäferhund",
+   "value": 10523,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Deutscher Schäferhund",
+   "value": 10470,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Deutscher Schäferhund",
+   "value": 11092,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Deutscher Schäferhund",
+   "value": 12786,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Deutscher Schäferhund",
+   "value": 13339,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Teckel",
+   "value": 4508,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Teckel",
+   "value": 4788,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Teckel",
+   "value": 5475,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Teckel",
+   "value": 6296,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Teckel",
+   "value": 7205,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Teckel",
+   "value": 6660,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Teckel",
+   "value": 5921,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Teckel",
+   "value": 5809,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Teckel",
+   "value": 5795,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Teckel",
+   "value": 5978,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Teckel",
+   "value": 5885,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Teckel",
+   "value": 5883,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Teckel",
+   "value": 5607,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Teckel",
+   "value": 6171,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Teckel",
+   "value": 6301,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Deutsch Drahthaar",
+   "value": 2215,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Deutsch Drahthaar",
+   "value": 2587,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Deutsch Drahthaar",
+   "value": 2618,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Deutsch Drahthaar",
+   "value": 3119,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Deutsch Drahthaar",
+   "value": 3629,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Deutsch Drahthaar",
+   "value": 3287,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Deutsch Drahthaar",
+   "value": 3071,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Deutsch Drahthaar",
+   "value": 3007,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Deutsch Drahthaar",
+   "value": 3124,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Deutsch Drahthaar",
+   "value": 2986,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Deutsch Drahthaar",
+   "value": 2783,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Deutsch Drahthaar",
+   "value": 3073,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Deutsch Drahthaar",
+   "value": 2838,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Deutsch Drahthaar",
+   "value": 3013,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Deutsch Drahthaar",
+   "value": 2857,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Labrador Retriever",
+   "value": 2401,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Labrador Retriever",
+   "value": 2367,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Labrador Retriever",
+   "value": 2326,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Labrador Retriever",
+   "value": 2630,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Labrador Retriever",
+   "value": 3219,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Labrador Retriever",
+   "value": 3046,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Labrador Retriever",
+   "value": 2644,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Labrador Retriever",
+   "value": 2626,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Labrador Retriever",
+   "value": 2614,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Labrador Retriever",
+   "value": 2589,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Labrador Retriever",
+   "value": 2591,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Labrador Retriever",
+   "value": 2626,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Labrador Retriever",
+   "value": 2428,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Labrador Retriever",
+   "value": 2711,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Labrador Retriever",
+   "value": 2802,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Pudel",
+   "value": 2035,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Pudel",
+   "value": 1997,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Pudel",
+   "value": 2123,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Pudel",
+   "value": 2134,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Pudel",
+   "value": 2593,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Pudel",
+   "value": 2267,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Pudel",
+   "value": 2007,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Pudel",
+   "value": 2013,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Pudel",
+   "value": 1858,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Pudel",
+   "value": 1896,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Pudel",
+   "value": 1831,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Pudel",
+   "value": 1821,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Pudel",
+   "value": 1777,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Pudel",
+   "value": 1774,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Pudel",
+   "value": 1926,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Golden Retriever",
+   "value": 2007,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Golden Retriever",
+   "value": 1952,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Golden Retriever",
+   "value": 1941,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Golden Retriever",
+   "value": 2166,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Golden Retriever",
+   "value": 2412,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Golden Retriever",
+   "value": 2121,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Golden Retriever",
+   "value": 2191,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Golden Retriever",
+   "value": 2157,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Golden Retriever",
+   "value": 2110,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Golden Retriever",
+   "value": 2275,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Golden Retriever",
+   "value": 2060,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Golden Retriever",
+   "value": 2332,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Golden Retriever",
+   "value": 2391,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Golden Retriever",
+   "value": 2265,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Golden Retriever",
+   "value": 2134,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Rottweiler",
+   "value": 1376,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Rottweiler",
+   "value": 1259,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Rottweiler",
+   "value": 1351,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Rottweiler",
+   "value": 1388,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Rottweiler",
+   "value": 1778,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Rottweiler",
+   "value": 1456,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Rottweiler",
+   "value": 1395,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Rottweiler",
+   "value": 1471,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Rottweiler",
+   "value": 1561,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Rottweiler",
+   "value": 1633,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Rottweiler",
+   "value": 1524,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Rottweiler",
+   "value": 1566,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Rottweiler",
+   "value": 1543,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Rottweiler",
+   "value": 1409,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Rottweiler",
+   "value": 1414,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Deutsch Kurzhaar",
+   "value": 1198,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Deutsch Kurzhaar",
+   "value": 1236,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Deutsch Kurzhaar",
+   "value": 1278,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Deutsch Kurzhaar",
+   "value": 1304,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Deutsch Kurzhaar",
+   "value": 1842,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Deutsch Kurzhaar",
+   "value": 1235,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Deutsch Kurzhaar",
+   "value": 1233,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Deutsch Kurzhaar",
+   "value": 1202,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Deutsch Kurzhaar",
+   "value": 1275,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Deutsch Kurzhaar",
+   "value": 1133,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Deutsch Kurzhaar",
+   "value": 1172,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Deutsch Kurzhaar",
+   "value": 1363,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Deutsch Kurzhaar",
+   "value": 1212,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Deutsch Kurzhaar",
+   "value": 1102,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Deutsch Kurzhaar",
+   "value": 1225,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Kleiner Münsterländer",
+   "value": 1102,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Kleiner Münsterländer",
+   "value": 1059,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Kleiner Münsterländer",
+   "value": 1226,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Kleiner Münsterländer",
+   "value": 1227,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Kleiner Münsterländer",
+   "value": 1448,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Kleiner Münsterländer",
+   "value": 1223,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Kleiner Münsterländer",
+   "value": 1096,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Kleiner Münsterländer",
+   "value": 1110,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Kleiner Münsterländer",
+   "value": 1186,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Kleiner Münsterländer",
+   "value": 1101,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Kleiner Münsterländer",
+   "value": 1097,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Kleiner Münsterländer",
+   "value": 1042,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Kleiner Münsterländer",
+   "value": 1100,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Kleiner Münsterländer",
+   "value": 963,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Kleiner Münsterländer",
+   "value": 983,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Border Collie",
+   "value": 1000,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Border Collie",
+   "value": 1053,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Border Collie",
+   "value": 1170,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Border Collie",
+   "value": 1110,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Border Collie",
+   "value": 1426,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Border Collie",
+   "value": 1283,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Border Collie",
+   "value": 1126,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Border Collie",
+   "value": 1075,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Border Collie",
+   "value": 1083,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Border Collie",
+   "value": 999,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Border Collie",
+   "value": 1091,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Border Collie",
+   "value": 996,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Border Collie",
+   "value": 1071,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Border Collie",
+   "value": 994,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Border Collie",
+   "value": 841,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Boxer",
+   "value": 1050,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Boxer",
+   "value": 1029,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Boxer",
+   "value": 1195,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Boxer",
+   "value": 1106,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Boxer",
+   "value": 1675,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Boxer",
+   "value": 1565,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Boxer",
+   "value": 1467,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Boxer",
+   "value": 1507,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Boxer",
+   "value": 1559,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Boxer",
+   "value": 1600,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Boxer",
+   "value": 1614,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Boxer",
+   "value": 1386,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Boxer",
+   "value": 1637,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Boxer",
+   "value": 1563,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Boxer",
+   "value": 1579,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Dalmatiner",
+   "value": 996,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Dalmatiner",
+   "value": 833,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Dalmatiner",
+   "value": 1042,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Dalmatiner",
+   "value": 1026,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Dalmatiner",
+   "value": 1339,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Dalmatiner",
+   "value": 1102,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Dalmatiner",
+   "value": 963,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Dalmatiner",
+   "value": 970,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Dalmatiner",
+   "value": 828,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Dalmatiner",
+   "value": 781,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Dalmatiner",
+   "value": 820,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Dalmatiner",
+   "value": 727,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Dalmatiner",
+   "value": 913,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Dalmatiner",
+   "value": 709,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Dalmatiner",
+   "value": 728,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 790,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 824,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 876,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 977,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 965,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 926,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 903,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 908,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 910,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 906,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 897,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 872,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 881,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 1014,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Sheltie (Shetland Sheepdog)",
+   "value": 912,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Rhodesian Ridgeback",
+   "value": 740,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Rhodesian Ridgeback",
+   "value": 780,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Rhodesian Ridgeback",
+   "value": 739,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Rhodesian Ridgeback",
+   "value": 930,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Rhodesian Ridgeback",
+   "value": 1058,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Rhodesian Ridgeback",
+   "value": 1015,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Rhodesian Ridgeback",
+   "value": 995,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Rhodesian Ridgeback",
+   "value": 1026,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Rhodesian Ridgeback",
+   "value": 1087,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Rhodesian Ridgeback",
+   "value": 1084,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Rhodesian Ridgeback",
+   "value": 963,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Rhodesian Ridgeback",
+   "value": 1046,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Rhodesian Ridgeback",
+   "value": 938,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Rhodesian Ridgeback",
+   "value": 919,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Rhodesian Ridgeback",
+   "value": 976,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Malinois",
+   "value": 884,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Malinois",
+   "value": 774,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Malinois",
+   "value": 620,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Malinois",
+   "value": 679,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Malinois",
+   "value": 757,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Malinois",
+   "value": 670,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Malinois",
+   "value": 548,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Malinois",
+   "value": 588,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Malinois",
+   "value": 652,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Malinois",
+   "value": 680,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Malinois",
+   "value": 589,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Malinois",
+   "value": 615,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Malinois",
+   "value": 650,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Malinois",
+   "value": 619,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Malinois",
+   "value": 494,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 641,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 694,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 782,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 778,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 1048,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 996,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 919,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 994,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 1029,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 1180,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 1185,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 1124,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 1074,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 1100,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Cavalier King Charles Spaniel",
+   "value": 1069,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "English Cocker Spaniel",
+   "value": 765,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "English Cocker Spaniel",
+   "value": 641,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "English Cocker Spaniel",
+   "value": 654,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "English Cocker Spaniel",
+   "value": 838,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "English Cocker Spaniel",
+   "value": 907,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "English Cocker Spaniel",
+   "value": 844,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "English Cocker Spaniel",
+   "value": 739,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "English Cocker Spaniel",
+   "value": 873,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "English Cocker Spaniel",
+   "value": 872,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "English Cocker Spaniel",
+   "value": 895,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "English Cocker Spaniel",
+   "value": 952,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "English Cocker Spaniel",
+   "value": 993,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "English Cocker Spaniel",
+   "value": 1084,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "English Cocker Spaniel",
+   "value": 1010,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "English Cocker Spaniel",
+   "value": 1226,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Hovawart",
+   "value": 521,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Hovawart",
+   "value": 636,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Hovawart",
+   "value": 590,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Hovawart",
+   "value": 684,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Hovawart",
+   "value": 1017,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Hovawart",
+   "value": 674,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Hovawart",
+   "value": 802,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Hovawart",
+   "value": 919,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Hovawart",
+   "value": 836,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Hovawart",
+   "value": 927,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Hovawart",
+   "value": 818,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Hovawart",
+   "value": 863,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Hovawart",
+   "value": 858,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Hovawart",
+   "value": 1152,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Hovawart",
+   "value": 1152,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Collie (Langhaar)",
+   "value": 523,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Collie (Langhaar)",
+   "value": 623,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Collie (Langhaar)",
+   "value": 788,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Collie (Langhaar)",
+   "value": 830,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Collie (Langhaar)",
+   "value": 929,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Collie (Langhaar)",
+   "value": 983,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Collie (Langhaar)",
+   "value": 841,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Collie (Langhaar)",
+   "value": 869,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Collie (Langhaar)",
+   "value": 1088,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Collie (Langhaar)",
+   "value": 1077,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Collie (Langhaar)",
+   "value": 1022,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Collie (Langhaar)",
+   "value": 1082,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Collie (Langhaar)",
+   "value": 982,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Collie (Langhaar)",
+   "value": 1135,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Collie (Langhaar)",
+   "value": 1065,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Zwergschnauzer",
+   "value": 579,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Zwergschnauzer",
+   "value": 608,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Zwergschnauzer",
+   "value": 625,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Zwergschnauzer",
+   "value": 709,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Zwergschnauzer",
+   "value": 1023,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Zwergschnauzer",
+   "value": 947,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Zwergschnauzer",
+   "value": 778,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Zwergschnauzer",
+   "value": 886,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Zwergschnauzer",
+   "value": 872,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Zwergschnauzer",
+   "value": 843,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Zwergschnauzer",
+   "value": 944,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Zwergschnauzer",
+   "value": 969,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Zwergschnauzer",
+   "value": 930,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Zwergschnauzer",
+   "value": 1010,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Zwergschnauzer",
+   "value": 1151,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Berner Sennenhund",
+   "value": 539,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Berner Sennenhund",
+   "value": 602,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Berner Sennenhund",
+   "value": 593,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Berner Sennenhund",
+   "value": 761,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Berner Sennenhund",
+   "value": 901,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Berner Sennenhund",
+   "value": 818,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Berner Sennenhund",
+   "value": 880,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Berner Sennenhund",
+   "value": 779,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Berner Sennenhund",
+   "value": 1058,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Berner Sennenhund",
+   "value": 1001,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Berner Sennenhund",
+   "value": 1158,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Berner Sennenhund",
+   "value": 1199,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Berner Sennenhund",
+   "value": 1187,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Berner Sennenhund",
+   "value": 1311,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Berner Sennenhund",
+   "value": 1094,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Deutsche Dogge",
+   "value": 416,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Deutsche Dogge",
+   "value": 524,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Deutsche Dogge",
+   "value": 465,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Deutsche Dogge",
+   "value": 657,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Deutsche Dogge",
+   "value": 981,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Deutsche Dogge",
+   "value": 745,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Deutsche Dogge",
+   "value": 969,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Deutsche Dogge",
+   "value": 947,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Deutsche Dogge",
+   "value": 1095,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Deutsche Dogge",
+   "value": 1192,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Deutsche Dogge",
+   "value": 1245,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Deutsche Dogge",
+   "value": 1336,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Deutsche Dogge",
+   "value": 1445,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Deutsche Dogge",
+   "value": 1444,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Deutsche Dogge",
+   "value": 1336,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Riesenschnauzer",
+   "value": 427,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Riesenschnauzer",
+   "value": 483,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Riesenschnauzer",
+   "value": 501,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Riesenschnauzer",
+   "value": 626,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Riesenschnauzer",
+   "value": 952,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Riesenschnauzer",
+   "value": 707,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Riesenschnauzer",
+   "value": 787,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Riesenschnauzer",
+   "value": 893,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Riesenschnauzer",
+   "value": 847,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Riesenschnauzer",
+   "value": 1128,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Riesenschnauzer",
+   "value": 849,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Riesenschnauzer",
+   "value": 761,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Riesenschnauzer",
+   "value": 931,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Riesenschnauzer",
+   "value": 1003,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Riesenschnauzer",
+   "value": 890,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2025",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 55053,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2024",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 56851,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2023",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 60306,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2022",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 69381,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2021",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 85595,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2020",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 77461,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2019",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 72377,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2018",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 75038,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2017",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 75891,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2016",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 77533,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2015",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 76245,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2014",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 77385,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2013",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 77061,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2012",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 80049,
+   "unit": "Welpen"
+  },
+  {
+   "date": "2011",
+   "name": "Alle VDH-Rassen (Summe der Tabelle)",
+   "value": 80719,
+   "unit": "Welpen"
+  }
+ ]
+}

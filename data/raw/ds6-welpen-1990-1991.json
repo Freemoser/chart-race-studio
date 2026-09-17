@@ -1,0 +1,318 @@
+{
+ "title": "Welpen-Eintragungen 1990 und 1991 – was tatsächlich publiziert auffindbar ist",
+ "source": "Zadil 2004 (Diss. TiHo Hannover, Jagdspaniel-Klub); Demeyere 2009 (SV-Genetics-Datenbank); DDS Nr. 211 / VDS (via Zuchtstätte vom Gut Glück)",
+ "sourceUrl": "https://d-nb.info/974132802/34",
+ "notes": "ERGEBNIS: Eine VDH-GESAMTZAHL (alle Mitgliedsvereine) für 1990 oder 1991 wurde NICHT gefunden – weder beim VDH selbst (die Online-Welpenstatistik beginnt nachweislich mit 1992: die Jahres-Auswahlliste der archivierten Skripte welpenzahlen.pl endet bei 1992), noch bei der FCI, noch in Presse, Dissertationen oder Bundestagsdrucksachen. Ebenso wurde keine Rasse-für-Rasse-Tabelle des VDH für 1990/91 gefunden. Was hier steht, sind AUSSCHLIESSLICH vereinseigene Zuchtbuchzahlen einzelner VDH-Mitgliedsvereine. Sie sind NICHT mit den VDH-Werten identisch und dürfen nicht als VDH-Welpenstatistik ausgegeben werden – die Abweichungen in den Überlappungsjahren sind im Feld `note` je Reihe beziffert. Nichts wurde geschätzt oder interpoliert. ABGELEHNTER TREFFER (bewusst nicht aufgenommen): Michels & Distl (2022), Animals 12:929, Tabelle S2 (https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8996862/supplementaryFiles) enthält für Deutsch Drahthaar eine Spalte „Number of animals“ ab Geburtsjahr 1991 (1991 = 1.726). Diese Zahl ist KEINE Welpenzahl: ab 1995 deckt sie sich mit der VDH-Statistik (1995: 3.839 vs. VDH 3.791; 2000: 3.097 vs. 3.061), für 1991–1994 liegt sie aber nur bei rund der Hälfte (1992: 1.817 vs. VDH 3.349) – die ausgewertete Pedigree-Datei ist für die frühen Jahre unvollständig.",
+ "rows": [
+  {
+   "date": "1987",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "English Cocker Spaniel (Jagdspaniel-Klub e.V.)",
+   "value": 1970,
+   "unit": "Welpen",
+   "source": "Zadil, Sinet-Jasmin (2004): „Vererbung von Augenkrankheiten beim Englischen Cocker Spaniel“, Inaugural-Dissertation, Tierärztliche Hochschule Hannover, Tab. 2, S. 25 („Anzahl der beim Jagdspaniel Club e.V. ab 1987 registrierten Welpen der Rasse Englischer Cocker Spaniel“) | https://d-nb.info/974132802/34",
+   "quality": "publiziert",
+   "note": "Zuchtbuch-Eintragungen EINES VDH-Mitgliedsvereins (Jagdspaniel-Klub e.V.), nach GEBURTSJAHR. Nicht identisch mit der VDH-Welpenstatistik: 1992 JSpK 2.114 vs. VDH „Cocker Spaniel“ 2.347 (Differenz = weitere VDH-Vereine mit ECS-Zucht). Als Untergrenze/Verlaufsindikator verwendbar."
+  },
+  {
+   "date": "1988",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "English Cocker Spaniel (Jagdspaniel-Klub e.V.)",
+   "value": 2190,
+   "unit": "Welpen",
+   "source": "Zadil, Sinet-Jasmin (2004): „Vererbung von Augenkrankheiten beim Englischen Cocker Spaniel“, Inaugural-Dissertation, Tierärztliche Hochschule Hannover, Tab. 2, S. 25 („Anzahl der beim Jagdspaniel Club e.V. ab 1987 registrierten Welpen der Rasse Englischer Cocker Spaniel“) | https://d-nb.info/974132802/34",
+   "quality": "publiziert",
+   "note": "Zuchtbuch-Eintragungen EINES VDH-Mitgliedsvereins (Jagdspaniel-Klub e.V.), nach GEBURTSJAHR. Nicht identisch mit der VDH-Welpenstatistik: 1992 JSpK 2.114 vs. VDH „Cocker Spaniel“ 2.347 (Differenz = weitere VDH-Vereine mit ECS-Zucht). Als Untergrenze/Verlaufsindikator verwendbar."
+  },
+  {
+   "date": "1989",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "English Cocker Spaniel (Jagdspaniel-Klub e.V.)",
+   "value": 1920,
+   "unit": "Welpen",
+   "source": "Zadil, Sinet-Jasmin (2004): „Vererbung von Augenkrankheiten beim Englischen Cocker Spaniel“, Inaugural-Dissertation, Tierärztliche Hochschule Hannover, Tab. 2, S. 25 („Anzahl der beim Jagdspaniel Club e.V. ab 1987 registrierten Welpen der Rasse Englischer Cocker Spaniel“) | https://d-nb.info/974132802/34",
+   "quality": "publiziert",
+   "note": "Zuchtbuch-Eintragungen EINES VDH-Mitgliedsvereins (Jagdspaniel-Klub e.V.), nach GEBURTSJAHR. Nicht identisch mit der VDH-Welpenstatistik: 1992 JSpK 2.114 vs. VDH „Cocker Spaniel“ 2.347 (Differenz = weitere VDH-Vereine mit ECS-Zucht). Als Untergrenze/Verlaufsindikator verwendbar."
+  },
+  {
+   "date": "1990",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "English Cocker Spaniel (Jagdspaniel-Klub e.V.)",
+   "value": 1975,
+   "unit": "Welpen",
+   "source": "Zadil, Sinet-Jasmin (2004): „Vererbung von Augenkrankheiten beim Englischen Cocker Spaniel“, Inaugural-Dissertation, Tierärztliche Hochschule Hannover, Tab. 2, S. 25 („Anzahl der beim Jagdspaniel Club e.V. ab 1987 registrierten Welpen der Rasse Englischer Cocker Spaniel“) | https://d-nb.info/974132802/34",
+   "quality": "publiziert",
+   "note": "Zuchtbuch-Eintragungen EINES VDH-Mitgliedsvereins (Jagdspaniel-Klub e.V.), nach GEBURTSJAHR. Nicht identisch mit der VDH-Welpenstatistik: 1992 JSpK 2.114 vs. VDH „Cocker Spaniel“ 2.347 (Differenz = weitere VDH-Vereine mit ECS-Zucht). Als Untergrenze/Verlaufsindikator verwendbar."
+  },
+  {
+   "date": "1991",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "English Cocker Spaniel (Jagdspaniel-Klub e.V.)",
+   "value": 2077,
+   "unit": "Welpen",
+   "source": "Zadil, Sinet-Jasmin (2004): „Vererbung von Augenkrankheiten beim Englischen Cocker Spaniel“, Inaugural-Dissertation, Tierärztliche Hochschule Hannover, Tab. 2, S. 25 („Anzahl der beim Jagdspaniel Club e.V. ab 1987 registrierten Welpen der Rasse Englischer Cocker Spaniel“) | https://d-nb.info/974132802/34",
+   "quality": "publiziert",
+   "note": "Zuchtbuch-Eintragungen EINES VDH-Mitgliedsvereins (Jagdspaniel-Klub e.V.), nach GEBURTSJAHR. Nicht identisch mit der VDH-Welpenstatistik: 1992 JSpK 2.114 vs. VDH „Cocker Spaniel“ 2.347 (Differenz = weitere VDH-Vereine mit ECS-Zucht). Als Untergrenze/Verlaufsindikator verwendbar."
+  },
+  {
+   "date": "1992",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "English Cocker Spaniel (Jagdspaniel-Klub e.V.)",
+   "value": 2114,
+   "unit": "Welpen",
+   "source": "Zadil, Sinet-Jasmin (2004): „Vererbung von Augenkrankheiten beim Englischen Cocker Spaniel“, Inaugural-Dissertation, Tierärztliche Hochschule Hannover, Tab. 2, S. 25 („Anzahl der beim Jagdspaniel Club e.V. ab 1987 registrierten Welpen der Rasse Englischer Cocker Spaniel“) | https://d-nb.info/974132802/34",
+   "quality": "publiziert",
+   "note": "Zuchtbuch-Eintragungen EINES VDH-Mitgliedsvereins (Jagdspaniel-Klub e.V.), nach GEBURTSJAHR. Nicht identisch mit der VDH-Welpenstatistik: 1992 JSpK 2.114 vs. VDH „Cocker Spaniel“ 2.347 (Differenz = weitere VDH-Vereine mit ECS-Zucht). Als Untergrenze/Verlaufsindikator verwendbar."
+  },
+  {
+   "date": "1993",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "English Cocker Spaniel (Jagdspaniel-Klub e.V.)",
+   "value": 2284,
+   "unit": "Welpen",
+   "source": "Zadil, Sinet-Jasmin (2004): „Vererbung von Augenkrankheiten beim Englischen Cocker Spaniel“, Inaugural-Dissertation, Tierärztliche Hochschule Hannover, Tab. 2, S. 25 („Anzahl der beim Jagdspaniel Club e.V. ab 1987 registrierten Welpen der Rasse Englischer Cocker Spaniel“) | https://d-nb.info/974132802/34",
+   "quality": "publiziert",
+   "note": "Zuchtbuch-Eintragungen EINES VDH-Mitgliedsvereins (Jagdspaniel-Klub e.V.), nach GEBURTSJAHR. Nicht identisch mit der VDH-Welpenstatistik: 1992 JSpK 2.114 vs. VDH „Cocker Spaniel“ 2.347 (Differenz = weitere VDH-Vereine mit ECS-Zucht). Als Untergrenze/Verlaufsindikator verwendbar."
+  },
+  {
+   "date": "1994",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "English Cocker Spaniel (Jagdspaniel-Klub e.V.)",
+   "value": 2172,
+   "unit": "Welpen",
+   "source": "Zadil, Sinet-Jasmin (2004): „Vererbung von Augenkrankheiten beim Englischen Cocker Spaniel“, Inaugural-Dissertation, Tierärztliche Hochschule Hannover, Tab. 2, S. 25 („Anzahl der beim Jagdspaniel Club e.V. ab 1987 registrierten Welpen der Rasse Englischer Cocker Spaniel“) | https://d-nb.info/974132802/34",
+   "quality": "publiziert",
+   "note": "Zuchtbuch-Eintragungen EINES VDH-Mitgliedsvereins (Jagdspaniel-Klub e.V.), nach GEBURTSJAHR. Nicht identisch mit der VDH-Welpenstatistik: 1992 JSpK 2.114 vs. VDH „Cocker Spaniel“ 2.347 (Differenz = weitere VDH-Vereine mit ECS-Zucht). Als Untergrenze/Verlaufsindikator verwendbar."
+  },
+  {
+   "date": "1995",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "English Cocker Spaniel (Jagdspaniel-Klub e.V.)",
+   "value": 2223,
+   "unit": "Welpen",
+   "source": "Zadil, Sinet-Jasmin (2004): „Vererbung von Augenkrankheiten beim Englischen Cocker Spaniel“, Inaugural-Dissertation, Tierärztliche Hochschule Hannover, Tab. 2, S. 25 („Anzahl der beim Jagdspaniel Club e.V. ab 1987 registrierten Welpen der Rasse Englischer Cocker Spaniel“) | https://d-nb.info/974132802/34",
+   "quality": "publiziert",
+   "note": "Zuchtbuch-Eintragungen EINES VDH-Mitgliedsvereins (Jagdspaniel-Klub e.V.), nach GEBURTSJAHR. Nicht identisch mit der VDH-Welpenstatistik: 1992 JSpK 2.114 vs. VDH „Cocker Spaniel“ 2.347 (Differenz = weitere VDH-Vereine mit ECS-Zucht). Als Untergrenze/Verlaufsindikator verwendbar."
+  },
+  {
+   "date": "1986",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 24546,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1987",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 25754,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1988",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 25503,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1989",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 25189,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1990",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 29605,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1991",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 29756,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1992",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 32131,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1993",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 34681,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1994",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 33340,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1995",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 34278,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1996",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 32808,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1997",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 29563,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1998",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 28147,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1999",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 24445,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "2000",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 22228,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "2001",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 21781,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "2002",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 22466,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "2003",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Deutscher Schäferhund (SV-Zuchtbuch)",
+   "value": 21287,
+   "unit": "Welpen",
+   "source": "Demeyere, Jan (2009): „Der Deutsche Schäferhund – The German Shepherd Dog / Hüftgelenksdysplasie“, Tabelle „wie viele Hunde im Zuchtbuch des SV über die Jahre hinweg eingetragen wurden“ (Datenbasis: SV-Genetics-Datenbank des Vereins für Deutsche Schäferhunde, Stand 1. Quartal 2006) | https://blogimages.bloggen.be/hd/attach/244501.pdf",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE (privat publizierte Studie eines belgischen Autors, die die SV-Genetics-Datenbank auswertet). „im Zuchtbuch eingetragene Welpen pro Jahrgang“ (Geburtsjahr). WARNUNG: weicht in den Überlappungsjahren deutlich von der VDH-Welpenstatistik ab (1992: 32.131 vs. VDH 28.000; 1993: 34.681 vs. 27.648; 1995: 34.278 vs. 29.805), ab 1997 dagegen nahe an der VDH-Reihe (1997: 29.563 vs. 29.824; 1998: 28.147 vs. 27.834). Daher KEIN Ersatz für die VDH-Zahl, nur als eigenständige SV-Reihe zu verwenden."
+  },
+  {
+   "date": "1989",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Großspitz (Verein für Deutsche Spitze)",
+   "value": 37,
+   "unit": "Welpen",
+   "source": "„Der Deutsche Spitz“ (DDS) Nr. 211, Vereinszeitschrift des Vereins für Deutsche Spitze e.V. (VDS), wiedergegeben in der Welpenstatistik der Zuchtstätte „vom Gut Glück“ | https://www.vom-gut-glueck.de/spitz-zucht/der-gro%C3%9Fspitz/welpenstatistik/",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE: private Transkription einer Vereinszeitschrift (Primärquelle DDS Nr. 211 nur gedruckt, nicht eingesehen). Nur die Varietät Großspitz (weiß/schwarz/braun zusammengefasst), nicht alle Spitz-Varietäten. Sehr kleine Fallzahlen."
+  },
+  {
+   "date": "1990",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Großspitz (Verein für Deutsche Spitze)",
+   "value": 47,
+   "unit": "Welpen",
+   "source": "„Der Deutsche Spitz“ (DDS) Nr. 211, Vereinszeitschrift des Vereins für Deutsche Spitze e.V. (VDS), wiedergegeben in der Welpenstatistik der Zuchtstätte „vom Gut Glück“ | https://www.vom-gut-glueck.de/spitz-zucht/der-gro%C3%9Fspitz/welpenstatistik/",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE: private Transkription einer Vereinszeitschrift (Primärquelle DDS Nr. 211 nur gedruckt, nicht eingesehen). Nur die Varietät Großspitz (weiß/schwarz/braun zusammengefasst), nicht alle Spitz-Varietäten. Sehr kleine Fallzahlen."
+  },
+  {
+   "date": "1991",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Großspitz (Verein für Deutsche Spitze)",
+   "value": 57,
+   "unit": "Welpen",
+   "source": "„Der Deutsche Spitz“ (DDS) Nr. 211, Vereinszeitschrift des Vereins für Deutsche Spitze e.V. (VDS), wiedergegeben in der Welpenstatistik der Zuchtstätte „vom Gut Glück“ | https://www.vom-gut-glueck.de/spitz-zucht/der-gro%C3%9Fspitz/welpenstatistik/",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE: private Transkription einer Vereinszeitschrift (Primärquelle DDS Nr. 211 nur gedruckt, nicht eingesehen). Nur die Varietät Großspitz (weiß/schwarz/braun zusammengefasst), nicht alle Spitz-Varietäten. Sehr kleine Fallzahlen."
+  },
+  {
+   "date": "1992",
+   "metric": "Welpen je Rasse (Zuchtverein)",
+   "name": "Großspitz (Verein für Deutsche Spitze)",
+   "value": 37,
+   "unit": "Welpen",
+   "source": "„Der Deutsche Spitz“ (DDS) Nr. 211, Vereinszeitschrift des Vereins für Deutsche Spitze e.V. (VDS), wiedergegeben in der Welpenstatistik der Zuchtstätte „vom Gut Glück“ | https://www.vom-gut-glueck.de/spitz-zucht/der-gro%C3%9Fspitz/welpenstatistik/",
+   "quality": "sekundär",
+   "note": "SEKUNDÄRQUELLE: private Transkription einer Vereinszeitschrift (Primärquelle DDS Nr. 211 nur gedruckt, nicht eingesehen). Nur die Varietät Großspitz (weiß/schwarz/braun zusammengefasst), nicht alle Spitz-Varietäten. Sehr kleine Fallzahlen."
+  }
+ ]
+}

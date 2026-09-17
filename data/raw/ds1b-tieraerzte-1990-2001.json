@@ -1,0 +1,1302 @@
+{
+ "title": "Tierärzteschaft in Deutschland 1990–2001 (Ergänzung zu ds1, 1997/2001–2025)",
+ "source": "Jährliche Statistik der Deutschen Tierärzteschaft / Zentrale Tierärztedatei (Deutsches Tierärzteblatt), erschlossen über: Maure (1998, Diss. FU Berlin, Tab. 2/4/5: 1963–1995); Schöne & Ulrich (1992, Stand 31.12.1991) zit. n. „Tierärztliche Betriebswirtschaftslehre“ (Cuvillier 2011); BTK-Statistiken 2002–2004 (Zehnjahres-Tabellen 2, 5, 6); DTBl 11/2007 Tab. 11",
+ "sourceUrl": "https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf ; https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf ; https://cuvillier.de/get/ebook/216/9783869559605.pdf",
+ "unit": "Personen (Stand 31.12.)",
+ "license": "Urheberrecht Bundestierärztekammer / Deutsches Tierärzteblatt bzw. der zitierten Autor:innen – Zitat mit Quellenangabe",
+ "notes": "Definitionen: „gesamt (inkl. Ruhestand)“ = alle Kammermitglieder; „ohne Ruhestand“ = BTK Tab. 2 (In- und Ausland); „Bereich Praxis gesamt“ (Maure Tab. 4) = Praxisinhaber + Assistent:innen + Praxisvertreter:innen; „Praxisassistent:innen inkl. Praxisvertreter:innen“ = Maure-Rubrik „Assistent/-innen“. Der einzige berechnete Wert ist „Praktizierende (Praxisinhaber) – berechnet“ = Praxis gesamt − Assistent/-innen (Kontrolle 1991 exakt = 8.510 lt. Schöne & Ulrich). 1990 = nur alte Bundesländer; ab 1991 inkl. neue Bundesländer (Bruch). Frauenanteil: Maure/BTK Tab. 6 beziehen sich auf alle Kammermitglieder; der 1991-Wert 26,9 % (Cuvillier) auf tierärztlich Tätige. LÜCKEN (nicht online publiziert): Kammermitglieder gesamt 1996, 1998–2000; tierärztlich Tätige 1992–2001; praktizierende Tierärzt:innen und Praxisassistent:innen 1996–2001 (nur in den DTBl-Heften 1997–2002, nicht digital; Dissertation Osburg 2010 nicht abrufbar – Bot-Schutz/defekte Wayback-Kopie). 1997/2001 gesamt sind Duplikate zu ds1.",
+ "attribution": "Quelle: Statistik der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), zit. n. Maure 1998, Schöne & Ulrich 1992, BTK-Statistik 2002–2004, DTBl 11/2007",
+ "rows": [
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen gesamt (Kammermitglieder inkl. Ruhestand)",
+   "value": 18163,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf",
+   "note": "1990: nur alte Bundesländer; ab 1991 einschließlich der Tierärzteschaft der neuen Bundesländer"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen",
+   "value": 5259,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf",
+   "note": "1990: nur alte Bundesländer; ab 1991 einschließlich der Tierärzteschaft der neuen Bundesländer"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Frauenanteil (%) – publiziert",
+   "value": 29.0,
+   "unit": "%",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf",
+   "note": "1990: nur alte Bundesländer; ab 1991 einschließlich der Tierärzteschaft der neuen Bundesländer"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen gesamt (Kammermitglieder inkl. Ruhestand)",
+   "value": 23844,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf",
+   "note": "1990: nur alte Bundesländer; ab 1991 einschließlich der Tierärzteschaft der neuen Bundesländer"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen",
+   "value": 6939,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf",
+   "note": "1990: nur alte Bundesländer; ab 1991 einschließlich der Tierärzteschaft der neuen Bundesländer"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Frauenanteil (%) – publiziert",
+   "value": 29.1,
+   "unit": "%",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf",
+   "note": "1990: nur alte Bundesländer; ab 1991 einschließlich der Tierärzteschaft der neuen Bundesländer"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen gesamt (Kammermitglieder inkl. Ruhestand)",
+   "value": 24558,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen",
+   "value": 7438,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Frauenanteil (%) – publiziert",
+   "value": 30.3,
+   "unit": "%",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen gesamt (Kammermitglieder inkl. Ruhestand)",
+   "value": 25389,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen",
+   "value": 8062,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Frauenanteil (%) – publiziert",
+   "value": 31.8,
+   "unit": "%",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen gesamt (Kammermitglieder inkl. Ruhestand)",
+   "value": 26118,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen",
+   "value": 8622,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Frauenanteil (%) – publiziert",
+   "value": 33.0,
+   "unit": "%",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen gesamt (Kammermitglieder inkl. Ruhestand)",
+   "value": 26932,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen",
+   "value": 9216,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Frauenanteil (%) – publiziert",
+   "value": 34.2,
+   "unit": "%",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf"
+  },
+  {
+   "date": "1996",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen",
+   "value": 9907,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf)"
+  },
+  {
+   "date": "1997",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen",
+   "value": 10517,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf)"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen",
+   "value": 11148,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf)"
+  },
+  {
+   "date": "1999",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen",
+   "value": 11737,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf)"
+  },
+  {
+   "date": "2000",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen",
+   "value": 12400,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf)"
+  },
+  {
+   "date": "2001",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen",
+   "value": 13070,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf)"
+  },
+  {
+   "date": "1996",
+   "metric": "Deutschland",
+   "name": "Frauenanteil (%) – publiziert",
+   "value": 35.7,
+   "unit": "%",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) (Tab. 6: „Auf die Gesamtzahl der Tierärzte berechnet waren weibliche Berufsangehörige“)"
+  },
+  {
+   "date": "1997",
+   "metric": "Deutschland",
+   "name": "Frauenanteil (%) – publiziert",
+   "value": 36.9,
+   "unit": "%",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) (Tab. 6: „Auf die Gesamtzahl der Tierärzte berechnet waren weibliche Berufsangehörige“)"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Frauenanteil (%) – publiziert",
+   "value": 38.3,
+   "unit": "%",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) (Tab. 6: „Auf die Gesamtzahl der Tierärzte berechnet waren weibliche Berufsangehörige“)"
+  },
+  {
+   "date": "1999",
+   "metric": "Deutschland",
+   "name": "Frauenanteil (%) – publiziert",
+   "value": 39.6,
+   "unit": "%",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) (Tab. 6: „Auf die Gesamtzahl der Tierärzte berechnet waren weibliche Berufsangehörige“)"
+  },
+  {
+   "date": "2000",
+   "metric": "Deutschland",
+   "name": "Frauenanteil (%) – publiziert",
+   "value": 40.9,
+   "unit": "%",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) (Tab. 6: „Auf die Gesamtzahl der Tierärzte berechnet waren weibliche Berufsangehörige“)"
+  },
+  {
+   "date": "2001",
+   "metric": "Deutschland",
+   "name": "Frauenanteil (%) – publiziert",
+   "value": 42.3,
+   "unit": "%",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) (Tab. 6: „Auf die Gesamtzahl der Tierärzte berechnet waren weibliche Berufsangehörige“)"
+  },
+  {
+   "date": "1997",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen gesamt (Kammermitglieder inkl. Ruhestand)",
+   "value": 28463,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer: „Geschlechterverteilung im tierärztlichen Berufsstand (1997–2006)“, Deutsches Tierärzteblatt 11/2007, S. 1392, Tab. 11; PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "note": "auch in ds1 enthalten"
+  },
+  {
+   "date": "2001",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen gesamt (Kammermitglieder inkl. Ruhestand)",
+   "value": 30897,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer: „Geschlechterverteilung im tierärztlichen Berufsstand (1997–2006)“, Deutsches Tierärzteblatt 11/2007, S. 1392, Tab. 11; PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "note": "auch in ds1 enthalten"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen ohne Ruhestand (In- und Ausland)",
+   "value": 21691,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (ohne Ruhestand)",
+   "value": 7825,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Fachtierärzt:innen",
+   "value": 4482,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen ohne Ruhestand (In- und Ausland)",
+   "value": 22279,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (ohne Ruhestand)",
+   "value": 8358,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Fachtierärzt:innen",
+   "value": 4599,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen ohne Ruhestand (In- und Ausland)",
+   "value": 22985,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (ohne Ruhestand)",
+   "value": 8920,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Fachtierärzt:innen",
+   "value": 4704,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1996",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen ohne Ruhestand (In- und Ausland)",
+   "value": 23676,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1996",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (ohne Ruhestand)",
+   "value": 9575,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1996",
+   "metric": "Deutschland",
+   "name": "Fachtierärzt:innen",
+   "value": 4824,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1997",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen ohne Ruhestand (In- und Ausland)",
+   "value": 24186,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1997",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (ohne Ruhestand)",
+   "value": 10151,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1997",
+   "metric": "Deutschland",
+   "name": "Fachtierärzt:innen",
+   "value": 4855,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen ohne Ruhestand (In- und Ausland)",
+   "value": 24690,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (ohne Ruhestand)",
+   "value": 10750,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1998",
+   "metric": "Deutschland",
+   "name": "Fachtierärzt:innen",
+   "value": 4910,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1999",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen ohne Ruhestand (In- und Ausland)",
+   "value": 25154,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1999",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (ohne Ruhestand)",
+   "value": 11299,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1999",
+   "metric": "Deutschland",
+   "name": "Fachtierärzt:innen",
+   "value": 4918,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "2000",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen ohne Ruhestand (In- und Ausland)",
+   "value": 25671,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "2000",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (ohne Ruhestand)",
+   "value": 11926,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "2000",
+   "metric": "Deutschland",
+   "name": "Fachtierärzt:innen",
+   "value": 5015,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "2001",
+   "metric": "Deutschland",
+   "name": "Tierärzt:innen ohne Ruhestand (In- und Ausland)",
+   "value": 26147,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "2001",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (ohne Ruhestand)",
+   "value": 12538,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "2001",
+   "metric": "Deutschland",
+   "name": "Fachtierärzt:innen",
+   "value": 5011,
+   "unit": "Personen",
+   "source": "Bundestierärztekammer/Zentrale Tierärztedatei: „Statistische Untersuchungen über die Tierärzteschaft in der Bundesrepublik Deutschland (Stand 31.12.2004)“, Deutsches Tierärzteblatt 2005, Tabellen 2, 5 und 6 (Zehnjahresreihen); PDF: https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf (identische Reihen in statistik_02.pdf und statistik03.pdf) Tab. 2"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Tierärztlich Tätige (Inland)",
+   "value": 17149,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (tierärztlich tätig)",
+   "value": 4612,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Praktizierende Tierärzt:innen (Praxisinhaber)",
+   "value": 8510,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen",
+   "value": 1880,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Praxisvertreter:innen",
+   "value": 170,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Öffentliches Veterinärwesen",
+   "value": 3701,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Industrie und freie Wirtschaft",
+   "value": 879,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Akademische Bildungsstätten",
+   "value": 1201,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Forschungsanstalten",
+   "value": 68,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Bundeswehr",
+   "value": 71,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Auslandstätigkeit",
+   "value": 139,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Sonstige veterinärmedizinische Tätigkeiten",
+   "value": 530,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Nicht/nicht mehr tierärztlich tätig",
+   "value": 6695,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "davon Ruhestand",
+   "value": 3234,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "davon ohne Berufsausübung",
+   "value": 1818,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "davon Doktoranden",
+   "value": 1153,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "davon berufsfremd tätig",
+   "value": 490,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Einzelpraxis (Praxisinhaber)",
+   "value": 6256,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Gemeinschaftspraxis (Praxisinhaber)",
+   "value": 1862,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Gruppenpraxis (Praxisinhaber)",
+   "value": 293,
+   "unit": "Personen",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Frauenanteil an tierärztlich Tätigen (%) – publiziert",
+   "value": 26.9,
+   "unit": "%",
+   "source": "Schöne, R. & Ulrich, H. (1992): Statistik der Tierärzteschaft Stand 31.12.1991 (Deutsches Tierärzteblatt), zitiert in: Tierärztliche Betriebswirtschaftslehre (Cuvillier 2011), Abb. 2 u. Text S. 5–6, 44; PDF: https://cuvillier.de/get/ebook/216/9783869559605.pdf",
+   "note": "26,9 % bezieht sich auf tierärztlich Tätige (4.612/17.149); Frauenanteil an allen Kammermitgliedern 1991 = 29,1 %"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Bereich Praxis gesamt (Inhaber + Assistent:innen + Vertreter:innen)",
+   "value": 7974,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4",
+   "note": "1990 nur alte Bundesländer"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (Bereich Praxis)",
+   "value": 2204,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4",
+   "note": "1990 nur alte Bundesländer"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen inkl. Praxisvertreter:innen",
+   "value": 1819,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4 („Assistent/-innen“ = Assistenten und Praxisvertreter)",
+   "note": "1990 nur alte Bundesländer"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (Assistenz/Vertretung)",
+   "value": 847,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4",
+   "note": "1990 nur alte Bundesländer"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Praktizierende Tierärzt:innen (Praxisinhaber) – berechnet",
+   "value": 6155,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4: Praxis gesamt minus Assistent/-innen (BERECHNET; Kontrolle 1991: 10.560−2.050 = 8.510 = Wert bei Schöne & Ulrich 1992)",
+   "note": "1990 nur alte Bundesländer; abgeleitet aus zwei publizierten Werten, keine Originalzahl"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Großtierpraxis",
+   "value": 1206,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4",
+   "note": "1990 nur alte Bundesländer"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Gemischtpraxis",
+   "value": 2741,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4",
+   "note": "1990 nur alte Bundesländer"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Kleintierpraxis",
+   "value": 1953,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4",
+   "note": "1990 nur alte Bundesländer"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Bereich Praxis gesamt (Inhaber + Assistent:innen + Vertreter:innen)",
+   "value": 10560,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (Bereich Praxis)",
+   "value": 2863,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen inkl. Praxisvertreter:innen",
+   "value": 2050,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4 („Assistent/-innen“ = Assistenten und Praxisvertreter)"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (Assistenz/Vertretung)",
+   "value": 1000,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Praktizierende Tierärzt:innen (Praxisinhaber) – berechnet",
+   "value": 8510,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4: Praxis gesamt minus Assistent/-innen (BERECHNET; Kontrolle 1991: 10.560−2.050 = 8.510 = Wert bei Schöne & Ulrich 1992)",
+   "note": "abgeleitet aus zwei publizierten Werten, keine Originalzahl"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Großtierpraxis",
+   "value": 1859,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Gemischtpraxis",
+   "value": 4086,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Kleintierpraxis",
+   "value": 2298,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Bereich Praxis gesamt (Inhaber + Assistent:innen + Vertreter:innen)",
+   "value": 10666,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (Bereich Praxis)",
+   "value": 3038,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen inkl. Praxisvertreter:innen",
+   "value": 2152,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4 („Assistent/-innen“ = Assistenten und Praxisvertreter)"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (Assistenz/Vertretung)",
+   "value": 1095,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Praktizierende Tierärzt:innen (Praxisinhaber) – berechnet",
+   "value": 8514,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4: Praxis gesamt minus Assistent/-innen (BERECHNET; Kontrolle 1991: 10.560−2.050 = 8.510 = Wert bei Schöne & Ulrich 1992)",
+   "note": "abgeleitet aus zwei publizierten Werten, keine Originalzahl"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Großtierpraxis",
+   "value": 1696,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Gemischtpraxis",
+   "value": 4150,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Kleintierpraxis",
+   "value": 2453,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Bereich Praxis gesamt (Inhaber + Assistent:innen + Vertreter:innen)",
+   "value": 11025,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (Bereich Praxis)",
+   "value": 3323,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen inkl. Praxisvertreter:innen",
+   "value": 2393,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4 („Assistent/-innen“ = Assistenten und Praxisvertreter)"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (Assistenz/Vertretung)",
+   "value": 1260,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Praktizierende Tierärzt:innen (Praxisinhaber) – berechnet",
+   "value": 8632,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4: Praxis gesamt minus Assistent/-innen (BERECHNET; Kontrolle 1991: 10.560−2.050 = 8.510 = Wert bei Schöne & Ulrich 1992)",
+   "note": "abgeleitet aus zwei publizierten Werten, keine Originalzahl"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Großtierpraxis",
+   "value": 1658,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Gemischtpraxis",
+   "value": 4171,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Kleintierpraxis",
+   "value": 2601,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Bereich Praxis gesamt (Inhaber + Assistent:innen + Vertreter:innen)",
+   "value": 11549,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (Bereich Praxis)",
+   "value": 3690,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen inkl. Praxisvertreter:innen",
+   "value": 2715,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4 („Assistent/-innen“ = Assistenten und Praxisvertreter)"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (Assistenz/Vertretung)",
+   "value": 1504,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Praktizierende Tierärzt:innen (Praxisinhaber) – berechnet",
+   "value": 8834,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4: Praxis gesamt minus Assistent/-innen (BERECHNET; Kontrolle 1991: 10.560−2.050 = 8.510 = Wert bei Schöne & Ulrich 1992)",
+   "note": "abgeleitet aus zwei publizierten Werten, keine Originalzahl"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Großtierpraxis",
+   "value": 1632,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Gemischtpraxis",
+   "value": 4275,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Kleintierpraxis",
+   "value": 2842,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Bereich Praxis gesamt (Inhaber + Assistent:innen + Vertreter:innen)",
+   "value": 11973,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (Bereich Praxis)",
+   "value": 3998,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Praxisassistent:innen inkl. Praxisvertreter:innen",
+   "value": 2927,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4 („Assistent/-innen“ = Assistenten und Praxisvertreter)"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "davon Tierärztinnen (Assistenz/Vertretung)",
+   "value": 1664,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Praktizierende Tierärzt:innen (Praxisinhaber) – berechnet",
+   "value": 9046,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4: Praxis gesamt minus Assistent/-innen (BERECHNET; Kontrolle 1991: 10.560−2.050 = 8.510 = Wert bei Schöne & Ulrich 1992)",
+   "note": "abgeleitet aus zwei publizierten Werten, keine Originalzahl"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Großtierpraxis",
+   "value": 1630,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Gemischtpraxis",
+   "value": 4306,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Kleintierpraxis",
+   "value": 3024,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 4"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Veterinärverwaltung",
+   "value": 1209,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5",
+   "note": "1990 nur alte Bundesländer"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Hochschulen",
+   "value": 1107,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5",
+   "note": "1990 nur alte Bundesländer"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Institute",
+   "value": 835,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5",
+   "note": "1990 nur alte Bundesländer"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Fleischhygiene",
+   "value": 621,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5",
+   "note": "1990 nur alte Bundesländer"
+  },
+  {
+   "date": "1990",
+   "metric": "Deutschland",
+   "name": "Industrie",
+   "value": 717,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5",
+   "note": "1990 nur alte Bundesländer"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Veterinärverwaltung",
+   "value": 1893,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Hochschulen",
+   "value": 1201,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Institute",
+   "value": 1306,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Fleischhygiene",
+   "value": 771,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1991",
+   "metric": "Deutschland",
+   "name": "Industrie",
+   "value": 879,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Veterinärverwaltung",
+   "value": 1882,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Hochschulen",
+   "value": 1221,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Institute",
+   "value": 1247,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Fleischhygiene",
+   "value": 739,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1992",
+   "metric": "Deutschland",
+   "name": "Industrie",
+   "value": 985,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Veterinärverwaltung",
+   "value": 1876,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Hochschulen",
+   "value": 1194,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Institute",
+   "value": 1233,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Fleischhygiene",
+   "value": 656,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1993",
+   "metric": "Deutschland",
+   "name": "Industrie",
+   "value": 1026,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Veterinärverwaltung",
+   "value": 1859,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Hochschulen",
+   "value": 1205,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Institute",
+   "value": 1232,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Fleischhygiene",
+   "value": 617,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1994",
+   "metric": "Deutschland",
+   "name": "Industrie",
+   "value": 1027,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Veterinärverwaltung",
+   "value": 1887,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Hochschulen",
+   "value": 1220,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Institute",
+   "value": 1222,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Fleischhygiene",
+   "value": 594,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  },
+  {
+   "date": "1995",
+   "metric": "Deutschland",
+   "name": "Industrie",
+   "value": 1045,
+   "unit": "Personen",
+   "source": "Maure, S. (1998): Frauen als Tierärztinnen (Diss. FU Berlin), Tab. 2/4/5 – Zusammenstellung der jährlichen Statistiken der Deutschen Tierärzteschaft/Zentrale Tierärztedatei (Deutsches Tierärzteblatt), Stand jeweils 31.12.; PDF: https://www.vetmed.uni-leipzig.de/fileadmin/Fakult%C3%A4t_VMF/Dekanat/Dokumente/Vetmed-Sammlung/Dissertationen/Diss_Frauen_als_Tier%C3%A4rztinnen_maure_Diss_Berlin.pdf Tab. 5"
+  }
+ ]
+}

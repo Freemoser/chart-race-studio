@@ -1,0 +1,2398 @@
+{
+ "title": "Fachtierärztinnen und Fachtierärzte in Deutschland nach Gebietsbezeichnung, 2001–2025 (Schwerpunkt Kleintiere)",
+ "source": "Bundestierärztekammer / Zentrale Tierärztedatei, Statistik „Tierärzteschaft in der Bundesrepublik Deutschland“ (Deutsches Tierärzteblatt)",
+ "sourceUrl": "https://www.bundestieraerztekammer.de/btk/statistik/",
+ "notes": "Titelbezeichnung wechselt: 2001–2004 „Kleintiere, kleine Haustiere“; 2005–2014 „Klein- und Heimtiere“; ab 2018 „Kleintiere“ (Fußnote der BTK: inkl. Klein- und Heimtiere). Zählbasis wechselt: 2005 nur TÄ bis 65 Jahre; ab 2006 alle Titelträger inkl. Ruheständler; ab 2012 zusätzlich Spalte „aktiv“. LÜCKEN: 2015, 2016, 2017 (die BTK druckte in diesen Jahrgängen nur „Tab. 3: Fachtierarztabschlüsse“ = Neuanerkennungen, keine Bestandstabelle) und 2020 (die Seiten mit Tab. 5–7 sind im veröffentlichten PDF 2020.pdf leer). 2000 und früher nicht online. Mehrfachanerkennungen sind möglich: die Summe aller Gebietsbezeichnungen ist größer als die Zahl der Fachtierärzt:innen.",
+ "rows": [
+  {
+   "date": "2001",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintiere, kleine Haustiere",
+   "value": 648,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 3 Fachtierärzte und Fachtierarztanerkennungen, Spalte „Summe 2001“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": "Titel „Kleintiere, kleine Haustiere“ (Schöne/Ulrich-Systematik)"
+  },
+  {
+   "date": "2001",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Kleintiere, kleine Haustiere",
+   "value": 271,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 3 Fachtierärzte und Fachtierarztanerkennungen, Spalte „Summe 2001“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2001",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 387,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Fachtierärzte und Fachtierarztanerkennungen, Spalte „Summe 2001“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2001",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 586,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Fachtierärzte und Fachtierarztanerkennungen, Spalte „Summe 2001“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2001",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 440,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Fachtierärzte und Fachtierarztanerkennungen, Spalte „Summe 2001“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2001",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 153,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Fachtierärzte und Fachtierarztanerkennungen, Spalte „Summe 2001“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2002",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintiere, kleine Haustiere",
+   "value": 672,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 3 Fachtierärzte und Fachtierarztanerkennungen, Spalte „Summe 2002“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": "Titel „Kleintiere, kleine Haustiere“ (Schöne/Ulrich-Systematik)"
+  },
+  {
+   "date": "2002",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Kleintiere, kleine Haustiere",
+   "value": 283,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 3 Fachtierärzte und Fachtierarztanerkennungen, Spalte „Summe 2002“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2002",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 391,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Fachtierärzte und Fachtierarztanerkennungen, Spalte „Summe 2002“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2002",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 556,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Fachtierärzte und Fachtierarztanerkennungen, Spalte „Summe 2002“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2002",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 435,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Fachtierärzte und Fachtierarztanerkennungen, Spalte „Summe 2002“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2002",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 147,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Fachtierärzte und Fachtierarztanerkennungen, Spalte „Summe 2002“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_02.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2003",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintiere, kleine Haustiere",
+   "value": 690,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 3, Spalte „Summe 2003“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik03.pdf",
+   "quality": "publiziert",
+   "notes": "Titel „Kleintiere, kleine Haustiere“ (Schöne/Ulrich-Systematik)"
+  },
+  {
+   "date": "2003",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Kleintiere, kleine Haustiere",
+   "value": 291,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 3, Spalte „Summe 2003“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik03.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2003",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 402,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3, Spalte „Summe 2003“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik03.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2003",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 537,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3, Spalte „Summe 2003“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik03.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2003",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 419,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3, Spalte „Summe 2003“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik03.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2003",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 144,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3, Spalte „Summe 2003“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik03.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2004",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintiere, kleine Haustiere",
+   "value": 710,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 3, Spalte „Summe 2004“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf",
+   "quality": "publiziert",
+   "notes": "Titel „Kleintiere, kleine Haustiere“ (Schöne/Ulrich-Systematik)"
+  },
+  {
+   "date": "2004",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Kleintiere, kleine Haustiere",
+   "value": 305,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 3, Spalte „Summe 2004“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2004",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 408,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3, Spalte „Summe 2004“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2004",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 503,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3, Spalte „Summe 2004“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2004",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 404,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3, Spalte „Summe 2004“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2004",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 141,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3, Spalte „Summe 2004“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik2004.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2005",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 584,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 9 Gebietsbezeichnungen (nur TÄ bis zur Vollendung des 65. Lebensjahres), Spalte „2005 gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_final.pdf",
+   "quality": "publiziert",
+   "notes": "ACHTUNG: 2005 nur Fachtierärzt:innen bis zur Vollendung des 65. Lebensjahres – nicht mit den Folgejahren (inkl. Ruheständler) vergleichbar"
+  },
+  {
+   "date": "2005",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Klein- und Heimtiere",
+   "value": 264,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 9 Gebietsbezeichnungen (nur TÄ bis zur Vollendung des 65. Lebensjahres), Spalte „2005 gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_final.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2005",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 360,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 9 Gebietsbezeichnungen (nur TÄ bis zur Vollendung des 65. Lebensjahres), Spalte „2005 gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_final.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2005",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 408,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 9 Gebietsbezeichnungen (nur TÄ bis zur Vollendung des 65. Lebensjahres), Spalte „2005 gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_final.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2005",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 342,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 9 Gebietsbezeichnungen (nur TÄ bis zur Vollendung des 65. Lebensjahres), Spalte „2005 gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_final.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2005",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 159,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 9 Gebietsbezeichnungen (nur TÄ bis zur Vollendung des 65. Lebensjahres), Spalte „2005 gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_final.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2005",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 943,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 9 Gebietsbezeichnungen (nur TÄ bis zur Vollendung des 65. Lebensjahres), Spalte „2005 gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_final.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2005",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittelhygiene",
+   "value": 317,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 9 Gebietsbezeichnungen (nur TÄ bis zur Vollendung des 65. Lebensjahres), Spalte „2005 gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_final.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2005",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 283,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 9 Gebietsbezeichnungen (nur TÄ bis zur Vollendung des 65. Lebensjahres), Spalte „2005 gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_final.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2005",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 167,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 9 Gebietsbezeichnungen (nur TÄ bis zur Vollendung des 65. Lebensjahres), Spalte „2005 gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_final.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2005",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Chirurgie",
+   "value": 166,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 9 Gebietsbezeichnungen (nur TÄ bis zur Vollendung des 65. Lebensjahres), Spalte „2005 gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/statistik_final.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 758,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 8 Fachtierärzte/-innen (Berichtigung zur Statistik 2006), Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "quality": "publiziert",
+   "notes": "Berichtigung zur Statistik 2006 (DTBl); Kammer Baden-Württemberg meldete faktisch keine Gebietsbezeichnungen (BW = 1) – Bundeswert untererfasst. Unkorrigierte Erstpublikation: 764"
+  },
+  {
+   "date": "2006",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Klein- und Heimtiere",
+   "value": 324,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 8 Fachtierärzte/-innen (Berichtigung zur Statistik 2006), Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 415,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Fachtierärzte/-innen (Berichtigung zur Statistik 2006), Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 790,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Fachtierärzte/-innen (Berichtigung zur Statistik 2006), Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 612,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Fachtierärzte/-innen (Berichtigung zur Statistik 2006), Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 264,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Fachtierärzte/-innen (Berichtigung zur Statistik 2006), Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1224,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Fachtierärzte/-innen (Berichtigung zur Statistik 2006), Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittelhygiene",
+   "value": 586,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Fachtierärzte/-innen (Berichtigung zur Statistik 2006), Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 428,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Fachtierärzte/-innen (Berichtigung zur Statistik 2006), Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 223,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Fachtierärzte/-innen (Berichtigung zur Statistik 2006), Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2006",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 5,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Fachtierärzte/-innen (Berichtigung zur Statistik 2006), Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_stat_06_bericht.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 919,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Klein- und Heimtiere",
+   "value": 404,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 501,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 860,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 667,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 305,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1398,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittelhygiene",
+   "value": 634,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 485,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 252,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2007",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 4,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_sd_statistik_2007.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 952,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Klein- und Heimtiere",
+   "value": 425,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 514,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 853,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 669,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 301,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1416,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittelhygiene",
+   "value": 624,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 481,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 255,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2008",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 7,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 8 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/sd_dtb_statistik08.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 955,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Klein- und Heimtiere",
+   "value": 428,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 529,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 793,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 624,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 289,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1422,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittelhygiene",
+   "value": 611,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 481,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 262,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2009",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 11,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_04_s_500-505_statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 979,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Klein- und Heimtiere",
+   "value": 447,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 543,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 808,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 627,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 291,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1453,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittelhygiene",
+   "value": 608,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 489,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 271,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2010",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 25,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_statistik2010.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 1015,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Klein- und Heimtiere",
+   "value": 469,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 557,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 808,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 630,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 291,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1481,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittelhygiene",
+   "value": 604,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 480,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 278,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2011",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 29,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 2 Gebietsbezeichnungen, Spalte „gesamt“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/dtb_Statistik2011.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 1046,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": "ab 2012 Spalten ges. (inkl. Ruheständler) / aktiv / w / WBE"
+  },
+  {
+   "date": "2012",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_aktiv",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 881,
+   "unit": "Personen (aktiv tätig)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Klein- und Heimtiere",
+   "value": 497,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_WBE",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 387,
+   "unit": "mit Weiterbildungsermächtigung",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 800,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 629,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 297,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1531,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittelhygiene",
+   "value": 599,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 481,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 290,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2012",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 34,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2012_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 1103,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": "ab 2012 Spalten ges. (inkl. Ruheständler) / aktiv / w / WBE"
+  },
+  {
+   "date": "2013",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_aktiv",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 932,
+   "unit": "Personen (aktiv tätig)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Klein- und Heimtiere",
+   "value": 547,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_WBE",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 395,
+   "unit": "mit Weiterbildungsermächtigung",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 602,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 791,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 635,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 297,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1560,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittelhygiene",
+   "value": 598,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 605,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2013",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 292,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 4 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/DTBl_06_2014_Statistik.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 1146,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 3 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": "ab 2012 Spalten ges. (inkl. Ruheständler) / aktiv / w / WBE"
+  },
+  {
+   "date": "2014",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_aktiv",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 975,
+   "unit": "Personen (aktiv tätig)",
+   "source": "BTK/ZTD, Tab. 3 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Klein- und Heimtiere",
+   "value": 575,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 3 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_WBE",
+   "name": "Fachtierarzt für Klein- und Heimtiere",
+   "value": 437,
+   "unit": "mit Weiterbildungsermächtigung",
+   "source": "BTK/ZTD, Tab. 3 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 622,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 786,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 635,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 327,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1593,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittelhygiene",
+   "value": 591,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 494,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2014",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 300,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 3 Gebietsbezeichnungen, Spalte „gesamt“ (ges.) | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik-2014.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1129,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": "Titel seit 2018 „Kleintiere“ (Fußnote: inkl. Klein- und Heimtiere)"
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_aktiv",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 934,
+   "unit": "Personen (aktiv tätig)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Kleintiere",
+   "value": 604,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_WBE",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 435,
+   "unit": "mit Weiterbildungsermächtigung",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 675,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 719,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 621,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 265,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1744,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittel",
+   "value": 516,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 453,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 305,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2018",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Innere Medizin der Kleintiere",
+   "value": 54,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/Statistik_2018.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1264,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": "Titel seit 2018 „Kleintiere“ (Fußnote: inkl. Klein- und Heimtiere)"
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_aktiv",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1059,
+   "unit": "Personen (aktiv tätig)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Kleintiere",
+   "value": 663,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_WBE",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 462,
+   "unit": "mit Weiterbildungsermächtigung",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 691,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 720,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 612,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 296,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1768,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittel",
+   "value": 529,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 470,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 338,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 107,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2019",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Innere Medizin der Kleintiere",
+   "value": 75,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a Gebietsbezeichnungen gemäß Muster-WBO, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2019.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1181,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": "Titel seit 2018 „Kleintiere“ (Fußnote: inkl. Klein- und Heimtiere)"
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_aktiv",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1007,
+   "unit": "Personen (aktiv tätig)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Kleintiere",
+   "value": 656,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_WBE",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 409,
+   "unit": "mit Weiterbildungsermächtigung",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 649,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 678,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 603,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 268,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1740,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittel",
+   "value": 474,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 446,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 338,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 117,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Innere Medizin der Kleintiere",
+   "value": 96,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2021",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Heimtiere",
+   "value": 22,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2021.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1342,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": "Titel seit 2018 „Kleintiere“ (Fußnote: inkl. Klein- und Heimtiere)"
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_aktiv",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1133,
+   "unit": "Personen (aktiv tätig)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Kleintiere",
+   "value": 765,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_WBE",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 446,
+   "unit": "mit Weiterbildungsermächtigung",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 726,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 661,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 588,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 281,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1870,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittel",
+   "value": 477,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 460,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 303,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 144,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Innere Medizin der Kleintiere",
+   "value": 116,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2022",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Heimtiere",
+   "value": 24,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2022.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1526,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": "Titel seit 2018 „Kleintiere“ (Fußnote: inkl. Klein- und Heimtiere)"
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_aktiv",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1177,
+   "unit": "Personen (aktiv tätig)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Kleintiere",
+   "value": 739,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_WBE",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 462,
+   "unit": "mit Weiterbildungsermächtigung",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 770,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 660,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 592,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 288,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1969,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittel",
+   "value": 452,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 491,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 328,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 195,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Innere Medizin der Kleintiere",
+   "value": 132,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2023",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Heimtiere",
+   "value": 41,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2023.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1487,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": "Titel seit 2018 „Kleintiere“ (Fußnote: inkl. Klein- und Heimtiere)"
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_aktiv",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1244,
+   "unit": "Personen (aktiv tätig)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Kleintiere",
+   "value": 806,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_WBE",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 488,
+   "unit": "mit Weiterbildungsermächtigung",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 788,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 641,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 585,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 288,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 2004,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittel",
+   "value": 462,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 484,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 367,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 205,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Innere Medizin der Kleintiere",
+   "value": 139,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2024",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Heimtiere",
+   "value": 29,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2024.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1410,
+   "unit": "Personen (ges., inkl. Ruheständler ab 2006)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": "Titel seit 2018 „Kleintiere“ (Fußnote: inkl. Klein- und Heimtiere)"
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_aktiv",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 1233,
+   "unit": "Personen (aktiv tätig)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_weiblich",
+   "name": "Fachtierärztin für Kleintiere",
+   "value": 785,
+   "unit": "Personen (weiblich)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung_WBE",
+   "name": "Fachtierarzt für Kleintiere",
+   "value": 506,
+   "unit": "mit Weiterbildungsermächtigung",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pferde",
+   "value": 773,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Rinder",
+   "value": 596,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Schweine",
+   "value": 561,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Geflügel",
+   "value": 254,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Öffentliches Veterinärwesen",
+   "value": 1950,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Lebensmittel",
+   "value": 419,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Mikrobiologie",
+   "value": 440,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Pathologie",
+   "value": 302,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Kleintierchirurgie",
+   "value": 194,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Innere Medizin der Kleintiere",
+   "value": 165,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  },
+  {
+   "date": "2025",
+   "metric": "Fachtierarzt-Gebietsbezeichnung",
+   "name": "Fachtierarzt für Heimtiere",
+   "value": 33,
+   "unit": "Personen (ges.)",
+   "source": "BTK/ZTD, Tab. 6a, Spalte „gesamt/ges.“ | https://www.bundestieraerztekammer.de/btk/statistik/downloads/2025_korr.pdf",
+   "quality": "publiziert",
+   "notes": ""
+  }
+ ]
+}
