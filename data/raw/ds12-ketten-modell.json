@@ -1,0 +1,1352 @@
+{
+ "title": "Tierarztketten und operatorengeführte Praxis-/Klinikgruppen in Deutschland – physische Standorte, 2015–2026",
+ "source": "Modellreihe auf Basis von Betreiberangaben, Bundeskartellamt, Tierärzte Atlas Deutschland 2024 (Deutsches Tierärzteblatt 2/2025) und Fachpresse. Stichtag der aktuellen Werte 17.09.2026.",
+ "sourceUrl": "https://www.bundestieraerztekammer.de/btk/dtbl/archiv/2025/artikel/DTBl_02_2025_Tieraerzte-Atlas.pdf",
+ "notes": "Gezählt werden physische tiermedizinische Behandlungsstandorte unter gemeinsamer Betreiberstruktur, unabhängig von Akquisition oder Neugründung. NICHT gezählt: Einkaufsgemeinschaften und Kooperationsnetzwerke ohne gemeinsamen Betreiber (VetFamily, VUK, Smartemis, vezzgroup, OneVet) sowie Telemedizin ohne Standorte (Pfotendoctor, gehört zu Tierarzt Plus). activet ab 2023 nicht mehr separat, weil die fünf Praxen zu Tierarzt Plus gehören. MARKER je Wert: B belegt, B~ Quelle nennt rund/knapp, B≥ belegte Untergrenze aus einer Über-X-Aussage, B/P belegte Praxenzahl als Standort-Näherung, S Schätzung oder Interpolation, 0 Gruppe existierte noch nicht. Einziger externer Gesamtanker ist der Tierärzte Atlas mit rund 450 Standorten von 16 Ketten im August 2024; alle anderen TOTAL-Werte sind Modellschätzungen. Unsicherheitsband 2026: rund 550 bis 610, Zentralwert 577.",
+ "rows": [
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "IVC Evidensia",
+   "value": 1,
+   "marker": "S"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "IVC Evidensia",
+   "value": 4,
+   "marker": "B"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "IVC Evidensia",
+   "value": 8,
+   "marker": "S"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "IVC Evidensia",
+   "value": 13,
+   "marker": "B"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "IVC Evidensia",
+   "value": 22,
+   "marker": "S"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "IVC Evidensia",
+   "value": 32,
+   "marker": "S"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "IVC Evidensia",
+   "value": 51,
+   "marker": "B≥"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "IVC Evidensia",
+   "value": 71,
+   "marker": "B≥"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "IVC Evidensia",
+   "value": 75,
+   "marker": "B~"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "IVC Evidensia",
+   "value": 76,
+   "marker": "B"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "IVC Evidensia",
+   "value": 98,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "IVC Evidensia",
+   "value": 121,
+   "marker": "B≥"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "Tierarzt Plus Partner",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "Tierarzt Plus Partner",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "Tierarzt Plus Partner",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "Tierarzt Plus Partner",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "Tierarzt Plus Partner",
+   "value": 5,
+   "marker": "S"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "Tierarzt Plus Partner",
+   "value": 15,
+   "marker": "S"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "Tierarzt Plus Partner",
+   "value": 31,
+   "marker": "B≥"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "Tierarzt Plus Partner",
+   "value": 47,
+   "marker": "S"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "Tierarzt Plus Partner",
+   "value": 80,
+   "marker": "S"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "Tierarzt Plus Partner",
+   "value": 96,
+   "marker": "B"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "Tierarzt Plus Partner",
+   "value": 104,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "Tierarzt Plus Partner",
+   "value": 111,
+   "marker": "B≥/P"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "AniCura",
+   "value": 7,
+   "marker": "B"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "AniCura",
+   "value": 20,
+   "marker": "B"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "AniCura",
+   "value": 22,
+   "marker": "B"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "AniCura",
+   "value": 30,
+   "marker": "B"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "AniCura",
+   "value": 40,
+   "marker": "S"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "AniCura",
+   "value": 50,
+   "marker": "S"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "AniCura",
+   "value": 60,
+   "marker": "B~"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "AniCura",
+   "value": 70,
+   "marker": "B~"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "AniCura",
+   "value": 75,
+   "marker": "B~"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "AniCura",
+   "value": 79,
+   "marker": "B"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "AniCura",
+   "value": 78,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "AniCura",
+   "value": 78,
+   "marker": "B"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "VetPartners",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "VetPartners",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "VetPartners",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "VetPartners",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "VetPartners",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "VetPartners",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "VetPartners",
+   "value": 1,
+   "marker": "B"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "VetPartners",
+   "value": 5,
+   "marker": "B"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "VetPartners",
+   "value": 11,
+   "marker": "B"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "VetPartners",
+   "value": 17,
+   "marker": "B"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "VetPartners",
+   "value": 24,
+   "marker": "B"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "VetPartners",
+   "value": 30,
+   "marker": "B"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "VetGruppen (Vetopia)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "VetGruppen (Vetopia)",
+   "value": 5,
+   "marker": "S"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "VetGruppen (Vetopia)",
+   "value": 12,
+   "marker": "S"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "VetGruppen (Vetopia)",
+   "value": 22,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "VetGruppen (Vetopia)",
+   "value": 31,
+   "marker": "B≥"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "TeamVet",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "TeamVet",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "TeamVet",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "TeamVet",
+   "value": 5,
+   "marker": "S"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "TeamVet",
+   "value": 8,
+   "marker": "S"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "TeamVet",
+   "value": 12,
+   "marker": "S"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "TeamVet",
+   "value": 16,
+   "marker": "S"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "TeamVet",
+   "value": 19,
+   "marker": "S"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "TeamVet",
+   "value": 23,
+   "marker": "B"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "TeamVet",
+   "value": 24,
+   "marker": "S"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "TeamVet",
+   "value": 25,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "TeamVet",
+   "value": 27,
+   "marker": "B"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "Veternicum Nesto",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "Veternicum Nesto",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "Veternicum Nesto",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "Veternicum Nesto",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "Veternicum Nesto",
+   "value": 1,
+   "marker": "S"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "Veternicum Nesto",
+   "value": 3,
+   "marker": "S"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "Veternicum Nesto",
+   "value": 6,
+   "marker": "S"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "Veternicum Nesto",
+   "value": 9,
+   "marker": "S"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "Veternicum Nesto",
+   "value": 12,
+   "marker": "B"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "Veternicum Nesto",
+   "value": 21,
+   "marker": "B"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "Veternicum Nesto",
+   "value": 23,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "Veternicum Nesto",
+   "value": 26,
+   "marker": "B≥"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "SmartVet → Medivet",
+   "value": 19,
+   "marker": "S"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "SmartVet → Medivet",
+   "value": 20,
+   "marker": "B"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "SmartVet → Medivet",
+   "value": 20,
+   "marker": "S"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "SmartVet → Medivet",
+   "value": 20,
+   "marker": "S"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "SmartVet → Medivet",
+   "value": 19,
+   "marker": "S"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "SmartVet → Medivet",
+   "value": 18,
+   "marker": "S"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "SmartVet → Medivet",
+   "value": 18,
+   "marker": "B"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "SmartVet → Medivet",
+   "value": 19,
+   "marker": "S"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "SmartVet → Medivet",
+   "value": 20,
+   "marker": "B"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "SmartVet → Medivet",
+   "value": 20,
+   "marker": "B"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "SmartVet → Medivet",
+   "value": 20,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "SmartVet → Medivet",
+   "value": 20,
+   "marker": "B"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "Altano (Pferde)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "Altano (Pferde)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "Altano (Pferde)",
+   "value": 4,
+   "marker": "S"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "Altano (Pferde)",
+   "value": 8,
+   "marker": "S"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "Altano (Pferde)",
+   "value": 12,
+   "marker": "S"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "Altano (Pferde)",
+   "value": 16,
+   "marker": "S"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "Altano (Pferde)",
+   "value": 20,
+   "marker": "S"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "Altano (Pferde)",
+   "value": 23,
+   "marker": "S"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "Altano (Pferde)",
+   "value": 26,
+   "marker": "B"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "Altano (Pferde)",
+   "value": 27,
+   "marker": "S"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "Altano (Pferde)",
+   "value": 29,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "Altano (Pferde)",
+   "value": 30,
+   "marker": "S"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "Rex",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "Rex",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "Rex",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "Rex",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "Rex",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "Rex",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "Rex",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "Rex",
+   "value": 2,
+   "marker": "S"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "Rex",
+   "value": 5,
+   "marker": "S"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "Rex",
+   "value": 8,
+   "marker": "S"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "Rex",
+   "value": 10,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "Rex",
+   "value": 13,
+   "marker": "B"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "filu",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "filu",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "filu",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "filu",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "filu",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "filu",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "filu",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "filu",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "filu",
+   "value": 2,
+   "marker": "S"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "filu",
+   "value": 6,
+   "marker": "S"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "filu",
+   "value": 8,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "filu",
+   "value": 11,
+   "marker": "B"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "Cadomo Vets",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "Cadomo Vets",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "Cadomo Vets",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "Cadomo Vets",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "Cadomo Vets",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "Cadomo Vets",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "Cadomo Vets",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "Cadomo Vets",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "Cadomo Vets",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "Cadomo Vets",
+   "value": 2,
+   "marker": "S"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "Cadomo Vets",
+   "value": 3,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "Cadomo Vets",
+   "value": 4,
+   "marker": "B"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "Wolf & Tiger",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "Wolf & Tiger",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "Wolf & Tiger",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "Wolf & Tiger",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "Wolf & Tiger",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "Wolf & Tiger",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "Wolf & Tiger",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "Wolf & Tiger",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "Wolf & Tiger",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "Wolf & Tiger",
+   "value": 1,
+   "marker": "S"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "Wolf & Tiger",
+   "value": 2,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "Wolf & Tiger",
+   "value": 3,
+   "marker": "B"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "activet (bis 2022)",
+   "value": 1,
+   "marker": "S"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "activet (bis 2022)",
+   "value": 4,
+   "marker": "S"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "activet (bis 2022)",
+   "value": 5,
+   "marker": "S"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "activet (bis 2022)",
+   "value": 5,
+   "marker": "S"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "activet (bis 2022)",
+   "value": 5,
+   "marker": "S"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "activet (bis 2022)",
+   "value": 5,
+   "marker": "S"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "activet (bis 2022)",
+   "value": 5,
+   "marker": "S"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "activet (bis 2022)",
+   "value": 5,
+   "marker": "S"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "activet (bis 2022)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "activet (bis 2022)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "activet (bis 2022)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "activet (bis 2022)",
+   "value": 0,
+   "marker": "0"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "Weitere Gruppen (Long Tail)",
+   "value": 7,
+   "marker": "S"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "Weitere Gruppen (Long Tail)",
+   "value": 10,
+   "marker": "S"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "Weitere Gruppen (Long Tail)",
+   "value": 13,
+   "marker": "S"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "Weitere Gruppen (Long Tail)",
+   "value": 14,
+   "marker": "S"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "Weitere Gruppen (Long Tail)",
+   "value": 18,
+   "marker": "S"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "Weitere Gruppen (Long Tail)",
+   "value": 24,
+   "marker": "S"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "Weitere Gruppen (Long Tail)",
+   "value": 30,
+   "marker": "S"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "Weitere Gruppen (Long Tail)",
+   "value": 35,
+   "marker": "S"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "Weitere Gruppen (Long Tail)",
+   "value": 46,
+   "marker": "S"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "Weitere Gruppen (Long Tail)",
+   "value": 61,
+   "marker": "S"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "Weitere Gruppen (Long Tail)",
+   "value": 68,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "Weitere Gruppen (Long Tail)",
+   "value": 72,
+   "marker": "S"
+  },
+  {
+   "date": "2015",
+   "metric": "Standorte je Gruppe",
+   "name": "TOTAL Deutschland",
+   "value": 35,
+   "marker": "S"
+  },
+  {
+   "date": "2016",
+   "metric": "Standorte je Gruppe",
+   "name": "TOTAL Deutschland",
+   "value": 58,
+   "marker": "S"
+  },
+  {
+   "date": "2017",
+   "metric": "Standorte je Gruppe",
+   "name": "TOTAL Deutschland",
+   "value": 72,
+   "marker": "S"
+  },
+  {
+   "date": "2018",
+   "metric": "Standorte je Gruppe",
+   "name": "TOTAL Deutschland",
+   "value": 95,
+   "marker": "S"
+  },
+  {
+   "date": "2019",
+   "metric": "Standorte je Gruppe",
+   "name": "TOTAL Deutschland",
+   "value": 130,
+   "marker": "S"
+  },
+  {
+   "date": "2020",
+   "metric": "Standorte je Gruppe",
+   "name": "TOTAL Deutschland",
+   "value": 175,
+   "marker": "S"
+  },
+  {
+   "date": "2021",
+   "metric": "Standorte je Gruppe",
+   "name": "TOTAL Deutschland",
+   "value": 238,
+   "marker": "S"
+  },
+  {
+   "date": "2022",
+   "metric": "Standorte je Gruppe",
+   "name": "TOTAL Deutschland",
+   "value": 305,
+   "marker": "S"
+  },
+  {
+   "date": "2023",
+   "metric": "Standorte je Gruppe",
+   "name": "TOTAL Deutschland",
+   "value": 380,
+   "marker": "S"
+  },
+  {
+   "date": "2024",
+   "metric": "Standorte je Gruppe",
+   "name": "TOTAL Deutschland",
+   "value": 450,
+   "marker": "B~"
+  },
+  {
+   "date": "2025",
+   "metric": "Standorte je Gruppe",
+   "name": "TOTAL Deutschland",
+   "value": 514,
+   "marker": "S"
+  },
+  {
+   "date": "2026",
+   "metric": "Standorte je Gruppe",
+   "name": "TOTAL Deutschland",
+   "value": 577,
+   "marker": "S"
+  }
+ ]
+}

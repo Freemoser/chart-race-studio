@@ -290,18 +290,19 @@ export const KLEINTIERE_BUNDESLAND = {
 }
 
 export const KETTEN = {
-  headers: ["Jahr","IVC Evidensia","Tierarzt Plus Partner","AniCura","VetPartners","VetGruppen (Vetopia)","Veternicum Nesto","TeamVet","SmartVet → Medivet","Rex","filu","Altano (Pferde)","Cadomo Vets","Wolf & Tiger"],
+  headers: ["Jahr","TOTAL Deutschland","IVC Evidensia","Tierarzt Plus Partner","AniCura","VetPartners","VetGruppen (Vetopia)","Altano (Pferde)","TeamVet","Veternicum Nesto","SmartVet → Medivet","Rex","filu","Cadomo Vets","Wolf & Tiger","activet (bis 2022)","Weitere Gruppen (Long Tail)"],
   rows: [
-    ["2015", 0, 0, 7, null, 0, 0, null, 20, null, null, null, null, null],
-    ["2016", null, 0, 8, null, 0, 0, null, null, null, null, null, null, null],
-    ["2017", null, 0, null, null, 0, 0, null, null, null, null, null, null, null],
-    ["2018", null, null, 30, null, 0, 0, null, null, null, null, null, null, null],
-    ["2019", null, null, null, null, 0, null, null, null, null, null, null, null, null],
-    ["2020", null, null, null, null, 0, null, null, null, null, null, null, null, null],
-    ["2021", 50, 30, 60, null, null, null, null, 18, null, null, null, null, null],
-    ["2022", 70, null, 70, null, null, null, null, null, null, null, null, null, null],
-    ["2023", 61, 72, 65, null, null, 12, null, 20, null, null, 26, null, null],
-    ["2024", 76, 96, 79, 17, null, 21, null, 20, null, null, null, null, null],
-    ["2026", 120, 106, 78, 28, 26, 23, 24, 20, 13, 12, null, 4, 3],
+    ["2015", 35, 1, 0, 7, 0, 0, 0, 0, 0, 19, 0, 0, 0, 0, 1, 7],
+    ["2016", 58, 4, 0, 20, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 4, 10],
+    ["2017", 72, 8, 0, 22, 0, 0, 4, 0, 0, 20, 0, 0, 0, 0, 5, 13],
+    ["2018", 95, 13, 0, 30, 0, 0, 8, 5, 0, 20, 0, 0, 0, 0, 5, 14],
+    ["2019", 130, 22, 5, 40, 0, 0, 12, 8, 1, 19, 0, 0, 0, 0, 5, 18],
+    ["2020", 175, 32, 15, 50, 0, 0, 16, 12, 3, 18, 0, 0, 0, 0, 5, 24],
+    ["2021", 238, 51, 31, 60, 1, 0, 20, 16, 6, 18, 0, 0, 0, 0, 5, 30],
+    ["2022", 305, 71, 47, 70, 5, 0, 23, 19, 9, 19, 2, 0, 0, 0, 5, 35],
+    ["2023", 380, 75, 80, 75, 11, 5, 26, 23, 12, 20, 5, 2, 0, 0, 0, 46],
+    ["2024", 450, 76, 96, 79, 17, 12, 27, 24, 21, 20, 8, 6, 2, 1, 0, 61],
+    ["2025", 514, 98, 104, 78, 24, 22, 29, 25, 23, 20, 10, 8, 3, 2, 0, 68],
+    ["2026", 577, 121, 111, 78, 30, 31, 30, 27, 26, 20, 13, 11, 4, 3, 0, 72],
   ],
 }

@@ -15,6 +15,7 @@ const d3 = load('ds3-hunderassen.json'), d3b = load('ds3b-hunderassen-1990-2010.
 const d4 = load('ds4-nutztiere.json'), d5 = load('ds5-tieraerzte-bundesland-1991-2005.json'), d7 = load('ds7-viehbestand-1991-2009.json')
 const d8 = load('ds8-praxisarten-1996-2025.json'), d9 = load('ds9-fachtieraerzte.json'), d10 = load('ds10-kleintiere-bundesland.json')
 const d11 = load('ds11-ketten.json')
+const d12 = load('ds12-ketten-modell.json')
 
 /** long rows -> wide table (Jahr × names). Bei Dubletten gewinnt die zuerst genannte Quelle. */
 function wide(rows, { names, from, to, rename = {} }) {
@@ -201,11 +202,14 @@ const kettenRanking = byMetric(d11, 'Standorte je Gruppe (Reihe)')
 // Top 5 je Jahrgang), datierten Einzelmeldungen davor und belegten Nullen für Jahre, in denen die deutsche
 // Gesellschaft noch nicht existierte. Widersprüchliche Werte anderer Zählweisen liegen unter „Kontext“ in
 // der Rohdatei und bleiben draußen, damit ein Quellenwechsel nicht wie ein Rückgang aussieht.
-const kettenRows = [...kettenRanking, ...byMetric(d11, 'Vor Markteintritt (belegte Null)')]
-const w10 = wide(kettenRows, {
-  names: ['IVC Evidensia', 'Tierarzt Plus Partner', 'AniCura', 'VetPartners', 'VetGruppen (Vetopia)',
-    'Veternicum Nesto', 'TeamVet', 'SmartVet → Medivet', 'Rex', 'filu', 'Altano (Pferde)', 'Cadomo Vets', 'Wolf & Tiger'],
-})
+// Modellreihe 2015–2026 nach der Vorgabe vom 17.09.2026: lückenlos, jeder Wert mit Marker
+// (B belegt, B~ rund, B≥ Untergrenze, B/P Praxenzahl als Näherung, S geschätzt, 0 existierte nicht).
+// Die Marker stehen in data/raw/ds12-ketten-modell.json je Zelle; die Tabelle hier trägt nur die Zahlen.
+// TOTAL ist die Modellschätzung des Gesamtmarkts, verankert am Tierärzte Atlas (August 2024, rund 450).
+const MODELL_NAMEN = ['TOTAL Deutschland', 'IVC Evidensia', 'Tierarzt Plus Partner', 'AniCura', 'VetPartners',
+  'VetGruppen (Vetopia)', 'Altano (Pferde)', 'TeamVet', 'Veternicum Nesto', 'SmartVet → Medivet', 'Rex', 'filu',
+  'Cadomo Vets', 'Wolf & Tiger', 'activet (bis 2022)', 'Weitere Gruppen (Long Tail)']
+const w10 = wide(byMetric(d12, 'Standorte je Gruppe'), { names: MODELL_NAMEN })
 
 // Sammelreihe „Ketten“ für den Schwerpunkte-Chart: Summe der fünf größten Gruppen je Ranking-Jahrgang.
 // Bewusst dieselbe Definition in jedem Jahr (die Top 5, nicht dieselben Namen), damit die Werte
