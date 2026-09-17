@@ -234,7 +234,10 @@ const w7 = wide(
     ...praxisRows.filter((r) => praxisMap[r.name] === NUTZ && +r.date <= 2018).map((r) => ({ ...r, name: NUTZ })),
     ...praxisNeu,
   ],
-  { names: [KLEIN, GEMISCHT, NUTZ, KETTEN] },
+  // Ab 1991. Die 1990er-Zeile aus Maure (1998) umfasst nur die alten Bundesländer: Ihre Summe ergibt
+  // 5.900, die von 1991 dagegen 8.243 – passend zu den 8.510 Niedergelassenen der gesamtdeutschen
+  // Reihe. Der Sprung 1990→1991 wäre also die Wiedervereinigung und keine Entwicklung der Praxen.
+  { names: [KLEIN, GEMISCHT, NUTZ, KETTEN], from: '1991' },
 )
 
 // 8 Fachtierarzt-Gebiete ab 2007. 2005 zählt nur Tierärzt:innen bis 65 Jahre und ist nicht

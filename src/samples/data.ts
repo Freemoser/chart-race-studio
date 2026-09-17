@@ -216,7 +216,6 @@ export const HEIMTIERMARKT = {
 export const PRAXISSCHWERPUNKTE = {
   headers: ["Jahr","Nur Kleintiere","Gemischt (Nutz- und Kleintiere)","Nur Nutz- und Großtiere","Ketten (5 große Gruppen, Standorte)"],
   rows: [
-    ["1990", 1953, 2741, 1206, null],
     ["1991", 2298, 4086, 1859, null],
     ["1992", 2453, 4150, 1696, null],
     ["1993", 2601, 4171, 1658, null],
