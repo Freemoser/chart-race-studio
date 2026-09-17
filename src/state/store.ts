@@ -2,7 +2,7 @@ import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import type { ColumnMapping, Dataset, RawTable, SampleDataset } from '@/lib/data/types'
 import { detectMapping } from '@/lib/data/detect'
-import { buildDataset } from '@/lib/data/transform'
+import { buildDataset, effectivePeriodCount } from '@/lib/data/transform'
 import { DEFAULT_ANIMATION_SEC, DEFAULT_HOLD_END, DEFAULT_SETTINGS, stepDurationForAnimation, type ChartSettings } from '@/lib/settings'
 import type { BrandId } from '@/lib/fonts'
 import { defaultTemplateFor } from '@/lib/data/dates'
@@ -85,7 +85,7 @@ export const useApp = create<AppState>()(
           loadedSampleId: null,
           settings: opts?.keepSettings
             ? s.settings
-            : { ...s.settings, categories: {}, secondaryAxis: [], dateTemplate: defaultTemplateFor(kind), topN: Math.min(s.settings.topN, Math.max(3, dataset.names.length)), stepDuration: stepDurationForAnimation(DEFAULT_ANIMATION_SEC, dataset.periods.length) },
+            : { ...s.settings, categories: {}, secondaryAxis: [], dateTemplate: defaultTemplateFor(kind), topN: Math.min(s.settings.topN, Math.max(3, dataset.names.length)), stepDuration: stepDurationForAnimation(DEFAULT_ANIMATION_SEC, effectivePeriodCount(dataset.periods, s.settings.gapFill)) },
         }))
       },
       setMapping: (mapping) => {
@@ -125,7 +125,7 @@ export const useApp = create<AppState>()(
             secondarySuffix: sug.secondarySuffix ?? '',
             primaryAxisLabel: sug.primaryAxisLabel ?? '',
             secondaryAxisLabel: sug.secondaryAxisLabel ?? '',
-            stepDuration: stepDurationForAnimation(sug.animationSec ?? DEFAULT_ANIMATION_SEC, dataset.periods.length),
+            stepDuration: stepDurationForAnimation(sug.animationSec ?? DEFAULT_ANIMATION_SEC, effectivePeriodCount(dataset.periods, DEFAULT_SETTINGS.gapFill)),
           },
         }))
       },

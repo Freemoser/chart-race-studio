@@ -164,6 +164,17 @@ export function fillAndInterpolate(ds: Dataset, gapFill: GapFill, subSteps: numb
 }
 
 /** Bei Jahresdaten fehlende Jahre zwischen erstem und letztem Jahr einfügen (Label = Jahr). */
+/**
+ * Zahl der Perioden, die tatsächlich abgespielt werden.
+ *
+ * Wichtig: Bei Jahreslücken (z. B. 1996–2000 im Schwerpunkte-Datensatz) ergänzt die Aufbereitung
+ * die fehlenden Jahre als echte Perioden. Wer die Dauer aus der Zahl der TABELLENZEILEN ableitet,
+ * rechnet dann zu kurz – die Oberfläche versprach 46 s, die Datei war 53,8 s lang.
+ */
+export function effectivePeriodCount(periods: Period[], gapFill: GapFill): number {
+  return gapFill === 'none' ? periods.length : completeYearGaps(periods).length
+}
+
 export function completeYearGaps(periods: Period[]): Period[] {
   if (periods.length < 2 || periods.some((p) => p.kind !== 'year')) return periods
   const years = periods.map((p) => Number(p.iso.slice(0, 4)))

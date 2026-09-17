@@ -5,6 +5,7 @@ import { FORMATS, formatById } from '@/lib/formats'
 import { PALETTES } from '@/lib/palettes'
 import { DATE_TEMPLATES } from '@/lib/data/dates'
 import { animationDurationSec, stepDurationForAnimation, totalDurationSec } from '@/lib/settings'
+import { effectivePeriodCount } from '@/lib/data/transform'
 import { CategoryList } from './CategoryList'
 import { Field, NumberInput, Section, Segmented, Slider, Toggle } from './ui'
 
@@ -13,7 +14,9 @@ export function DesignPanel() {
   const dataset = useApp((s) => s.dataset)
   const update = useApp((s) => s.updateSettings)
   const logoRef = useRef<HTMLInputElement>(null)
-  const periods = dataset?.periods.length ?? 0
+  // Effektive Periodenzahl: Bei Jahreslücken werden fehlende Jahre als echte Perioden ergänzt,
+  // und genau die werden abgespielt. Aus der Zeilenzahl gerechnet wäre die Animation zu lang.
+  const periods = dataset ? effectivePeriodCount(dataset.periods, settings.gapFill) : 0
   const total = totalDurationSec(settings, periods)
   const anim = animationDurationSec(settings, periods)
   const kind = dataset?.periods[0]?.kind ?? 'year'

@@ -2,13 +2,14 @@ import { Pause, Play, RotateCcw } from 'lucide-react'
 import { preview, usePreview } from '@/lib/preview/controller'
 import { useApp } from '@/state/store'
 import { totalDurationSec } from '@/lib/settings'
+import { effectivePeriodCount } from '@/lib/data/transform'
 import { formatById } from '@/lib/formats'
 
 export function Transport() {
   const snap = usePreview()
   const dataset = useApp((s) => s.dataset)
   const settings = useApp((s) => s.settings)
-  const total = totalDurationSec(settings, dataset?.periods.length ?? 0)
+  const total = totalDurationSec(settings, dataset ? effectivePeriodCount(dataset.periods, settings.gapFill) : 0)
   const format = formatById(settings.format)
   const disabled = snap.total === 0
   const stateLabel = snap.state === 'holdStart' ? 'Standbild Anfang' : snap.state === 'holdEnd' ? 'Standbild Ende' : snap.state === 'playing' ? 'läuft' : snap.state === 'ended' ? 'Ende' : 'Pause'

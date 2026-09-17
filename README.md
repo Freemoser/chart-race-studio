@@ -101,6 +101,10 @@ Wir nutzen die Library unverändert als Abhängigkeit. Alle Berührungspunkte (O
 - Kategorienamen sollten pro Datensatz eindeutig sein.
 - Sehr lange Videos (mehrere Minuten in 9:16) brauchen entsprechend Zeit und Speicher; die Vorschau zeigt die Gesamtlänge vorab an.
 
+## Änderungen
+
+Siehe [`CHANGELOG.md`](CHANGELOG.md).
+
 ## Lizenz
 
 MIT, siehe [`LICENSE`](LICENSE). Lizenzen der Abhängigkeiten inkl. vollständigem MIT-Text von racing-bars: [`THIRD-PARTY-LICENSES`](THIRD-PARTY-LICENSES).

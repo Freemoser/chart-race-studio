@@ -3,6 +3,7 @@ import { Clapperboard, Download, FileImage, Film, Loader2, X } from 'lucide-reac
 import { useApp } from '@/state/store'
 import { runExport, downloadBlob, isAbortError, type ExportKind, type ExportProgress, type ExportResult } from '@/lib/export/exportController'
 import { totalDurationSec } from '@/lib/settings'
+import { effectivePeriodCount } from '@/lib/data/transform'
 import { formatById } from '@/lib/formats'
 import { preview } from '@/lib/preview/controller'
 import { Section } from './ui'
@@ -21,7 +22,7 @@ export function ExportPanel() {
   const webcodecs = typeof VideoEncoder !== 'undefined'
   const ready = !!dataset && dataset.periods.length >= 2 && dataset.names.length > 0
   const format = formatById(settings.format)
-  const total = totalDurationSec(settings, dataset?.periods.length ?? 0)
+  const total = totalDurationSec(settings, dataset ? effectivePeriodCount(dataset.periods, settings.gapFill) : 0)
 
   useEffect(() => {
     if (!busy) return
