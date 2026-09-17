@@ -50,7 +50,12 @@ Die Studio-Oberfläche ist eine Single-Page-Anwendung mit Hash-Routen (`#redakti
 - JSON-LD mit `Article` und `FAQPage` für Antwort-Maschinen
 - als Build-Eingang in [`vite.config.ts`](vite.config.ts) eintragen, dann landet die Seite auch in der Sitemap
 
-Vorhanden: [`artikel/tierarztketten-deutschland.html`](artikel/tierarztketten-deutschland.html).
+Vorhanden:
+
+- [`artikel/tierarztketten-deutschland.html`](artikel/tierarztketten-deutschland.html) – wer die Tierarztpraxen betreibt
+- [`artikel/datenherkunft.html`](artikel/datenherkunft.html) – Quelle, Annahmen und Stand je Beispiel-Datensatz, mit Anker je Datensatz-ID
+
+Jeder Datensatz trägt `erstellt` und `geprueft` (ISO-Datum). Die Oberfläche zeigt beides unter „Dateninfo“, der Datenherkunft-Artikel wiederholt es je Abschnitt. Damit lässt sich in einem Jahr sauber sagen, was neu geprüft wurde und was sich seitdem geändert hat.
 
 ## Inhaltsprüfung
 

@@ -88,6 +88,13 @@ export interface SampleDataset {
    * Wird in der Oberfläche erst auf Klick gezeigt, damit die Kacheln kurz bleiben.
    */
   dataInfo?: string[]
+  /**
+   * Wann der Datensatz recherchiert und wann er zuletzt gegen die Quelle geprüft wurde (ISO).
+   * Grundlage für den jährlichen Aktualisierungslauf: Was länger als ein Jahr ungeprüft ist,
+   * wird vor der Wiederverwendung noch einmal gegen die Quelle gehalten.
+   */
+  erstellt?: string
+  geprueft?: string
   /** true, wenn Zahlen nicht belastbar recherchiert werden konnten */
   isExample?: boolean
   headers: string[]

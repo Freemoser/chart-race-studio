@@ -67,7 +67,16 @@ export function DataPanel() {
                           <div className="flex flex-col gap-2 border-t border-line bg-surface-2/40 px-3 py-2.5">
                             {s.dataInfo.map((t, k) => <p key={k} className="text-[11px] leading-snug text-ink-muted">{t}</p>)}
                             <p className="text-[11px] leading-snug text-ink-faint">{s.source}</p>
-                            <a href={s.sourceUrl} target="_blank" rel="noreferrer" className="text-[11px] text-primary underline underline-offset-2">Quelle öffnen</a>
+                            {s.erstellt && (
+                              <p className="text-[11px] leading-snug text-ink-faint">
+                                Recherchiert am {new Date(s.erstellt).toLocaleDateString('de-DE')}
+                                {s.geprueft && s.geprueft !== s.erstellt && <>, zuletzt gegen die Quelle geprüft am {new Date(s.geprueft).toLocaleDateString('de-DE')}</>}.
+                              </p>
+                            )}
+                            <span className="flex flex-wrap gap-x-3">
+                              <a href={s.sourceUrl} target="_blank" rel="noreferrer" className="text-[11px] text-primary underline underline-offset-2">Quelle öffnen</a>
+                              <a href={`artikel/datenherkunft.html#${s.id}`} className="text-[11px] text-primary underline underline-offset-2">Datenherkunft im Detail</a>
+                            </span>
                           </div>
                         )}
                       </>

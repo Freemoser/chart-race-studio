@@ -32,7 +32,7 @@ function integrationen(env: Record<string, string>) {
       if (!url) return
       this.emitFile({ type: 'asset', fileName: 'robots.txt', source: `User-agent: *\nAllow: /\n\nSitemap: ${url}/sitemap.xml\n` })
       const heute = new Date().toISOString().slice(0, 10)
-      const seiten = ['', 'artikel/tierarztketten-deutschland.html', '#redaktionsplan', '#impressum', '#datenschutz']
+      const seiten = ['', 'artikel/tierarztketten-deutschland.html', 'artikel/datenherkunft.html', '#redaktionsplan', '#impressum', '#datenschutz']
       this.emitFile({
         type: 'asset', fileName: 'sitemap.xml',
         source: `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
@@ -63,6 +63,7 @@ export default defineConfig(({ mode }) => {
         main: resolve(import.meta.dirname, 'index.html'),
         export: resolve(import.meta.dirname, 'export.html'),
         artikelKetten: resolve(import.meta.dirname, 'artikel/tierarztketten-deutschland.html'),
+        artikelDaten: resolve(import.meta.dirname, 'artikel/datenherkunft.html'),
       },
     },
   },

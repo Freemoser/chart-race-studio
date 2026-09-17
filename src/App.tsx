@@ -109,7 +109,9 @@ export default function App() {
             <br />
             <a className="underline hover:text-ink" href="#redaktionsplan">Redaktionsplan</a>
             {' · '}
-            <a className="underline hover:text-ink" href="artikel/tierarztketten-deutschland.html">Artikel</a>
+            <a className="underline hover:text-ink" href="artikel/tierarztketten-deutschland.html">Tierarztketten</a>
+            {' · '}
+            <a className="underline hover:text-ink" href="artikel/datenherkunft.html">Datenherkunft</a>
             {' · '}
             <a className="underline hover:text-ink" href="#impressum">Impressum</a>
             {' · '}

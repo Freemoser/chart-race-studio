@@ -8,6 +8,7 @@ import { FACHTIERAERZTE, HEIMTIERE, KETTEN, HEIMTIERMARKT, HUNDERASSEN, KLEINTIE
 export const SAMPLES: SampleDataset[] = [
   {
     id: 'tieraerzteschaft-deutschland',
+    erstellt: '2026-09-14', geprueft: '2026-09-16',
     category: 'praxis',
     title: 'Tierarztpraxen im Wandel: Inhaber vs. Angestellte',
     subtitle: 'Wo Tierärztinnen und Tierärzte arbeiten, seit 1991',
@@ -31,6 +32,7 @@ export const SAMPLES: SampleDataset[] = [
   },
   {
     id: 'praxisschwerpunkte',
+    erstellt: '2026-09-15', geprueft: '2026-09-17',
     category: 'praxis',
     title: 'Die Kleintierpraxis wird zum Normalfall',
     subtitle: 'Praxisinhaberinnen und Praxisinhaber nach Schwerpunkt, 1991 bis 2025',
@@ -58,6 +60,7 @@ export const SAMPLES: SampleDataset[] = [
   },
   {
     id: 'fachtieraerzte',
+    erstellt: '2026-09-15', geprueft: '2026-09-15',
     category: 'praxis',
     title: 'Worauf sich Tierärztinnen und Tierärzte spezialisieren',
     subtitle: 'Fachtierarzt-Gebietsbezeichnungen in Deutschland, 2007 bis 2025',
@@ -77,6 +80,7 @@ export const SAMPLES: SampleDataset[] = [
   },
   {
     id: 'kleintiere-bundesland',
+    erstellt: '2026-09-15', geprueft: '2026-09-15',
     category: 'praxis',
     title: 'Wo die Kleintiermedizin wächst',
     subtitle: 'Niedergelassene Tierärztinnen und Tierärzte mit Schwerpunkt Kleintiere je Bundesland, 2002 bis 2018',
@@ -96,6 +100,7 @@ export const SAMPLES: SampleDataset[] = [
   },
   {
     id: 'tieraerzte-bundesland',
+    erstellt: '2026-09-14', geprueft: '2026-09-15',
     category: 'praxis',
     title: 'Tierärztinnen und Tierärzte je Bundesland',
     subtitle: 'Mitglieder der Landestierärztekammern zum 31.12. des Jahres, seit 2002',
@@ -115,6 +120,7 @@ export const SAMPLES: SampleDataset[] = [
   },
   {
     id: 'heimtiere',
+    erstellt: '2026-09-14', geprueft: '2026-09-16',
     category: 'heimtiere',
     title: 'Heimtiere in Deutschland',
     subtitle: 'Bestand in Millionen laut Zentralverband Zoologischer Fachbetriebe und Industrieverband Heimtierbedarf, seit 1991',
@@ -134,6 +140,7 @@ export const SAMPLES: SampleDataset[] = [
   },
   {
     id: 'heimtiermarkt',
+    erstellt: '2026-09-15', geprueft: '2026-09-16',
     category: 'heimtiere',
     title: 'Wofür Herrchen und Frauchen ihr Geld ausgeben',
     subtitle: 'Umsatz im deutschen Heimtiermarkt nach Segment, in Millionen Euro',
@@ -153,6 +160,7 @@ export const SAMPLES: SampleDataset[] = [
   },
   {
     id: 'hunderassen',
+    erstellt: '2026-09-14', geprueft: '2026-09-15',
     category: 'heimtiere',
     title: 'Beliebteste Hunderassen in Deutschland',
     subtitle: 'Im VDH-Zuchtbuch registrierte Welpen je Rasse und Jahr',
@@ -172,6 +180,7 @@ export const SAMPLES: SampleDataset[] = [
   },
   {
     id: 'rinder-bundesland',
+    erstellt: '2026-09-14', geprueft: '2026-09-14',
     category: 'nutztiere',
     title: 'Rinderbestand je Bundesland',
     subtitle: 'Rinder in Tausend, seit 1991. Stichtag der Zählung wechselt: Dezember bis 1997, ab 1999 überwiegend Mai',
@@ -191,6 +200,7 @@ export const SAMPLES: SampleDataset[] = [
   },
   {
     id: 'ketten',
+    erstellt: '2026-09-16', geprueft: '2026-09-17',
     category: 'praxis',
     title: 'Der Aufstieg der Tierarztketten',
     subtitle: 'Physische Standorte zentral betriebener Tierarztgruppen in Deutschland, 2015 bis 2026',

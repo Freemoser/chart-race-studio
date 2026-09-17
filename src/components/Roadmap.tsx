@@ -161,6 +161,8 @@ export function Roadmap({ onOpenStudio }: { onOpenStudio: () => void }) {
         <p className="mt-3 text-[13px] text-ink-muted">
           <a className="underline hover:text-ink" href="artikel/tierarztketten-deutschland.html">Artikel: Wer betreibt die Tierarztpraxen?</a>
           {' · '}
+          <a className="underline hover:text-ink" href="artikel/datenherkunft.html">Datenherkunft</a>
+          {' · '}
           <a className="underline hover:text-ink" href="#impressum">Impressum</a>
           {' · '}
           <a className="underline hover:text-ink" href="#datenschutz">Datenschutz</a>
