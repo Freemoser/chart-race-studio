@@ -51,13 +51,15 @@ export const ARCS: RoadmapArc[] = [
 export const POSTS: RoadmapPost[] = [
   {
     nr: 1, arc: 'tiere', status: 'veroeffentlicht', publishedOn: '2026-09-15',
+    linkedInUrl: 'https://lnkd.in/p/eCD-uXDE',
     title: 'Heimtiere in Deutschland seit 1991',
     hook: 'Der Ziervogel war 1991 das häufigste Haustier in Deutschland. Heute ist er ein Randthema, die Katze führt mit großem Abstand.',
     figures: ['1991: Ziervögel 6,8 Mio., Katzen 5,3 Mio., Hunde 4,6 Mio.', '2025: Katzen 15,7 Mio., Hunde 10,0 Mio., Ziervögel 3,3 Mio.', 'Der Tierärzte Atlas beziffert den Zuwachs über 20 Jahre auf plus 50 Prozent auf über 34 Mio. Heimtiere'],
     sampleId: 'heimtiere', chart: 'line', dataStatus: 'belegt',
   },
   {
-    nr: 2, arc: 'praxis', status: 'naechster',
+    nr: 2, arc: 'praxis', status: 'veroeffentlicht', publishedOn: '2026-09-17',
+    linkedInUrl: 'https://lnkd.in/p/eQD4vrf8',
     title: 'Die Kleintierpraxis wird zum Normalfall',
     hook: 'Die logische Folgefrage zu Post 1: Was hat der Wandel bei den Tieren mit den Praxen gemacht? 1991 war die gemischte Praxis der Regelfall.',
     figures: ['1991: 4.086 gemischt, 2.298 nur Kleintiere, 1.859 nur Großtiere', '2002 Gleichstand auf die Person genau: 4.419 zu 4.419', '2025: 5.930 Kleintierpraxen, 54 Prozent aller Praxisinhaber'],
@@ -66,7 +68,7 @@ export const POSTS: RoadmapPost[] = [
     refs: [1],
   },
   {
-    nr: 3, arc: 'praxis', status: 'geplant',
+    nr: 3, arc: 'praxis', status: 'naechster',
     title: 'Angestellte überholen die Praxisinhaber',
     hook: '2024 ist etwas passiert, das es in der deutschen Tiermedizin noch nie gab. Der Beruf wächst, die Selbstständigkeit nicht.',
     figures: ['1991: 8.510 Inhaber zu 1.880 Angestellten', '2024 kippt es: 11.264 zu 11.990', '2025: 11.216 zu 12.125', 'Höchststand der Inhaber war 2019 mit 12.019'],
