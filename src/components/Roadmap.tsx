@@ -129,8 +129,10 @@ export function Roadmap({ onOpenStudio }: { onOpenStudio: () => void }) {
                   </span>
                 ) : null}
                 {post.sampleId && (
-                  <button type="button" onClick={() => imStudioOeffnen(post)} className="inline-flex items-center gap-1 text-primary underline hover:text-primary-strong">
-                    <PlayCircle size={13} /> Datensatz im Studio öffnen
+                  <button type="button" onClick={() => imStudioOeffnen(post)} className="inline-flex items-center gap-1 text-left text-primary underline hover:text-primary-strong">
+                    <PlayCircle size={13} className="shrink-0" />
+                    Datensatz öffnen: „{SAMPLES.find((s) => s.id === post.sampleId)?.title ?? post.sampleId}“
+                    {post.chart && <span className="text-ink-faint">({post.chart === 'line' ? 'Linie' : 'Balken'})</span>}
                   </button>
                 )}
                 {post.linkedInUrl ? (
