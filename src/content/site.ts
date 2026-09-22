@@ -18,12 +18,20 @@ import legal from './legal.json'
  *
  * BLOCKER VOR DEM LIVEGANG: street und zip sind Pflicht.
  *
- * companyName ist bewusst leer. „Petleo" allein wäre nach § 5 DDG unvollständig, weil die
- * Rechtsform fehlt. Solange die nicht feststeht, wird nur die natürliche Person genannt –
- * das ist immer richtig.
+ * companyName ist leer, und das bleibt so: Diese Seite wird als PRIVATPERSON betrieben,
+ * nicht über die Firma. Ein Firmenname im Impressum würde einen Betreiber nennen, der
+ * nicht der Betreiber ist – und die Firma für etwas in Haftung nehmen, das ihr nicht
+ * gehört. Aus demselben Grund steht hier eine private E-Mail-Adresse und nicht die
+ * Firmendomain.
  *
  * phone ist ebenfalls leer und darf es bleiben: Seit EuGH C-298/07 genügt ein zweiter
  * schneller Kontaktweg, die E-Mail-Adresse erfüllt das.
+ *
+ * Zur Frage, ob ein Impressum hier überhaupt Pflicht ist: § 5 DDG gilt für geschäftsmäßige
+ * Telemedien, nicht für rein private. Weil die Seite persönliche Sichtbarkeit im beruflichen
+ * Umfeld stützt, ist die Einordnung nicht eindeutig – ein vollständiges Impressum ist der
+ * sichere Weg und kostet nichts. Die Datenschutzerklärung ist unabhängig davon Pflicht,
+ * sobald der Hoster Zugriffsdaten verarbeitet.
  */
 export const LEGAL = legal
 
