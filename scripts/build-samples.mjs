@@ -111,6 +111,15 @@ const restRows = [...new Set(natRows.map((r) => r.date))].flatMap((date) => {
 // wirklich 1991 beginnt; die Zwischenjahre interpoliert die App und weist sie in der Datenprüfung aus.
 const w2 = wide([...natRows, ...restRows, ...petAxis], { names: [NIED, ASSI, REST, TAET, PETS], from: '1991' })
 
+// 2b Zugespitzte Fassung für die Aussage „Angestellte überholen die Inhaber“: nur die beiden Reihen,
+// um die es geht. Im vollen Datensatz steht „Tierärztlich Tätige gesamt“ mit 34.476 daneben – die
+// Y-Achse reicht dann bis 35.000 und der Wechsel bei 11.000 zu 12.000 ist im Video nicht mehr zu sehen.
+// Kurze Namen, weil die Kopf-Labels im 1:1-Format sonst abgeschnitten werden.
+const w2b = wide([...natRows], {
+  names: [NIED, ASSI], from: '1991',
+  rename: { [NIED]: 'Praxisinhaber:innen', [ASSI]: 'Angestellte in Praxen' },
+})
+
 // 3 Heimtiere nach Tierart, ab 1991. 1991–2003 aus der datierten ZZF/IVH-Jahresreihe (ds2d),
 // danach die IVH/ZZF-Datenblätter. Einzig 1992 fehlt, das überspringt die Verbandsreihe selbst.
 const petNames = ['Katzen', 'Hunde', 'Kleintiere (Kleinsäuger)', 'Ziervögel', 'Aquarien', 'Terrarien']
@@ -264,6 +273,6 @@ const w9 = wide(
 const lit = (v) => (v == null ? 'null' : typeof v === 'number' ? String(v) : JSON.stringify(v))
 const emit = (name, w) => `export const ${name} = {\n  headers: ${JSON.stringify(w.headers)},\n  rows: [\n${w.rows.map((r) => '    [' + r.map(lit).join(', ') + '],').join('\n')}\n  ],\n}\n`
 const out = `// Automatisch erzeugt von scripts/build-samples.mjs aus data/raw/*.json – nicht von Hand editieren.\n/* eslint-disable */\n` +
-  [emit('TIERAERZTE_BUNDESLAND', w1), emit('TIERAERZTESCHAFT_DEUTSCHLAND', w2), emit('HEIMTIERE', w3), emit('HUNDERASSEN', w4), emit('RINDER_BUNDESLAND', w5), emit('HEIMTIERMARKT', w6), emit('PRAXISSCHWERPUNKTE', w7), emit('FACHTIERAERZTE', w8), emit('KLEINTIERE_BUNDESLAND', w9), emit('KETTEN', w10)].join('\n')
+  [emit('TIERAERZTE_BUNDESLAND', w1), emit('TIERAERZTESCHAFT_DEUTSCHLAND', w2), emit('INHABER_ANGESTELLTE', w2b), emit('HEIMTIERE', w3), emit('HUNDERASSEN', w4), emit('RINDER_BUNDESLAND', w5), emit('HEIMTIERMARKT', w6), emit('PRAXISSCHWERPUNKTE', w7), emit('FACHTIERAERZTE', w8), emit('KLEINTIERE_BUNDESLAND', w9), emit('KETTEN', w10)].join('\n')
 fs.writeFileSync('src/samples/data.ts', out)
-for (const [n, w] of Object.entries({ w1, w2, w3, w4, w5, w6, w7, w8, w9, w10 })) console.log(n, w.headers.length - 1, 'Kategorien,', w.rows.length, 'Perioden', w.rows[0]?.[0], '–', w.rows.at(-1)?.[0])
+for (const [n, w] of Object.entries({ w1, w2, w2b, w3, w4, w5, w6, w7, w8, w9, w10 })) console.log(n, w.headers.length - 1, 'Kategorien,', w.rows.length, 'Perioden', w.rows[0]?.[0], '–', w.rows.at(-1)?.[0])

@@ -72,8 +72,8 @@ export const POSTS: RoadmapPost[] = [
     title: 'Angestellte überholen die Praxisinhaber',
     hook: '2024 ist etwas passiert, das es in der deutschen Tiermedizin noch nie gab. Der Beruf wächst, die Selbstständigkeit nicht.',
     figures: ['1991: 8.510 Inhaber zu 1.880 Angestellten', '2024 kippt es: 11.264 zu 11.990', '2025: 11.216 zu 12.125', 'Höchststand der Inhaber war 2019 mit 12.019'],
-    sampleId: 'tieraerzteschaft-deutschland', chart: 'line', dataStatus: 'belegt',
-    dataNote: 'Für diesen Post die Spalte „Hunde und Katzen“ abwählen, die kommt in Post 4.',
+    sampleId: 'inhaber-angestellte', chart: 'line', dataStatus: 'belegt',
+    dataNote: 'Eigener, zugespitzter Datensatz mit nur zwei Reihen. Der volle Datensatz „Tierarztpraxen im Wandel“ enthält auch „Tierärztlich Tätige gesamt“ mit 34.476 – damit reicht die Y-Achse bis 35.000 und der Wechsel ist nicht mehr zu sehen.',
     refs: [2],
   },
   {

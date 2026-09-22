@@ -1,5 +1,5 @@
 import type { SampleDataset } from '@/lib/data/types'
-import { FACHTIERAERZTE, HEIMTIERE, KETTEN, HEIMTIERMARKT, HUNDERASSEN, KLEINTIERE_BUNDESLAND, PRAXISSCHWERPUNKTE, RINDER_BUNDESLAND, TIERAERZTESCHAFT_DEUTSCHLAND, TIERAERZTE_BUNDESLAND } from './data'
+import { FACHTIERAERZTE, HEIMTIERE, INHABER_ANGESTELLTE, KETTEN, HEIMTIERMARKT, HUNDERASSEN, KLEINTIERE_BUNDESLAND, PRAXISSCHWERPUNKTE, RINDER_BUNDESLAND, TIERAERZTESCHAFT_DEUTSCHLAND, TIERAERZTE_BUNDESLAND } from './data'
 
 /**
  * Mitgelieferte Beispiel-Datensätze (alle mit recherchierten, realen Zahlen).
@@ -29,6 +29,27 @@ export const SAMPLES: SampleDataset[] = [
       secondaryAxis: ['Hunde und Katzen (Mio.)'], secondaryDecimals: 1, secondarySuffix: ' Mio.',
       primaryAxisLabel: 'Tierärzt:innen (Personen)', secondaryAxisLabel: 'Hunde und Katzen (Mio.)',
     },
+  },
+  {
+    id: 'inhaber-angestellte',
+    erstellt: '2026-09-14', geprueft: '2026-09-22',
+    category: 'praxis',
+    title: 'Angestellte überholen die Praxisinhaber',
+    subtitle: 'Tierärztinnen und Tierärzte in Praxen, nach Stellung, 1991 bis 2025',
+    source: 'Quelle: Statistik der Deutschen Tierärzteschaft, Bundestierärztekammer, Deutsches Tierärzteblatt',
+    sourceUrl: 'https://www.bundestieraerztekammer.de/btk/statistik/',
+    unit: 'Tierärzt:innen',
+    description: "2024 arbeiten erstmals mehr Angestellte in Praxen als Praxisinhaber.",
+    dataInfo: [
+      "Zugespitzte Fassung des Datensatzes „Tierarztpraxen im Wandel“ mit genau den zwei Reihen, um die es geht. Im vollen Datensatz steht „Tierärztlich Tätige gesamt“ mit 34.476 daneben; die Y-Achse reicht dann bis 35.000 und der Wechsel bei 11.000 zu 12.000 ist im Video nicht mehr zu erkennen.",
+      "Die Bundestierärztekammer zählt ausschließlich approbierte Kammermitglieder. „Angestellte Tierärzt:innen“ heißen in den älteren Jahrgängen „Praxisassistent:innen“ und sind angestellte Tierärztinnen und Tierärzte – nicht Tiermedizinische Fachangestellte, die in keiner Kammerstatistik auftauchen.",
+      "Gezählt werden Personen, keine Vollzeitstellen. Der Anstieg bei den Angestellten fällt real also etwas schwächer aus, weil unter ihnen deutlich mehr Menschen in Teilzeit arbeiten: Laut Tierärzte Atlas war 2023 jede zweite Frau teilzeitbeschäftigt, aber nur 13 Prozent der Männer.",
+      "1991 bis 1995 stammen die Inhaberzahlen aus einer Dissertation, die die damals nur gedruckten Jahrgänge zitiert; 1991 ist zusätzlich durch die Originalstatistik gedeckt. 1992, 2001 und 2002 fehlen einzelne Werte in der Quelle und werden überbrückt.",
+      "Gegenprobe: Der Tierärzte Atlas Deutschland 2024 schreibt für Ende 2023 „mit rd. 11.400 erstmals genauso viele angestellte wie selbstständige Tierärzt:innen“. Diese Reihe zeigt 11.437 zu 11.429 – die Aussage trifft zu.",
+    ],
+    headers: INHABER_ANGESTELLTE.headers,
+    rows: INHABER_ANGESTELLTE.rows,
+    suggested: { chartType: 'line', topN: 2, decimals: 0, primaryAxisLabel: 'Tierärzt:innen' },
   },
   {
     id: 'praxisschwerpunkte',

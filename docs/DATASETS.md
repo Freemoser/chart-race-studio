@@ -19,6 +19,14 @@ Alle mitgelieferten Datensätze (`src/samples/data.ts`, erzeugt mit `node script
 - **Datenqualität:** vollständig ab 2002; Praxisassistent:innen ab 2004 ausgewiesen. Bis 2011 hieß die Kategorie „Praktizierende Tierärzte“.
 - **Attribution:** „Quelle: Bundestierärztekammer, Statistik Tierärzteschaft 2002–2025 (Deutsches Tierärzteblatt)“
 
+## 1b. Angestellte überholen die Praxisinhaber (1991–2025)
+
+- **Quelle:** wie Datensatz 1, Statistik der Deutschen Tierärzteschaft der Bundestierärztekammer.
+- **Warum ein eigener Datensatz:** Zugespitzte Fassung mit genau zwei Reihen. Datensatz 1 enthält zusätzlich „Tierärztlich Tätige gesamt“ mit 34 476 – damit reicht die Y-Achse bis 35 000 und der Wechsel bei 11 000 zu 12 000 ist im Video nicht mehr zu erkennen. Ein `topN` hilft nicht, weil es die größten Reihen auswählt und die Gesamtreihe damit immer dabei wäre.
+- **Kurze Reihennamen** („Praxisinhaber:innen“, „Angestellte in Praxen“), weil die Kopf-Labels im 1:1-Format sonst abgeschnitten werden.
+- **Gegenprobe:** Der Tierärzte Atlas Deutschland 2024 schreibt für Ende 2023 „mit rd. 11 400 erstmals genauso viele angestellte wie selbstständige Tierärzt:innen“. Die Reihe zeigt 11 437 zu 11 429.
+- **Die Aussage:** 1991 kamen auf jeden Angestellten viereinhalb Inhaber (8 510 zu 1 880). 2024 kippt es (11 264 zu 11 990), 2025 deutlicher (11 216 zu 12 125).
+
 ## 2. Tierärztinnen und Tierärzte je Bundesland (2002–2025)
 
 - **Quelle:** BTK-Statistik (siehe oben), Mitglieder je Landestierärztekammer. Nordrhein und Westfalen-Lippe wurden zu Nordrhein-Westfalen summiert.
@@ -126,7 +134,7 @@ Die Beispiele sind in der App nach Rubriken gruppiert (`SAMPLE_CATEGORIES` in `s
 
 | Rubrik | Datensätze |
 |---|---|
-| Tierarztpraxen & Beruf | Inhaber vs. Angestellte, Praxisschwerpunkte, Fachtierarzt-Gebiete, Wo die Kleintiermedizin wächst, Tierärzt:innen je Bundesland, Wer die Tierarztpraxen kauft |
+| Tierarztpraxen & Beruf | Inhaber vs. Angestellte, Angestellte überholen die Praxisinhaber, Praxisschwerpunkte, Fachtierarzt-Gebiete, Wo die Kleintiermedizin wächst, Tierärzt:innen je Bundesland, Wer die Tierarztpraxen kauft |
 | Heimtiere & Markt | Heimtiere nach Art, Heimtiermarkt-Umsatz, Beliebteste Hunderassen |
 | Nutztiere | Rinderbestand je Bundesland |
 
