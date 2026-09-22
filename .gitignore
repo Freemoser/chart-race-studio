@@ -27,3 +27,7 @@ dist-ssr
 .env
 .env.local
 .env.*.local
+
+# Aus src/content/legal.json erzeugt (scripts/build-legal.mjs)
+/impressum.html
+/datenschutz.html

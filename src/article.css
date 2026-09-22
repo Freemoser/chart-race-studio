@@ -41,3 +41,5 @@ blockquote { margin: 1.25rem 0; padding-left: 1rem; border-left: 3px solid var(-
 .faq dt { font-weight: 600; color: var(--brand-ink); margin-top: 1.25rem; }
 .faq dd { margin: 0.35rem 0 0; color: var(--brand-ink-muted); }
 footer.site { border-top: 1px solid var(--brand-line); margin-top: 3rem; padding-top: 1.25rem; font-size: 0.8125rem; color: var(--brand-ink-faint); }
+
+.warnung { background: var(--brand-accent-soft, #fdf3e3); border-left: 3px solid var(--brand-accent); padding: 0.75rem 1rem; border-radius: 0; color: var(--brand-ink); font-size: 0.9375rem; }

@@ -78,7 +78,7 @@ export function Consent() {
             Dafür würde ich Google Analytics einsetzen, das Cookies benötigt. Es hilft mir zu sehen, was nützlich ist,
             für die Nutzung dieser Seite ist es nicht erforderlich. Werbe-Zielgruppen werden ausdrücklich nicht gebildet.
             Deine Daten und Tabellen im Studio sind davon nie betroffen, die verlassen das Gerät ohnehin nicht.
-            Details in der <a href="#datenschutz" className="underline hover:text-ink">Datenschutzerklärung</a>.
+            Details in der <a href="datenschutz.html" className="underline hover:text-ink">Datenschutzerklärung</a>.
           </p>
         </div>
         <div className="flex flex-none gap-2">

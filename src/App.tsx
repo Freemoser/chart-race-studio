@@ -8,23 +8,20 @@ import { DesignPanel } from '@/components/DesignPanel'
 import { ExportPanel } from '@/components/ExportPanel'
 import { Roadmap } from '@/components/Roadmap'
 import { Consent } from '@/components/Consent'
-import { Datenschutz, Impressum } from '@/components/Legal'
 import { FEATURES } from '@/content/site'
 import { Wordmark } from '@/components/ui'
 import type { BrandId } from '@/lib/fonts'
 
 type Tab = 'data' | 'design' | 'export'
-type View = 'studio' | 'roadmap' | 'impressum' | 'datenschutz'
+type View = 'studio' | 'roadmap'
 
 /** Ansicht steht im Hash, damit Redaktionsplan und Rechtstexte verlinkbar sind. */
 function viewFromHash(): View {
   const h = window.location.hash
   if (h.startsWith('#redaktionsplan')) return 'roadmap'
-  if (h.startsWith('#impressum')) return 'impressum'
-  if (h.startsWith('#datenschutz')) return 'datenschutz'
   return 'studio'
 }
-const HASH: Record<View, string> = { studio: '', roadmap: '#redaktionsplan', impressum: '#impressum', datenschutz: '#datenschutz' }
+const HASH: Record<View, string> = { studio: '', roadmap: '#redaktionsplan' }
 
 export default function App() {
   const brand = useApp((s) => s.brand)
@@ -66,14 +63,7 @@ export default function App() {
         </div>
       </header>
 
-      {view === 'impressum' || view === 'datenschutz' ? (
-        <main className="min-h-0 flex-1 overflow-y-auto bg-surface-2/40">
-          {view === 'impressum' ? <Impressum /> : <Datenschutz />}
-          <div className="mx-auto w-full max-w-2xl px-4 pb-10 lg:px-8">
-            <button type="button" onClick={() => zeige('studio')} className="btn-ghost">Zurück zum Studio</button>
-          </div>
-        </main>
-      ) : view === 'roadmap' ? (
+      {view === 'roadmap' ? (
         <main className="min-h-0 flex-1 overflow-y-auto bg-surface-2/40">
           <Roadmap onOpenStudio={() => zeige('studio')} />
         </main>
@@ -113,9 +103,9 @@ export default function App() {
             {' · '}
             <a className="underline hover:text-ink" href="artikel/datenherkunft.html">Datenherkunft</a>
             {' · '}
-            <a className="underline hover:text-ink" href="#impressum">Impressum</a>
+            <a className="underline hover:text-ink" href="impressum.html">Impressum</a>
             {' · '}
-            <a className="underline hover:text-ink" href="#datenschutz">Datenschutz</a>
+            <a className="underline hover:text-ink" href="datenschutz.html">Datenschutz</a>
             {FEATURES.gaId && <>{' · '}<button type="button" data-consent-reset className="underline hover:text-ink">Cookie-Auswahl</button></>}
           </footer>
         </aside>

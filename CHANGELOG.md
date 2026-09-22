@@ -9,7 +9,15 @@ Alle nennenswerten Änderungen dieses Projekts. Format lose nach [Keep a Changel
 - **Choroplethenkarte der Bundesländer** als dritter Diagrammtyp. Wie der Line-Renderer eine reine Funktion der Zeit (`renderAt`), damit der Frame-für-Frame-Export reproduzierbar bleibt; zwischen zwei Jahren wird interpoliert, die Farbe wandert also weich. Feste Farbdomäne über den gesamten Zeitraum, Legende und eine mitlaufende Rangliste mit den Werten des aktuellen Jahres.
 - Geometrie wird vorab aus `data/geo/deu.topo.json` erzeugt (`scripts/build-geo.mjs`) und mitgeliefert – zur Laufzeit wird nichts nachgeladen und keine TopoJSON-Bibliothek gebraucht.
 
+### Geändert
+
+- Impressum und Datenschutz sind statische Seiten mit `noindex, follow` statt Hash-Routen, aus einer JSON-Quelle erzeugt und aus der Sitemap genommen.
+- `check:launch` läuft gegen den Build und prüft zusätzlich Canonical, Sitemap gegen noindex in beiden Richtungen, Favicon-Größen und ob Datenschutztext und tatsächliche Einbindung zusammenpassen.
+- `companyName` ist leer: „Petleo" allein wäre nach § 5 DDG unvollständig, weil die Rechtsform fehlt.
+
 ### Behoben
+
+- **Alle Seiten trugen dasselbe Canonical** und zeigten auf die Startseite. Beide Artikel wären damit aus dem Index gefallen. Canonical wird jetzt je Seite gesetzt, Seiten mit noindex bekommen keines.
 
 - Die Karte animierte in der Vorschau nicht. Der Renderer brachte keine eigene Abspielschleife mit; die Vorschau ruft aber nur `play()` und verlässt sich darauf, dass der Renderer selbst läuft und Datumswechsel meldet. Im Export fiel das nicht auf, weil der die Zeit selbst stellt.
 - Die Exportlänge wich von der Anzeige ab: Bei Datensätzen mit Jahreslücken lieferte der Export 53,8 s, während die Oberfläche 46,0 s versprach.

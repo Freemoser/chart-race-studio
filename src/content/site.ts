@@ -9,19 +9,23 @@
  * eine ladungsfähige Anschrift; ein unvollständiges Impressum ist in Deutschland
  * abmahnfähig. `npm run check:launch` meldet das als Blocker.
  */
-export const LEGAL = {
-  operator: 'Thomas Freimoser',
-  companyName: 'Petleo',
-  street: '', // BLOCKER: Straße und Hausnummer
-  zip: '', // BLOCKER: PLZ
-  city: 'München',
-  country: 'Deutschland',
-  email: 'thomas.freimoser@petleo.net',
-  phone: '',
-  vatId: '',
-  /** Inhaltlich verantwortlich nach § 18 Abs. 2 MStV. */
-  responsible: 'Thomas Freimoser',
-} as const
+import legal from './legal.json'
+
+/**
+ * Angaben nach § 5 DDG. Einzige Quelle – Impressum, Datenschutz und Footer lesen hieraus,
+ * ebenso der Generator scripts/build-legal.mjs, der die statischen Rechtsseiten erzeugt.
+ * Deshalb liegt der Inhalt als JSON vor: So kann Node ihn ohne TypeScript-Übersetzung lesen.
+ *
+ * BLOCKER VOR DEM LIVEGANG: street und zip sind Pflicht.
+ *
+ * companyName ist bewusst leer. „Petleo" allein wäre nach § 5 DDG unvollständig, weil die
+ * Rechtsform fehlt. Solange die nicht feststeht, wird nur die natürliche Person genannt –
+ * das ist immer richtig.
+ *
+ * phone ist ebenfalls leer und darf es bleiben: Seit EuGH C-298/07 genügt ein zweiter
+ * schneller Kontaktweg, die E-Mail-Adresse erfüllt das.
+ */
+export const LEGAL = legal
 
 export const SITE = {
   name: 'Chart Race Studio',

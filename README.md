@@ -58,6 +58,14 @@ Vorhanden:
 
 Jeder Datensatz trägt `erstellt` und `geprueft` (ISO-Datum). Die Oberfläche zeigt beides unter „Dateninfo“, der Datenherkunft-Artikel wiederholt es je Abschnitt. Damit lässt sich in einem Jahr sauber sagen, was neu geprüft wurde und was sich seitdem geändert hat.
 
+## Rechtsseiten, Indexierung, Icons
+
+Impressum und Datenschutz sind **statische Seiten mit `noindex, follow`**, erzeugt von [`scripts/build-legal.mjs`](scripts/build-legal.mjs) aus [`src/content/legal.json`](src/content/legal.json). Sie liefen früher als Hash-Routen in der Anwendung – dort lässt sich kein `noindex` setzen, ohne die ganze Seite zu deindexieren, und im Impressum steht eine ladungsfähige, oft private Anschrift. Beide stehen deshalb auch **nicht in der Sitemap**: Eine Sitemap ist eine Bitte um Indexierung, beides zusammen meldet die Search Console als Fehler.
+
+`npm run icons` erzeugt alle Favicon-Größen reproduzierbar aus `public/favicon.svg`. **96 statt 64 Pixel ist kein Zufall:** Google übernimmt ein Favicon in die Suchergebnisse nur, wenn die Kantenlänge ein Vielfaches von 48 ist.
+
+`llms.txt` entsteht beim Build mit gesetzter `VITE_SITE_URL` und nennt unter anderem die Aussagen, die verkürzt zitiert in die Irre führen.
+
 ## Inhaltsprüfung
 
 ```bash

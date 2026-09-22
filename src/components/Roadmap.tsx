@@ -165,9 +165,9 @@ export function Roadmap({ onOpenStudio }: { onOpenStudio: () => void }) {
           {' · '}
           <a className="underline hover:text-ink" href="artikel/datenherkunft.html">Datenherkunft</a>
           {' · '}
-          <a className="underline hover:text-ink" href="#impressum">Impressum</a>
+          <a className="underline hover:text-ink" href="impressum.html">Impressum</a>
           {' · '}
-          <a className="underline hover:text-ink" href="#datenschutz">Datenschutz</a>
+          <a className="underline hover:text-ink" href="datenschutz.html">Datenschutz</a>
         </p>
       </section>
     </div>
