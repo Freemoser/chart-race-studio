@@ -7,7 +7,7 @@ Personal-Branding-Werkzeug von **Thomas Freimoser**. Diagramm-Animation auf Basi
 ## Funktionen
 
 - **Daten:** CSV/XLSX-Upload oder editierbare Tabelle; Wide- und Long-Format werden erkannt (manuell korrigierbar); Datenprüfung mit klaren Hinweisen; Lücken interpolieren oder letzten Wert fortschreiben.
-- **Chart-Typen:** Bar Chart Race (racing-bars) und Line Chart Race (eigener D3-Renderer, optional mit zweiter Y-Achse rechts für Reihen in anderer Einheit), umschaltbar ohne erneuten Upload.
+- **Chart-Typen:** Bar Chart Race (racing-bars), Line Chart Race und **Choroplethenkarte der Bundesländer** (eigener D3-Renderer, Geometrie wird mitgeliefert, nichts wird nachgeladen) (eigener D3-Renderer, optional mit zweiter Y-Achse rechts für Reihen in anderer Einheit), umschaltbar ohne erneuten Upload.
 - **Formate:** 16:9 (1920×1080), 1:1 (1080×1080), 4:5 (1080×1350), 9:16 (1080×1920) mit formatabhängigem Layout und Live-Vorschau in Zielauflösung.
 - **Einstellungen:** Animationsdauer (Sekunden) oder Dauer je Zeitschritt, voreingestellt sind 30 s Animation plus 1 s Standbild am Anfang und 15 s am Ende, Zwischenschritte, **Standbild am Anfang und Ende** (in Datei und Gesamtlänge enthalten), Titel/Untertitel/Quelle, Farben je Kategorie plus Paletten, Bilder/Flaggen je Kategorie, Top N, **Labels im Balken oder außerhalb links mit automatisch reservierter Breite**, Zahlenformat, Datumsformat, Hell/Dunkel.
 - **Wasserzeichen:** Name/Handle und optional Logo, standardmäßig aktiv, Position/Deckkraft/Größe einstellbar, wird eingebrannt.
@@ -25,6 +25,7 @@ Dann <http://localhost:5173> öffnen. Weitere Skripte:
 
 ```bash
 npm test          # Unit-Tests (Vitest, einmalig)
+node scripts/build-geo.mjs   # Bundesland-Geometrie aus data/geo/ neu erzeugen
 npm run lint      # oxlint
 npm run build     # Produktions-Build nach dist/
 npm run preview   # dist/ lokal ansehen

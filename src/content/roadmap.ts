@@ -28,7 +28,7 @@ export interface RoadmapPost {
   figures: string[]
   /** Datensatz-ID aus src/samples/index.ts, falls das Video daraus kommt. */
   sampleId?: string
-  chart?: 'line' | 'bar'
+  chart?: 'line' | 'bar' | 'map'
   dataStatus: DataStatus
   /** Was noch fehlt oder worauf zu achten ist. */
   dataNote?: string
@@ -216,7 +216,7 @@ export const POSTS: RoadmapPost[] = [
     title: 'Tierärztinnen und Tierärzte je Bundesland',
     hook: 'Der Einstieg in die Regionalserie. 16 Kammern, 24 Jahre, und ein sehr ungleiches Wachstum.',
     figures: ['Bayern: 6.070 (2002) auf 8.938 (2025)', 'Nordrhein-Westfalen: 4.626 auf 7.432', 'Hamburg: 398 auf 654'],
-    sampleId: 'tieraerzte-bundesland', chart: 'bar', dataStatus: 'belegt',
+    sampleId: 'tieraerzte-bundesland', chart: 'map', dataStatus: 'belegt',
     refs: [3],
   },
   {
@@ -224,7 +224,7 @@ export const POSTS: RoadmapPost[] = [
     title: 'Wo die Kleintiermedizin wächst',
     hook: 'Dieselbe Karte, nur auf den Schwerpunkt Kleintiere gefiltert – und plötzlich sind andere Länder vorn.',
     figures: ['Nordrhein-Westfalen und Bayern führen durchgehend', 'Am stärksten wachsen Brandenburg (128 auf 229) und Rheinland-Pfalz (158 auf 281)', 'Reihe endet 2018, danach ändert die BTK die Kategorien'],
-    sampleId: 'kleintiere-bundesland', chart: 'bar', dataStatus: 'belegt',
+    sampleId: 'kleintiere-bundesland', chart: 'map', dataStatus: 'belegt',
     refs: [20, 2],
   },
   {

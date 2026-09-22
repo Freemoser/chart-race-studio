@@ -2,6 +2,17 @@
 
 Alle nennenswerten Änderungen dieses Projekts. Format lose nach [Keep a Changelog](https://keepachangelog.com/de/1.1.0/).
 
+## [Unveröffentlicht]
+
+### Neu
+
+- **Choroplethenkarte der Bundesländer** als dritter Diagrammtyp. Wie der Line-Renderer eine reine Funktion der Zeit (`renderAt`), damit der Frame-für-Frame-Export reproduzierbar bleibt; zwischen zwei Jahren wird interpoliert, die Farbe wandert also weich. Feste Farbdomäne über den gesamten Zeitraum, Legende und eine mitlaufende Rangliste mit den Werten des aktuellen Jahres.
+- Geometrie wird vorab aus `data/geo/deu.topo.json` erzeugt (`scripts/build-geo.mjs`) und mitgeliefert – zur Laufzeit wird nichts nachgeladen und keine TopoJSON-Bibliothek gebraucht.
+
+### Behoben
+
+- Die Exportlänge wich von der Anzeige ab: Bei Datensätzen mit Jahreslücken lieferte der Export 53,8 s, während die Oberfläche 46,0 s versprach.
+
 ## [0.1.0] – 2026-09-17
 
 Erste Veröffentlichung.

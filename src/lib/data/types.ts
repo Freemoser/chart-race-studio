@@ -104,7 +104,7 @@ export interface SampleDataset {
     topN?: number
     decimals?: number
     suffix?: string
-    chartType?: 'bar' | 'line'
+    chartType?: 'bar' | 'line' | 'map'
     labelsPosition?: 'inside' | 'outside'
     dateFormat?: string
     /** Line Race: Kategorien auf der rechten Achse */

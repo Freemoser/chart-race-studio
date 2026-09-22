@@ -1,7 +1,7 @@
 import type { FormatId } from './formats'
 import type { GapFill } from './data/types'
 
-export type ChartType = 'bar' | 'line'
+export type ChartType = 'bar' | 'line' | 'map'
 export type Corner = 'top-left' | 'top-right' | 'bottom-left' | 'bottom-right'
 export type TitleAlign = 'left' | 'center'
 

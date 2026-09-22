@@ -116,7 +116,7 @@ export const SAMPLES: SampleDataset[] = [
     ],
     headers: KLEINTIERE_BUNDESLAND.headers,
     rows: KLEINTIERE_BUNDESLAND.rows,
-    suggested: { chartType: 'bar', topN: 12, decimals: 0, labelsPosition: 'outside' },
+    suggested: { chartType: 'map', topN: 12, decimals: 0, labelsPosition: 'outside' },
   },
   {
     id: 'tieraerzte-bundesland',
@@ -136,7 +136,7 @@ export const SAMPLES: SampleDataset[] = [
     ],
     headers: TIERAERZTE_BUNDESLAND.headers,
     rows: TIERAERZTE_BUNDESLAND.rows,
-    suggested: { chartType: 'bar', topN: 12, decimals: 0, labelsPosition: 'outside' },
+    suggested: { chartType: 'map', topN: 12, decimals: 0, labelsPosition: 'outside' },
   },
   {
     id: 'heimtiere',

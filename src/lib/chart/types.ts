@@ -31,12 +31,12 @@ export interface ChartInput {
 
 export interface ChartHandle {
   /** Nur Bar (racing-bars): das Race-Objekt */
-  kind: 'bar' | 'line'
+  kind: 'bar' | 'line' | 'map'
   /** Alle Datums-Strings in Reihenfolge */
   dates: string[]
   /** Zu einem Datum springen (Bar: mit Übergang, Line: sofort) */
   goTo: (index: number) => void
-  /** Nur Line: kontinuierliche Position (Index mit Nachkommaanteil) */
+  /** Line und Map: kontinuierliche Position (Index mit Nachkommaanteil) */
   renderAt?: (t: number) => void
   play: () => void
   pause: () => void

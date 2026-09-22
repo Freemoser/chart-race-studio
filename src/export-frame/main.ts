@@ -33,7 +33,7 @@ function flush(times = 3) {
 
 export interface ExportFrameApi {
   ready: true
-  setup: (input: ChartInput, kind: 'bar' | 'line', brand: BrandId) => Promise<{ dates: string[] }>
+  setup: (input: ChartInput, kind: 'bar' | 'line' | 'map', brand: BrandId) => Promise<{ dates: string[] }>
   renderAt: (timeMs: number) => Promise<SVGSVGElement>
   /** Einmal pro Frame: CSS-Text aller Styles (für die Serialisierung) */
   styleText: () => string
@@ -43,10 +43,10 @@ export interface ExportFrameApi {
 let handle: ChartHandle | null = null
 let tick = 1
 let appliedIdx = 0
-let kind: 'bar' | 'line' = 'bar'
+let kind: 'bar' | 'line' | 'map' = 'bar'
 let fontsCss = ''
 
-async function setup(input: ChartInput, k: 'bar' | 'line', brand: BrandId) {
+async function setup(input: ChartInput, k: 'bar' | 'line' | 'map', brand: BrandId) {
   destroy()
   kind = k
   tick = input.tickDuration
@@ -74,7 +74,8 @@ async function setup(input: ChartInput, k: 'bar' | 'line', brand: BrandId) {
 async function renderAt(timeMs: number): Promise<SVGSVGElement> {
   if (!handle) throw new Error('Export-Renderer nicht initialisiert')
   const n = handle.dates.length
-  if (kind === 'line') {
+  // Line und Map rendern ohne Transitions direkt auf die Zeitposition.
+  if (kind === 'line' || kind === 'map') {
     handle.renderAt!(tick > 0 ? Math.min(n - 1, timeMs / tick) : 0)
   } else {
     const target = timeMs <= 0 ? 0 : Math.min(n - 1, Math.ceil(timeMs / tick - 1e-6))

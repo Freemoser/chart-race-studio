@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import { BarChart3, ImagePlus, LineChart, Moon, Sun, X } from 'lucide-react'
+import { BarChart3, ImagePlus, LineChart, Moon, Sun, X, Map } from 'lucide-react'
 import { useApp } from '@/state/store'
 import { FORMATS, formatById } from '@/lib/formats'
 import { PALETTES } from '@/lib/palettes'
@@ -38,6 +38,7 @@ export function DesignPanel() {
           <Segmented value={settings.chartType} onChange={(chartType) => update({ chartType })} ariaLabel="Diagrammtyp" options={[
             { value: 'bar', label: <span className="inline-flex items-center gap-1.5"><BarChart3 size={15} /> Bar Race</span> },
             { value: 'line', label: <span className="inline-flex items-center gap-1.5"><LineChart size={15} /> Line Race</span> },
+            { value: 'map', label: <span className="inline-flex items-center gap-1.5"><Map size={15} /> Karte</span>, title: 'Choroplethenkarte der Bundesländer – nur sinnvoll, wenn die Kategorien Bundesländer sind' },
           ]} />
           <Segmented value={settings.theme} onChange={(theme) => update({ theme })} ariaLabel="Farbschema" options={[
             { value: 'light', label: <Sun size={15} />, title: 'Hell' },
