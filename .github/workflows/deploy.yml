@@ -28,7 +28,26 @@ jobs:
       - name: Build
         # Basis-Pfad = Repo-Name, damit Assets unter https://<user>.github.io/<repo>/ gefunden werden.
         # Für eine Custom Domain / <user>.github.io-Repo: BASE_PATH auf "/" setzen.
+        #
+        # VITE_SITE_URL ist keine Kosmetik: Ohne sie entstehen weder Canonical noch sitemap.xml,
+        # robots.txt oder llms.txt. Als Repository-Variable hinterlegt
+        # (Settings -> Secrets and variables -> Actions -> Variables).
+        env:
+          VITE_SITE_URL: ${{ vars.VITE_SITE_URL }}
+          VITE_GA_ID: ${{ vars.VITE_GA_ID }}
+          VITE_CF_BEACON: ${{ vars.VITE_CF_BEACON }}
+          VITE_GSC_VERIFICATION: ${{ vars.VITE_GSC_VERIFICATION }}
         run: BASE_PATH="/${GITHUB_REPOSITORY#*/}/" npm run build
+
+      - name: Livegang-Prüfung
+        # Läuft gegen den Build. Bricht bei Blockern ab, damit keine Seite ohne
+        # ladungsfähige Anschrift oder mit widersprüchlichem Canonical live geht.
+        env:
+          VITE_SITE_URL: ${{ vars.VITE_SITE_URL }}
+          VITE_GA_ID: ${{ vars.VITE_GA_ID }}
+          VITE_CF_BEACON: ${{ vars.VITE_CF_BEACON }}
+          VITE_GSC_VERIFICATION: ${{ vars.VITE_GSC_VERIFICATION }}
+        run: npm run check:launch
       - run: cp dist/index.html dist/404.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
