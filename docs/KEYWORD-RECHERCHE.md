@@ -10,10 +10,11 @@
 |---|---|---|
 | **Autocomplete-Sweep** (Googles Vorschlagsschnittstelle, `hl=de&gl=de`, Alphabet plus Fragewörter) | dass eine Formulierung tatsächlich gesucht wird | **wie oft.** Die Reihenfolge ist keine Volumenrangfolge |
 | **SERP-Sichtung** über die Suche | wer aktuell rankt, welche Inhaltsform gewinnt | Klickzahlen, Positionsverläufe |
+| **Google Trends** (Explore-API, DE, 2004–2026, 273 Monatswerte) | die Richtung eines Marktes über die Zeit | absolute Größe. Der Index ist relativ zum Vergleichsset |
 
 **Nicht erhoben:** absolute Suchvolumina. Dafür braucht es den Keyword-Planer (Ads-Konto) oder die Search Console (setzt die eigene, indexierte Seite voraus). **In diesem Dokument steht keine einzige geschätzte Volumenzahl.** Wo Größe fehlt, steht „nicht erhoben".
 
-**Ebenfalls offen:** Google Trends für die Marktrichtung. Das braucht einen Browser-Durchlauf auf der Explore-Seite und steht noch aus.
+Google Trends wurde am 22.09.2026 über einen angemeldeten Browser erhoben (Explore-API, monatliche Werte, Deutschland).
 
 ---
 
@@ -47,6 +48,38 @@ Klein, aber **jeder einzelne Vorschlag ist mit unseren vorhandenen Datensätzen 
 - **tierärzte atlas deutschland** und **tierärzte atlas deutschland 2024**
 
 ---
+
+## 2b. Marktrichtung: gemessen, nicht geschätzt
+
+Vergleich `haustier` gegen `tierarzt`, Deutschland, 2004 bis 2026, Jahresmittel des Trends-Index:
+
+| Jahr | haustier | tierarzt |
+|---|--:|--:|
+| 2004 | 4,2 | 13,3 |
+| 2010 | 3,3 | 24,6 |
+| 2015 | 5,8 | 56,3 |
+| 2019 | 5,1 | 77,8 |
+| **2021** | 5,9 | **86,4** ← Höchststand |
+| 2023 | 6,0 | 83,4 |
+| 2025 | 5,8 | 70,3 |
+| 2026 | 5,9 | 70,9 |
+
+Drei Befunde:
+
+1. **Der große Anstieg war nicht Corona.** „tierarzt" versechsfacht sich zwischen 2004 und 2019, also **vor** der Pandemie. 2019 stand der Index schon bei 77,8, der Corona-Aufschlag betrug nur rund elf Prozent. Was hier wächst, ist die mobile lokale Suche, nicht die Zahl der Haustiere.
+2. **Seit 2021 geht es zurück**, von 86,4 auf 70,3 im Jahr 2025, also **minus 19 Prozent vom Höchststand**. 2026 stabilisiert es sich bei 70,9. Plausibelste Erklärung: Die lokale Suche wandert in Karten und Apps ab.
+3. **„haustier" ist über 22 Jahre flach** (4,2 auf 5,9). **Vorbehalt:** Ein Index von 4 bis 6 neben einem von 70 bis 86 liegt im Rundungsbereich. Diese Zeile braucht einen eigenen Vergleich mit ähnlich großen Begriffen, bevor man sich darauf verlässt.
+
+## 2c. Verwandte Suchanfragen: der entscheidende Befund
+
+Trends, Reiter „Steigend", Deutschland:
+
+- **tierarzt:** `in der nähe` · `notdienst heute` · `notdienst in der nähe` · `24` — dazu neun Städtenamen
+- **haustier:** `otter haustier` · `fuchs als haustier` · `waschbär als haustier` · `eule haustier` · `quokka haustier` · `welches haustier passt zu mir test` · `wow haustier`
+
+**In beiden Listen taucht keine einzige Anfrage nach Zahlen, Statistik oder Entwicklung auf.** Die eine Seite sucht einen Notdienst in der Nähe, die andere spielt mit dem Gedanken an einen Waschbären.
+
+Das ist der wichtigste Satz dieses Dokuments: **Für „Tiermedizin in Daten" gibt es im allgemeinen Suchmarkt keine nennenswerte Nachfrage.** Sie existiert nur in der engen Nische „tierärzte deutschland" mit 29 Formulierungen.
 
 ## 3. Die Wortwahl des Marktes
 
@@ -110,7 +143,7 @@ Beides bedienen, aber nicht mit demselben Text.
 
 ## 8. Offene Recherchefragen
 
-1. **Google Trends** für die Marktrichtung: Wächst „haustiere deutschland" oder ist es nach dem Corona-Ausschlag auf ein höheres Niveau zurückgefallen? Braucht einen Browser-Durchlauf.
+1. **Eigener Trends-Vergleich für „haustier"** mit ähnlich großen Begriffen und einem durchlaufenden Ankerbegriff. Neben „tierarzt" liegt der Wert im Rundungsbereich und ist nicht belastbar.
 2. **Absolute Volumina** über den Keyword-Planer. Ohne sie ist die Reihenfolge innerhalb der Cluster Gefühl.
 3. **AI-Overview-Prüfung** je Kandidat: Bei „wie viele tierärzte in deutschland" ist eine KI-Antwort wahrscheinlich. Dann ist das Ziel nicht der Klick, sondern zitiert zu werden.
 4. **DACH getrennt** (`gl=at`, `gl=ch`) – noch nicht erhoben.
