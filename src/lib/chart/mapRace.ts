@@ -136,7 +136,7 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
 
   let aktuell = 0
   function renderAt(t: number) {
-    aktuell = Math.max(0, Math.min(P - 1, Math.round(t)))
+    aktuell = t
     flaechen.attr('fill', (f) => {
       const v = wertAt(f.properties.name, t)
       return v == null ? leerColor : farbe(v)
@@ -158,18 +158,39 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
   renderAt(0)
 
   const hoerer: ((i: number, last: boolean) => void)[] = []
+
+  // Abspielen in Echtzeit für die Vorschau. Ohne eigene Schleife passiert beim Klick auf Play
+  // nichts: Die Vorschau ruft nur play() und verlässt sich darauf, dass der Renderer selbst
+  // läuft und onDateChange meldet. Der Export braucht das nicht, der stellt die Zeit selbst.
+  let timer: d3.Timer | null = null
   let laeuft = false
+  const play = () => {
+    if (laeuft) return
+    laeuft = true
+    const startT = aktuell
+    const startMs = performance.now()
+    timer = d3.timer(() => {
+      const t = startT + (performance.now() - startMs) / input.tickDuration
+      const i = Math.floor(Math.min(P - 1, t))
+      const vorher = Math.floor(aktuell)
+      renderAt(Math.min(P - 1, t))
+      if (i !== vorher) hoerer.forEach((f) => f(i, i >= P - 1))
+      if (t >= P - 1) { pause(); hoerer.forEach((f) => f(P - 1, true)) }
+    })
+  }
+  const pause = () => { laeuft = false; timer?.stop(); timer = null }
+
   return {
     kind: 'map',
     dates: periods.map((p) => p.iso),
     goTo: (i: number) => { renderAt(i); hoerer.forEach((f) => f(i, i >= P - 1)) },
     renderAt,
-    play: () => { laeuft = true },
-    pause: () => { laeuft = false },
+    play,
+    pause,
     isRunning: () => laeuft,
-    currentIndex: () => aktuell,
+    currentIndex: () => Math.round(aktuell),
     onDateChange: (fn) => { hoerer.push(fn); return () => { const i = hoerer.indexOf(fn); if (i >= 0) hoerer.splice(i, 1) } },
     svg: () => svg.node(),
-    destroy: () => { svg.remove() },
+    destroy: () => { pause(); svg.remove() },
   }
 }
