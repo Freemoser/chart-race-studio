@@ -25,7 +25,7 @@ Für die Zahl der Kettenstandorte ist es gleich, wie ein Standort in die Gruppe 
 - **Beim Kauf** wechselt eine bestehende Praxis den Eigentümer. Die Zahl der Praxen bleibt gleich, die bisherigen Inhaber fallen aus der Inhaberzahl heraus. Wer weiter in der Praxis arbeitet, erscheint in der Statistik der Bundestierärztekammer danach als angestellte Tierärztin oder angestellter Tierarzt.
 - **Bei der Neugründung** entsteht ein zusätzlicher Betrieb. Keine Inhaberin und kein Inhaber scheidet dafür aus; die Tierärztinnen und Tierärzte dort sind von Anfang an angestellt.
 
-Daraus folgt: Wachsende Kettenzahlen sind nicht dasselbe wie verkaufte Praxen. Wie groß der Anteil der Ketten insgesamt ist, steht im Artikel [Anteil der Tierarztketten](anteil-tierarztketten-deutschland.html), wie sich Inhaber und Angestellte entwickelt haben, im Artikel [Angestellte überholen die Praxisinhaber](tieraerzte-angestellt-selbststaendig.html).
+Daraus folgt: Wachsende Kettenzahlen sind nicht dasselbe wie verkaufte Praxen. Wie groß der Anteil der Ketten insgesamt ist, steht im Artikel [Anteil der Tierarztketten](anteil-tierarztketten-deutschland.html), wie sich Inhaber und Angestellte entwickelt haben, im Artikel [Angestellte überholen die Praxisinhaber](anzahl-tieraerzte-deutschland.html).
 
 ## Wie groß die Neugründer im Vergleich sind
 

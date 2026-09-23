@@ -50,3 +50,4 @@ footer.site { border-top: 1px solid var(--brand-line); margin-top: 3rem; padding
 figure { margin: 1.5rem 0; }
 figure img { width: 100%; height: auto; border-radius: var(--brand-radius); border: 1px solid var(--brand-line); }
 .entwurf { margin: 0; padding: 0.5rem 1.25rem; background: var(--brand-accent); color: #fff; font-size: 0.8125rem; font-weight: 600; text-align: center; }
+.liste li { margin: 0.9rem 0; }

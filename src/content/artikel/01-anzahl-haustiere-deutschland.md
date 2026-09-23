@@ -1,14 +1,14 @@
 ---
 post: 1
 slug: anzahl-haustiere-deutschland
-titel: Anzahl Haustiere in Deutschland: die Entwicklung seit 1991
-beschreibung: 2025 lebten in Deutschland 15,7 Mio. Katzen und 10,0 Mio. Hunde. 1991 war der Ziervogel mit 6,8 Mio. das häufigste Haustier. Die Zeitreihe mit Quelle.
-frage: Wie hat sich die Anzahl der Haustiere in Deutschland entwickelt?
-suchbegriffe: anzahl haustiere deutschland entwicklung, anzahl haustiere deutschland, entwicklung haustiere deutschland, beliebteste haustiere deutschland 2025, anzahl haustiere deutschland 2025
+titel: Anzahl Haustiere in Deutschland 2025 – Entwicklung seit 1991
+beschreibung: 2025 lebten in Deutschland 33,4 Mio. Hunde, Katzen, Kleintiere und Ziervögel, davon 15,7 Mio. Katzen. Die Zeitreihe seit 1991 mit Quelle.
+frage: Wie viele Haustiere gibt es in Deutschland?
+suchbegriffe: anzahl haustiere deutschland, wie viele haustiere hat deutschland, haustiere deutschland statistik, anzahl haustiere deutschland entwicklung, häufigste haustiere deutschland, anzahl hunde deutschland 2000
 stand: 2026-09-23
 bereit: ja
 ---
-Das häufigste Haustier in Deutschland ist die Katze: 2025 lebten hier laut Industrieverband Heimtierbedarf und Zentralverband Zoologischer Fachbetriebe **15,7 Millionen Katzen** und **10,0 Millionen Hunde**. 1991 stand noch der Ziervogel vorn, mit 6,8 Millionen vor 5,3 Millionen Katzen und 4,6 Millionen Hunden.
+2025 lebten in Deutschland rechnerisch **33,4 Millionen Katzen, Hunde, Kleintiere und Ziervögel**, dazu 2,1 Millionen Aquarien und 1,0 Millionen Terrarien. Das häufigste Haustier ist die Katze mit **15,7 Millionen**, vor dem Hund mit **10,0 Millionen** – so die Erhebung von Industrieverband Heimtierbedarf und Zentralverband Zoologischer Fachbetriebe. 1991 stand noch der Ziervogel vorn, mit 6,8 Millionen vor 5,3 Millionen Katzen und 4,6 Millionen Hunden.
 
 ## Das Wichtigste in Kürze
 
@@ -43,7 +43,7 @@ Wer 1991 mit 2025 vergleicht, vergleicht zwei Erhebungsverfahren. Bis 2011 beruh
 
 Vergleichbar ist deshalb vor allem der Zeitraum ab 2013. Dort wachsen Katzen von 11,5 auf 15,7 Millionen und Hunde von 6,9 auf 10,0 Millionen. Die Kleintiere gehen von 6,1 auf 4,4 Millionen zurück, die Ziervögel bleiben mit 3,4 und 3,3 Millionen fast gleich. Den Höchststand erreichten die Katzen 2021 mit 16,7 Millionen, die Hunde 2020 mit 10,7 Millionen. Seither stagnieren beide Arten oder gehen leicht zurück.
 
-Wie sich die Tierarztpraxen im selben Zeitraum verändert haben, zeigt der Folgeartikel [Die Kleintierpraxis wird zum Normalfall](niedergelassene-tieraerzte-kleintierpraxis.html). Wie viele Hunde und Katzen rechnerisch auf eine Tierärztin oder einen Tierarzt kommen, steht in [Die Nachfrage wächst, die Zahl der Praxen nicht](haustiere-pro-tierarzt.html).
+Wie sich die Tierarztpraxen im selben Zeitraum verändert haben, zeigt der Folgeartikel [Die Kleintierpraxis wird zum Normalfall](niedergelassene-tieraerzte-deutschland.html). Wie viele Hunde und Katzen rechnerisch auf eine Tierärztin oder einen Tierarzt kommen, steht in [Die Nachfrage wächst, die Zahl der Praxen nicht](haustiere-pro-tierarzt.html).
 
 ## Was der Tierärzte Atlas mit plus 50 Prozent meint
 
@@ -68,6 +68,10 @@ Zwei Einschränkungen gehören dazu. Die 20 Jahre überspannen den Methodenwechs
 ### Was ist das beliebteste Haustier in Deutschland?
 
 Gemessen an der Zahl der Tiere die Katze, mit 15,7 Millionen im Jahr 2025. Sie führt seit 2000 durchgehend, vor dem Hund mit 10,0 Millionen.
+
+### Wie viele Hunde und Katzen gab es im Jahr 2000 in Deutschland?
+
+Im Jahr 2000 zählten die Verbände 6,8 Millionen Katzen und 5,0 Millionen Hunde. Diese Werte stammen noch aus der Zeit vor der repräsentativen Erhebung ab 2012 und sind mit heutigen Zahlen nur als Größenordnung vergleichbar.
 
 ## Quelle und Methode
 

@@ -3,7 +3,7 @@ post: 28
 slug: frauenanteil-tiermedizin
 titel: Frauenanteil in der Tiermedizin: 71,7 Prozent der Tierärzte 2025
 beschreibung: 2025 waren 71,7 Prozent der tätigen Tierärzte in Deutschland Frauen. Unter Angestellten 82 Prozent, unter Selbstständigen 58. Zahlen mit Quelle.
-frage: Wie hoch ist der Frauenanteil unter Tierärzten in Deutschland?
+frage: Wie viel Prozent der Tierärzte sind weiblich?
 suchbegriffe: frauenanteil tiermedizin, tierärztinnen deutschland anzahl, wie viele tierärzte gibt es in deutschland, statistik tierärzte deutschland
 stand: 2026-09-23
 bereit: nein
@@ -28,7 +28,7 @@ Die beiden Anteile aus dem Tierärzte Atlas lassen sich auf die Kammerstatistik 
 
 *Berechnet aus BTK-Statistik 2023 und den Anteilen des Tierärzte Atlas 2024. Der Atlas spricht von Selbstständigen, die Kammerstatistik von Niedergelassenen; beides ist nicht exakt dasselbe.*
 
-Das Ergebnis ist deutlich. Unter den Männern führen mehr als doppelt so viele eine eigene Praxis, wie angestellt arbeiten. Unter den Frauen ist es umgekehrt: Auf zehn Praxisinhaberinnen kommen rund vierzehn angestellte Tierärztinnen. Der Wechsel von 2024, als die Angestellten die Inhaber erstmals überholten, ist deshalb auch eine Frage der Generation und des Geschlechts. Die Kurve dazu steht im Beitrag [Mehr angestellte Tierärzte als Praxisinhaber](tieraerzte-angestellt-selbststaendig.html).
+Das Ergebnis ist deutlich. Unter den Männern führen mehr als doppelt so viele eine eigene Praxis, wie angestellt arbeiten. Unter den Frauen ist es umgekehrt: Auf zehn Praxisinhaberinnen kommen rund vierzehn angestellte Tierärztinnen. Der Wechsel von 2024, als die Angestellten die Inhaber erstmals überholten, ist deshalb auch eine Frage der Generation und des Geschlechts. Die Kurve dazu steht im Beitrag [Mehr angestellte Tierärzte als Praxisinhaber](anzahl-tieraerzte-deutschland.html).
 
 ## Was der Generationswechsel für die Praxisinhaber heißt
 

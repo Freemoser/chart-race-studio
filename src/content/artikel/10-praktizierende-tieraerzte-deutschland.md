@@ -53,7 +53,7 @@ Das öffentliche Veterinärwesen stellte damit 54,8 Prozent der Gruppe (berechne
 
 Von 2015 bis 2020 kamen außerhalb der Praxen 1.235 Personen hinzu, von 2020 bis 2025 nur noch 286. 2021 ging die Zahl sogar leicht zurück, von 10.849 auf 10.814. Im selben Zeitraum von 2020 bis 2025 wuchs der Beruf um 1.894 Tätige, und 85 Prozent davon landeten in den Praxen: minus 785 Inhaber, plus 2.393 Angestellte, plus 286 außerhalb (alles berechnet).
 
-Die Statistik nennt keine Gründe für die Abflachung. Und weil die Gruppe als Differenz berechnet ist, kann sie auch Verschiebungen zwischen den Kategorien enthalten, die mit den Tätigkeitsfeldern selbst nichts zu tun haben. Wie sich innerhalb der Praxen das Verhältnis von Inhabern zu Angestellten gedreht hat, steht im Artikel [Angestellte überholen die Praxisinhaber](tieraerzte-angestellt-selbststaendig.html).
+Die Statistik nennt keine Gründe für die Abflachung. Und weil die Gruppe als Differenz berechnet ist, kann sie auch Verschiebungen zwischen den Kategorien enthalten, die mit den Tätigkeitsfeldern selbst nichts zu tun haben. Wie sich innerhalb der Praxen das Verhältnis von Inhabern zu Angestellten gedreht hat, steht im Artikel [Angestellte überholen die Praxisinhaber](anzahl-tieraerzte-deutschland.html).
 
 ## Was die Zahl nicht sagt
 

@@ -36,7 +36,7 @@ Bis 2019 wuchs die Zahl der Inhaber noch leicht, die der Hunde und Katzen deutli
 
 ## Die Arbeit verteilt sich auf mehr Köpfe
 
-Die Kennzahl „je Praxisinhaber“ ist anschaulich, erzählt aber nur die halbe Geschichte. Die Inhaber behandeln nicht allein. Seit 2012 hat sich die Zahl der angestellten Tierärztinnen und Tierärzte in Praxen fast verdoppelt, 2024 lag sie erstmals über der der Inhaber. Die Hintergründe stehen im Artikel [Angestellte überholen die Praxisinhaber](tieraerzte-angestellt-selbststaendig.html).
+Die Kennzahl „je Praxisinhaber“ ist anschaulich, erzählt aber nur die halbe Geschichte. Die Inhaber behandeln nicht allein. Seit 2012 hat sich die Zahl der angestellten Tierärztinnen und Tierärzte in Praxen fast verdoppelt, 2024 lag sie erstmals über der der Inhaber. Die Hintergründe stehen im Artikel [Angestellte überholen die Praxisinhaber](anzahl-tieraerzte-deutschland.html).
 
 Rechnet man beide Gruppen zusammen, ergibt sich ein anderes Bild. Je Kopf in der Praxis stieg die Zahl der Hunde und Katzen bis 2021 auf 1.221 und ist seitdem jedes Jahr gesunken, 2025 auf 1.101. Gemessen an Personen haben die Praxen also mit dem Wachstum der Tierzahlen Schritt gehalten – aber nur, weil die Angestellten die fehlenden Inhaber mehr als ersetzen.
 

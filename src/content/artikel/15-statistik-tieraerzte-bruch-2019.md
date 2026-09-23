@@ -45,7 +45,7 @@ Geprüft wurde auch eine Alternative: die alten Reihen nach dem Trend fortzuschr
 - **Die Kleintierreihe ist am wenigsten betroffen.** Die Kategorie Kleintiere hat sich 2019 nicht verändert, ihr Anteil springt nur um 1,1 Prozentpunkte. Die großen Bewegungen finden zwischen gemischten und reinen Nutz- und Großtierpraxen statt.
 - **2024 nicht absolut lesen.** Wegen der Mehrfachantworten liegt die Summe in diesem Jahr über der Zahl der Inhaber; welche Reihe wie stark betroffen ist, lässt sich nicht trennen.
 
-Was der Bruch für die Kleintierpraxen bedeutet, zeigt der Artikel [Die Kleintierpraxis wird zum Normalfall](niedergelassene-tieraerzte-kleintierpraxis.html). Was er für die Nutztierpraxen bedeutet – deren Reihe ab 2019 scheinbar wieder steigt –, steht in [Was aus der Nutztierpraxis geworden ist](nutztierpraxis-deutschland.html).
+Was der Bruch für die Kleintierpraxen bedeutet, zeigt der Artikel [Die Kleintierpraxis wird zum Normalfall](niedergelassene-tieraerzte-deutschland.html). Was er für die Nutztierpraxen bedeutet – deren Reihe ab 2019 scheinbar wieder steigt –, steht in [Was aus der Nutztierpraxis geworden ist](nutztierpraxis-deutschland.html).
 
 ## Was die Zahl nicht sagt
 

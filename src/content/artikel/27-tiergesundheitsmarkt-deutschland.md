@@ -39,7 +39,7 @@ Zwei Befunde stechen heraus. Der Umsatz mit Arzneimitteln für Kleintiere ist re
 
 ## Wo sich der Umsatz der Praxen konzentriert
 
-Die Hälfte des Branchenumsatzes auf rund 1.000 Praxen: Das ist eine starke Konzentration in einem Markt, der nach Köpfen gezählt kleinteilig wirkt. Ende 2025 führten 11.216 Tierärztinnen und Tierärzte eine eigene Praxis. Welche Betriebe zu den umsatzstärksten gehören, ob Kliniken, große Gemeinschaftspraxen oder Kettenstandorte, sagt die Angabe nicht. Zum Vergleich: Die Praxisketten kamen im August 2024 laut Tierärzte Atlas auf rund 450 Standorte. Wer die Praxen betreibt, steht im Artikel [Wer betreibt die Tierarztpraxen in Deutschland?](../artikel/tierarztketten-deutschland.html). Wie sich das Verhältnis von Inhabern und Angestellten verschoben hat, zeigt der Beitrag [Mehr angestellte Tierärzte als Praxisinhaber](tieraerzte-angestellt-selbststaendig.html).
+Die Hälfte des Branchenumsatzes auf rund 1.000 Praxen: Das ist eine starke Konzentration in einem Markt, der nach Köpfen gezählt kleinteilig wirkt. Ende 2025 führten 11.216 Tierärztinnen und Tierärzte eine eigene Praxis. Welche Betriebe zu den umsatzstärksten gehören, ob Kliniken, große Gemeinschaftspraxen oder Kettenstandorte, sagt die Angabe nicht. Zum Vergleich: Die Praxisketten kamen im August 2024 laut Tierärzte Atlas auf rund 450 Standorte. Wer die Praxen betreibt, steht im Artikel [Wer betreibt die Tierarztpraxen in Deutschland?](../artikel/tierarztketten-deutschland.html). Wie sich das Verhältnis von Inhabern und Angestellten verschoben hat, zeigt der Beitrag [Mehr angestellte Tierärzte als Praxisinhaber](anzahl-tieraerzte-deutschland.html).
 
 ## Was die Zahl nicht sagt
 

@@ -19,7 +19,8 @@
  */
 import fs from 'node:fs'
 import path from 'node:path'
-import { POSTS, visiteVon } from '../src/content/roadmap.ts'
+import { ARCS, POSTS, visiteVon } from '../src/content/roadmap.ts'
+import * as DATEN from '../src/samples/data.ts'
 
 const QUELLE = 'src/content/artikel'
 const ZIEL = 'beitrag'
@@ -28,6 +29,22 @@ const mitEntwuerfen = process.argv.includes('--entwuerfe')
 
 const FREIGABE = JSON.parse(fs.readFileSync('src/content/freigabe.json', 'utf8'))
 const L = JSON.parse(fs.readFileSync('src/content/legal.json', 'utf8'))
+const BASIS = (process.env.VITE_SITE_URL ?? '').replace(/\/$/, '')
+const DATEN_ZIEL = 'public/daten'
+
+// Metadaten der Beispiel-Datensätze. src/samples/index.ts ist über den Pfad-Alias @/ nicht direkt
+// aus Node importierbar; die wenigen Felder, die hier gebraucht werden, stehen dort je Datensatz
+// in einer eigenen Zeile und lassen sich verlässlich auslesen.
+const DATENSAETZE = Object.fromEntries(fs.readFileSync('src/samples/index.ts', 'utf8').split('    id: ').slice(1).map((b) => {
+  const g = (re) => (b.match(re) ?? [])[1]
+  const id = g(/^'(.*?)'/)
+  const quelle = DATEN[g(/headers: (\w+)\.headers/)]
+  return [id, { id, titel: g(/title: '(.*?)',\n/), untertitel: g(/subtitle: '(.*?)',\n/), quelle: g(/source: '(.*?)',\n/), quelleUrl: g(/sourceUrl: '(.*?)'/), einheit: g(/unit: '(.*?)'/), daten: quelle }]
+}))
+
+// Ein Post gilt ab „naechster“ als freigabefähig: Der Artikel muss online sein, wenn der
+// LinkedIn-Beitrag erscheint, sonst läuft der Link im ersten Kommentar ins Leere.
+const FREIGABEFAEHIG = new Set(['veroeffentlicht', 'naechster'])
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const datumDe = (iso) => new Date(iso + 'T12:00:00Z').toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })
@@ -110,9 +127,14 @@ function seite(a, { entwurf, alle }) {
   // Antwortmaschinen und Vorschauen zitieren am ehesten den ersten Absatz.
   const [ersterBlock, ...restBloecke] = html.split('\n\n')
   if (!ersterBlock.startsWith('<p>')) throw new Error(`${a.datei}: Der Text muss mit einem Absatz beginnen, der die Frage beantwortet`)
-  const lead = ersterBlock.replace(/^<p>/, '<p class="lead">')
+  const lead = ersterBlock.replace(/^<p>/, '<p class="lead">').replace(/<a href="([a-z0-9-]+)\.html">(.*?)<\/a>/g, (m, slug, text) =>
+    entwurf || alle.some((x) => x.slug === slug && x.live) ? m : text)
   // Relative Links im Text sind für beitrag/ geschrieben; die Vorschau liegt eine Ebene tiefer.
-  const rumpf = restBloecke.join('\n\n').replace(/href="\.\.\//g, `href="${tiefe}`)
+  // Links auf Artikel, die noch nicht online sind, werden im Live-Build zu reinem Text – sonst
+  // führen sie ins Leere. Sobald der Zielartikel freigegeben ist, erscheint der Link von selbst.
+  const entlinken = (h) => entwurf ? h : h.replace(/<a href="([a-z0-9-]+)\.html">(.*?)<\/a>/g, (m, slug, text) =>
+    alle.some((x) => x.slug === slug && x.live) ? m : text)
+  const rumpf = entlinken(restBloecke.join('\n\n').replace(/href="\.\.\//g, `href="${tiefe}`))
 
   // Verweise auf andere Posts: auf deren Artikel, wenn es ihn gibt, sonst auf den Redaktionsplan.
   const verweise = (post.refs ?? []).map((r) => {
@@ -121,15 +143,37 @@ function seite(a, { entwurf, alle }) {
     return ziel ? `<a href="${ziel.slug}.html">${esc(titel)}</a>` : `<a href="${tiefe}#redaktionsplan">${esc(titel)}</a>`
   })
 
-  const basis = (process.env.VITE_SITE_URL ?? '').replace(/\/$/, '')
+  const basis = BASIS
+  const ogBild = fs.existsSync(path.join('public', ZIEL, 'og', `${a.slug}.png`)) && basis ? `${basis}/${ZIEL}/og/${a.slug}.png` : ''
+  const ds = post.sampleId ? DATENSAETZE[post.sampleId] : undefined
+  const csv = ds?.daten && !entwurf ? `${tiefe}daten/${ds.id}.csv` : ''
   const jsonld = [{
     '@context': 'https://schema.org', '@type': 'Article',
     headline: a.titel, description: a.beschreibung, inLanguage: 'de-DE',
     author: { '@type': 'Person', name: L.operator },
-    ...(post.publishedOn ? { datePublished: post.publishedOn } : {}),
+    ...(a.veroeffentlicht ? { datePublished: a.veroeffentlicht } : {}),
     dateModified: a.stand,
+    ...(ogBild ? { image: ogBild } : {}),
     ...(basis ? { mainEntityOfPage: `${basis}/${ZIEL}/${a.slug}.html` } : {}),
+    about: a.frage,
   }]
+  // Der Datensatz als eigenes Objekt: macht ihn für die Google-Datensatzsuche auffindbar und
+  // gibt Antwortmaschinen eine zitierfähige Quelle mit Zeitraum und Herkunft.
+  if (ds?.daten) {
+    const jahre = ds.daten.rows.map((r) => String(r[0])).filter((j) => /^\d{4}$/.test(j))
+    jsonld.push({
+      '@context': 'https://schema.org', '@type': 'Dataset',
+      name: ds.titel, description: `${ds.untertitel ?? ds.titel}. ${a.beschreibung}`,
+      creator: { '@type': 'Person', name: L.operator },
+      ...(jahre.length ? { temporalCoverage: `${jahre[0]}/${jahre.at(-1)}` } : {}),
+      spatialCoverage: post.sampleId === 'hund-katze-welt' ? 'Welt' : 'Deutschland',
+      variableMeasured: ds.daten.headers.slice(1),
+      ...(ds.quelleUrl ? { isBasedOn: ds.quelleUrl } : {}),
+      ...(ds.quelle ? { citation: ds.quelle } : {}),
+      dateModified: a.stand,
+      ...(basis ? { url: `${basis}/${ZIEL}/${a.slug}.html`, distribution: { '@type': 'DataDownload', encodingFormat: 'text/csv', contentUrl: `${basis}/daten/${ds.id}.csv` } } : {}),
+    })
+  }
   if (faq.length) {
     jsonld.push({
       '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -145,16 +189,18 @@ function seite(a, { entwurf, alle }) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>${esc(a.titel)}</title>
+    <title>${esc(a.titel.length <= 60 ? `${a.titel} | ${L.siteName}` : a.titel)}</title>
     <meta name="description" content="${esc(a.beschreibung)}" />
 ${entwurf ? '    <meta name="robots" content="noindex, nofollow" />\n' : ''}    <link rel="icon" href="${tiefe}favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="${tiefe}favicon-96.png" sizes="96x96" type="image/png" />
     <link rel="icon" href="${tiefe}favicon-32.png" sizes="32x32" type="image/png" />
     <link rel="apple-touch-icon" href="${tiefe}apple-touch-icon.png" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="${esc(post.title)}" />
+    <meta property="og:title" content="${esc(a.titel)}" />
     <meta property="og:description" content="${esc(a.beschreibung)}" />
     <meta property="og:locale" content="de_DE" />
+    <meta property="og:site_name" content="${esc(L.siteName)}" />
+${ogBild ? `    <meta property="og:image" content="${ogBild}" />\n    <meta property="og:image:width" content="1200" />\n    <meta property="og:image:height" content="630" />\n    <meta name="twitter:card" content="summary_large_image" />\n` : ''}${a.veroeffentlicht ? `    <meta property="article:published_time" content="${a.veroeffentlicht}" />\n` : ''}    <meta property="article:modified_time" content="${a.stand}" />
     <script type="application/ld+json">${JSON.stringify(jsonld.length === 1 ? jsonld[0] : jsonld)}</script>
     <script type="module" src="/src/article.ts"></script>
   </head>
@@ -163,7 +209,7 @@ ${entwurf ? `    <p class="entwurf">Entwurf · ${a.bereit ? 'bereit zur Freigabe
       <div class="wrap">
         <strong>${esc(L.siteName)}</strong>
         <a href="${tiefe}">Studio</a>
-        <a href="${tiefe}#redaktionsplan">Redaktionsplan</a>
+        <a href="${entwurf ? '../' : './'}">Alle Artikel</a>
         <a href="${tiefe}artikel/datenherkunft.html">Datenherkunft</a>
         <a href="${tiefe}impressum.html">Impressum</a>
       </div>
@@ -171,16 +217,70 @@ ${entwurf ? `    <p class="entwurf">Entwurf · ${a.bereit ? 'bereit zur Freigabe
 
     <main class="wrap">
       <article>
-        <p class="meta">Visite ${visiteVon(post.nr)} · Post ${post.nr}</p>
-        <h1>${esc(post.title)}</h1>
+        <p class="meta">Visite ${visiteVon(post.nr)} · Post ${post.nr}: ${esc(post.title)}</p>
+        <h1>${esc(a.titel)}</h1>
         ${lead}
         <p class="meta">Stand ${datumDe(a.stand)} · von ${esc(L.operator)}${post.publishedOn ? ` · auf LinkedIn seit ${datumDe(post.publishedOn)}` : ''}</p>
         ${bild}
 ${rumpf.split('\n').map((z) => '        ' + z).join('\n')}
         <aside class="kasten">
-${post.sampleId ? `          <p><a href="${tiefe}?beispiel=${post.sampleId}">Datensatz im Studio öffnen und selbst animieren</a></p>\n` : ''}${post.linkedInUrl ? `          <p><a href="${post.linkedInUrl}" rel="noopener">Zum Beitrag auf LinkedIn</a></p>\n` : ''}${verweise.length ? `          <p>Baut auf: ${verweise.join(' · ')}</p>\n` : ''}          <p><a href="${tiefe}artikel/datenherkunft.html">Woher die Zahlen kommen</a></p>
+${csv ? `          <p><a href="${csv}" download>Daten als CSV herunterladen</a> · ${esc(ds.titel)}</p>\n` : ''}${post.sampleId ? `          <p><a href="${tiefe}?beispiel=${post.sampleId}">Datensatz im Studio öffnen und selbst animieren</a></p>\n` : ''}${post.linkedInUrl ? `          <p><a href="${post.linkedInUrl}" rel="noopener">Zum Beitrag auf LinkedIn</a></p>\n` : ''}${verweise.length ? `          <p>Baut auf: ${verweise.join(' · ')}</p>\n` : ''}          <p><a href="${tiefe}artikel/datenherkunft.html">Woher die Zahlen kommen</a></p>
         </aside>
       </article>
+    </main>
+  </body>
+</html>
+`
+}
+
+// ---------- Übersicht aller Live-Artikel ----------
+// Die Drehscheibe für interne Links: Jeder Artikel ist von hier aus einen Klick entfernt, und
+// Crawler ohne JavaScript finden die Reihe, ohne die Single-Page-Anwendung ausführen zu müssen.
+function uebersicht(live) {
+  const nachKapitel = ARCS.map((arc) => ({ arc, liste: live.filter((a) => POSTS.find((p) => p.nr === a.post)?.arc === arc.id) })).filter((k) => k.liste.length)
+  const jsonld = {
+    '@context': 'https://schema.org', '@type': 'CollectionPage',
+    name: 'Tiermedizin in Zahlen', inLanguage: 'de-DE',
+    description: 'Zahlen zu Tierärzten, Tierarztpraxen und Haustieren in Deutschland – jede mit Jahr und Quelle.',
+    author: { '@type': 'Person', name: L.operator },
+    mainEntity: { '@type': 'ItemList', itemListElement: live.map((a, i) => ({ '@type': 'ListItem', position: i + 1, name: a.titel, ...(BASIS ? { url: `${BASIS}/${ZIEL}/${a.slug}.html` } : {}) })) },
+  }
+  return `<!doctype html>
+<html lang="de" data-brand="klar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiermedizin in Zahlen: Tierärzte, Praxen und Haustiere in Deutschland</title>
+    <meta name="description" content="Wie viele Tierärzte, Tierarztpraxen und Haustiere gibt es in Deutschland? Zeitreihen seit 1991, jede Zahl mit Jahr und Quelle." />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="../favicon-96.png" sizes="96x96" type="image/png" />
+    <link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tiermedizin in Zahlen" />
+    <meta property="og:description" content="Tierärzte, Tierarztpraxen und Haustiere in Deutschland – Zeitreihen mit Quelle." />
+    <meta property="og:locale" content="de_DE" />
+    <script type="application/ld+json">${JSON.stringify(jsonld)}</script>
+    <script type="module" src="/src/article.ts"></script>
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <strong>${esc(L.siteName)}</strong>
+        <a href="../">Studio</a>
+        <a href="../#redaktionsplan">Redaktionsplan</a>
+        <a href="../artikel/datenherkunft.html">Datenherkunft</a>
+        <a href="../impressum.html">Impressum</a>
+      </div>
+    </header>
+    <main class="wrap">
+      <h1>Tiermedizin in Zahlen</h1>
+      <p class="lead">Wie viele Tierärzte, Tierarztpraxen und Haustiere gibt es in Deutschland, und wie hat sich das seit 1991 verändert? Jeder Artikel beantwortet eine Frage mit Zahl, Jahr und Quelle und nennt, was die Zahl nicht sagt.</p>
+${nachKapitel.map((k) => `      <h2>${esc(k.arc.label)}</h2>
+      <ul class="liste">
+${k.liste.map((a) => `        <li><a href="${a.slug}.html">${esc(a.frage)}</a><br />${esc(a.beschreibung)}</li>`).join('\n')}
+      </ul>`).join('\n')}
+      <p class="meta">Dazu: <a href="../artikel/tierarztketten-deutschland.html">Wer betreibt die Tierarztpraxen in Deutschland?</a> · <a href="../artikel/datenherkunft.html">Woher die Zahlen kommen</a></p>
     </main>
   </body>
 </html>
@@ -197,13 +297,29 @@ if (doppelt('post').length) throw new Error(`Zwei Entwürfe für Post ${doppelt(
 
 for (const a of artikel) {
   const post = POSTS.find((p) => p.nr === a.post)
-  a.live = Boolean(FREIGABE.artikelLive && post?.status === 'veroeffentlicht' && a.bereit)
+  a.live = Boolean(FREIGABE.artikelLive && FREIGABEFAEHIG.has(post?.status) && a.bereit)
+  // Veröffentlichungsdatum des Artikels: das LinkedIn-Datum, sonst der Stand beim Freischalten.
+  a.veroeffentlicht = post?.publishedOn ?? (a.live ? a.stand : undefined)
 }
 
 fs.rmSync(ZIEL, { recursive: true, force: true })
 const live = artikel.filter((a) => a.live)
 if (live.length || mitEntwuerfen) fs.mkdirSync(ZIEL, { recursive: true })
 for (const a of live) fs.writeFileSync(path.join(ZIEL, `${a.slug}.html`), seite(a, { entwurf: false, alle: artikel }))
+if (live.length) fs.writeFileSync(path.join(ZIEL, 'index.html'), uebersicht(live))
+
+// CSV je Datensatz eines Live-Artikels. Nur freigegebene – dieselbe Regel wie für die Seiten.
+fs.rmSync(DATEN_ZIEL, { recursive: true, force: true })
+const csvIds = [...new Set(live.map((a) => POSTS.find((p) => p.nr === a.post)?.sampleId).filter((id) => id && DATENSAETZE[id]?.daten))]
+if (csvIds.length) fs.mkdirSync(DATEN_ZIEL, { recursive: true })
+const zelle = (v) => v == null ? '' : /[",;\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v)
+for (const id of csvIds) {
+  const { daten, quelle } = DATENSAETZE[id]
+  // BOM und Semikolon nicht: Komma-CSV mit Punkt als Dezimaltrenner ist das, was Werkzeuge und
+  // Antwortmaschinen zuverlässig lesen. Die Quelle steht in der letzten Zeile als Kommentar.
+  const zeilen = [daten.headers, ...daten.rows].map((r) => r.map(zelle).join(','))
+  fs.writeFileSync(path.join(DATEN_ZIEL, `${id}.csv`), zeilen.join('\n') + `\n# ${quelle ?? ''}\n`)
+}
 if (mitEntwuerfen) {
   fs.mkdirSync(ENTWURF, { recursive: true })
   for (const a of artikel) fs.writeFileSync(path.join(ENTWURF, `${a.slug}.html`), seite(a, { entwurf: true, alle: artikel }))
@@ -213,7 +329,7 @@ if (mitEntwuerfen) {
 
 // Übersicht für Oberfläche, Sitemap und llms.txt. Deterministisch sortiert, damit sie nur bei
 // echten Änderungen im Diff auftaucht.
-const index = artikel.map((a) => ({ post: a.post, slug: a.slug, titel: a.titel, beschreibung: a.beschreibung, frage: a.frage, bereit: a.bereit, live: a.live }))
+const index = artikel.map((a) => ({ post: a.post, slug: a.slug, titel: a.titel, beschreibung: a.beschreibung, frage: a.frage, stand: a.stand, bereit: a.bereit, live: a.live }))
 fs.writeFileSync('src/content/artikel-index.json', JSON.stringify(index, null, 2) + '\n')
 
 console.log(`Artikel: ${artikel.length} Entwürfe, ${artikel.filter((a) => a.bereit).length} bereit, ${live.length} online${FREIGABE.artikelLive ? '' : ' (Freigabe aus)'}${mitEntwuerfen ? `, Vorschau unter /${ENTWURF}/` : ''}`)

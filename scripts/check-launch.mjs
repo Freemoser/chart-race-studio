@@ -52,7 +52,25 @@ gehe(DIST)
 // export.html ist der interne Render-Rahmen, keine Seite
 const inhaltsSeiten = seiten.filter((p) => !p.endsWith('export.html') && !p.endsWith('404.html'))
 // Route in der Schreibweise, die tatsächlich ausgeliefert wird – auf GitHub Pages mit .html.
-const route = (p) => '/' + path.relative(DIST, p).replace(/^index\.html$/, '')
+const route = (p) => '/' + path.relative(DIST, p).replace(/(^|\/)index\.html$/, '$1')
+
+// ---------- Interne Links, strukturierte Daten, Vorschaubild ----------
+// Tote interne Links sind ein Blocker: Sie entstehen genau dann, wenn ein Artikel auf einen
+// Entwurf verweist, der noch nicht freigegeben ist – und fallen im Entwurfsmodus nie auf.
+for (const p of inhaltsSeiten) {
+  const html = lies(p)
+  const hier = path.dirname(p)
+  for (const [, ziel] of html.matchAll(/<a [^>]*href="([^"#?]+)(?:[#?][^"]*)?"/g)) {
+    if (/^(https?:|mailto:|tel:|\/\/)/.test(ziel)) continue
+    const datei = path.join(ziel.startsWith('/') ? DIST : hier, ziel.replace(/^\/[^/]+\//, '/'))
+    const kandidaten = [datei, path.join(datei, 'index.html')]
+    if (!kandidaten.some((k) => fs.existsSync(k) && fs.statSync(k).isFile())) blocker.push(`${route(p)}: interner Link auf ${ziel} führt ins Leere.`)
+  }
+  for (const [, roh] of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+    try { JSON.parse(roh) } catch { blocker.push(`${route(p)}: strukturierte Daten sind kein gültiges JSON.`) }
+  }
+  if (!/property="og:image"/.test(html) && !/name="robots" content="noindex/.test(html)) hinweise.push(`${route(p)}: kein og:image – beim Teilen auf LinkedIn erscheint nur eine graue Kachel.`)
+}
 
 // ---------- Canonical ----------
 const start = path.join(DIST, 'index.html')

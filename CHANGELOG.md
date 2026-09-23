@@ -6,6 +6,10 @@ Alle nennenswerten Änderungen dieses Projekts. Format lose nach [Keep a Changel
 
 ### Neu
 
+- **Erste Artikel online** (Posts 1–3) unter `/beitrag/`, mit Übersichtsseite „Tiermedizin in Zahlen“, CSV-Download je Datensatz und Dataset-Auszeichnung für die Google-Datensatzsuche.
+- **SEO/GEO:** Zielfragen der drei Artikel auf gemessene Suchanfragen umgestellt (docs/KEYWORD-RECHERCHE.md, Abschnitt 9); erster Absatz beantwortet die Kopfanfrage, inklusive der Unterscheidung 46.089 Kammermitglieder gegen 34.476 Tätige. Vorschaubilder für LinkedIn (`scripts/og-bilder.mjs`), Standard-og:image für alle Seiten, statischer Inhalt auf der Startseite für Crawler ohne JavaScript, `lastmod` nur mit echtem Datum, Canonical für Verzeichnisseiten.
+- `check:launch` meldet tote interne Links und ungültige strukturierte Daten als Blocker.
+
 - **Visiten:** Der Redaktionsplan ist in Staffeln zu je 30 Posts gegliedert, mit Umschalter in der Oberfläche. Postnummern laufen über alle Visiten durch.
 - **Freigabe** (`src/content/freigabe.json`), beide Schalter vorbereitet und aus: Beispiel-Datensätze erst nach Veröffentlichung ihres Posts zeigen, Artikel erst nach Veröffentlichung bauen.
 - **Artikel je Post:** 30 Entwürfe in `src/content/artikel/`, erzeugt zu `beitrag/<slug>.html` mit Article- und FAQPage-Auszeichnung, Sitemap- und llms.txt-Eintrag. Entwürfe nie im Build; Vorschau unter `npm run dev` → `/beitrag/entwurf/`. `check:content` prüft jeden Entwurf.

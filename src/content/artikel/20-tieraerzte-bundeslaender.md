@@ -70,7 +70,7 @@ Ende 2025 zusammen 7.432 in den Kammern Nordrhein und Westfalen-Lippe, 2002 ware
 
 ### Wie viele Tierärzte gibt es in Deutschland?
 
-Ende 2025 waren 34.476 Tierärztinnen und Tierärzte tätig. Die Mitgliederzahl der Kammern liegt mit 46.089 höher, weil sie auch Ruheständler enthält. Wie sich die Tätigen auf Praxis und Anstellung verteilen, steht im Artikel [Mehr angestellte Tierärzte als Praxisinhaber](tieraerzte-angestellt-selbststaendig.html).
+Ende 2025 waren 34.476 Tierärztinnen und Tierärzte tätig. Die Mitgliederzahl der Kammern liegt mit 46.089 höher, weil sie auch Ruheständler enthält. Wie sich die Tätigen auf Praxis und Anstellung verteilen, steht im Artikel [Mehr angestellte Tierärzte als Praxisinhaber](anzahl-tieraerzte-deutschland.html).
 
 ## Quelle und Methode
 

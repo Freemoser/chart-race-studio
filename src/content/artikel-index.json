@@ -2,29 +2,32 @@
   {
     "post": 1,
     "slug": "anzahl-haustiere-deutschland",
-    "titel": "Anzahl Haustiere in Deutschland: die Entwicklung seit 1991",
-    "beschreibung": "2025 lebten in Deutschland 15,7 Mio. Katzen und 10,0 Mio. Hunde. 1991 war der Ziervogel mit 6,8 Mio. das häufigste Haustier. Die Zeitreihe mit Quelle.",
-    "frage": "Wie hat sich die Anzahl der Haustiere in Deutschland entwickelt?",
+    "titel": "Anzahl Haustiere in Deutschland 2025 – Entwicklung seit 1991",
+    "beschreibung": "2025 lebten in Deutschland 33,4 Mio. Hunde, Katzen, Kleintiere und Ziervögel, davon 15,7 Mio. Katzen. Die Zeitreihe seit 1991 mit Quelle.",
+    "frage": "Wie viele Haustiere gibt es in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": true,
-    "live": false
+    "live": true
   },
   {
     "post": 2,
-    "slug": "niedergelassene-tieraerzte-kleintierpraxis",
-    "titel": "Niedergelassene Tierärzte: die Kleintierpraxis ist der Normalfall",
-    "beschreibung": "2025 führten 5.930 der 11.216 niedergelassenen Tierärzte eine reine Kleintierpraxis. 1991 war die gemischte Praxis mit 4.086 Inhabern die Regel.",
-    "frage": "Wie viele niedergelassene Tierärzte in Deutschland behandeln nur Kleintiere?",
+    "slug": "niedergelassene-tieraerzte-deutschland",
+    "titel": "Niedergelassene Tierärzte in Deutschland: 11.216 im Jahr 2025",
+    "beschreibung": "Ende 2025 gab es 11.216 niedergelassene Tierärzte in Deutschland, 5.930 davon mit reiner Kleintierpraxis. 1991 war die gemischte Praxis die Regel.",
+    "frage": "Wie viele niedergelassene Tierärzte gibt es in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": true,
-    "live": false
+    "live": true
   },
   {
     "post": 3,
-    "slug": "tieraerzte-angestellt-selbststaendig",
-    "titel": "Mehr angestellte Tierärzte als Praxisinhaber – der Wechsel 2024",
-    "beschreibung": "2024 arbeiteten in deutschen Tierarztpraxen erstmals mehr Angestellte als Inhaber: 11.990 zu 11.264. Die Zeitreihe seit 1991 mit Quelle.",
-    "frage": "Wie viele Tierärzte in Deutschland sind angestellt?",
+    "slug": "anzahl-tieraerzte-deutschland",
+    "titel": "Wie viele Tierärzte gibt es in Deutschland? Die Zahlen für 2025",
+    "beschreibung": "Ende 2025 waren 34.476 Tierärzte in Deutschland tätig, 46.089 in einer Kammer. Erstmals arbeiten mehr Angestellte als Inhaber in den Praxen.",
+    "frage": "Wie viele Tierärzte gibt es in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": true,
-    "live": false
+    "live": true
   },
   {
     "post": 4,
@@ -32,6 +35,7 @@
     "titel": "Tierärzte und Haustiere: 2.291 Hunde und Katzen je Praxisinhaber",
     "beschreibung": "2025 kamen rechnerisch 2.291 Hunde und Katzen auf einen Praxisinhaber, 2012 waren es 1.655. Je Tierarzt in der Praxis ist es kaum mehr geworden.",
     "frage": "Wie viele Hunde und Katzen kommen in Deutschland auf einen Tierarzt?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -41,6 +45,7 @@
     "titel": "Anteil der Tierarztketten in Deutschland: rund 4,5 Prozent",
     "beschreibung": "Rund 450 von etwa 10.000 Tierarztpraxen gehörten im August 2024 zu einer Kette, rund 4,5 Prozent. Was der Anteil zeigt und was nicht.",
     "frage": "Wie hoch ist der Anteil der Tierarztketten in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -50,6 +55,7 @@
     "titel": "Tierarztketten seit 2015: wie schnell der Markt gewachsen ist",
     "beschreibung": "AniCura hatte im Februar 2016 acht Standorte in Deutschland, alle Ketten 2024 rund 450. Die Entwicklung seit 2015, belegt und geschätzt.",
     "frage": "Wie schnell sind die Tierarztketten in Deutschland gewachsen?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -59,6 +65,7 @@
     "titel": "Tierarztketten und Investoren: wem die Praxisgruppen gehören",
     "beschreibung": "Rund 62 Prozent der Standorte von 13 erfassten Tierarztgruppen entfallen auf Gruppen mit Finanzinvestoren, 15 Prozent auf Mars. Und der Rest?",
     "frage": "Gehören alle Tierarztketten in Deutschland Finanzinvestoren?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -68,6 +75,7 @@
     "titel": "VetFamily und Co.: Einkaufsgemeinschaft statt Tierarztkette",
     "beschreibung": "Über 1.300 Tierarztpraxen sind Mitglied bei VetFamily, fast dreimal so viele wie Kettenstandorte. Keine gehört der Gemeinschaft. Der Unterschied.",
     "frage": "Was ist der Unterschied zwischen einer Einkaufsgemeinschaft und einer Tierarztkette?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -77,6 +85,7 @@
     "titel": "Neue Tierarztpraxen statt Übernahmen: Rex, filu, Wolf & Tiger",
     "beschreibung": "Rex mit 13 Praxen, filu mit 11 und Wolf & Tiger mit 3 Standorten eröffnen neue Tierarztpraxen, statt bestehende zu kaufen. Was belegt ist.",
     "frage": "Welche Tierarztgruppen eröffnen neue Praxen, statt bestehende zu kaufen?",
+    "stand": "2026-09-23",
     "bereit": false,
     "live": false
   },
@@ -86,6 +95,7 @@
     "titel": "Praktizierende Tierärzte in Deutschland – und die dritte Gruppe",
     "beschreibung": "2025 arbeiteten 23.341 Tierärztinnen und Tierärzte in Praxen und 11.135 außerhalb. Der Anteil außerhalb der Praxis sank seit 1991 von 39,4 auf 32,3 Prozent.",
     "frage": "Wie viele praktizierende Tierärzte gibt es in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -95,6 +105,7 @@
     "titel": "Fachtierärzte in Deutschland: welche Gebiete wachsen, 2007–2025",
     "beschreibung": "Ende 2025: 1.950 Fachtierarzt-Titel für Öffentliches Veterinärwesen, 1.410 für Kleintiere, 773 für Pferde. Elf Gebiete seit 2007 im Vergleich.",
     "frage": "Auf welche Fachgebiete spezialisieren sich Tierärzte in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -104,6 +115,7 @@
     "titel": "Fachtierarzt Kleintierchirurgie und Innere Medizin, 2007–2025",
     "beschreibung": "Kleintierchirurgie: 4 Fachtierarzt-Titel 2007, 194 Ende 2025. Innere Medizin der Kleintiere: 54 (2018) auf 165. Die am schnellsten wachsenden Gebiete.",
     "frage": "Wie viele Fachtierärzte für Kleintierchirurgie gibt es in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -113,6 +125,7 @@
     "titel": "Fachtierarzt Rinder, Schweine, Lebensmittel: Rückgang seit 2007",
     "beschreibung": "Fachtierarzt-Titel für Rinder fielen von 860 (2007) auf 596, für Lebensmittel von 634 auf 419, für Schweine von 667 auf 561. Zahlen der Tierärztekammer.",
     "frage": "Wie viele Fachtierärzte für Rinder und Schweine gibt es in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -122,6 +135,7 @@
     "titel": "Fachtierarzt Öffentliches Veterinärwesen: das größte Gebiet",
     "beschreibung": "Ende 2025 gab es 1.950 Fachtierarzt-Titel für Öffentliches Veterinärwesen, mehr als für Kleintiere (1.410). Seit 2007 in jedem Jahr das größte Gebiet.",
     "frage": "Wie viele Fachtierärzte für öffentliches Veterinärwesen gibt es in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -131,6 +145,7 @@
     "titel": "Statistik Tierärzte Deutschland: der Methodenbruch von 2019",
     "beschreibung": "Seit 2019 fragt die Bundestierärztekammer Pferde getrennt ab. Die gemischten Praxen fallen dadurch von 4.554 auf 3.381 – ohne dass Praxen verschwinden.",
     "frage": "Warum lassen sich die Praxisschwerpunkte der Tierärzte vor und nach 2019 nicht vergleichen?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -140,6 +155,7 @@
     "titel": "Mehr Katzen oder Hunde? Deutschland 1991–2025 im Verhältnis",
     "beschreibung": "2025 lebten in Deutschland 15,7 Mio. Katzen und 10,0 Mio. Hunde, rechnerisch 1,57 Katzen je Hund. 1991 waren es 1,15. Die Reihe seit 1991 mit Quelle.",
     "frage": "Gibt es in Deutschland mehr Katzen oder Hunde?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -149,6 +165,7 @@
     "titel": "Deutscher Schäferhund: Welpenzahlen im VDH seit 1992",
     "beschreibung": "1992 trugen VDH-Vereine 28.000 Schäferhund-Welpen ein, 2025 noch 6.374. Trotzdem ist er bis heute die Nummer eins der VDH-Welpenstatistik.",
     "frage": "Ist der Deutsche Schäferhund noch die beliebteste Hunderasse in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": false,
     "live": false
   },
@@ -158,6 +175,7 @@
     "titel": "Beliebteste Hunderassen in Deutschland – die Aufsteiger seit 1992",
     "beschreibung": "Labrador, Golden Retriever, Malinois: Der Labrador steigt von 685 VDH-Welpen (1992) auf 2.401 und steht 2025 erstmals auf Platz 3.",
     "frage": "Welche Hunderassen sind in Deutschland am beliebtesten?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -167,6 +185,7 @@
     "titel": "Französische Bulldogge in Deutschland – was die Statistik zeigt",
     "beschreibung": "Im VDH-Zuchtbuch stehen 2025 nur 43 Welpen der Französischen Bulldogge, 2010 waren es 325. Warum die Verbandszahl so wenig über die Rasse sagt.",
     "frage": "Wie viele Französische Bulldoggen gibt es in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": false,
     "live": false
   },
@@ -176,6 +195,7 @@
     "titel": "Tierärzte je Bundesland – Zahlen der Kammern 2002 bis 2025",
     "beschreibung": "Bayern hat mit 8.938 die meisten Tierärztinnen und Tierärzte, vor NRW mit 7.432. Alle 16 Bundesländer von 2002 bis 2025, mit Wachstum und Quelle.",
     "frage": "Wie viele Tierärzte gibt es in den einzelnen Bundesländern?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -185,6 +205,7 @@
     "titel": "Kleintierpraxen je Bundesland – wo die Kleintiermedizin wächst",
     "beschreibung": "NRW (1.272) und Bayern (1.062) haben die meisten Inhaber reiner Kleintierpraxen. Am stärksten wachsen Brandenburg und Rheinland-Pfalz, fast plus 80 Prozent.",
     "frage": "In welchen Bundesländern gibt es die meisten Kleintierpraxen?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -194,6 +215,7 @@
     "titel": "Tierarztdichte – Tierärzte je 100.000 Einwohner nach Bundesland",
     "beschreibung": "Wie viele Tierärztinnen und Tierärzte kommen auf 100.000 Einwohner? Die 46.089 Kammermitglieder von 2025 je Bundesland, bezogen auf die Bevölkerung.",
     "frage": "Wie viele Tierärzte kommen auf 100.000 Einwohner?",
+    "stand": "2026-09-23",
     "bereit": false,
     "live": false
   },
@@ -202,7 +224,8 @@
     "slug": "rinderbestand-bundeslaender",
     "titel": "Rinderbestand je Bundesland – Entwicklung von 1991 bis 2025",
     "beschreibung": "Bayern hatte 2025 noch 2,71 Mio. Rinder, 1991 waren es 4,65 Mio. Über alle Flächenländer sinkt der Bestand um 39,2 Prozent, halbiert hat er sich in Thüringen.",
-    "frage": "Wie hat sich der Rinderbestand in Deutschland entwickelt?",
+    "frage": "Wie viele Rinder gibt es in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -212,6 +235,7 @@
     "titel": "Nutztierpraxen in Deutschland: 1991 bis 2018 fast halbiert",
     "beschreibung": "1991 führten 1.859 Tierärzte eine reine Nutz- oder Großtierpraxis, 2018 nur noch 971. Warum der Anstieg ab 2019 kein Comeback belegt.",
     "frage": "Wie viele reine Nutztierpraxen gibt es in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": false,
     "live": false
   },
@@ -221,6 +245,7 @@
     "titel": "Ausgaben für Haustiere in Deutschland: Futter, Zubehör, Online",
     "beschreibung": "2025 setzte der Handel im Laden 2.315 Mio. Euro mit Katzenfutter um, 2011 waren es 1.486 Mio. Die Ausgaben für Haustiere nach Segment, mit Quelle.",
     "frage": "Wie viel geben die Deutschen für Haustiere aus?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -230,6 +255,7 @@
     "titel": "Haustierbedarf online: Umsatz 2013 bis 2025 und der Wechsel 2022",
     "beschreibung": "Der Online-Handel mit Haustierbedarf wuchs von 400 Mio. Euro (2013) auf 1.521 Mio. (2025) und überholte 2022 das Zubehör im Laden.",
     "frage": "Wie viel Umsatz macht der Online-Handel mit Haustierbedarf?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -239,6 +265,7 @@
     "titel": "Tiergesundheitsmarkt Deutschland: 1.098 Mio. Euro im Jahr 2025",
     "beschreibung": "Der Markt für Tierarzneimittel wuchs 2025 um 4,7 Prozent auf 1.098 Mio. Euro, 60,6 Prozent entfallen auf Kleintiere. Einordnung mit Quelle.",
     "frage": "Wie groß ist der Tiergesundheitsmarkt in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -247,7 +274,8 @@
     "slug": "frauenanteil-tiermedizin",
     "titel": "Frauenanteil in der Tiermedizin: 71,7 Prozent der Tierärzte 2025",
     "beschreibung": "2025 waren 71,7 Prozent der tätigen Tierärzte in Deutschland Frauen. Unter Angestellten 82 Prozent, unter Selbstständigen 58. Zahlen mit Quelle.",
-    "frage": "Wie hoch ist der Frauenanteil unter Tierärzten in Deutschland?",
+    "frage": "Wie viel Prozent der Tierärzte sind weiblich?",
+    "stand": "2026-09-23",
     "bereit": false,
     "live": false
   },
@@ -257,6 +285,7 @@
     "titel": "Statistik Tierärzte Deutschland: Was die Zahlen nicht zeigen",
     "beschreibung": "Von zwölf Datensätzen zu Tierärzten und Haustieren beruht nur einer auf amtlicher Statistik. Was gezählt, was geschätzt und was modelliert ist.",
     "frage": "Wie verlässlich sind die Statistiken über Tierärzte und Haustiere in Deutschland?",
+    "stand": "2026-09-23",
     "bereit": true,
     "live": false
   },
@@ -266,6 +295,7 @@
     "titel": "Bar Chart Race erstellen: kostenlos im Browser, ohne Upload",
     "beschreibung": "Animierte Balken-, Linien- und Kartenrennen aus einer Tabelle, als MP4 in vier Formaten. Läuft im Browser, Open Source unter MIT, 12 Beispieldatensätze.",
     "frage": "Wie erstellt man ein Bar Chart Race kostenlos?",
+    "stand": "2026-09-23",
     "bereit": false,
     "live": false
   }

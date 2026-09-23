@@ -5,7 +5,9 @@ Zahl, Jahr und Quelle, auf die der erste LinkedIn-Kommentar verlinkt. Ein Artike
 Frage, die Menschen tatsächlich suchen (siehe `docs/KEYWORD-RECHERCHE.md`).
 
 Gebaut wird mit `scripts/build-artikel.mjs`. Online geht ein Artikel nur, wenn in
-`src/content/freigabe.json` `artikelLive` an ist, der Post veröffentlicht ist und hier `bereit: ja` steht.
+`src/content/freigabe.json` `artikelLive` an ist, der Post auf `naechster` oder `veroeffentlicht` steht
+(der Link im ersten LinkedIn-Kommentar muss schon funktionieren) und hier `bereit: ja` steht.
+Links auf Artikel, die noch nicht online sind, werden im Live-Build automatisch zu Text.
 Vorschau aller Entwürfe: `npm run dev`, dann `/beitrag/entwurf/`.
 
 ## Dateiname und Kopf
@@ -15,7 +17,7 @@ Vorschau aller Entwürfe: `npm run dev`, dann `/beitrag/entwurf/`.
 ```
 ---
 post: 3
-slug: tieraerzte-angestellt-selbststaendig
+slug: anzahl-tieraerzte-deutschland
 titel: Mehr angestellte Tierärzte als Praxisinhaber – der Wechsel 2024
 beschreibung: 1–2 Sätze, höchstens 160 Zeichen, mit der Kernzahl. Wird zur Meta-Beschreibung.
 frage: Wie viele Tierärzte in Deutschland sind angestellt?
@@ -27,11 +29,13 @@ bereit: ja
 
 - `slug`: aus Suchbegriffen, nicht aus dem Post-Titel. Nur a–z, 0–9, Bindestrich; Umlaute als ae/oe/ue/ss. Wird zur URL und ändert sich danach nie wieder.
 - `titel`: der `<title>` für Google, höchstens etwa 65 Zeichen, Suchbegriff vorn. Die sichtbare Überschrift ist der Post-Titel aus dem Redaktionsplan.
+- `frage`: eine **gemessene** Suchformulierung (Autocomplete oder „Weitere Fragen“ in der Google-Suche), keine ausgedachte. Sie wird Linktext auf der Übersichtsseite und in llms.txt. Stand der Messung: `docs/KEYWORD-RECHERCHE.md`, Abschnitt 9.
+- Vorschaubild für LinkedIn: nach Änderungen an Titel oder Beschreibung `node scripts/og-bilder.mjs` ausführen und die PNGs einchecken.
 - `bereit: nein`, solange Zahlen fehlen oder ungeprüft sind. Offene Stellen im Text als `**Offen:** …` markieren.
 
 ## Aufbau
 
-1. **Erster Absatz = die Antwort.** Zahl, Jahr, Quelle in einem Satz. Kein Anlauf, kein „In diesem Artikel“. Antwortmaschinen und Google zitieren diesen Absatz.
+1. **Erster Absatz = die Antwort auf `frage`.** Zahl, Jahr, Quelle in einem Satz. Er muss die Frage wörtlich beantworten, nicht eine Nachbarfrage – bei „Wie viele Tierärzte gibt es?“ steht zuerst die Gesamtzahl, nicht die Teilgruppe, über die der Post eigentlich geht. Kein Anlauf, kein „In diesem Artikel“. Antwortmaschinen und Google zitieren diesen Absatz.
 2. `## Das Wichtigste in Kürze` – drei bis fünf Punkte, jeder mit einer Zahl.
 3. Zwei bis vier Abschnitte mit `##`, deren Überschriften Fragen oder Aussagen sind, keine Etiketten („Warum der Wechsel 2024 kam“, nicht „Hintergrund“).
 4. `## Was die Zahl nicht sagt` – Grenzen, Methodenbrüche, was verwechselt wird. Pflicht.

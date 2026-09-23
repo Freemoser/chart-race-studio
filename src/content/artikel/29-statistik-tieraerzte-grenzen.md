@@ -62,7 +62,7 @@ Dazu kommen zwei Reihen, die es gibt, die hier aber noch nicht ausgelesen sind: 
 ## Was die Zahl nicht sagt
 
 - **Eine Linie ist nicht immer eine Messung.** Wo Werte fehlen, verbindet das Diagramm die Nachbarjahre. In der Kettenreihe ist deshalb jeder Wert markiert: belegt, belegte Untergrenze oder geschätzt. Bei IVC Evidensia etwa sind die Jahre zwischen 2016 und 2022 nicht einzeln belegt; die Linie dort ist eine Annahme.
-- **Köpfe sind keine Arbeitszeit.** Das gilt für alle Reihen der Kammer. Der Wechsel von Inhabern zu Angestellten im Jahr 2024 ist nach Personen belegt, nach Arbeitsstunden nicht. Die Kurve steht im Beitrag [Mehr angestellte Tierärzte als Praxisinhaber](tieraerzte-angestellt-selbststaendig.html).
+- **Köpfe sind keine Arbeitszeit.** Das gilt für alle Reihen der Kammer. Der Wechsel von Inhabern zu Angestellten im Jahr 2024 ist nach Personen belegt, nach Arbeitsstunden nicht. Die Kurve steht im Beitrag [Mehr angestellte Tierärzte als Praxisinhaber](anzahl-tieraerzte-deutschland.html).
 - **Eine konsistente Quelle ist nicht automatisch vollständig.** Ab 2019 fehlen bei den Praxisschwerpunkten bis zu neun Prozent der Antworten, die absoluten Werte sind deshalb leicht untererfasst. 2024 waren zudem Mehrfachnennungen möglich, dort liegt die Summe über der Gesamtzahl.
 - **Umsätze sind nicht preisbereinigt.** Die Werte des Heimtiermarkts stehen zu Endverbraucherpreisen des jeweiligen Jahres.
 

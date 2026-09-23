@@ -1,14 +1,14 @@
 ---
 post: 2
-slug: niedergelassene-tieraerzte-kleintierpraxis
-titel: Niedergelassene Tierärzte: die Kleintierpraxis ist der Normalfall
-beschreibung: 2025 führten 5.930 der 11.216 niedergelassenen Tierärzte eine reine Kleintierpraxis. 1991 war die gemischte Praxis mit 4.086 Inhabern die Regel.
-frage: Wie viele niedergelassene Tierärzte in Deutschland behandeln nur Kleintiere?
-suchbegriffe: wie viele niedergelassene tierärzte gibt es in deutschland, statistik tierärzte deutschland, tierärzte anzahl deutschland
+slug: niedergelassene-tieraerzte-deutschland
+titel: Niedergelassene Tierärzte in Deutschland: 11.216 im Jahr 2025
+beschreibung: Ende 2025 gab es 11.216 niedergelassene Tierärzte in Deutschland, 5.930 davon mit reiner Kleintierpraxis. 1991 war die gemischte Praxis die Regel.
+frage: Wie viele niedergelassene Tierärzte gibt es in Deutschland?
+suchbegriffe: wie viele niedergelassene tierärzte gibt es in deutschland, niedergelassene tierärzte deutschland, kleintierpraxis, statistik tierärzte deutschland
 stand: 2026-09-23
 bereit: ja
 ---
-Ende 2025 führten in Deutschland **5.930 Praxisinhaberinnen und Praxisinhaber eine reine Kleintierpraxis**. Das sind 54,4 Prozent derer, die ihren Schwerpunkt angegeben haben, und 52,9 Prozent aller 11.216 Niedergelassenen (berechnet aus der Statistik der Bundestierärztekammer). 1991 war die gemischte Praxis für Nutz- und Kleintiere mit 4.086 Inhabern der Regelfall, reine Kleintierpraxen führten 2.298.
+Ende 2025 gab es in Deutschland **11.216 niedergelassene Tierärztinnen und Tierärzte**, also Inhaberinnen und Inhaber einer eigenen Praxis. **5.930 von ihnen führten eine reine Kleintierpraxis** – 52,9 Prozent aller Niedergelassenen und 54,4 Prozent derer, die ihren Schwerpunkt angegeben haben (berechnet aus der Statistik der Bundestierärztekammer). 1991 war noch die gemischte Praxis für Nutz- und Kleintiere mit 4.086 Inhabern der Regelfall, reine Kleintierpraxen führten 2.298.
 
 ## Das Wichtigste in Kürze
 
@@ -38,7 +38,7 @@ Die Statistik verknüpft diese Entwicklung nicht mit den Tieren. Zeitlich läuft
 
 ## Auch Kleintierpraxen werden inzwischen weniger
 
-Seit ihrem Höchststand 2019 sinkt die Zahl der Praxisinhaber insgesamt (mehr dazu im Artikel [Angestellte überholen die Praxisinhaber](tieraerzte-angestellt-selbststaendig.html)). Davon sind auch die Kleintierpraxen betroffen, nur schwächer. Vergleichen lassen sich dafür am besten 2020 und 2025, weil in beiden Jahren ein ähnlicher Anteil der Inhaber die Schwerpunktfrage beantwortet hat, 96,5 und 97,1 Prozent.
+Seit ihrem Höchststand 2019 sinkt die Zahl der Praxisinhaber insgesamt (mehr dazu im Artikel [Angestellte überholen die Praxisinhaber](anzahl-tieraerzte-deutschland.html)). Davon sind auch die Kleintierpraxen betroffen, nur schwächer. Vergleichen lassen sich dafür am besten 2020 und 2025, weil in beiden Jahren ein ähnlicher Anteil der Inhaber die Schwerpunktfrage beantwortet hat, 96,5 und 97,1 Prozent.
 
 - Alle Praxisinhaber: 12.001 auf 11.216, minus 6,5 Prozent.
 - Reine Kleintierpraxen: 6.217 auf 5.930, minus 4,6 Prozent.

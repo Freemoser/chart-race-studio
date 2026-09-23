@@ -56,7 +56,7 @@ Aus demselben Grund taugt eine oft zitierte ältere Zahl nicht als Vergleich. 20
 
 Die meisten Praxen gehören zu keiner Kette. Wem sie im Einzelnen gehören, erfasst keine Statistik: Die Bundestierärztekammer zählt Tierärztinnen und Tierärzte, keine Eigentümer.
 
-Sicher ist nur die Bewegung auf der Personenseite. Seit 2024 arbeiten in deutschen Praxen mehr angestellte Tierärztinnen und Tierärzte als Inhaber, Ende 2025 waren es 12.125 zu 11.216. Wie viel davon auf Ketten zurückgeht, lässt sich aus den Zahlen nicht ablesen. Die Zeitreihe dazu steht im Artikel [Angestellte überholen die Praxisinhaber](tieraerzte-angestellt-selbststaendig.html).
+Sicher ist nur die Bewegung auf der Personenseite. Seit 2024 arbeiten in deutschen Praxen mehr angestellte Tierärztinnen und Tierärzte als Inhaber, Ende 2025 waren es 12.125 zu 11.216. Wie viel davon auf Ketten zurückgeht, lässt sich aus den Zahlen nicht ablesen. Die Zeitreihe dazu steht im Artikel [Angestellte überholen die Praxisinhaber](anzahl-tieraerzte-deutschland.html).
 
 ## Was die Zahl nicht sagt
 

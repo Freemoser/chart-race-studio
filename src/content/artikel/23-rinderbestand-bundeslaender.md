@@ -3,7 +3,7 @@ post: 23
 slug: rinderbestand-bundeslaender
 titel: Rinderbestand je Bundesland – Entwicklung von 1991 bis 2025
 beschreibung: Bayern hatte 2025 noch 2,71 Mio. Rinder, 1991 waren es 4,65 Mio. Über alle Flächenländer sinkt der Bestand um 39,2 Prozent, halbiert hat er sich in Thüringen.
-frage: Wie hat sich der Rinderbestand in Deutschland entwickelt?
+frage: Wie viele Rinder gibt es in Deutschland?
 suchbegriffe: rinderbestand deutschland, rinderbestand bundesländer, anzahl rinder bayern, rinderbestand entwicklung, viehbestand deutschland
 stand: 2026-09-23
 bereit: ja

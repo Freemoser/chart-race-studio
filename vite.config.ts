@@ -13,7 +13,7 @@ const base = process.env.BASE_PATH ?? '/'
  * Artikel zur Post-Reihe, die scripts/build-artikel.mjs vor dem Build erzeugt hat. Nur was dort
  * freigegeben ist, liegt als Datei in beitrag/ – Entwürfe in beitrag/entwurf/ werden nie gebaut.
  */
-interface Beitrag { post: number; slug: string; titel: string; beschreibung: string; frage: string; live: boolean }
+interface Beitrag { post: number; slug: string; titel: string; beschreibung: string; frage: string; stand: string; live: boolean }
 const BEITRAEGE: Beitrag[] = (JSON.parse(readFileSync('src/content/artikel-index.json', 'utf8')) as Beitrag[])
   .filter((b) => b.live && existsSync(`beitrag/${b.slug}.html`))
 
@@ -36,11 +36,32 @@ function integrationen(env: Record<string, string>) {
       const istRecht = /^(impressum|datenschutz)\.html$/.test(pfad)
       if (env.VITE_SITE_URL && !istRecht) {
         const basis = env.VITE_SITE_URL.replace(/\/$/, '')
-        const voll = pfad === 'index.html' || pfad === '' ? basis + '/' : `${basis}/${pfad}`
+        // …/index.html kanonisch als Verzeichnis, damit /beitrag/ und /beitrag/index.html nicht
+        // als zwei Seiten gelten.
+        const voll = `${basis}/${pfad.replace(/(^|\/)index\.html$/, '$1')}`
         tags.push(`<link rel="canonical" href="${voll}" />`, `<meta property="og:url" content="${voll}" />`)
+        // Ohne og:image zeigt LinkedIn beim Teilen eines Links nur eine graue Kachel. Seiten ohne
+        // eigenes Bild bekommen die Standardkarte.
+        if (!/property="og:image"/.test(html)) {
+          tags.push(`<meta property="og:image" content="${basis}/og-standard.png" />`, `<meta property="og:image:width" content="1200" />`, `<meta property="og:image:height" content="630" />`)
+          if (!/twitter:card/.test(html)) tags.push(`<meta name="twitter:card" content="summary_large_image" />`)
+        }
       }
       // Cloudflare Web Analytics ist cookielos; deshalb ohne Einwilligungsschranke, aber in der Datenschutzerklärung genannt.
       if (env.VITE_CF_BEACON) tags.push(`<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${env.VITE_CF_BEACON}"}'></script>`)
+      // Startseite: KI-Crawler wie GPTBot, ClaudeBot oder PerplexityBot führen kein JavaScript aus
+      // und sähen sonst ein leeres <div id="root">. React ersetzt diesen Inhalt beim Start.
+      if (pfad === 'index.html' || pfad === '') {
+        html = html.replace('<div id="root"></div>', `<div id="root"><main style="max-width:44rem;margin:0 auto;padding:2rem 1.25rem;font-family:system-ui,sans-serif">
+      <h1>Chart Race Studio</h1>
+      <p>Animierte Bar- und Line-Chart-Races aus eigenen Tabellen, als MP4 für soziale Netzwerke, komplett im Browser. Mit recherchierten Datensätzen zur deutschen Tiermedizin, jeder Wert mit Quelle.</p>
+      <ul>
+${BEITRAEGE.length ? `        <li><a href="beitrag/">Tiermedizin in Zahlen: alle Artikel</a></li>\n${BEITRAEGE.map((b) => `        <li><a href="beitrag/${b.slug}.html">${b.frage}</a></li>`).join('\n')}\n` : ''}        <li><a href="artikel/tierarztketten-deutschland.html">Wer betreibt die Tierarztpraxen in Deutschland?</a></li>
+        <li><a href="artikel/datenherkunft.html">Woher die Zahlen kommen</a></li>
+        <li><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></li>
+      </ul>
+    </main></div>`)
+      }
       return tags.length ? html.replace('</head>', `  ${tags.join('\n  ')}\n  </head>`) : html
     },
     generateBundle(this: { emitFile: (f: { type: 'asset'; fileName: string; source: string }) => void }) {
@@ -62,7 +83,7 @@ Betrieben von Thomas Freimoser. Das Werkzeug erzeugt aus einer Tabelle ein ferti
 
 - [Wer betreibt die Tierarztpraxen in Deutschland?](${url}/artikel/tierarztketten-deutschland.html): Praxisketten und Klinikgruppen mit Standortzahlen, und die Abgrenzung zu Einkaufsgemeinschaften, die keine Praxis besitzen.
 - [Woher die Zahlen kommen](${url}/artikel/datenherkunft.html): Quelle, Zeitraum, Annahmen und Prüfdatum für zehn Datensätze zur deutschen Tiermedizin.
-${BEITRAEGE.length ? `\n## Einzelne Fragen, jeweils mit Zahl, Jahr und Quelle\n\n${BEITRAEGE.map((b) => `- [${b.frage}](${url}/beitrag/${b.slug}.html): ${b.beschreibung}`).join('\n')}\n` : ''}
+${BEITRAEGE.length ? `\n## Einzelne Fragen, jeweils mit Zahl, Jahr und Quelle\n\nÜbersicht: [Tiermedizin in Zahlen](${url}/beitrag/). Zu jedem Artikel gibt es die Daten als CSV.\n\n${BEITRAEGE.map((b) => `- [${b.frage}](${url}/beitrag/${b.slug}.html) (Stand ${b.stand}): ${b.beschreibung}`).join('\n')}\n` : ''}
 ## Grenzen dieser Quelle
 
 Thomas Freimoser ist kein Tierarzt und keine statistische Behörde. Diese Seite wertet veröffentlichte Statistiken aus und legt ihre Methode offen. Sie ersetzt keine amtliche Statistik und gibt keine medizinische, rechtliche oder wirtschaftliche Beratung. Für tiermedizinische Fragen ist die Bundestierärztekammer die zuständige Stelle.
@@ -75,16 +96,22 @@ Thomas Freimoser ist kein Tierarzt und keine statistische Behörde. Diese Seite 
 - „Die Französische Bulldogge ist selten" gilt nur für das VDH-Zuchtbuch. Die Rasse wird überwiegend außerhalb der Verbandsstrukturen gezüchtet und erscheint deshalb viel kleiner, als sie ist.
 - „VetFamily hat über 1.300 Praxen" bedeutet nicht Eigentum. VetFamily ist eine Einkaufsgemeinschaft rechtlich selbstständiger Praxen und besitzt keine einzige davon.
 ` })
-      const heute = new Date().toISOString().slice(0, 10)
       // Nur indexierbare Seiten. Impressum und Datenschutz tragen noindex und gehören deshalb
       // nicht hinein – eine Sitemap ist eine Bitte um Indexierung, beides zusammen meldet die
       // Search Console als Fehler. Hash-Routen sind keine eigenen URLs und haben hier ebenfalls
       // nichts verloren.
-      const seiten = ['', 'artikel/tierarztketten-deutschland.html', 'artikel/datenherkunft.html', ...BEITRAEGE.map((b) => `beitrag/${b.slug}.html`)]
+      // lastmod nur, wo es ein echtes Änderungsdatum gibt. Ein Build-Datum auf jeder Seite
+      // bringt Google bei, dem Feld nicht zu trauen – dann zählt es auch dort nicht, wo es stimmt.
+      const neuester = BEITRAEGE.map((b) => b.stand).sort().at(-1)
+      const seiten: [string, string?][] = [
+        [''], ['artikel/tierarztketten-deutschland.html'], ['artikel/datenherkunft.html'],
+        ...(BEITRAEGE.length ? [['beitrag/', neuester] as [string, string?]] : []),
+        ...BEITRAEGE.map((b): [string, string?] => [`beitrag/${b.slug}.html`, b.stand]),
+      ]
       this.emitFile({
         type: 'asset', fileName: 'sitemap.xml',
         source: `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-          seiten.map((p) => `  <url><loc>${url}/${p}</loc><lastmod>${heute}</lastmod></url>`).join('\n') +
+          seiten.map(([p, mod]) => `  <url><loc>${url}/${p}</loc>${mod ? `<lastmod>${mod}</lastmod>` : ''}</url>`).join('\n') +
           `\n</urlset>\n`,
       })
     },
@@ -115,6 +142,7 @@ export default defineConfig(({ mode }) => {
         impressum: resolve(import.meta.dirname, 'impressum.html'),
         datenschutz: resolve(import.meta.dirname, 'datenschutz.html'),
         ...Object.fromEntries(BEITRAEGE.map((b) => [`beitrag-${b.slug}`, resolve(import.meta.dirname, `beitrag/${b.slug}.html`)])),
+        ...(BEITRAEGE.length ? { beitraege: resolve(import.meta.dirname, 'beitrag/index.html') } : {}),
       },
     },
   },

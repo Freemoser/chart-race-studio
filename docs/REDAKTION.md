@@ -19,14 +19,16 @@ mit Titel und Leitfrage, dann Posts ab der nächsten Nummer anlegen.
 4. Push. Ist die Freigabe an, gehen damit Datensatz und Artikel automatisch online.
 5. Den Artikel-Link in den ersten Kommentar setzen.
 
+Nach Änderungen an Titel oder Beschreibung eines Artikels: `node scripts/og-bilder.mjs` (braucht lokales Chrome) und die Bilder in `public/beitrag/og/` einchecken – das ist die Vorschau, die LinkedIn im Kommentar zeigt.
+
 Optional: ein Standbild des Charts als `public/beitrag/<slug>.png` ablegen – der Artikel zeigt es dann unter dem ersten Absatz.
 
 ## Freigabe (`src/content/freigabe.json`)
 
-| Schalter | an | aus (aktuell) |
+| Schalter | an | aus |
 |---|---|---|
 | `beispieleErstNachVeroeffentlichung` | Das Studio zeigt nur Datensätze, die ein veröffentlichter Post verwendet | alle Datensätze sichtbar |
-| `artikelLive` | Artikel veröffentlichter Posts mit `bereit: ja` werden als Seite gebaut, stehen in Sitemap und llms.txt | kein Artikel online |
+| `artikelLive` (**an seit 23.09.2026**) | Artikel von Posts auf `naechster` oder `veroeffentlicht` mit `bereit: ja` werden als Seite gebaut, dazu Übersicht `/beitrag/`, CSV je Datensatz unter `/daten/`, Sitemap und llms.txt | kein Artikel online |
 
 **Vor dem Einschalten von `beispieleErstNachVeroeffentlichung`:** Datensätze, die in keinem Post vorkommen,
 verschwinden dann ebenfalls. Das betrifft derzeit `hund-katze-welt` – er muss erst einem Post zugeordnet werden.

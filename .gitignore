@@ -34,3 +34,6 @@ dist-ssr
 
 # Aus src/content/artikel/*.md erzeugt (scripts/build-artikel.mjs), inklusive Entwurfsvorschau
 /beitrag/
+
+# Aus den Datensätzen der Live-Artikel erzeugt (scripts/build-artikel.mjs)
+/public/daten/
