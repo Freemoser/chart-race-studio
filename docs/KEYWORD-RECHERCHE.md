@@ -162,9 +162,9 @@ Beides bedienen, aber nicht mit demselben Text.
 | 1 | wie viele haustiere hat deutschland · anzahl haustiere deutschland · haustiere deutschland statistik | online |
 | 2 | wie viele niedergelassene tierärzte gibt es in deutschland | online |
 | 3 | wie viele tierärzte gibt es in deutschland · anzahl tierärzte deutschland | online |
-| 4 | **tierarztmangel deutschland** – stark belegt, bisher nicht bedient. Der Artikel beantwortet die Frage mit Daten (Tiere je Tierärztin nur plus 2 Prozent seit 2012), müsste dafür aber umgebaut werden | Entwurf |
+| 4 | **tierarztmangel deutschland** – stark belegt. SERP: Verbandsmeldungen, Presse, Videos, keine einzige Datenantwort. Artikel umgebaut (24.09.): Antwort nach Köpfen, dazu was die Statistik nicht misst | Entwurf, umgebaut |
 | 10 | wie viele praktizierende tierärzte gibt es in deutschland | Entwurf |
-| 16 | gibt es mehr katzen oder hunde in deutschland · **… auf der welt / weltweit** | Entwurf; die Weltvariante passt exakt zum Datensatz `hund-katze-welt`, der noch keinen Post hat |
+| 16 | gibt es mehr katzen oder hunde in deutschland · **… auf der welt / weltweit** (auch „Weitere Fragen“) | Entwurf, um Abschnitt und FAQ zur Welt ergänzt (24.09.) |
 | 18 | beliebteste hunderassen deutschland (2025, 2026) · vdh beliebteste hunderassen · häufigste hunderassen deutschland | Entwurf |
 | 20 | wie viele tierärzte gibt es in bayern / berlin / hamburg | Entwurf; je Land eine FAQ-Frage |
 | 23 | rinderbestand deutschland · entwicklung rinderbestand deutschland · wieviel rinder hat deutschland | Entwurf |
@@ -190,4 +190,4 @@ Beides bedienen, aber nicht mit demselben Text.
 
 1. **Search Console verifizieren** (Token als Repo-Variable `VITE_GSC_VERIFICATION`) und die Sitemap einreichen. Ohne das gibt es weder Indexierungsanstoß noch echte Zahlen; alles oben bleibt Annahme.
 2. Nach vier Wochen: Impressionen ohne Klicks → Titel und Beschreibung anpassen; Positionen 5–15 → überarbeiten statt neu schreiben.
-3. Artikel 4 auf „tierarztmangel deutschland“ umbauen und Artikel 16 um die Weltfrage erweitern – die zwei stärksten unbedienten Anfragen mit eigenen Daten.
+3. ~~Artikel 4 auf „tierarztmangel deutschland“ umbauen, Artikel 16 um die Weltfrage erweitern~~ – erledigt am 24.09.2026.

@@ -3,7 +3,10 @@ import { loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'node:path'
-import { existsSync, readFileSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync } from 'node:fs'
+
+// Markenname aus einer einzigen Quelle – die Rechtsseiten, Artikel, Oberfläche und diese Datei lesen alle legal.json.
+const MARKE: string = JSON.parse(readFileSync('src/content/legal.json', 'utf8')).siteName
 
 // BASE_PATH wird im GitHub-Actions-Workflow auf "/<repo-name>/" gesetzt.
 // Lokal bleibt es "/".
@@ -27,13 +30,15 @@ function integrationen(env: Record<string, string>) {
   return {
     name: 'crs-integrationen',
     transformIndexHtml(html: string, ctx: { path?: string; filename?: string }) {
+      html = html.replaceAll('%SITE_NAME%', MARKE)
+      html = html.replaceAll('%BASE%', base)
       const tags: string[] = []
       if (env.VITE_GSC_VERIFICATION) tags.push(`<meta name="google-site-verification" content="${env.VITE_GSC_VERIFICATION}" />`)
       // Canonical JE SEITE. Ein einziges Canonical für alle Seiten – der erste Wurf hier –
       // lässt jede Unterseite behaupten, sie sei die Startseite, und nimmt sie damit aus dem
       // Index. Seiten mit noindex bekommen keines, sie sollen gar nicht indexiert werden.
       const pfad = (ctx.path ?? '/').replace(/^\/+/, '')
-      const istRecht = /^(impressum|datenschutz)\.html$/.test(pfad)
+      const istRecht = /^(impressum|datenschutz|404)\.html$/.test(pfad)
       if (env.VITE_SITE_URL && !istRecht) {
         const basis = env.VITE_SITE_URL.replace(/\/$/, '')
         // …/index.html kanonisch als Verzeichnis, damit /beitrag/ und /beitrag/index.html nicht
@@ -53,7 +58,7 @@ function integrationen(env: Record<string, string>) {
       // und sähen sonst ein leeres <div id="root">. React ersetzt diesen Inhalt beim Start.
       if (pfad === 'index.html' || pfad === '') {
         html = html.replace('<div id="root"></div>', `<div id="root"><main style="max-width:44rem;margin:0 auto;padding:2rem 1.25rem;font-family:system-ui,sans-serif">
-      <h1>Chart Race Studio</h1>
+      <h1>${MARKE}</h1>
       <p>Animierte Bar- und Line-Chart-Races aus eigenen Tabellen, als MP4 für soziale Netzwerke, komplett im Browser. Mit recherchierten Datensätzen zur deutschen Tiermedizin, jeder Wert mit Quelle.</p>
       <ul>
 ${BEITRAEGE.length ? `        <li><a href="beitrag/">Tiermedizin in Zahlen: alle Artikel</a></li>\n${BEITRAEGE.map((b) => `        <li><a href="beitrag/${b.slug}.html">${b.frage}</a></li>`).join('\n')}\n` : ''}        <li><a href="artikel/tierarztketten-deutschland.html">Wer betreibt die Tierarztpraxen in Deutschland?</a></li>
@@ -73,7 +78,7 @@ ${BEITRAEGE.length ? `        <li><a href="beitrag/">Tiermedizin in Zahlen: alle
       // llms.txt: kuratierte Übersicht für Antwortmaschinen. Der letzte Abschnitt ist der
       // wertvollste und fehlt fast überall – er nennt die Sätze, die verkürzt zitiert in die
       // Irre führen, samt fehlendem Kontext.
-      this.emitFile({ type: 'asset', fileName: 'llms.txt', source: `# Chart Race Studio
+      this.emitFile({ type: 'asset', fileName: 'llms.txt', source: `# ${MARKE}
 
 > Animierte Diagramme aus eigenen Tabellen, mit recherchierten Beispieldaten zur deutschen Tiermedizin.
 
@@ -83,7 +88,7 @@ Betrieben von Thomas Freimoser. Das Werkzeug erzeugt aus einer Tabelle ein ferti
 
 - [Wer betreibt die Tierarztpraxen in Deutschland?](${url}/artikel/tierarztketten-deutschland.html): Praxisketten und Klinikgruppen mit Standortzahlen, und die Abgrenzung zu Einkaufsgemeinschaften, die keine Praxis besitzen.
 - [Woher die Zahlen kommen](${url}/artikel/datenherkunft.html): Quelle, Zeitraum, Annahmen und Prüfdatum für zehn Datensätze zur deutschen Tiermedizin.
-${BEITRAEGE.length ? `\n## Einzelne Fragen, jeweils mit Zahl, Jahr und Quelle\n\nÜbersicht: [Tiermedizin in Zahlen](${url}/beitrag/). Zu jedem Artikel gibt es die Daten als CSV.\n\n${BEITRAEGE.map((b) => `- [${b.frage}](${url}/beitrag/${b.slug}.html) (Stand ${b.stand}): ${b.beschreibung}`).join('\n')}\n` : ''}
+${BEITRAEGE.length ? `\n## Einzelne Fragen, jeweils mit Zahl, Jahr und Quelle\n\nÜbersicht: [Tiermedizin in Zahlen](${url}/beitrag/). Volltext aller Artikel: [llms-full.txt](${url}/llms-full.txt). Zu jedem Artikel gibt es die Daten als CSV.\n\n${BEITRAEGE.map((b) => `- [${b.frage}](${url}/beitrag/${b.slug}.html) (Stand ${b.stand}): ${b.beschreibung}`).join('\n')}\n` : ''}
 ## Grenzen dieser Quelle
 
 Thomas Freimoser ist kein Tierarzt und keine statistische Behörde. Diese Seite wertet veröffentlichte Statistiken aus und legt ihre Methode offen. Sie ersetzt keine amtliche Statistik und gibt keine medizinische, rechtliche oder wirtschaftliche Beratung. Für tiermedizinische Fragen ist die Bundestierärztekammer die zuständige Stelle.
@@ -100,6 +105,18 @@ Thomas Freimoser ist kein Tierarzt und keine statistische Behörde. Diese Seite 
       // nicht hinein – eine Sitemap ist eine Bitte um Indexierung, beides zusammen meldet die
       // Search Console als Fehler. Hash-Routen sind keine eigenen URLs und haben hier ebenfalls
       // nichts verloren.
+      // llms-full.txt: der volle Text aller Live-Artikel in einer Datei, als Markdown. Antwortmaschinen
+      // bekommen so jede Zahl mit Kontext und Quelle, ohne HTML parsen oder JavaScript ausführen zu müssen.
+      if (BEITRAEGE.length) {
+        const texte = readdirSync('src/content/artikel').filter((f) => /^\d+-.*\.md$/.test(f)).map((f) => readFileSync(`src/content/artikel/${f}`, 'utf8'))
+        const voll = BEITRAEGE.map((b) => {
+          const roh = texte.find((t) => new RegExp(`^slug: ${b.slug}$`, 'm').test(t)) ?? ''
+          // Links auf Artikel, die noch nicht online sind, werden zu Text – wie im Live-Build der Seiten.
+          const text = roh.replace(/^---[\s\S]*?\n---\n/, '').replace(/\[([^\]]+)\]\(([a-z0-9-]+)\.html\)/g, (m, t, slug) => BEITRAEGE.some((x) => x.slug === slug) ? m : t).replace(/\]\((?!https?:)(\.\.\/)?([^)]+)\)/g, (_m, hoch, ziel) => `](${url}/${hoch ? '' : 'beitrag/'}${ziel})`)
+          return `# ${b.titel}\n\nQuelle: ${url}/beitrag/${b.slug}.html · Stand ${b.stand} · ${MARKE}, Thomas Freimoser\n\n${text.trim()}\n`
+        })
+        this.emitFile({ type: 'asset', fileName: 'llms-full.txt', source: `# ${MARKE}: alle Artikel im Volltext\n\n> Zahlen zu Tierärzten, Tierarztpraxen und Haustieren in Deutschland, jede mit Jahr und Quelle.\n\n${voll.join('\n---\n\n')}` })
+      }
       // lastmod nur, wo es ein echtes Änderungsdatum gibt. Ein Build-Datum auf jeder Seite
       // bringt Google bei, dem Feld nicht zu trauen – dann zählt es auch dort nicht, wo es stimmt.
       const neuester = BEITRAEGE.map((b) => b.stand).sort().at(-1)
@@ -141,6 +158,7 @@ export default defineConfig(({ mode }) => {
         artikelDaten: resolve(import.meta.dirname, 'artikel/datenherkunft.html'),
         impressum: resolve(import.meta.dirname, 'impressum.html'),
         datenschutz: resolve(import.meta.dirname, 'datenschutz.html'),
+        nichtGefunden: resolve(import.meta.dirname, '404.html'),
         ...Object.fromEntries(BEITRAEGE.map((b) => [`beitrag-${b.slug}`, resolve(import.meta.dirname, `beitrag/${b.slug}.html`)])),
         ...(BEITRAEGE.length ? { beitraege: resolve(import.meta.dirname, 'beitrag/index.html') } : {}),
       },

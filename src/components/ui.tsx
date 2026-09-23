@@ -1,5 +1,6 @@
 import { type ReactNode, useId, useState } from 'react'
 import { ChevronDown } from 'lucide-react'
+import { SITE } from '@/content/site'
 
 export function Section({ title, children, defaultOpen = true, hint }: { title: string; children: ReactNode; defaultOpen?: boolean; hint?: string }) {
   const [open, setOpen] = useState(defaultOpen)
@@ -89,7 +90,7 @@ export function Wordmark({ compact = false }: { compact?: boolean }) {
       </svg>
       {!compact && (
         <span className="leading-tight">
-          <span className="block text-[15px] font-bold tracking-tight text-ink">Chart Race Studio</span>
+          <span className="block text-[15px] font-bold tracking-tight text-ink">{SITE.name}</span>
           <span className="block text-[11px] font-medium tracking-wide text-ink-faint uppercase">Thomas Freimoser</span>
         </span>
       )}

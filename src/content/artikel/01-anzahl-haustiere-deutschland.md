@@ -43,7 +43,7 @@ Wer 1991 mit 2025 vergleicht, vergleicht zwei Erhebungsverfahren. Bis 2011 beruh
 
 Vergleichbar ist deshalb vor allem der Zeitraum ab 2013. Dort wachsen Katzen von 11,5 auf 15,7 Millionen und Hunde von 6,9 auf 10,0 Millionen. Die Kleintiere gehen von 6,1 auf 4,4 Millionen zurück, die Ziervögel bleiben mit 3,4 und 3,3 Millionen fast gleich. Den Höchststand erreichten die Katzen 2021 mit 16,7 Millionen, die Hunde 2020 mit 10,7 Millionen. Seither stagnieren beide Arten oder gehen leicht zurück.
 
-Wie sich die Tierarztpraxen im selben Zeitraum verändert haben, zeigt der Folgeartikel [Die Kleintierpraxis wird zum Normalfall](niedergelassene-tieraerzte-deutschland.html). Wie viele Hunde und Katzen rechnerisch auf eine Tierärztin oder einen Tierarzt kommen, steht in [Die Nachfrage wächst, die Zahl der Praxen nicht](haustiere-pro-tierarzt.html).
+Wie sich die Tierarztpraxen im selben Zeitraum verändert haben, zeigt der Folgeartikel [Die Kleintierpraxis wird zum Normalfall](niedergelassene-tieraerzte-deutschland.html). Wie viele Hunde und Katzen rechnerisch auf eine Tierärztin oder einen Tierarzt kommen, steht in [Die Nachfrage wächst, die Zahl der Praxen nicht](tierarztmangel-deutschland.html).
 
 ## Was der Tierärzte Atlas mit plus 50 Prozent meint
 

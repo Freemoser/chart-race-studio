@@ -6,6 +6,10 @@ Alle nennenswerten Änderungen dieses Projekts. Format lose nach [Keep a Changel
 
 ### Neu
 
+- `llms-full.txt` mit dem Volltext aller Live-Artikel für Antwortmaschinen; 404-Seite mit Wegweiser.
+- Artikelentwürfe 4 („Tierarztmangel in Deutschland: was die Zahlen zeigen“) und 16 (Weltvergleich Katze/Hund) auf gemessene Suchanfragen ausgerichtet.
+- Markenname nur noch in `src/content/legal.json` (`siteName`) – eine Umbenennung ist eine Zeile.
+
 - **Erste Artikel online** (Posts 1–3) unter `/beitrag/`, mit Übersichtsseite „Tiermedizin in Zahlen“, CSV-Download je Datensatz und Dataset-Auszeichnung für die Google-Datensatzsuche.
 - **SEO/GEO:** Zielfragen der drei Artikel auf gemessene Suchanfragen umgestellt (docs/KEYWORD-RECHERCHE.md, Abschnitt 9); erster Absatz beantwortet die Kopfanfrage, inklusive der Unterscheidung 46.089 Kammermitglieder gegen 34.476 Tätige. Vorschaubilder für LinkedIn (`scripts/og-bilder.mjs`), Standard-og:image für alle Seiten, statischer Inhalt auf der Startseite für Crawler ohne JavaScript, `lastmod` nur mit echtem Datum, Canonical für Verzeichnisseiten.
 - `check:launch` meldet tote interne Links und ungültige strukturierte Daten als Blocker.

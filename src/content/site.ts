@@ -36,7 +36,8 @@ import legal from './legal.json'
 export const LEGAL = legal
 
 export const SITE = {
-  name: 'Chart Race Studio',
+  /** Markenname: einzige Quelle ist siteName in legal.json – dort ändern, nicht hier. */
+  name: legal.siteName,
   tagline: 'Aus einer Tabelle wird ein Video für den Feed.',
   /** Wird für Sitemap, robots.txt und die kanonische URL gebraucht. Nach dem ersten Deploy eintragen. */
   url: import.meta.env.VITE_SITE_URL ?? '',

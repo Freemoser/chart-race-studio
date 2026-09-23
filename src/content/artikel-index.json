@@ -31,11 +31,11 @@
   },
   {
     "post": 4,
-    "slug": "haustiere-pro-tierarzt",
-    "titel": "Tierärzte und Haustiere: 2.291 Hunde und Katzen je Praxisinhaber",
-    "beschreibung": "2025 kamen rechnerisch 2.291 Hunde und Katzen auf einen Praxisinhaber, 2012 waren es 1.655. Je Tierarzt in der Praxis ist es kaum mehr geworden.",
-    "frage": "Wie viele Hunde und Katzen kommen in Deutschland auf einen Tierarzt?",
-    "stand": "2026-09-23",
+    "slug": "tierarztmangel-deutschland",
+    "titel": "Tierarztmangel in Deutschland: was die Zahlen zeigen",
+    "beschreibung": "Je Tierarzt in der Praxis kamen 2025 1.101 Hunde und Katzen, kaum mehr als 2012. Knapp werden Inhaber, Arbeitszeit und Nutztiermedizin.",
+    "frage": "Gibt es in Deutschland einen Tierarztmangel?",
+    "stand": "2026-09-24",
     "bereit": true,
     "live": false
   },
@@ -155,7 +155,7 @@
     "titel": "Mehr Katzen oder Hunde? Deutschland 1991–2025 im Verhältnis",
     "beschreibung": "2025 lebten in Deutschland 15,7 Mio. Katzen und 10,0 Mio. Hunde, rechnerisch 1,57 Katzen je Hund. 1991 waren es 1,15. Die Reihe seit 1991 mit Quelle.",
     "frage": "Gibt es in Deutschland mehr Katzen oder Hunde?",
-    "stand": "2026-09-23",
+    "stand": "2026-09-24",
     "bereit": true,
     "live": false
   },

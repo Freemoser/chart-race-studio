@@ -51,7 +51,7 @@ Für die Zeitreihe gilt dasselbe für jedes Jahr von 2002 bis 2025. Dann lässt 
 
 ## Warum nicht je Hund und Katze?
 
-Der Redaktionsplan nennt als zweite Bezugsgröße die Zahl der Hunde und Katzen. Das geht je Bundesland nicht: Die Heimtierzahlen von IVH und ZZF sind Hochrechnungen aus einer bundesweiten Haushaltsbefragung, ein Register mit Länderzahlen gibt es nicht. Bundesweit leben laut dieser Erhebung 2025 rund 25,7 Millionen Hunde und Katzen in deutschen Haushalten; was das je Tierärztin und Tierarzt bedeutet, steht im Artikel [Haustiere pro Tierarzt](haustiere-pro-tierarzt.html). Für die Nutztierseite gibt es dagegen Länderzahlen, etwa den Rinderbestand im Artikel [Rinderbestand je Bundesland](rinderbestand-bundeslaender.html).
+Der Redaktionsplan nennt als zweite Bezugsgröße die Zahl der Hunde und Katzen. Das geht je Bundesland nicht: Die Heimtierzahlen von IVH und ZZF sind Hochrechnungen aus einer bundesweiten Haushaltsbefragung, ein Register mit Länderzahlen gibt es nicht. Bundesweit leben laut dieser Erhebung 2025 rund 25,7 Millionen Hunde und Katzen in deutschen Haushalten; was das je Tierärztin und Tierarzt bedeutet, steht im Artikel [Haustiere pro Tierarzt](tierarztmangel-deutschland.html). Für die Nutztierseite gibt es dagegen Länderzahlen, etwa den Rinderbestand im Artikel [Rinderbestand je Bundesland](rinderbestand-bundeslaender.html).
 
 ## Was die Zahl nicht sagt
 

@@ -1,14 +1,14 @@
 ---
 post: 4
-slug: haustiere-pro-tierarzt
-titel: Tierärzte und Haustiere: 2.291 Hunde und Katzen je Praxisinhaber
-beschreibung: 2025 kamen rechnerisch 2.291 Hunde und Katzen auf einen Praxisinhaber, 2012 waren es 1.655. Je Tierarzt in der Praxis ist es kaum mehr geworden.
-frage: Wie viele Hunde und Katzen kommen in Deutschland auf einen Tierarzt?
-suchbegriffe: tierärzte anzahl deutschland, anzahl haustiere deutschland, werden tierärzte in deutschland gesucht, wie viele tierärzte in deutschland
-stand: 2026-09-23
+slug: tierarztmangel-deutschland
+titel: Tierarztmangel in Deutschland: was die Zahlen zeigen
+beschreibung: Je Tierarzt in der Praxis kamen 2025 1.101 Hunde und Katzen, kaum mehr als 2012. Knapp werden Inhaber, Arbeitszeit und Nutztiermedizin.
+frage: Gibt es in Deutschland einen Tierarztmangel?
+suchbegriffe: tierarztmangel deutschland, tierärztemangel, werden tierärzte in deutschland gesucht, tiere pro tierarzt
+stand: 2026-09-24
 bereit: ja
 ---
-2025 kamen in Deutschland rechnerisch **2.291 Hunde und Katzen auf eine Praxisinhaberin oder einen Praxisinhaber**, 2012 waren es 1.655. Zählt man die angestellten Tierärztinnen und Tierärzte in den Praxen mit, sind es **1.101 Tiere je Kopf** – kaum mehr als 2012 mit 1.079. Beides ist berechnet aus der Statistik der Bundestierärztekammer und den Heimtierzahlen von IVH und ZZF.
+Gemessen an Köpfen zeigt die Statistik keinen Mangel: 2025 kamen in Deutschland rechnerisch **1.101 Hunde und Katzen auf eine Tierärztin oder einen Tierarzt in der Praxis**, kaum mehr als 2012 mit 1.079. Knapp geworden sind die **Praxisinhaber** – auf jeden kommen inzwischen 2.291 Hunde und Katzen statt 1.655 – und, was die Statistik nicht misst, die Arbeitszeit. Berechnet aus der Statistik der Bundestierärztekammer und den Heimtierzahlen von IVH und ZZF.
 
 ## Das Wichtigste in Kürze
 
@@ -36,7 +36,7 @@ Bis 2019 wuchs die Zahl der Inhaber noch leicht, die der Hunde und Katzen deutli
 
 ## Die Arbeit verteilt sich auf mehr Köpfe
 
-Die Kennzahl „je Praxisinhaber“ ist anschaulich, erzählt aber nur die halbe Geschichte. Die Inhaber behandeln nicht allein. Seit 2012 hat sich die Zahl der angestellten Tierärztinnen und Tierärzte in Praxen fast verdoppelt, 2024 lag sie erstmals über der der Inhaber. Die Hintergründe stehen im Artikel [Angestellte überholen die Praxisinhaber](anzahl-tieraerzte-deutschland.html).
+Die Kennzahl „je Praxisinhaber“ ist anschaulich, erzählt aber nur die halbe Geschichte. Die Inhaber behandeln nicht allein. Seit 2012 hat sich die Zahl der angestellten Tierärztinnen und Tierärzte in Praxen fast verdoppelt, 2024 lag sie erstmals über der der Inhaber. Die Hintergründe stehen im Artikel [Wie viele Tierärzte gibt es in Deutschland?](anzahl-tieraerzte-deutschland.html).
 
 Rechnet man beide Gruppen zusammen, ergibt sich ein anderes Bild. Je Kopf in der Praxis stieg die Zahl der Hunde und Katzen bis 2021 auf 1.221 und ist seitdem jedes Jahr gesunken, 2025 auf 1.101. Gemessen an Personen haben die Praxen also mit dem Wachstum der Tierzahlen Schritt gehalten – aber nur, weil die Angestellten die fehlenden Inhaber mehr als ersetzen.
 
@@ -47,6 +47,16 @@ Ob das auch für die Arbeitszeit gilt, lässt sich aus der Statistik nicht ables
 Die Heimtierzahlen haben 2012 einen Methodenbruch. Bis 2011 schätzten die Verbände, 2012 folgte die erste repräsentative Haushaltsbefragung. Hunde und Katzen springen dadurch von 13,6 auf 19,7 Millionen in einem Jahr, die Kennzahl je Inhaber von 1.149 auf 1.655. Nach der alten Methode lag sie 1991 bei 1.163 und 2011 bei 1.149, war also flach – vergleichbar mit den Werten danach ist das nicht.
 
 Auch 2012 selbst ist kein perfekter Startpunkt, denn 2013 stellten die Verbände noch einmal um. Beginnt man den Vergleich 2013, steigt die Zahl je Inhaber von 1.541 auf 2.291, um 48,7 Prozent statt 38,5 Prozent. Die Richtung ist in beiden Fällen dieselbe, die Größe hängt vom Startjahr ab. Mehr zu den Heimtierzahlen steht im Artikel [Heimtiere in Deutschland seit 1991](anzahl-haustiere-deutschland.html).
+
+## Was die Debatte meint und was die Statistik misst
+
+Wer von Tierarztmangel spricht, meint selten die Gesamtzahl. Der Bundesverband Praktizierender Tierärzte begründet ihn vor allem mit dem Arbeitszeitgesetz, das flexible Einsätze etwa im Notdienst erschwere; berichtet wird über fehlende Notdienste nachts und am Wochenende und über den ländlichen Raum. Das sind Fragen nach Arbeitsstunden, Uhrzeiten und Orten. Die Kammerstatistik zählt Köpfe zum Jahresende. Sie kann einen Mangel an Stunden weder bestätigen noch widerlegen.
+
+Drei Dinge zeigt sie aber doch:
+
+- **Die Selbstständigkeit schrumpft.** Seit dem Höchststand 2019 gibt es 803 Praxisinhaber weniger. Wer eine Praxis führt, trägt Notdienst und Nachfolge; dass diese Gruppe kleiner wird, während die Tierzahl hoch bleibt, erklärt einen Teil des Drucks.
+- **Mehr Köpfe heißt nicht mehr Stunden.** Laut Tierärzte Atlas arbeitete 2023 jede zweite Tierärztin in Teilzeit, aber nur 13 Prozent der Männer. Unter den Angestellten sind 82 Prozent Frauen.
+- **In der Nutztiermedizin wird es tatsächlich dünner.** Die Zahl der Inhaber mit reiner Nutz- oder Großtierpraxis fiel von 1.859 im Jahr 1991 auf 971 im Jahr 2018, bevor die Kammer die Kategorien änderte.
 
 ## Was die Zahl nicht sagt
 
@@ -62,9 +72,9 @@ Auch 2012 selbst ist kein perfekter Startpunkt, denn 2013 stellten die Verbände
 
 Offene Stellen erfasst die Kammerstatistik nicht, darauf gibt sie keine direkte Antwort. Sie zeigt aber, dass die Praxen immer mehr Tierärztinnen und Tierärzte anstellen: 2012 waren es 6.346, 2025 schon 12.125. Die Zahl der Hunde und Katzen stieg im selben Zeitraum von 19,7 auf 25,7 Millionen.
 
-### Wie viele Tierärzte gibt es in Deutschland?
+### Gibt es in Deutschland einen Tierarztmangel?
 
-Ende 2025 waren 34.476 Tierärztinnen und Tierärzte tätig. 11.216 führten eine eigene Praxis, 12.125 waren in Praxen angestellt, 11.135 arbeiteten außerhalb von Praxen. Wer diese dritte Gruppe ist, steht im Artikel [Die stille dritte Gruppe](praktizierende-tieraerzte-deutschland.html).
+Nicht an Köpfen: Ende 2025 waren 34.476 Tierärztinnen und Tierärzte tätig, so viele wie nie, und je Tierärztin oder Tierarzt in der Praxis kamen rechnerisch 1.101 Hunde und Katzen, kaum mehr als 2012. Knapp werden die Praxisinhaber, deren Zahl seit 2019 um 803 gesunken ist, und die verfügbare Arbeitszeit, die die Statistik nicht erfasst. Die Gesamtzahlen stehen im Artikel [Wie viele Tierärzte gibt es in Deutschland?](anzahl-tieraerzte-deutschland.html).
 
 ## Quelle und Methode
 
