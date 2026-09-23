@@ -76,6 +76,36 @@ for (const f of fs.existsSync('artikel') ? fs.readdirSync('artikel').filter((x) 
   if (intern < 3) melde('hinweis', `Artikel ${f}`, `nur ${intern} interne Links`)
 }
 
+// ---------- Artikelentwürfe zur Post-Reihe ----------
+// Nicht die gebauten Seiten, sondern die Quellen: Die meisten Entwürfe sind noch nicht online,
+// sollen aber schon jetzt die Regeln aus src/content/artikel/README.md einhalten.
+const AD = 'src/content/artikel'
+const entwuerfe = fs.existsSync(AD) ? fs.readdirSync(AD).filter((x) => /^\d{2,}-.*\.md$/.test(x)) : []
+const mitArtikel = new Set()
+for (const f of entwuerfe) {
+  const roh = lies(`${AD}/${f}`)
+  const kopf = Object.fromEntries([...(roh.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '').matchAll(/^(\w+):\s*(.*)$/gm)].map((m) => [m[1], m[2].trim()]))
+  const text = roh.replace(/^---[\s\S]*?\n---\n/, '')
+  const nr = Number(kopf.post)
+  mitArtikel.add(nr)
+  const wo = `Artikel ${f}`
+  if (!f.startsWith(String(nr).padStart(2, '0') + '-')) melde('mangel', wo, `Dateiname passt nicht zu post: ${kopf.post}`)
+  if ((kopf.beschreibung ?? '').length > 160) melde('mangel', wo, `Beschreibung mit ${kopf.beschreibung.length} Zeichen über 160 – Google schneidet ab`)
+  if ((kopf.titel ?? '').length > 70) melde('hinweis', wo, `Titel mit ${kopf.titel.length} Zeichen über 70`)
+  const erster = text.trim().split(/\n{2,}/)[0] ?? ''
+  if (!/\d/.test(erster)) melde('mangel', wo, 'erster Absatz ohne Zahl – er soll die Frage beantworten')
+  for (const pflicht of ['## Das Wichtigste in Kürze', '## Was die Zahl nicht sagt', '## Quelle und Methode']) {
+    if (!text.includes(pflicht)) melde('mangel', wo, `Abschnitt „${pflicht.slice(3)}“ fehlt`)
+  }
+  const woerter = text.replace(/[|#*>-]/g, ' ').split(/\s+/).filter(Boolean).length
+  if (woerter < 400) melde('mangel', wo, `nur ${woerter} Wörter`)
+  if (kopf.bereit === 'ja' && /\*\*Offen:\*\*/.test(text)) melde('mangel', wo, 'als bereit markiert, enthält aber noch „Offen:“')
+  if (/\b(TODO|TBD|FIXME|Lorem ipsum)\b/.test(text)) melde('mangel', wo, 'Platzhalter im Text')
+}
+for (const p of posts) {
+  if (!mitArtikel.has(p.nr)) melde('hinweis', `Post ${p.nr}`, 'noch kein Artikelentwurf')
+}
+
 // ---------- Platzhalter ----------
 for (const f of ['src/content/roadmap.ts', 'src/samples/index.ts', 'src/content/site.ts']) {
   for (const [i, z] of lies(f).split('\n').entries()) {

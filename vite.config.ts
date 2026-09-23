@@ -3,10 +3,19 @@ import { loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'node:path'
+import { existsSync, readFileSync } from 'node:fs'
 
 // BASE_PATH wird im GitHub-Actions-Workflow auf "/<repo-name>/" gesetzt.
 // Lokal bleibt es "/".
 const base = process.env.BASE_PATH ?? '/'
+
+/**
+ * Artikel zur Post-Reihe, die scripts/build-artikel.mjs vor dem Build erzeugt hat. Nur was dort
+ * freigegeben ist, liegt als Datei in beitrag/ – Entwürfe in beitrag/entwurf/ werden nie gebaut.
+ */
+interface Beitrag { post: number; slug: string; titel: string; beschreibung: string; frage: string; live: boolean }
+const BEITRAEGE: Beitrag[] = (JSON.parse(readFileSync('src/content/artikel-index.json', 'utf8')) as Beitrag[])
+  .filter((b) => b.live && existsSync(`beitrag/${b.slug}.html`))
 
 /**
  * Trägt optionale Integrationen statisch in die ausgelieferte index.html ein.
@@ -53,7 +62,7 @@ Betrieben von Thomas Freimoser. Das Werkzeug erzeugt aus einer Tabelle ein ferti
 
 - [Wer betreibt die Tierarztpraxen in Deutschland?](${url}/artikel/tierarztketten-deutschland.html): Praxisketten und Klinikgruppen mit Standortzahlen, und die Abgrenzung zu Einkaufsgemeinschaften, die keine Praxis besitzen.
 - [Woher die Zahlen kommen](${url}/artikel/datenherkunft.html): Quelle, Zeitraum, Annahmen und Prüfdatum für zehn Datensätze zur deutschen Tiermedizin.
-
+${BEITRAEGE.length ? `\n## Einzelne Fragen, jeweils mit Zahl, Jahr und Quelle\n\n${BEITRAEGE.map((b) => `- [${b.frage}](${url}/beitrag/${b.slug}.html): ${b.beschreibung}`).join('\n')}\n` : ''}
 ## Grenzen dieser Quelle
 
 Thomas Freimoser ist kein Tierarzt und keine statistische Behörde. Diese Seite wertet veröffentlichte Statistiken aus und legt ihre Methode offen. Sie ersetzt keine amtliche Statistik und gibt keine medizinische, rechtliche oder wirtschaftliche Beratung. Für tiermedizinische Fragen ist die Bundestierärztekammer die zuständige Stelle.
@@ -71,7 +80,7 @@ Thomas Freimoser ist kein Tierarzt und keine statistische Behörde. Diese Seite 
       // nicht hinein – eine Sitemap ist eine Bitte um Indexierung, beides zusammen meldet die
       // Search Console als Fehler. Hash-Routen sind keine eigenen URLs und haben hier ebenfalls
       // nichts verloren.
-      const seiten = ['', 'artikel/tierarztketten-deutschland.html', 'artikel/datenherkunft.html']
+      const seiten = ['', 'artikel/tierarztketten-deutschland.html', 'artikel/datenherkunft.html', ...BEITRAEGE.map((b) => `beitrag/${b.slug}.html`)]
       this.emitFile({
         type: 'asset', fileName: 'sitemap.xml',
         source: `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
@@ -105,6 +114,7 @@ export default defineConfig(({ mode }) => {
         artikelDaten: resolve(import.meta.dirname, 'artikel/datenherkunft.html'),
         impressum: resolve(import.meta.dirname, 'impressum.html'),
         datenschutz: resolve(import.meta.dirname, 'datenschutz.html'),
+        ...Object.fromEntries(BEITRAEGE.map((b) => [`beitrag-${b.slug}`, resolve(import.meta.dirname, `beitrag/${b.slug}.html`)])),
       },
     },
   },

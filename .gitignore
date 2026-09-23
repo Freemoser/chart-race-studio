@@ -31,3 +31,6 @@ dist-ssr
 # Aus src/content/legal.json erzeugt (scripts/build-legal.mjs)
 /impressum.html
 /datenschutz.html
+
+# Aus src/content/artikel/*.md erzeugt (scripts/build-artikel.mjs), inklusive Entwurfsvorschau
+/beitrag/

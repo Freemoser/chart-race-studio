@@ -1,5 +1,5 @@
 /**
- * Redaktionsplan: 30 Posts, die aufeinander aufbauen.
+ * Redaktionsplan: Posts in Visiten zu je 30, die aufeinander aufbauen.
  *
  * Jeder Post nennt den Datensatz, aus dem das Video kommt, und die Zahlen, die im Text stehen sollen.
  * Alle Zahlen hier stammen aus den Datensätzen in src/samples/ bzw. aus den in docs/DATASETS.md
@@ -11,6 +11,28 @@
 export type PostStatus = 'veroeffentlicht' | 'naechster' | 'geplant'
 /** belegt = Datensatz liegt vor · teilweise = Einzelwerte belegt, Reihe fehlt · offen = muss recherchiert werden */
 export type DataStatus = 'belegt' | 'teilweise' | 'offen'
+
+/**
+ * Eine Visite umfasst immer 30 Posts – wie ein Rundgang über die Station, Bett für Bett.
+ * Die Nummern laufen über alle Visiten durch (Visite 2 beginnt mit Post 31), damit Verweise
+ * wie „siehe Post 3“ eindeutig bleiben. Zu welcher Visite ein Post gehört, folgt aus der Nummer.
+ */
+export const POSTS_JE_VISITE = 30
+
+export interface Visite {
+  nr: number
+  titel: string
+  /** Die eine Frage, die sich durch alle 30 Posts zieht. */
+  leitfrage: string
+  status: 'laeuft' | 'in-vorbereitung'
+}
+
+export const VISITEN: Visite[] = [
+  { nr: 1, titel: 'Wie sich die Tiermedizin in Deutschland gedreht hat', leitfrage: 'Mehr Katzen, weniger Inhaber, neue Käufer: Was hat sich in 35 Jahren verschoben?', status: 'laeuft' },
+  { nr: 2, titel: 'In Vorbereitung', leitfrage: 'Die Themen werden gerade gesammelt.', status: 'in-vorbereitung' },
+]
+
+export const visiteVon = (postNr: number) => Math.ceil(postNr / POSTS_JE_VISITE)
 
 export interface RoadmapArc {
   id: string
@@ -62,7 +84,7 @@ export const POSTS: RoadmapPost[] = [
     linkedInUrl: 'https://lnkd.in/p/eQD4vrf8',
     title: 'Die Kleintierpraxis wird zum Normalfall',
     hook: 'Die logische Folgefrage zu Post 1: Was hat der Wandel bei den Tieren mit den Praxen gemacht? 1991 war die gemischte Praxis der Regelfall.',
-    figures: ['1991: 4.086 gemischt, 2.298 nur Kleintiere, 1.859 nur Großtiere', '2002 Gleichstand auf die Person genau: 4.419 zu 4.419', '2025: 5.930 Kleintierpraxen, 54 Prozent aller Praxisinhaber'],
+    figures: ['1991: 4.086 gemischt, 2.298 nur Kleintiere, 1.859 nur Großtiere', '2002 Gleichstand auf die Person genau: 4.419 zu 4.419', '2025: 5.930 Kleintierpraxen, 52,9 Prozent aller Praxisinhaber (54,4 Prozent derer mit Schwerpunktangabe)'],
     sampleId: 'praxisschwerpunkte', chart: 'line', dataStatus: 'belegt',
     dataNote: 'Versatz 2019 durch getrennte Pferde-Abfrage – im Post erklären, nicht verstecken.',
     refs: [1],
@@ -89,7 +111,7 @@ export const POSTS: RoadmapPost[] = [
     nr: 5, arc: 'ketten', status: 'geplant',
     title: 'Wer die Tierarztpraxen kauft',
     hook: 'Die Antwort auf die offene Frage aus Post 3: Wenn immer weniger Menschen eine eigene Praxis führen, wem gehören die Praxen dann?',
-    figures: ['Tierärzte Atlas, August 2024: rund 450 Standorte von 16 Praxisketten – die einzige belastbare Gesamtzahl', '2026: IVC Evidensia über 120 Standorte, Tierarzt Plus Partner 106, AniCura 78', 'Bei rund 10.000 Praxen sind das etwa 4,5 Prozent der Standorte, aber ein deutlich höherer Umsatzanteil'],
+    figures: ['Tierärzte Atlas, August 2024: rund 450 Standorte von 16 Praxisketten – die einzige belastbare Gesamtzahl', '2026: IVC Evidensia über 120 Standorte, Tierarzt Plus Partner über 110, AniCura 78', 'Bei rund 10.000 Praxen sind das etwa 4,5 Prozent der Standorte, aber ein deutlich höherer Umsatzanteil'],
     sampleId: 'ketten', chart: 'line', dataStatus: 'belegt',
     dataNote: 'Keine amtliche Statistik; der Tierärzte Atlas im Deutschen Tierärzteblatt 2/2025 sagt das selbst. Die Langfassung steht als Artikel auf der Seite und gehört in den ersten Kommentar.',
     refs: [3],
@@ -98,16 +120,16 @@ export const POSTS: RoadmapPost[] = [
     nr: 6, arc: 'ketten', status: 'geplant',
     title: '2015 gab es diesen Markt noch nicht',
     hook: 'Die Konsolidierung ist keine alte Entwicklung. AniCura hatte im Februar 2016 acht Standorte in Deutschland.',
-    figures: ['AniCura: 8 Standorte (02/2016), 30 (06/2018), 69 (2026)', 'Evidensia Deutschland GmbH: gegründet Anfang 2016', 'Tierarzt Plus: 2018 gegründet, 2026 bei 106'],
+    figures: ['AniCura: 8 Standorte (02/2016), 30 (06/2018), 78 (2026)', 'Evidensia Deutschland GmbH: gegründet Anfang 2016', 'Tierarzt Plus: 2018 gegründet, 2026 bei 106'],
     sampleId: 'ketten', chart: 'line', dataStatus: 'belegt',
-    dataNote: 'Zwischen 2016 und 2022 gibt es bei IVC Evidensia sieben Jahre ohne Beleg. Die gerade Linie dort ist eine Annahme – im Post erwähnen.',
+    dataNote: 'Bei IVC Evidensia sind nur 2016, 2018 und 2021 belegt, für 2019 und 2020 gibt es bei keiner Gruppe einen Beleg. Die Linie dazwischen ist eine Annahme – im Post erwähnen.',
     refs: [5],
   },
   {
     nr: 7, arc: 'ketten', status: 'geplant',
     title: 'Nicht jede Gruppe gehört einem Fonds',
     hook: 'In der Debatte klingt Kette immer nach Private Equity. TeamVet und Cadomo Vets zeigen, dass es auch anders geht.',
-    figures: ['TeamVet: 24 Standorte, Gesellschafterstruktur ausdrücklich ohne Investmentfonds', 'Cadomo Vets: von Tierärzten gegründet und geführt, 4 Praxen', 'Dagegen: IVC Evidensia (EQT, Silver Lake), AniCura (Mars), Tierarzt Plus (Inflexion)'],
+    figures: ['TeamVet: 27 Standorte, Gesellschafterstruktur ausdrücklich ohne Investmentfonds', 'Cadomo Vets: von Tierärzten gegründet und geführt, 4 Praxen', 'Dagegen: IVC Evidensia (EQT, Silver Lake), AniCura (Mars), Tierarzt Plus (Inflexion)'],
     sampleId: 'ketten', chart: 'bar', dataStatus: 'belegt',
     refs: [5, 6],
   },
@@ -124,7 +146,7 @@ export const POSTS: RoadmapPost[] = [
     nr: 9, arc: 'ketten', status: 'geplant',
     title: 'Gründen statt kaufen',
     hook: 'Zwei Start-ups gehen den umgekehrten Weg: filu und Rex kaufen keine Praxen auf, sie eröffnen neue.',
-    figures: ['filu: 12 Standorte', 'Rex: 13 Praxen', 'Wolf & Tiger: 3 Standorte in Berlin, Stuttgart und Dresden, von Tierärzt:innen gegründet', 'Alle drei konzentriert auf Großstädte, mit App-Terminbuchung und Preistransparenz'],
+    figures: ['filu: 11 Standorte', 'Rex: 13 Praxen', 'Wolf & Tiger: 3 Standorte in Berlin, Stuttgart und Dresden, von Tierärzt:innen gegründet', 'Belegt ist bei allen drei nur der Stand 2026, keine Zeitreihe'],
     dataStatus: 'teilweise',
     dataNote: 'Standortzahlen sind Eigenangaben ohne Zeitreihe. Eröffnungsdaten je Standort wären recherchierbar und ergäben ein echtes Rennen.',
     refs: [5, 7, 8],
@@ -157,7 +179,7 @@ export const POSTS: RoadmapPost[] = [
   {
     nr: 13, arc: 'fach', status: 'geplant',
     title: 'Was verschwindet: Rind, Schwein, Lebensmittel',
-    hook: 'Die Gegenbewegung zu Post 12. Drei Fächer, die seit 2007 durchgehend schrumpfen.',
+    hook: 'Die Gegenbewegung zu Post 12. Drei Fächer, die seit 2007 deutlich schrumpfen und nie mehr an ihren Ausgangswert herankommen.',
     figures: ['Rinder: 860 auf 596', 'Schweine: 667 auf 561', 'Lebensmittelhygiene: 634 auf 419'],
     sampleId: 'fachtieraerzte', chart: 'line', dataStatus: 'belegt',
     refs: [12, 23],
@@ -182,7 +204,7 @@ export const POSTS: RoadmapPost[] = [
     nr: 16, arc: 'tiere', status: 'geplant',
     title: 'Hund und Katze allein',
     hook: 'Zurück zu den Tieren, diesmal ohne Ablenkung: nur die beiden Arten, die den Praxisalltag bestimmen.',
-    figures: ['1991: 9,9 Mio. zusammen', '2025: 25,7 Mio.', 'Katzen wachsen dabei fast dreimal so stark wie Hunde'],
+    figures: ['1991: 9,9 Mio. zusammen', '2025: 25,7 Mio.', 'Katzen haben sich fast verdreifacht, Hunde gut verdoppelt'],
     sampleId: 'heimtiere', chart: 'line', dataStatus: 'belegt',
     refs: [1, 4],
   },
@@ -214,7 +236,7 @@ export const POSTS: RoadmapPost[] = [
   {
     nr: 20, arc: 'karte', status: 'geplant',
     title: 'Tierärztinnen und Tierärzte je Bundesland',
-    hook: 'Der Einstieg in die Regionalserie. 16 Kammern, 24 Jahre, und ein sehr ungleiches Wachstum.',
+    hook: 'Der Einstieg in die Regionalserie. 17 Kammern in 16 Ländern, 24 Jahre, und ein sehr ungleiches Wachstum.',
     figures: ['Bayern: 6.070 (2002) auf 8.938 (2025)', 'Nordrhein-Westfalen: 4.626 auf 7.432', 'Hamburg: 398 auf 654'],
     sampleId: 'tieraerzte-bundesland', chart: 'map', dataStatus: 'belegt',
     refs: [3],
@@ -222,7 +244,7 @@ export const POSTS: RoadmapPost[] = [
   {
     nr: 21, arc: 'karte', status: 'geplant',
     title: 'Wo die Kleintiermedizin wächst',
-    hook: 'Dieselbe Karte, nur auf den Schwerpunkt Kleintiere gefiltert – und plötzlich sind andere Länder vorn.',
+    hook: 'Dieselbe Karte, nur auf den Schwerpunkt Kleintiere gefiltert – und plötzlich holen ganz andere Länder auf.',
     figures: ['Nordrhein-Westfalen und Bayern führen durchgehend', 'Am stärksten wachsen Brandenburg (128 auf 229) und Rheinland-Pfalz (158 auf 281)', 'Reihe endet 2018, danach ändert die BTK die Kategorien'],
     sampleId: 'kleintiere-bundesland', chart: 'map', dataStatus: 'belegt',
     refs: [20, 2],
@@ -238,7 +260,7 @@ export const POSTS: RoadmapPost[] = [
   },
   {
     nr: 23, arc: 'karte', status: 'geplant',
-    title: 'Der Rinderbestand halbiert sich',
+    title: 'Vier von zehn Rindern sind verschwunden',
     hook: 'Warum die Nutztierpraxis schrumpft, sieht man am besten an den Tieren selbst.',
     figures: ['Bayern: 4,65 Mio. (1991) auf 2,71 Mio. (2025)', 'Niedersachsen: 3,13 Mio. auf 2,24 Mio.', 'Sachsen-Anhalt: 499.000 auf 255.000'],
     sampleId: 'rinder-bundesland', chart: 'bar', dataStatus: 'belegt',
@@ -249,7 +271,7 @@ export const POSTS: RoadmapPost[] = [
     nr: 24, arc: 'praxis', status: 'geplant',
     title: 'Was aus der Nutztierpraxis geworden ist',
     hook: 'Die unbequeme Reihe des Schwerpunkte-Datensatzes: die reine Nutztierpraxis. Und warum die Zahl ab 2019 wieder steigt, ohne dass es mehr Nutztierpraxen gibt.',
-    figures: ['1990: 1.206', '2018: Tiefpunkt bei 971', '2019 springt sie auf 1.713 – wegen der neuen Pferde-Kategorie, nicht wegen neuer Praxen'],
+    figures: ['1991: 1.859 (erster gesamtdeutscher Wert)', '2018: Tiefpunkt bei 971', '2019 springt sie auf 1.713 – wegen der neuen Pferde-Kategorie, nicht wegen neuer Praxen'],
     sampleId: 'praxisschwerpunkte', chart: 'line', dataStatus: 'belegt',
     refs: [15, 23],
   },
@@ -272,7 +294,7 @@ export const POSTS: RoadmapPost[] = [
   {
     nr: 27, arc: 'markt', status: 'geplant',
     title: 'Der Tiergesundheitsmarkt',
-    hook: 'Was Halterinnen und Halter für Gesundheit ausgeben, nicht für Futter – und wie stark der Heimtieranteil daran ist.',
+    hook: 'Was in Deutschland mit Tierarzneimitteln umgesetzt wird, nicht mit Futter – und wie groß das Kleintiersegment daran ist.',
     figures: ['2025: 1.098 Mio. Euro, plus 4,7 Prozent', 'Heimtiere stehen für 60,6 Prozent des Umsatzes', 'Zum Vergleich der ganze Markt: 5,1 Mrd. Euro Umsatz aller veterinärmedizinischen Unternehmen 2022 (Destatis, zitiert im Tierärzte Atlas)', 'Auf rund 1.000 Praxen entfällt die Hälfte des Branchenumsatzes'],
     dataStatus: 'teilweise',
     dataNote: 'Der Wert für 2025 stammt aus der Jahresmeldung des Bundesverbands für Tiergesundheit, die Umsatzverteilung aus dem Tierärzte Atlas 2024. Für ein Video fehlt die Reihe der Vorjahre, die der BfT jährlich veröffentlicht.',
@@ -299,7 +321,7 @@ export const POSTS: RoadmapPost[] = [
   {
     nr: 30, arc: 'markt', status: 'geplant',
     title: 'Das Werkzeug hinter der Reihe geht online',
-    hook: 'Auflösung des Teasers: Alle 29 Videos sind mit demselben selbstgebauten Tool entstanden, und ab jetzt kann es jeder benutzen.',
+    hook: 'Auflösung des Teasers: Alle Videos dieser Reihe sind mit demselben selbstgebauten Tool entstanden, und ab jetzt kann es jeder benutzen.',
     figures: ['Läuft komplett im Browser, keine Daten verlassen das Gerät', 'Alle Beispieldatensätze mit Quelle und Dateninfo enthalten', 'Kostenlos und Open Source unter MIT'],
     dataStatus: 'belegt',
     dataNote: 'Setzt voraus, dass die Seite bis dahin wirklich online ist.',

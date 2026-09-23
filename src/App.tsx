@@ -9,6 +9,7 @@ import { ExportPanel } from '@/components/ExportPanel'
 import { Roadmap } from '@/components/Roadmap'
 import { Consent } from '@/components/Consent'
 import { FEATURES } from '@/content/site'
+import { SICHTBARE_SAMPLES } from '@/content/freigabe'
 import { Wordmark } from '@/components/ui'
 import type { BrandId } from '@/lib/fonts'
 
@@ -30,6 +31,18 @@ export default function App() {
   const [view, setView] = useState<View>(viewFromHash)
 
   useEffect(() => { document.documentElement.dataset.brand = brand }, [brand])
+  // ?beispiel=<id> öffnet einen Datensatz direkt im Studio – so verlinken die Artikel auf ihr Chart.
+  // Nur freigegebene Datensätze; der Parameter wird danach aus der Adresse entfernt, damit ein
+  // Neuladen nicht die eigene Arbeit überschreibt.
+  useEffect(() => {
+    const url = new URL(window.location.href)
+    const id = url.searchParams.get('beispiel')
+    if (!id) return
+    const sample = SICHTBARE_SAMPLES.find((s) => s.id === id)
+    if (sample) useApp.getState().loadSample(sample)
+    url.searchParams.delete('beispiel')
+    window.history.replaceState(null, '', url.pathname + url.search + url.hash)
+  }, [])
   useEffect(() => {
     const onHash = () => setView(viewFromHash())
     window.addEventListener('hashchange', onHash)

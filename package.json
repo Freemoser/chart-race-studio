@@ -4,15 +4,16 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "node scripts/build-legal.mjs && tsc -b && vite build",
+    "dev": "node scripts/build-artikel.mjs --entwuerfe && vite",
+    "build": "node scripts/build-legal.mjs && node scripts/build-artikel.mjs && tsc -b && vite build",
     "lint": "oxlint",
     "test": "vitest run",
     "check:launch": "node scripts/check-launch.mjs",
     "check:content": "node scripts/check-content.mjs",
     "legal": "node scripts/build-legal.mjs",
     "icons": "node scripts/gen-icons.mjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "artikel": "node scripts/build-artikel.mjs --entwuerfe"
   },
   "dependencies": {
     "@ffmpeg/ffmpeg": "^0.12.15",

@@ -6,11 +6,17 @@ Alle nennenswerten Änderungen dieses Projekts. Format lose nach [Keep a Changel
 
 ### Neu
 
+- **Visiten:** Der Redaktionsplan ist in Staffeln zu je 30 Posts gegliedert, mit Umschalter in der Oberfläche. Postnummern laufen über alle Visiten durch.
+- **Freigabe** (`src/content/freigabe.json`), beide Schalter vorbereitet und aus: Beispiel-Datensätze erst nach Veröffentlichung ihres Posts zeigen, Artikel erst nach Veröffentlichung bauen.
+- **Artikel je Post:** 30 Entwürfe in `src/content/artikel/`, erzeugt zu `beitrag/<slug>.html` mit Article- und FAQPage-Auszeichnung, Sitemap- und llms.txt-Eintrag. Entwürfe nie im Build; Vorschau unter `npm run dev` → `/beitrag/entwurf/`. `check:content` prüft jeden Entwurf.
+- `?beispiel=<id>` öffnet einen Datensatz direkt im Studio.
+
 - **Choroplethenkarte der Bundesländer** als dritter Diagrammtyp. Wie der Line-Renderer eine reine Funktion der Zeit (`renderAt`), damit der Frame-für-Frame-Export reproduzierbar bleibt; zwischen zwei Jahren wird interpoliert, die Farbe wandert also weich. Feste Farbdomäne über den gesamten Zeitraum, Legende und eine mitlaufende Rangliste mit den Werten des aktuellen Jahres.
 - Geometrie wird vorab aus `data/geo/deu.topo.json` erzeugt (`scripts/build-geo.mjs`) und mitgeliefert – zur Laufzeit wird nichts nachgeladen und keine TopoJSON-Bibliothek gebraucht.
 
 ### Geändert
 
+- Redaktionsplan korrigiert: AniCura 78 statt 69, TeamVet 27, filu 11, Anteil Kleintierpraxen 52,9 Prozent aller Inhaber, Katzen „fast verdreifacht“ statt „dreimal so stark“, Rinderbestand minus 39 statt „halbiert“, Nutztierpraxen ab dem gesamtdeutschen Wert 1991.
 - Impressum und Datenschutz sind statische Seiten mit `noindex, follow` statt Hash-Routen, aus einer JSON-Quelle erzeugt und aus der Sitemap genommen.
 - `check:launch` läuft gegen den Build und prüft zusätzlich Canonical, Sitemap gegen noindex in beiden Richtungen, Favicon-Größen und ob Datenschutztext und tatsächliche Einbindung zusammenpassen.
 - `companyName` ist leer: „Petleo" allein wäre nach § 5 DDG unvollständig, weil die Rechtsform fehlt.
