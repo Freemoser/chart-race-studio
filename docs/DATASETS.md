@@ -102,15 +102,17 @@ Alle mitgelieferten Datensätze (`src/samples/data.ts`, erzeugt mit `node script
 - **Nicht in der Reihe:** Altano Gruppe (Dülmen, 15 Kliniken und Praxen an 26 Standorten, Schwerpunkt Pferd); filu (8 Praxen) und Rex (9 Praxen) gründen neu, statt aufzukaufen.
 - **Die Aussage:** 2015 gab es diesen Markt in Deutschland praktisch nicht. 2026 führt IVC Evidensia mit 115 Standorten vor Tierarzt Plus Partner mit 106, während AniCura seit 2023 nur von 65 auf 69 wächst.
 
-## 3g. Hund oder Katze – was ist wo häufiger? (Welt, 2020–2026)
+## 3g. Hund oder Katze – was ist wo häufiger? (Welt, 2000–2026)
 
-- **Quelle:** FEDIAF für Europa, PetData (China Pet Industry White Paper 2025) und Abinpet (Censo Pet 2024) für China und Brasilien, World Population Review für weitere Länder. Vorlage war ein extern erstelltes Modellpaket.
-- **Gezeigt wird** der Hundeanteil an der Summe aus Hunden und Katzen. 50 Prozent ist der Kipppunkt.
-- **Überwiegend Modell, nicht Messung.** Berichtet sind 41 europäische Länder plus China und Brasilien. Für die übrigen rund 150 Länder stammt der Wert aus einer Regionsannahme — **je Weltregion ein einziger Hundeanteil für alle Länder dieser Region**. Daran erkennt man es auch: Alle 49 Länder südlich der Sahara tragen dieselbe Farbe, ebenso ganz Südamerika und ganz Nordafrika.
-- **Die Animation bewegt nichts Gemessenes.** Zwischen 2020 und 2026 wechseln 21 von 197 Ländern die Stufe, alle 21 sind modelliert. Die Richtung ist systematisch, weil in der Vorlage Katzen in jeder Region schneller wachsen als Hunde. 2026 ist zu hundert Prozent Projektion.
-- **Zwei Korrekturen gegen die Vorlage:** China war als Hundeland geführt (57 Mio. Hunde gegen 51 Mio. Katzen); gemessen sind es 52,58 Mio. Hunde und 71,53 Mio. Katzen, Katzen haben etwa 2021 überholt. Brasilien auf 63,7 Mio. Hunde. Damit kein Sprung entsteht, wurde die ganze Reihe des Landes um denselben Betrag verschoben; die Form des Verlaufs stammt weiter aus der Vorlage.
-- **Gegenprobe Europa:** Die Summe des Datensatzes für 2024 entspricht der von FEDIAF veröffentlichten Europa-Gesamtzahl plus Russland, das FEDIAF seit 2022 nicht mehr führt.
-- **Als `isExample` markiert**, weil der überwiegende Teil nicht belastbar recherchiert ist.
+- **Quellen:** FEDIAF (28 europäische Märkte 2018, 41 Länder ab 2020), Europäische Kommission (12 Länder für 2004, 2010, 2012), AVMA (USA 2001, 2006, 2011, 2016), Japan Pet Food Association (2008–2015), CAHI (Kanada), AVA (Australien), USDA (Brasilien, Russland, Philippinen), China Pet Industry White Paper (2018, 2019, 2024), IBGE und Instituto Pet Brasil (Brasilien).
+- **Gezeigt wird** der Hundeanteil an der Summe aus Hunden und Katzen; 50 Prozent ist der Kipppunkt.
+- **Modellierung:** exakter Anker wo vorhanden, sonst geometrische Interpolation zwischen zwei Ankern, davor Rückrechnung mit gedeckelter Wachstumsrate. Länder ohne eigenen Anker folgen einer Regionsannahme.
+- **Unabhängige Gegenprobe 2018:** Euromonitor über Statista nennt weltweit 471 Mio. Hunde und 373 Mio. Katzen. Die Ländersumme ergibt 450,8 und 335,5 — also −4,3 Prozent bei Hunden und −10,1 Prozent bei Katzen. Gute Übereinstimmung für ein zusammengesetztes Modell, keine Deckungsgleichheit.
+- **Zweite Gegenprobe:** Deutschland trifft unsere eigene FEDIAF-Extraktion exakt (2023: 10,5/15,7 · 2024: 10,5/15,9).
+- **Zwei Korrekturen gegen nationale Quellen.** *China:* Der Anker 2019 bleibt, die Fortschreibung der Vorlage verfehlte aber den Katzenboom (52,6 statt gemessener 42,4 Prozent Hundeanteil 2024, PetData). Die Jahre 2020–2024 laufen jetzt auf den gemessenen Wert zu. *Brasilien:* Die Vorlage mischte IBGE-Hunde mit Katzenzahlen eines Aggregators und kam auf 82 Prozent; Brasiliens eigene Erhebungen ergeben durchgehend rund 69 Prozent (USDA 2004, IBGE 2013, Instituto Pet Brasil 2018). Die Reihe nutzt nur noch diese Paare.
+- **Nahtstelle geprüft:** Alle 197 Werte für 2020 stimmen mit dem vorherigen Datensatz überein, es gibt keinen Sprung zwischen Historie und Gegenwart.
+- **Die Aussage:** 84 von 197 Ländern wechseln zwischen 2000 und 2026 die Stufe, fast alle Richtung Katze — 27 von „leicht mehr Katzen" zu „mehr Katzen", weitere 27 von „mehr Hunde" zu „leicht mehr Hunde". Japan ist der deutlichste belegte Fall: von 57 auf 41 Prozent Hundeanteil.
+- **Als `isExample` markiert**, weil für die meisten Länder kein eigener Anker existiert und 2026 durchgehend Projektion ist.
 
 ## 4. Beliebteste Hunderassen (VDH-Welpenstatistik, 1992–2025)
 
