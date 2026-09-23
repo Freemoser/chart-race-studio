@@ -13,6 +13,8 @@ export interface CategoryStyle {
 
 export interface ChartSettings {
   chartType: ChartType
+  /** Nur Karte: Kipppunkt einer divergierenden Farbskala, z. B. 50 bei Prozentanteilen */
+  divergingAt?: number
   format: FormatId
   theme: 'light' | 'dark'
 

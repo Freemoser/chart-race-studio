@@ -2,7 +2,8 @@ import * as d3 from 'd3'
 import type { ChartHandle, ChartInput } from './types'
 import { formatValue } from '../data/numbers'
 import { createMeasurer, fontString } from '../layout'
-import geo from '../../assets/bundeslaender.json'
+import geoDe from '../../assets/bundeslaender.json'
+import geoWelt from '../../assets/welt.json'
 
 /**
  * Choropleth-Race für die deutschen Bundesländer.
@@ -16,7 +17,15 @@ import geo from '../../assets/bundeslaender.json'
  * Werte entwickeln. Genau dieser Fehler war beim Line-Race schon einmal drin.
  */
 type GeoFeature = { type: 'Feature'; properties: { name: string }; geometry: d3.GeoGeometryObjects }
-const FEATURES = (geo as { features: GeoFeature[] }).features
+const KARTEN = {
+  bundeslaender: (geoDe as { features: GeoFeature[] }).features,
+  welt: (geoWelt as { features: GeoFeature[] }).features,
+}
+/** Geometrie nach Treffern wählen: Wer 16 Bundesländer trifft, meint Deutschland. */
+function waehleKarte(names: string[]): GeoFeature[] {
+  const treffer = (f: GeoFeature[]) => f.filter((x) => names.includes(x.properties.name)).length
+  return treffer(KARTEN.bundeslaender) >= treffer(KARTEN.welt) ? KARTEN.bundeslaender : KARTEN.welt
+}
 
 export function createMapRace(container: HTMLElement, input: ChartInput): ChartHandle {
   const measure = createMeasurer()
@@ -50,13 +59,32 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
   // Feste Domäne über alle Werte. Untergrenze bewusst 0, damit die Fläche ehrlich bleibt.
   const alleWerte = input.rows.map((r) => r.value).filter((v) => Number.isFinite(v))
   const maxWert = alleWerte.length ? Math.max(...alleWerte) : 1
+  const minWert = alleWerte.length ? Math.min(...alleWerte) : 0
+  // Divergierend, sobald die Werte Anteile um einen Kipppunkt sind (hier: 50 Prozent).
+  // Eine sequenzielle Skala würde „mehr Hunde" und „mehr Katzen" als dieselbe Richtung
+  // darstellen – der Kipppunkt ist aber die ganze Aussage.
+  const divergiert = input.divergingAt != null
+  const mitte = input.divergingAt ?? 0
+  // Stufen statt stufenloser Skala. Ein weicher Verlauf macht aus einem Kipppunkt einen
+  // Grauverlauf – fast alle Länder landen dann in der Mitte und die Karte wird unlesbar.
+  // Die Schwellen entsprechen der üblichen Einteilung: ±3 Punkte „etwa gleich", ±10 „leicht".
+  const STUFEN = [mitte - 10, mitte - 3, mitte + 3, mitte + 10]
+  const STUFENFARBEN = ['#20B2AA', '#9ADBCF', '#D9D9D9', '#F6B26B', '#F28C28']
+  const stufe = d3.scaleThreshold<number, string>().domain(STUFEN).range(STUFENFARBEN)
   const rampe = dark ? ['#1e2a36', '#85B7EB'] : ['#E6F1FB', '#0C447C']
-  const farbe = d3.scaleLinear<string>().domain([0, maxWert]).range(rampe).interpolate(d3.interpolateRgb).clamp(true)
+  const farbe = divergiert
+    ? (v: number) => stufe(v)
+    : d3.scaleLinear<string>().domain([0, maxWert]).range(rampe).interpolate(d3.interpolateRgb).clamp(true)
 
   // Nur Bundesländer zeichnen, für die es auch Daten gibt – sonst suggeriert die Karte Lücken,
   // die in Wahrheit gar nicht Teil des Datensatzes sind.
   const bekannt = new Set(names)
+  const FEATURES = waehleKarte(names)
   const passende = FEATURES.filter((f) => bekannt.has(f.properties.name))
+  // Bei der Weltkarte alle Länder zeichnen, auch ohne Daten – eine Weltkarte mit Löchern
+  // ist unlesbar. Bei Regionalkarten nur, was im Datensatz steht.
+  const weltkarte = FEATURES === KARTEN.welt
+  const zuZeichnen = weltkarte ? FEATURES : passende
 
   // Layout: Seitenpanel rechts, im Hochformat darunter. Die Panelbreite richtet sich nach dem
   // längsten Namen, damit die Karte nicht unnötig Platz abgibt – „Mecklenburg-Vorpommern“ braucht
@@ -80,10 +108,11 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
   // Unten wird ein festes Band für die Legende reserviert. Vorher lief beides aus dem Bild:
   // Die Karte wurde in der vollen Höhe zentriert und die Legendenbeschriftung saß darunter.
   const legendBand = 46
-  const projektion = d3.geoMercator().fitSize([kartenB, Math.max(40, kartenH - legendBand)], { type: 'FeatureCollection', features: passende } as never)
+  const projektion = (weltkarte ? d3.geoNaturalEarth1() : d3.geoMercator())
+    .fitSize([kartenB, Math.max(40, kartenH - legendBand)], { type: 'FeatureCollection', features: zuZeichnen } as never)
   const pfad = d3.geoPath(projektion)
 
-  const flaechen = gKarte.selectAll('path').data(passende).join('path')
+  const flaechen = gKarte.selectAll('path').data(zuZeichnen).join('path')
     .attr('d', (f) => pfad(f as never))
     .attr('stroke', kanteColor).attr('stroke-width', 0.75)
 
@@ -91,16 +120,44 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
   const legB = Math.min(kartenB * 0.5, 180)
   const verlaufId = `crs-ramp-${Math.random().toString(36).slice(2, 8)}`
   const verlauf = svg.append('defs').append('linearGradient').attr('id', verlaufId)
-  verlauf.append('stop').attr('offset', '0%').attr('stop-color', rampe[0])
-  verlauf.append('stop').attr('offset', '100%').attr('stop-color', rampe[1])
+  if (divergiert) {
+    verlauf.append('stop').attr('offset', '0%').attr('stop-color', farbe(minWert))
+    verlauf.append('stop').attr('offset', '50%').attr('stop-color', farbe(mitte))
+    verlauf.append('stop').attr('offset', '100%').attr('stop-color', farbe(maxWert))
+  } else {
+    verlauf.append('stop').attr('offset', '0%').attr('stop-color', rampe[0])
+    verlauf.append('stop').attr('offset', '100%').attr('stop-color', rampe[1])
+  }
   const legSchrift = Math.min(input.labelSize * 0.72, 14)
-  gKarte.append('rect').attr('x', 2).attr('y', kartenH - 26).attr('width', legB).attr('height', 8).attr('rx', 2)
-    .attr('fill', `url(#${verlaufId})`)
-  gKarte.append('text').attr('x', 2).attr('y', kartenH - 5).attr('class', 'tick')
-    .attr('font-size', legSchrift).attr('fill', mutedColor).text('0')
-  gKarte.append('text').attr('x', legB).attr('y', kartenH - 5).attr('text-anchor', 'end').attr('class', 'tick')
-    .attr('font-size', legSchrift).attr('fill', mutedColor)
-    .text(formatValue(maxWert, input.numberFormat))
+  if (divergiert) {
+    // Fünf beschriftete Kästchen statt Farbverlauf – der Leser muss die Stufen zuordnen können.
+    // Die Legende muss mindestens so breit sein wie ihre beiden Beschriftungen zusammen,
+    // sonst überlappen sie – die Kästchenreihe allein ist dafür zu schmal.
+    const kaestchen = legSchrift * 1.1
+    const legFont = fontString(legSchrift, 400, input.fontFamily)
+    const links = 'mehr Katzen', rechts = 'mehr Hunde'
+    const breiteLeg = Math.min(
+      kartenB - 4,
+      Math.max(STUFENFARBEN.length * (kaestchen + 2), measure(links, legFont) + measure(rechts, legFont) + legSchrift * 1.5),
+    )
+    const abstand = (breiteLeg - kaestchen) / (STUFENFARBEN.length - 1)
+    STUFENFARBEN.forEach((c, i) => {
+      gKarte.append('rect').attr('x', 2 + i * abstand).attr('y', kartenH - 26)
+        .attr('width', kaestchen).attr('height', kaestchen).attr('rx', 2).attr('fill', c)
+    })
+    gKarte.append('text').attr('x', 2).attr('y', kartenH - 5).attr('class', 'tick')
+      .attr('font-size', legSchrift).attr('fill', mutedColor).text(links)
+    gKarte.append('text').attr('x', 2 + breiteLeg).attr('y', kartenH - 5).attr('text-anchor', 'end')
+      .attr('class', 'tick').attr('font-size', legSchrift).attr('fill', mutedColor).text(rechts)
+  } else {
+    gKarte.append('rect').attr('x', 2).attr('y', kartenH - 26).attr('width', legB).attr('height', 8).attr('rx', 2)
+      .attr('fill', `url(#${verlaufId})`)
+    gKarte.append('text').attr('x', 2).attr('y', kartenH - 5).attr('class', 'tick')
+      .attr('font-size', legSchrift).attr('fill', mutedColor).text('0')
+    gKarte.append('text').attr('x', legB).attr('y', kartenH - 5).attr('text-anchor', 'end').attr('class', 'tick')
+      .attr('font-size', legSchrift).attr('fill', mutedColor)
+      .text(formatValue(maxWert, input.numberFormat))
+  }
   if (input.primaryAxisLabel) {
     gKarte.append('text').attr('x', 2).attr('y', kartenH - 32).attr('class', 'axisTitle')
       .attr('font-size', legSchrift).attr('font-weight', 600).attr('fill', mutedColor)
@@ -141,16 +198,31 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
       const v = wertAt(f.properties.name, t)
       return v == null ? leerColor : farbe(v)
     })
-    const rang = names
-      .map((n) => ({ n, v: wertAt(n, t) }))
-      .filter((d): d is { n: string; v: number } => d.v != null)
-      .sort((a, b) => b.v - a.v)
+    // Bei der Ja/Nein-Karte ist eine Rangliste sinnlos – die Spitzenplätze sind Annahmewerte.
+    // Stattdessen die Verteilung: wie viele Länder liegen in welcher Stufe.
+    const rang = divergiert
+      ? (() => {
+          const namen = ['mehr Katzen', 'leicht mehr Katzen', 'etwa gleich', 'leicht mehr Hunde', 'mehr Hunde']
+          const zahl = [0, 0, 0, 0, 0]
+          for (const n of names) {
+            const v = wertAt(n, t)
+            if (v == null) continue
+            let i = 0
+            while (i < STUFEN.length && v >= STUFEN[i]) i++
+            zahl[i]++
+          }
+          return zahl.map((z, i) => ({ n: namen[i], v: z, farbe: STUFENFARBEN[i] })).reverse()
+        })()
+      : names
+          .map((n) => ({ n, v: wertAt(n, t), farbe: null as string | null }))
+          .filter((d): d is { n: string; v: number; farbe: string | null } => d.v != null)
+          .sort((a, b) => b.v - a.v)
     zeilen.forEach((z, i) => {
       const d = rang[i]
       if (!d) { z.punkt.attr('opacity', 0); z.name.text(''); z.wert.text(''); return }
-      const wertText = formatValue(d.v, input.numberFormat)
+      const wertText = divergiert ? String(d.v) : formatValue(d.v, input.numberFormat)
       const platz = panelBreite - schrift * 1.15 - measure(wertText, fontString(schrift, 600, input.fontFamily)) - 10
-      z.punkt.attr('opacity', 1).attr('fill', farbe(d.v))
+      z.punkt.attr('opacity', 1).attr('fill', d.farbe ?? farbe(d.v))
       z.name.text(kuerze(d.n, Math.max(20, platz)))
       z.wert.text(wertText)
     })

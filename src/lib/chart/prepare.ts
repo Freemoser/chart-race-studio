@@ -38,6 +38,7 @@ export function prepareChartInput(ds: Dataset, s: ChartSettings, chart: Rect, la
     secondaryAxis: s.chartType === 'line' ? s.secondaryAxis.filter((n) => ds.names.includes(n)) : [],
     secondaryFormat: { decimals: s.secondaryDecimals, thousands: s.thousands, prefix: '', suffix: s.secondarySuffix, locale: 'de-DE', compact: false },
     primaryAxisLabel: s.primaryAxisLabel,
+    divergingAt: s.divergingAt,
     secondaryAxisLabel: s.secondaryAxisLabel,
     barRounding: s.barRounding,
     tickDuration: Math.max(1, Math.round(s.stepDuration / (s.chartType === 'bar' ? s.subSteps : 1))),

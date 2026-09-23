@@ -1,5 +1,5 @@
 import type { SampleDataset } from '@/lib/data/types'
-import { FACHTIERAERZTE, HEIMTIERE, INHABER_ANGESTELLTE, KETTEN, HEIMTIERMARKT, HUNDERASSEN, KLEINTIERE_BUNDESLAND, PRAXISSCHWERPUNKTE, RINDER_BUNDESLAND, TIERAERZTESCHAFT_DEUTSCHLAND, TIERAERZTE_BUNDESLAND } from './data'
+import { FACHTIERAERZTE, HEIMTIERE, HUND_KATZE_WELT, INHABER_ANGESTELLTE, KETTEN, HEIMTIERMARKT, HUNDERASSEN, KLEINTIERE_BUNDESLAND, PRAXISSCHWERPUNKTE, RINDER_BUNDESLAND, TIERAERZTESCHAFT_DEUTSCHLAND, TIERAERZTE_BUNDESLAND } from './data'
 
 /**
  * Mitgelieferte Beispiel-Datensätze (alle mit recherchierten, realen Zahlen).
@@ -177,6 +177,30 @@ export const SAMPLES: SampleDataset[] = [
     headers: HEIMTIERMARKT.headers,
     rows: HEIMTIERMARKT.rows,
     suggested: { chartType: 'bar', topN: 7, decimals: 0, suffix: ' Mio. €', labelsPosition: 'outside' },
+  },
+  {
+    id: 'hund-katze-welt',
+    erstellt: '2026-09-23', geprueft: '2026-09-23',
+    category: 'heimtiere',
+    title: 'Hund oder Katze – was ist wo häufiger?',
+    subtitle: 'Hundeanteil an Hunden und Katzen zusammen, 197 Länder, 2020 bis 2026',
+    source: 'Quelle: FEDIAF für Europa, nationale Verbände für China (PetData) und Brasilien (Abinpet), World Population Review für weitere Länder. Überwiegend Modellwerte, 2026 durchgehend Projektion – kein weltweiter Zensus',
+    sourceUrl: 'https://europeanpetfood.org/about/statistics/',
+    unit: '% Hunde',
+    isExample: true,
+    description: "Orange heißt mehr Hunde, türkis mehr Katzen. Überwiegend modelliert, nicht gemessen.",
+    dataInfo: [
+      "Gezeigt wird der Hundeanteil an der Summe aus Hunden und Katzen. 50 Prozent ist der Kipppunkt: Darüber leben mehr Hunde, darunter mehr Katzen.",
+      "WICHTIG ZUR EINORDNUNG: Das ist kein weltweiter Zensus, sondern überwiegend ein Modell. Wirklich berichtet sind 41 europäische Länder aus den FEDIAF-Jahrgängen sowie China und Brasilien. Für die übrigen rund 150 Länder stammt der Wert aus einer Regionsannahme – je Weltregion ein einziger Hundeanteil, der dann für alle Länder dieser Region gilt.",
+      "Daran erkennt man es auch: Ganze Regionen tragen dieselbe Farbe. Alle 49 Länder südlich der Sahara, ganz Südamerika, ganz Nordafrika. Das ist kein Befund, sondern die Annahme, gemalt. Wer die Karte zeigt, sollte das sagen.",
+      "Zwischen 2020 und 2026 wechseln 21 von 197 Ländern die Farbe – und alle 21 sind modelliert, keines berichtet. Die Bewegung der Animation stammt aus den angenommenen Wachstumsraten, in denen Katzen überall schneller wachsen als Hunde. 2026 ist zu hundert Prozent Projektion.",
+      "Zwei Länder wurden gegen ihre nationalen Verbände korrigiert: China auf 52,58 Mio. Hunde und 71,53 Mio. Katzen (PetData, White Paper 2025 mit Daten für 2024) – die Vorlage hatte China als Hundeland geführt, gemessen ist es ein Katzenland. Brasilien auf 63,7 Mio. Hunde (Abinpet, Censo Pet 2024). Damit kein Sprung entsteht, wurde die ganze Reihe des jeweiligen Landes um denselben Betrag verschoben; die Form des Verlaufs stammt weiter aus der Vorlage.",
+      "Europa geht auf: Die Summe des Datensatzes für 2024 entspricht der von FEDIAF veröffentlichten Europa-Gesamtzahl plus Russland, das FEDIAF seit 2022 nicht mehr führt.",
+      "Für Länder ohne Daten bleibt die Fläche grau. Antarktis, Grönland, Westsahara, Nordzypern, Somaliland und einige Überseegebiete sind in keiner Quelle enthalten.",
+    ],
+    headers: HUND_KATZE_WELT.headers,
+    rows: HUND_KATZE_WELT.rows,
+    suggested: { chartType: 'map', topN: 5, decimals: 0, suffix: ' %', primaryAxisLabel: 'Länder je Stufe', divergingAt: 50 },
   },
   {
     id: 'hunderassen',

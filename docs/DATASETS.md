@@ -102,6 +102,16 @@ Alle mitgelieferten Datensätze (`src/samples/data.ts`, erzeugt mit `node script
 - **Nicht in der Reihe:** Altano Gruppe (Dülmen, 15 Kliniken und Praxen an 26 Standorten, Schwerpunkt Pferd); filu (8 Praxen) und Rex (9 Praxen) gründen neu, statt aufzukaufen.
 - **Die Aussage:** 2015 gab es diesen Markt in Deutschland praktisch nicht. 2026 führt IVC Evidensia mit 115 Standorten vor Tierarzt Plus Partner mit 106, während AniCura seit 2023 nur von 65 auf 69 wächst.
 
+## 3g. Hund oder Katze – was ist wo häufiger? (Welt, 2020–2026)
+
+- **Quelle:** FEDIAF für Europa, PetData (China Pet Industry White Paper 2025) und Abinpet (Censo Pet 2024) für China und Brasilien, World Population Review für weitere Länder. Vorlage war ein extern erstelltes Modellpaket.
+- **Gezeigt wird** der Hundeanteil an der Summe aus Hunden und Katzen. 50 Prozent ist der Kipppunkt.
+- **Überwiegend Modell, nicht Messung.** Berichtet sind 41 europäische Länder plus China und Brasilien. Für die übrigen rund 150 Länder stammt der Wert aus einer Regionsannahme — **je Weltregion ein einziger Hundeanteil für alle Länder dieser Region**. Daran erkennt man es auch: Alle 49 Länder südlich der Sahara tragen dieselbe Farbe, ebenso ganz Südamerika und ganz Nordafrika.
+- **Die Animation bewegt nichts Gemessenes.** Zwischen 2020 und 2026 wechseln 21 von 197 Ländern die Stufe, alle 21 sind modelliert. Die Richtung ist systematisch, weil in der Vorlage Katzen in jeder Region schneller wachsen als Hunde. 2026 ist zu hundert Prozent Projektion.
+- **Zwei Korrekturen gegen die Vorlage:** China war als Hundeland geführt (57 Mio. Hunde gegen 51 Mio. Katzen); gemessen sind es 52,58 Mio. Hunde und 71,53 Mio. Katzen, Katzen haben etwa 2021 überholt. Brasilien auf 63,7 Mio. Hunde. Damit kein Sprung entsteht, wurde die ganze Reihe des Landes um denselben Betrag verschoben; die Form des Verlaufs stammt weiter aus der Vorlage.
+- **Gegenprobe Europa:** Die Summe des Datensatzes für 2024 entspricht der von FEDIAF veröffentlichten Europa-Gesamtzahl plus Russland, das FEDIAF seit 2022 nicht mehr führt.
+- **Als `isExample` markiert**, weil der überwiegende Teil nicht belastbar recherchiert ist.
+
 ## 4. Beliebteste Hunderassen (VDH-Welpenstatistik, 1992–2025)
 
 - **Quelle:** Verband für das Deutsche Hundewesen (VDH) e.V., Welpenstatistik der VDH-Mitgliedsvereine (Onlinetabelle) – <https://www.vdh.de/ueber-den-vdh/welpenstatistik/>
@@ -135,7 +145,7 @@ Die Beispiele sind in der App nach Rubriken gruppiert (`SAMPLE_CATEGORIES` in `s
 | Rubrik | Datensätze |
 |---|---|
 | Tierarztpraxen & Beruf | Inhaber vs. Angestellte, Angestellte überholen die Praxisinhaber, Praxisschwerpunkte, Fachtierarzt-Gebiete, Wo die Kleintiermedizin wächst, Tierärzt:innen je Bundesland, Wer die Tierarztpraxen kauft |
-| Heimtiere & Markt | Heimtiere nach Art, Heimtiermarkt-Umsatz, Beliebteste Hunderassen |
+| Heimtiere & Markt | Hund oder Katze weltweit, Heimtiere nach Art, Heimtiermarkt-Umsatz, Beliebteste Hunderassen |
 | Nutztiere | Rinderbestand je Bundesland |
 
 Eine neue Rubrik anlegen: Eintrag in `SAMPLE_CATEGORIES` ergänzen, dann bei den Datensätzen in `src/samples/index.ts` das Feld `category` setzen. Die Reihenfolge der Rubriken in der Oberfläche entspricht der Reihenfolge im Array.
