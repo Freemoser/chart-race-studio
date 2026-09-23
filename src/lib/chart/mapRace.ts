@@ -95,7 +95,10 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
   const breitesterWert = Math.max(...input.rows.map((r) => measure(formatValue(r.value, input.numberFormat), fontString(zeilenSchrift, 600, input.fontFamily))))
   const panelBreite = hochformat ? W : Math.min(Math.max(breitesterName + breitesterWert + zeilenSchrift * 2.4, 170), W * 0.34)
   const sichtbarMax = Math.max(1, Math.min(names.length, input.topN))
-  const panelHoehe = hochformat ? Math.min(H * 0.42, 16 + sichtbarMax * (zeilenSchrift * 1.6)) : H
+  // Kopfzeile bekommt eigene Höhe und muss im Hochformat mit in die Panelhöhe, sonst läuft
+  // die letzte Zeile unten aus dem Bild.
+  const kopfHoehe = input.divergingAt != null && input.primaryAxisLabel ? zeilenSchrift * 1.6 : 0
+  const panelHoehe = hochformat ? Math.min(H * 0.42, 16 + kopfHoehe + sichtbarMax * (zeilenSchrift * 1.6)) : H
   const kartenB = hochformat ? W : W - panelBreite - 14
   const kartenH = hochformat ? H - panelHoehe - 12 : H
 
@@ -130,25 +133,17 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
   }
   const legSchrift = Math.min(input.labelSize * 0.72, 14)
   if (divergiert) {
-    // Fünf beschriftete Kästchen statt Farbverlauf – der Leser muss die Stufen zuordnen können.
-    // Die Legende muss mindestens so breit sein wie ihre beiden Beschriftungen zusammen,
-    // sonst überlappen sie – die Kästchenreihe allein ist dafür zu schmal.
-    const kaestchen = legSchrift * 1.1
-    const legFont = fontString(legSchrift, 400, input.fontFamily)
-    const links = 'mehr Katzen', rechts = 'mehr Hunde'
-    const breiteLeg = Math.min(
-      kartenB - 4,
-      Math.max(STUFENFARBEN.length * (kaestchen + 2), measure(links, legFont) + measure(rechts, legFont) + legSchrift * 1.5),
-    )
-    const abstand = (breiteLeg - kaestchen) / (STUFENFARBEN.length - 1)
-    STUFENFARBEN.forEach((c, i) => {
-      gKarte.append('rect').attr('x', 2 + i * abstand).attr('y', kartenH - 26)
-        .attr('width', kaestchen).attr('height', kaestchen).attr('rx', 2).attr('fill', c)
-    })
-    gKarte.append('text').attr('x', 2).attr('y', kartenH - 5).attr('class', 'tick')
-      .attr('font-size', legSchrift).attr('fill', mutedColor).text(links)
-    gKarte.append('text').attr('x', 2 + breiteLeg).attr('y', kartenH - 5).attr('text-anchor', 'end')
-      .attr('class', 'tick').attr('font-size', legSchrift).attr('fill', mutedColor).text(rechts)
+    // Bei der Ja/Nein-Karte trägt das Seitenpanel bereits die fünf Stufen mit Namen und Anzahl.
+    // Eine zweite, bebilderte Legende auf der Karte war redundant und lief in die Beschriftung
+    // hinein. Hier bleibt eine Zeile, die nur die Leserichtung der Farben erklärt.
+    const zeile = gKarte.append('text').attr('x', 2).attr('y', kartenH - 8)
+      .attr('class', 'tick').attr('font-size', legSchrift)
+    zeile.append('tspan').attr('fill', STUFENFARBEN[4]).attr('font-weight', 600).text('■ ')
+    zeile.append('tspan').attr('fill', mutedColor).text('mehr Hunde   ')
+    zeile.append('tspan').attr('fill', STUFENFARBEN[0]).attr('font-weight', 600).text('■ ')
+    zeile.append('tspan').attr('fill', mutedColor).text('mehr Katzen   ')
+    zeile.append('tspan').attr('fill', leerColor).attr('font-weight', 600).text('■ ')
+    zeile.append('tspan').attr('fill', mutedColor).text('keine Daten')
   } else {
     gKarte.append('rect').attr('x', 2).attr('y', kartenH - 26).attr('width', legB).attr('height', 8).attr('rx', 2)
       .attr('fill', `url(#${verlaufId})`)
@@ -157,19 +152,24 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
     gKarte.append('text').attr('x', legB).attr('y', kartenH - 5).attr('text-anchor', 'end').attr('class', 'tick')
       .attr('font-size', legSchrift).attr('fill', mutedColor)
       .text(formatValue(maxWert, input.numberFormat))
-  }
-  if (input.primaryAxisLabel) {
-    gKarte.append('text').attr('x', 2).attr('y', kartenH - 32).attr('class', 'axisTitle')
-      .attr('font-size', legSchrift).attr('font-weight', 600).attr('fill', mutedColor)
-      .text(input.primaryAxisLabel)
+    if (input.primaryAxisLabel) {
+      gKarte.append('text').attr('x', 2).attr('y', kartenH - 32).attr('class', 'axisTitle')
+        .attr('font-size', legSchrift).attr('font-weight', 600).attr('fill', mutedColor)
+        .text(input.primaryAxisLabel)
+    }
   }
 
   // Seitenpanel: die Werte des aktuellen Jahres, absteigend. Der Block wird vertikal zentriert,
   // sonst klebt eine kurze Liste oben in der Ecke und die Fläche darunter bleibt leer.
   const sichtbar = sichtbarMax
-  const zeilenHoehe = Math.max(zeilenSchrift * 1.35, Math.min(zeilenSchrift * 2.6, (panelHoehe - 12) / sichtbar))
+  const zeilenHoehe = Math.max(zeilenSchrift * 1.2, Math.min(zeilenSchrift * 2.6, (panelHoehe - kopfHoehe - 10) / sichtbar))
   const schrift = zeilenSchrift
-  const oben = Math.max(0, (panelHoehe - sichtbar * zeilenHoehe) / 2)
+  const oben = kopfHoehe + Math.max(0, (panelHoehe - kopfHoehe - sichtbar * zeilenHoehe) / 2)
+  if (kopfHoehe) {
+    gPanel.append('text').attr('x', 0).attr('y', oben - zeilenHoehe + schrift * 0.2)
+      .attr('class', 'axisTitle').attr('font-size', schrift * 0.85).attr('font-weight', 600).attr('fill', mutedColor)
+      .text(input.primaryAxisLabel)
+  }
   const zeilen = d3.range(sichtbar).map((i) => {
     const g = gPanel.append('g').attr('transform', `translate(0,${oben + i * zeilenHoehe + schrift})`)
     return {

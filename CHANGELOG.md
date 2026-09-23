@@ -17,6 +17,8 @@ Alle nennenswerten Änderungen dieses Projekts. Format lose nach [Keep a Changel
 
 ### Behoben
 
+- Die Legende der Weltkarte lag über ihren eigenen Farbkästchen. Der Layouttest hatte das übersehen, weil er nur Text gegen Text prüfte — er vergleicht jetzt auch Text gegen gefüllte Flächen und fand damit sofort zwei weitere Fehler im Hochformat.
+
 - **Alle Seiten trugen dasselbe Canonical** und zeigten auf die Startseite. Beide Artikel wären damit aus dem Index gefallen. Canonical wird jetzt je Seite gesetzt, Seiten mit noindex bekommen keines.
 
 - Die Karte animierte in der Vorschau nicht. Der Renderer brachte keine eigene Abspielschleife mit; die Vorschau ruft aber nur `play()` und verlässt sich darauf, dass der Renderer selbst läuft und Datumswechsel meldet. Im Export fiel das nicht auf, weil der die Zeit selbst stellt.

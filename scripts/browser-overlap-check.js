@@ -63,6 +63,21 @@
             if (inter(a, b) && !gleichartig) findings.push({ sample: sample.id, chartType, format, issue: 'Text-Überlappung', a: a.txt, b: b.txt, ca: a.cls, cb: b.cls })
           }
         }
+        // Text gegen sichtbare Flächen (Legendenkästchen, Balken). Genau diese Klasse von
+        // Fehlern hat die Prüfung lange übersehen: Die Legende der Weltkarte lag über ihren
+        // eigenen Farbkästchen, und Text-gegen-Text meldete nichts.
+        const flaechen = [...svg.querySelectorAll('rect')].filter((r) => {
+          const f = r.getAttribute('fill') || ''
+          if (!f || f === 'none' || f.startsWith('url(')) return false
+          const b = r.getBoundingClientRect()
+          return b.width > 2 && b.height > 2
+        }).map((r) => { const b = r.getBoundingClientRect(); return { x: b.left, y: b.top, w: b.width, h: b.height } })
+        for (const t of boxes) {
+          for (const fl of flaechen) {
+            if (inter(t, fl, 2)) { findings.push({ sample: sample.id, chartType, format, issue: 'Text über Farbfläche', text: t.txt }); break }
+          }
+        }
+
         let node = svg
         while (node.parentElement && node.parentElement !== stageEl()) node = node.parentElement
         const chart = node.getBoundingClientRect()
