@@ -31,7 +31,7 @@ Optional: ein Standbild des Charts als `public/beitrag/<slug>.png` ablegen – d
 | `artikelLive` (**an seit 23.09.2026**) | Artikel von Posts auf `naechster` oder `veroeffentlicht` mit `bereit: ja` werden als Seite gebaut, dazu Übersicht `/beitrag/`, CSV je Datensatz unter `/daten/`, Sitemap und llms.txt | kein Artikel online |
 
 **Vor dem Einschalten von `beispieleErstNachVeroeffentlichung`:** Datensätze, die in keinem Post vorkommen,
-verschwinden dann ebenfalls. Das betrifft derzeit `hund-katze-welt` – er muss erst einem Post zugeordnet werden.
+verschwinden dann ebenfalls. Seit der Weltkarte als Post 3 betrifft das keinen Datensatz mehr.
 
 **Was „verborgen“ nicht heißt:** Das Repository ist öffentlich. Entwürfe, Redaktionsplan und Rohdaten sind dort
 lesbar, und die Datensätze liegen weiterhin im ausgelieferten JavaScript. Die Schalter steuern, was die Seite
@@ -51,7 +51,7 @@ Beschreibung, eine Zahl im ersten Absatz und offene Stellen.
 
 Stand der Bewertung von Visite 1 und Themen, die dort keinen Platz hatten. Reihenfolge ist Priorität.
 
-1. **Hund oder Katze – die Welt, 2000 bis 2026** (`hund-katze-welt`, Karte). Datensatz fertig, 84 von 197 Ländern wechseln die Stufe. Stärkstes fertiges Material ohne Post.
+1. ~~**Hund oder Katze – die Welt**~~ – seit 24.09.2026 Post 3 in Visite 1 (die Posts 3–15 sind dafür um eins aufgerückt, der alte Post 16 ist darin aufgegangen).
 2. **Die Tiermedizin wird weiblich, als Reihe seit 1991.** Einzelwerte sind in Post 28 belegt; die Zeitreihe steht in denselben BTK-Jahrgängen wie Datensatz 1 und muss ausgelesen werden.
 3. **Versorgung je Einwohner** (Post 22) – falls die Destatis-Reihe nicht rechtzeitig für Visite 1 kommt.
 4. **Tiergesundheitsmarkt als Reihe** (Post 27) – die Vorjahre veröffentlicht der BfT jährlich.

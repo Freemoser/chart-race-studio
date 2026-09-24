@@ -1,5 +1,5 @@
 ---
-post: 15
+post: 16
 slug: statistik-tieraerzte-bruch-2019
 titel: Statistik Tierärzte Deutschland: der Methodenbruch von 2019
 beschreibung: Seit 2019 fragt die Bundestierärztekammer Pferde getrennt ab. Die gemischten Praxen fallen dadurch von 4.554 auf 3.381 – ohne dass Praxen verschwinden.

@@ -1,5 +1,5 @@
 ---
-post: 5
+post: 6
 slug: anteil-tierarztketten-deutschland
 titel: Anteil der Tierarztketten in Deutschland: rund 4,5 Prozent
 beschreibung: Rund 450 von etwa 10.000 Tierarztpraxen gehörten im August 2024 zu einer Kette, rund 4,5 Prozent. Was der Anteil zeigt und was nicht.

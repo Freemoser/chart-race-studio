@@ -21,6 +21,16 @@
   },
   {
     "post": 3,
+    "slug": "mehr-katzen-oder-hunde",
+    "titel": "Mehr Katzen oder Hunde? Die Welt und Deutschland im Vergleich",
+    "beschreibung": "Weltweit leben mehr Hunde als Katzen, in Deutschland mehr Katzen. In 84 von 197 Ländern verschiebt sich das Verhältnis seit 2000, fast immer zur Katze.",
+    "frage": "Gibt es mehr Katzen oder Hunde?",
+    "stand": "2026-09-24",
+    "bereit": true,
+    "live": true
+  },
+  {
+    "post": 4,
     "slug": "anzahl-tieraerzte-deutschland",
     "titel": "Wie viele Tierärzte gibt es in Deutschland? Die Zahlen für 2025",
     "beschreibung": "Ende 2025 waren 34.476 Tierärzte in Deutschland tätig, 46.089 in einer Kammer. Erstmals arbeiten mehr Angestellte als Inhaber in den Praxen.",
@@ -30,7 +40,7 @@
     "live": true
   },
   {
-    "post": 4,
+    "post": 5,
     "slug": "tierarztmangel-deutschland",
     "titel": "Tierarztmangel in Deutschland: was die Zahlen zeigen",
     "beschreibung": "Je Tierarzt in der Praxis kamen 2025 1.101 Hunde und Katzen, kaum mehr als 2012. Knapp werden Inhaber, Arbeitszeit und Nutztiermedizin.",
@@ -40,7 +50,7 @@
     "live": false
   },
   {
-    "post": 5,
+    "post": 6,
     "slug": "anteil-tierarztketten-deutschland",
     "titel": "Anteil der Tierarztketten in Deutschland: rund 4,5 Prozent",
     "beschreibung": "Rund 450 von etwa 10.000 Tierarztpraxen gehörten im August 2024 zu einer Kette, rund 4,5 Prozent. Was der Anteil zeigt und was nicht.",
@@ -50,7 +60,7 @@
     "live": false
   },
   {
-    "post": 6,
+    "post": 7,
     "slug": "tierarztketten-entwicklung-seit-2015",
     "titel": "Tierarztketten seit 2015: wie schnell der Markt gewachsen ist",
     "beschreibung": "AniCura hatte im Februar 2016 acht Standorte in Deutschland, alle Ketten 2024 rund 450. Die Entwicklung seit 2015, belegt und geschätzt.",
@@ -60,7 +70,7 @@
     "live": false
   },
   {
-    "post": 7,
+    "post": 8,
     "slug": "tierarztketten-investoren-eigentuemer",
     "titel": "Tierarztketten und Investoren: wem die Praxisgruppen gehören",
     "beschreibung": "Rund 62 Prozent der Standorte von 13 erfassten Tierarztgruppen entfallen auf Gruppen mit Finanzinvestoren, 15 Prozent auf Mars. Und der Rest?",
@@ -70,7 +80,7 @@
     "live": false
   },
   {
-    "post": 8,
+    "post": 9,
     "slug": "einkaufsgemeinschaft-tierarztpraxen",
     "titel": "VetFamily und Co.: Einkaufsgemeinschaft statt Tierarztkette",
     "beschreibung": "Über 1.300 Tierarztpraxen sind Mitglied bei VetFamily, fast dreimal so viele wie Kettenstandorte. Keine gehört der Gemeinschaft. Der Unterschied.",
@@ -80,7 +90,7 @@
     "live": false
   },
   {
-    "post": 9,
+    "post": 10,
     "slug": "tierarztpraxis-neugruendung-ketten",
     "titel": "Neue Tierarztpraxen statt Übernahmen: Rex, filu, Wolf & Tiger",
     "beschreibung": "Rex mit 13 Praxen, filu mit 11 und Wolf & Tiger mit 3 Standorten eröffnen neue Tierarztpraxen, statt bestehende zu kaufen. Was belegt ist.",
@@ -90,7 +100,7 @@
     "live": false
   },
   {
-    "post": 10,
+    "post": 11,
     "slug": "praktizierende-tieraerzte-deutschland",
     "titel": "Praktizierende Tierärzte in Deutschland – und die dritte Gruppe",
     "beschreibung": "2025 arbeiteten 23.341 Tierärztinnen und Tierärzte in Praxen und 11.135 außerhalb. Der Anteil außerhalb der Praxis sank seit 1991 von 39,4 auf 32,3 Prozent.",
@@ -100,7 +110,7 @@
     "live": false
   },
   {
-    "post": 11,
+    "post": 12,
     "slug": "fachtierarzt-gebiete-deutschland",
     "titel": "Fachtierärzte in Deutschland: welche Gebiete wachsen, 2007–2025",
     "beschreibung": "Ende 2025: 1.950 Fachtierarzt-Titel für Öffentliches Veterinärwesen, 1.410 für Kleintiere, 773 für Pferde. Elf Gebiete seit 2007 im Vergleich.",
@@ -110,7 +120,7 @@
     "live": false
   },
   {
-    "post": 12,
+    "post": 13,
     "slug": "fachtierarzt-kleintierchirurgie-innere-medizin",
     "titel": "Fachtierarzt Kleintierchirurgie und Innere Medizin, 2007–2025",
     "beschreibung": "Kleintierchirurgie: 4 Fachtierarzt-Titel 2007, 194 Ende 2025. Innere Medizin der Kleintiere: 54 (2018) auf 165. Die am schnellsten wachsenden Gebiete.",
@@ -120,7 +130,7 @@
     "live": false
   },
   {
-    "post": 13,
+    "post": 14,
     "slug": "fachtierarzt-rinder-schweine-lebensmittel",
     "titel": "Fachtierarzt Rinder, Schweine, Lebensmittel: Rückgang seit 2007",
     "beschreibung": "Fachtierarzt-Titel für Rinder fielen von 860 (2007) auf 596, für Lebensmittel von 634 auf 419, für Schweine von 667 auf 561. Zahlen der Tierärztekammer.",
@@ -130,7 +140,7 @@
     "live": false
   },
   {
-    "post": 14,
+    "post": 15,
     "slug": "fachtierarzt-oeffentliches-veterinaerwesen",
     "titel": "Fachtierarzt Öffentliches Veterinärwesen: das größte Gebiet",
     "beschreibung": "Ende 2025 gab es 1.950 Fachtierarzt-Titel für Öffentliches Veterinärwesen, mehr als für Kleintiere (1.410). Seit 2007 in jedem Jahr das größte Gebiet.",
@@ -140,22 +150,12 @@
     "live": false
   },
   {
-    "post": 15,
+    "post": 16,
     "slug": "statistik-tieraerzte-bruch-2019",
     "titel": "Statistik Tierärzte Deutschland: der Methodenbruch von 2019",
     "beschreibung": "Seit 2019 fragt die Bundestierärztekammer Pferde getrennt ab. Die gemischten Praxen fallen dadurch von 4.554 auf 3.381 – ohne dass Praxen verschwinden.",
     "frage": "Warum lassen sich die Praxisschwerpunkte der Tierärzte vor und nach 2019 nicht vergleichen?",
     "stand": "2026-09-23",
-    "bereit": true,
-    "live": false
-  },
-  {
-    "post": 16,
-    "slug": "katzen-oder-hunde-deutschland",
-    "titel": "Mehr Katzen oder Hunde? Deutschland 1991–2025 im Verhältnis",
-    "beschreibung": "2025 lebten in Deutschland 15,7 Mio. Katzen und 10,0 Mio. Hunde, rechnerisch 1,57 Katzen je Hund. 1991 waren es 1,15. Die Reihe seit 1991 mit Quelle.",
-    "frage": "Gibt es in Deutschland mehr Katzen oder Hunde?",
-    "stand": "2026-09-24",
     "bereit": true,
     "live": false
   },

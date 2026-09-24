@@ -1,5 +1,5 @@
 ---
-post: 6
+post: 7
 slug: tierarztketten-entwicklung-seit-2015
 titel: Tierarztketten seit 2015: wie schnell der Markt gewachsen ist
 beschreibung: AniCura hatte im Februar 2016 acht Standorte in Deutschland, alle Ketten 2024 rund 450. Die Entwicklung seit 2015, belegt und geschätzt.

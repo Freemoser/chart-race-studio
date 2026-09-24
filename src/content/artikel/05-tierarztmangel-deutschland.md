@@ -1,5 +1,5 @@
 ---
-post: 4
+post: 5
 slug: tierarztmangel-deutschland
 titel: Tierarztmangel in Deutschland: was die Zahlen zeigen
 beschreibung: Je Tierarzt in der Praxis kamen 2025 1.101 Hunde und Katzen, kaum mehr als 2012. Knapp werden Inhaber, Arbeitszeit und Nutztiermedizin.

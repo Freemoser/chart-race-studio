@@ -50,7 +50,7 @@ Wer den Platz der klassischen deutschen Rassen einnimmt, ist Thema von Post 18, 
 
 - **Der VDH zählt nur Welpen in den Zuchtbüchern seiner Mitgliedsvereine.** Hunde ohne Papiere, Importe und Welpen von Vermehrern sind nicht enthalten. Wie viele Schäferhunde insgesamt geboren werden, weiß niemand.
 - **Welpen sind kein Bestand.** Die Statistik zählt die in einem Jahr eingetragenen Welpen, nicht die Hunde, die in Deutschland leben. Wie viele Schäferhunde es gibt, lässt sich daraus nicht ablesen.
-- **Weniger Zuchtbuch heißt nicht weniger Hunde.** Ein Rückgang kann bedeuten, dass eine Rasse seltener wird, oder dass weniger über den VDH gezüchtet wird. Die Statistik unterscheidet das nicht. Insgesamt leben laut Haushaltsbefragung von ZZF und IVH heute mehr Hunde in Deutschland als 1991, 10,0 gegenüber 4,6 Millionen, siehe [Hund und Katze allein](katzen-oder-hunde-deutschland.html).
+- **Weniger Zuchtbuch heißt nicht weniger Hunde.** Ein Rückgang kann bedeuten, dass eine Rasse seltener wird, oder dass weniger über den VDH gezüchtet wird. Die Statistik unterscheidet das nicht. Insgesamt leben laut Haushaltsbefragung von ZZF und IVH heute mehr Hunde in Deutschland als 1991, 10,0 gegenüber 4,6 Millionen, siehe [Mehr Katzen oder Hunde?](mehr-katzen-oder-hunde.html).
 - **Platz 1 gilt innerhalb des VDH.** „Beliebteste Rasse“ heißt hier: meiste eingetragene Welpen. Rassen, die überwiegend außerhalb der Verbandszucht entstehen, sind unterschätzt.
 - **1990 und 1991 fehlen.** Sie sind nirgends online verfügbar. 1992 bis 2010 stammen aus archivierten Fassungen der alten VDH-Onlinetabelle.
 

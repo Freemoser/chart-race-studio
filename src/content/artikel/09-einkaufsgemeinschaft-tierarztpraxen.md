@@ -1,5 +1,5 @@
 ---
-post: 8
+post: 9
 slug: einkaufsgemeinschaft-tierarztpraxen
 titel: VetFamily und Co.: Einkaufsgemeinschaft statt Tierarztkette
 beschreibung: Über 1.300 Tierarztpraxen sind Mitglied bei VetFamily, fast dreimal so viele wie Kettenstandorte. Keine gehört der Gemeinschaft. Der Unterschied.

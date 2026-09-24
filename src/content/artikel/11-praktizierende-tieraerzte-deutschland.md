@@ -1,5 +1,5 @@
 ---
-post: 10
+post: 11
 slug: praktizierende-tieraerzte-deutschland
 titel: Praktizierende Tierärzte in Deutschland – und die dritte Gruppe
 beschreibung: 2025 arbeiteten 23.341 Tierärztinnen und Tierärzte in Praxen und 11.135 außerhalb. Der Anteil außerhalb der Praxis sank seit 1991 von 39,4 auf 32,3 Prozent.

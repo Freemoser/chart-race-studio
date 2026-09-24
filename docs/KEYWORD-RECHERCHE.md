@@ -161,10 +161,10 @@ Beides bedienen, aber nicht mit demselben Text.
 |---|---|---|
 | 1 | wie viele haustiere hat deutschland · anzahl haustiere deutschland · haustiere deutschland statistik | online |
 | 2 | wie viele niedergelassene tierärzte gibt es in deutschland | online |
-| 3 | wie viele tierärzte gibt es in deutschland · anzahl tierärzte deutschland | online |
-| 4 | **tierarztmangel deutschland** – stark belegt. SERP: Verbandsmeldungen, Presse, Videos, keine einzige Datenantwort. Artikel umgebaut (24.09.): Antwort nach Köpfen, dazu was die Statistik nicht misst | Entwurf, umgebaut |
-| 10 | wie viele praktizierende tierärzte gibt es in deutschland | Entwurf |
-| 16 | gibt es mehr katzen oder hunde in deutschland · **… auf der welt / weltweit** (auch „Weitere Fragen“) | Entwurf, um Abschnitt und FAQ zur Welt ergänzt (24.09.) |
+| 4 | wie viele tierärzte gibt es in deutschland · anzahl tierärzte deutschland | online |
+| 5 | **tierarztmangel deutschland** – stark belegt. SERP: Verbandsmeldungen, Presse, Videos, keine einzige Datenantwort. Artikel umgebaut (24.09.): Antwort nach Köpfen, dazu was die Statistik nicht misst | Entwurf, umgebaut |
+| 11 | wie viele praktizierende tierärzte gibt es in deutschland | Entwurf |
+| 3 | gibt es mehr katzen oder hunde in deutschland · **… auf der welt / weltweit** (auch „Weitere Fragen“) | Entwurf, um Abschnitt und FAQ zur Welt ergänzt (24.09.) |
 | 18 | beliebteste hunderassen deutschland (2025, 2026) · vdh beliebteste hunderassen · häufigste hunderassen deutschland | Entwurf |
 | 20 | wie viele tierärzte gibt es in bayern / berlin / hamburg | Entwurf; je Land eine FAQ-Frage |
 | 23 | rinderbestand deutschland · entwicklung rinderbestand deutschland · wieviel rinder hat deutschland | Entwurf |
@@ -172,17 +172,17 @@ Beides bedienen, aber nicht mit demselben Text.
 | 28 | frauenanteil tiermedizin · „Wie viel Prozent der Tierärzte sind weiblich?“ (Weitere Fragen) | Entwurf |
 | 29 | tierärztestatistik 2025 · bundestierärztekammer statistik | Entwurf |
 
-**Ohne Suchnachfrage – reines LinkedIn-Material:** Fachtierärzte (11–14; gesucht wird nur „fachtierarzt gehalt“), Ketten im Einzelnen (6–9; gesucht werden nur Firmennamen und „tierarztketten deutschland“, das der bestehende Ketten-Artikel bedient), Posts 15, 24 und 30 („bar chart race“ hat keine deutsche Nachfrage). Diese Artikel bleiben sinnvoll als Beleg für den Post, sollen aber nicht auf Suchanfragen optimiert werden.
+**Ohne Suchnachfrage – reines LinkedIn-Material:** Fachtierärzte (12–15; gesucht wird nur „fachtierarzt gehalt“), Ketten im Einzelnen (7–10; gesucht werden nur Firmennamen und „tierarztketten deutschland“, das der bestehende Ketten-Artikel bedient), Posts 16, 24 und 30 („bar chart race“ hat keine deutsche Nachfrage). Diese Artikel bleiben sinnvoll als Beleg für den Post, sollen aber nicht auf Suchanfragen optimiert werden.
 
-**Kannibalisierung vermieden:** 3 besetzt die Kopfanfrage „wie viele tierärzte“, 2 „niedergelassene“, 10 „praktizierende“. Artikel 5 läuft Gefahr, mit dem Ketten-Artikel um „tierarztketten deutschland“ zu konkurrieren – vor der Freigabe Zielanfrage schärfen oder auf den Ketten-Artikel verweisen.
+**Kannibalisierung vermieden:** 4 besetzt die Kopfanfrage „wie viele tierärzte“, 2 „niedergelassene“, 11 „praktizierende“. Artikel 6 läuft Gefahr, mit dem Ketten-Artikel um „tierarztketten deutschland“ zu konkurrieren – vor der Freigabe Zielanfrage schärfen oder auf den Ketten-Artikel verweisen.
 
 ### SERP-Sichtung, 23.09.2026
 
-- **„wie viele tierärzte gibt es in deutschland“:** keine KI-Übersicht. Hervorgehobenes Snippet von bmel-statistik.de („rund 34.480 Personen … 72 Prozent Frauen“). Dahinter BTK-Pressemitteilung (46.089 Kammermitglieder), gesundheitsmarkt.de, vetline.de, Listflix (6.738 Praxen laut Firmendatenbank), ein sieben Jahre alter LinkedIn-Beitrag, ein Adresshändler. **Gewinnbar.** Niemand erklärt den Unterschied zwischen 46.089 Mitgliedern und 34.476 Tätigen – Artikel 3 tut es jetzt im ersten Absatz.
+- **„wie viele tierärzte gibt es in deutschland“:** keine KI-Übersicht. Hervorgehobenes Snippet von bmel-statistik.de („rund 34.480 Personen … 72 Prozent Frauen“). Dahinter BTK-Pressemitteilung (46.089 Kammermitglieder), gesundheitsmarkt.de, vetline.de, Listflix (6.738 Praxen laut Firmendatenbank), ein sieben Jahre alter LinkedIn-Beitrag, ein Adresshändler. **Gewinnbar.** Niemand erklärt den Unterschied zwischen 46.089 Mitgliedern und 34.476 Tätigen – Artikel 4 tut es jetzt im ersten Absatz.
 - **„anzahl haustiere deutschland“:** ZZF, zweimal Statista, IVH, Versicherer, Content-Seiten. „Wird auch oft gesucht“: *anzahl hunde deutschland 1970 / 1980 / 2000*, *entwicklung anzahl katzen deutschland* – Nachfrage nach der langen Reihe, die Statista hinter der Bezahlschranke hat.
 - **„wie viele niedergelassene tierärzte …“:** BTK, BMEL, gesundheitsmarkt.de, vetline.de, Statista, Wikipedia. Weitere Fragen: *Wo arbeiten die meisten Tierärzte?*, *Warum sind Tierärzte so teuer geworden?*
 
-**Weitere Fragen aus der SERP, beantwortbar und jetzt als FAQ in Artikel 3:** Wie viele Tierarztpraxen gibt es in Deutschland? · Wo arbeiten die meisten Tierärzte? · Wie viel Prozent der Tierärzte sind weiblich?
+**Weitere Fragen aus der SERP, beantwortbar und jetzt als FAQ in Artikel 4:** Wie viele Tierarztpraxen gibt es in Deutschland? · Wo arbeiten die meisten Tierärzte? · Wie viel Prozent der Tierärzte sind weiblich?
 
 **Bewusst nicht bedient:** „Wie viel verdient ein Tierarzt …“ und „tierarzt gehalt“ – starke Nachfrage, aber keine eigenen Daten. „Warum sind Tierärzte so teuer geworden?“ – verlangt eine Einordnung der GOT, keine Zeitreihe.
 
@@ -190,4 +190,6 @@ Beides bedienen, aber nicht mit demselben Text.
 
 1. **Search Console verifizieren** (Token als Repo-Variable `VITE_GSC_VERIFICATION`) und die Sitemap einreichen. Ohne das gibt es weder Indexierungsanstoß noch echte Zahlen; alles oben bleibt Annahme.
 2. Nach vier Wochen: Impressionen ohne Klicks → Titel und Beschreibung anpassen; Positionen 5–15 → überarbeiten statt neu schreiben.
-3. ~~Artikel 4 auf „tierarztmangel deutschland“ umbauen, Artikel 16 um die Weltfrage erweitern~~ – erledigt am 24.09.2026.
+3. ~~Artikel 5 auf „tierarztmangel deutschland“ umbauen, Artikel 3 um die Weltfrage erweitern~~ – erledigt am 24.09.2026.
+
+> **Umnummerierung 24.09.2026:** Die Weltkarte ist Post 3 geworden, die bisherigen Posts 3–15 sind 4–16, der alte Post 16 „Hund und Katze allein“ ist im neuen Post 3 aufgegangen. Die Nummern oben sind nachgezogen.

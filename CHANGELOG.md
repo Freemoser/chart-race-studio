@@ -6,6 +6,8 @@ Alle nennenswerten Änderungen dieses Projekts. Format lose nach [Keep a Changel
 
 ### Neu
 
+- **Weltkarte Hund oder Katze ist Post 3** mit eigenem Artikel „Mehr Katzen oder Hunde?“ (Welt und Deutschland). Die Posts 3–15 sind zu 4–16 aufgerückt, der alte Post 16 ist im neuen Post 3 aufgegangen. Der bereits veröffentlichte Tierärzte-Artikel bleibt über `vorabOnline` online.
+
 - **Kopf- und Fußzeile aus einer Quelle** für alle statischen Seiten (Artikel, Übersicht, Rechtstexte, 404): Die Kopfzeile bleibt beim Scrollen stehen und enthält nur Navigation, Impressum und Datenschutz stehen im Fuß. Die Seiten tragen Platzhalter, die Vite beim Build mit tiefenrichtigen Pfaden füllt.
 
 - **Datenstandard 1.0** (`docs/DATENSTANDARD.md`) mit Vorlagen als Excel und CSV (`public/vorlagen/`, `scripts/build-vorlagen.mjs`) und der öffentlichen **Anleitung „Weltkarte nach Daten einfärben und animieren“** mit fünf Screenshots, die `scripts/screenshots-anleitung.mjs` aus dem echten Studio erzeugt (Chrome-Fernsteuerung ohne Abhängigkeit, `scripts/lib/cdp.mjs`).

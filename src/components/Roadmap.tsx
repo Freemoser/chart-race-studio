@@ -100,7 +100,7 @@ export function Roadmap({ onOpenStudio }: { onOpenStudio: () => void }) {
           <span className="text-[11px] font-medium tracking-wide text-ink-faint uppercase">Artikel</span>
           <span className="mt-1 block text-base font-semibold text-ink">Wer betreibt die Tierarztpraxen in Deutschland?</span>
           <span className="mt-1 block text-[13px] leading-relaxed text-ink-muted">
-            Die Langfassung zu den Posts 5 bis 9: 13 Gruppen mit belegten Standortzahlen, die einzige verfügbare
+            Die Langfassung zu den Posts 6 bis 10: 13 Gruppen mit belegten Standortzahlen, die einzige verfügbare
             Gesamtzahl aus dem Tierärzte Atlas und die Abgrenzung zu Einkaufsnetzwerken wie VetFamily.
           </span>
         </a>

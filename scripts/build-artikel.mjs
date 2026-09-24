@@ -314,7 +314,7 @@ if (doppelt('post').length) throw new Error(`Zwei Entwürfe für Post ${doppelt(
 
 for (const a of artikel) {
   const post = POSTS.find((p) => p.nr === a.post)
-  a.live = Boolean(FREIGABE.artikelLive && (a.anleitung || FREIGABEFAEHIG.has(post?.status)) && a.bereit)
+  a.live = Boolean(FREIGABE.artikelLive && (a.anleitung || FREIGABEFAEHIG.has(post?.status) || post?.vorabOnline) && a.bereit)
   // Veröffentlichungsdatum des Artikels: das LinkedIn-Datum, sonst der Stand beim Freischalten.
   a.veroeffentlicht = post?.publishedOn ?? (a.live ? a.stand : undefined)
 }

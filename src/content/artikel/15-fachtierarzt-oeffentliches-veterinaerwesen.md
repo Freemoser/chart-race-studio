@@ -1,5 +1,5 @@
 ---
-post: 14
+post: 15
 slug: fachtierarzt-oeffentliches-veterinaerwesen
 titel: Fachtierarzt Öffentliches Veterinärwesen: das größte Gebiet
 beschreibung: Ende 2025 gab es 1.950 Fachtierarzt-Titel für Öffentliches Veterinärwesen, mehr als für Kleintiere (1.410). Seit 2007 in jedem Jahr das größte Gebiet.
@@ -36,7 +36,7 @@ Der Abstand bewegt sich in allen veröffentlichten Jahren zwischen 443 und 615 T
 
 ## Passt zur dritten Gruppe außerhalb der Praxen
 
-Die Kammerstatistik unterscheidet drei Gruppen: Praxisinhaber, Angestellte in Praxen und Tierärztinnen und Tierärzte, die außerhalb von Praxen arbeiten, etwa in Veterinärämtern, Fleischhygiene, Industrie, Forschung und Lehre. Diese dritte Gruppe ist Thema von Post 10 im [Redaktionsplan](../#redaktionsplan).
+Die Kammerstatistik unterscheidet drei Gruppen: Praxisinhaber, Angestellte in Praxen und Tierärztinnen und Tierärzte, die außerhalb von Praxen arbeiten, etwa in Veterinärämtern, Fleischhygiene, Industrie, Forschung und Lehre. Diese dritte Gruppe ist Thema von Post 11 im [Redaktionsplan](../#redaktionsplan).
 
 Sie wuchs von 8.091 Personen im Jahr 2007 auf 11.135 im Jahr 2025, um 37,6 Prozent. Die Fachtitel im Öffentlichen Veterinärwesen wuchsen im selben Zeitraum um 39,5 Prozent. Beide Kurven laufen also fast parallel (Veränderungen berechnet).
 

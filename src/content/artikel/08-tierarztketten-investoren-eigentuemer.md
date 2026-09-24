@@ -1,5 +1,5 @@
 ---
-post: 7
+post: 8
 slug: tierarztketten-investoren-eigentuemer
 titel: Tierarztketten und Investoren: wem die Praxisgruppen gehören
 beschreibung: Rund 62 Prozent der Standorte von 13 erfassten Tierarztgruppen entfallen auf Gruppen mit Finanzinvestoren, 15 Prozent auf Mars. Und der Rest?
