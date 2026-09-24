@@ -127,6 +127,7 @@ export const useApp = create<AppState>()(
             // Kipppunkt der Farbskala: bewusst zurücksetzen, wenn der Datensatz keinen nennt –
             // sonst behält ein Anteilsdatensatz seine Skala für den nächsten, der keine hat.
             divergingAt: sug.divergingAt,
+            divergingLabels: sug.divergingLabels,
             secondaryAxisLabel: sug.secondaryAxisLabel ?? '',
             stepDuration: stepDurationForAnimation(sug.animationSec ?? DEFAULT_ANIMATION_SEC, effectivePeriodCount(dataset.periods, DEFAULT_SETTINGS.gapFill)),
           },

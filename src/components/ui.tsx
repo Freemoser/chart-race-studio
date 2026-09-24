@@ -5,7 +5,7 @@ import { SITE } from '@/content/site'
 export function Section({ title, children, defaultOpen = true, hint }: { title: string; children: ReactNode; defaultOpen?: boolean; hint?: string }) {
   const [open, setOpen] = useState(defaultOpen)
   return (
-    <section className="border-b border-line last:border-b-0">
+    <section data-section={title} className="border-b border-line last:border-b-0">
       <button type="button" onClick={() => setOpen((o) => !o)} className="flex w-full items-center justify-between px-4 py-3 text-left" aria-expanded={open}>
         <span className="text-sm font-semibold text-ink">{title}</span>
         <span className="flex items-center gap-2">

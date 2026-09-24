@@ -15,6 +15,8 @@ export interface ChartSettings {
   chartType: ChartType
   /** Nur Karte: Kipppunkt einer divergierenden Farbskala, z. B. 50 bei Prozentanteilen */
   divergingAt?: number
+  /** Nur Karte mit Kipppunkt: wie die Seiten heißen – [unter dem Kipppunkt, darüber], z. B. ['Katzen', 'Hunde'] */
+  divergingLabels?: [string, string]
   format: FormatId
   theme: 'light' | 'dark'
 

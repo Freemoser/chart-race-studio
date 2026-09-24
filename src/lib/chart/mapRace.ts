@@ -2,8 +2,7 @@ import * as d3 from 'd3'
 import type { ChartHandle, ChartInput } from './types'
 import { formatValue } from '../data/numbers'
 import { createMeasurer, fontString } from '../layout'
-import geoDe from '../../assets/bundeslaender.json'
-import geoWelt from '../../assets/welt.json'
+import { ordneZu, summenSpalte } from './geo'
 
 /**
  * Choropleth-Race für die deutschen Bundesländer.
@@ -16,20 +15,15 @@ import geoWelt from '../../assets/welt.json'
  * würde jedes Jahr neu normieren – die Karte sähe dann immer gleich aus, egal wie sich die
  * Werte entwickeln. Genau dieser Fehler war beim Line-Race schon einmal drin.
  */
-type GeoFeature = { type: 'Feature'; properties: { name: string }; geometry: d3.GeoGeometryObjects }
-const KARTEN = {
-  bundeslaender: (geoDe as { features: GeoFeature[] }).features,
-  welt: (geoWelt as { features: GeoFeature[] }).features,
-}
-/** Geometrie nach Treffern wählen: Wer 16 Bundesländer trifft, meint Deutschland. */
-function waehleKarte(names: string[]): GeoFeature[] {
-  const treffer = (f: GeoFeature[]) => f.filter((x) => names.includes(x.properties.name)).length
-  return treffer(KARTEN.bundeslaender) >= treffer(KARTEN.welt) ? KARTEN.bundeslaender : KARTEN.welt
-}
-
 export function createMapRace(container: HTMLElement, input: ChartInput): ChartHandle {
   const measure = createMeasurer()
-  const { width: W, height: H, periods, names } = input
+  const { width: W, height: H, periods } = input
+  // Datenstandard: Spalten „Summe: …“ sind keine Flächen, sondern die Mini-Linie im Panel.
+  // Alles andere wird über die Namenstabelle einer Fläche zugeordnet (deutsch, englisch, ISO).
+  const zuordnung = ordneZu(input.names)
+  const summen = zuordnung.summen
+  const names = input.names.filter((n) => !summen.includes(n))
+  const kartenRows = input.rows.filter((r) => !summen.includes(r.name))
   const P = periods.length
   const dark = input.theme === 'dark'
   const textColor = dark ? '#f2f4f7' : '#1c2229'
@@ -40,7 +34,7 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
   // Werte-Matrix: Name -> Periodenindex -> Wert
   const idx = new Map(periods.map((p, i) => [p.iso, i]))
   const serien = new Map<string, (number | null)[]>()
-  for (const n of names) serien.set(n, new Array<number | null>(P).fill(null))
+  for (const n of input.names) serien.set(n, new Array<number | null>(P).fill(null))
   for (const r of input.rows) {
     const i = idx.get(r.date)
     if (i !== undefined) serien.get(r.name)?.splice(i, 1, r.value)
@@ -57,7 +51,7 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
   }
 
   // Feste Domäne über alle Werte. Untergrenze bewusst 0, damit die Fläche ehrlich bleibt.
-  const alleWerte = input.rows.map((r) => r.value).filter((v) => Number.isFinite(v))
+  const alleWerte = kartenRows.map((r) => r.value).filter((v) => Number.isFinite(v))
   const maxWert = alleWerte.length ? Math.max(...alleWerte) : 1
   const minWert = alleWerte.length ? Math.min(...alleWerte) : 0
   // Divergierend, sobald die Werte Anteile um einen Kipppunkt sind (hier: 50 Prozent).
@@ -71,6 +65,12 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
   const STUFEN = [mitte - 10, mitte - 3, mitte + 3, mitte + 10]
   const STUFENFARBEN = ['#20B2AA', '#9ADBCF', '#D9D9D9', '#F6B26B', '#F28C28']
   const stufe = d3.scaleThreshold<number, string>().domain(STUFEN).range(STUFENFARBEN)
+  // Namen der fünf Stufen, von unten nach oben. Mit Seitennamen („Katzen“, „Hunde“) sprechend,
+  // ohne neutral – eine fremde Tabelle soll nie mit „mehr Hunde“ beschriftet werden.
+  const [seiteUnten, seiteOben] = input.divergingLabels ?? []
+  const STUFENNAMEN = seiteUnten && seiteOben
+    ? [`mehr ${seiteUnten}`, `leicht mehr ${seiteUnten}`, 'etwa gleich', `leicht mehr ${seiteOben}`, `mehr ${seiteOben}`]
+    : ['deutlich darunter', 'leicht darunter', 'etwa am Kipppunkt', 'leicht darüber', 'deutlich darüber']
   const rampe = dark ? ['#1e2a36', '#85B7EB'] : ['#E6F1FB', '#0C447C']
   const farbe = divergiert
     ? (v: number) => stufe(v)
@@ -78,28 +78,36 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
 
   // Nur Bundesländer zeichnen, für die es auch Daten gibt – sonst suggeriert die Karte Lücken,
   // die in Wahrheit gar nicht Teil des Datensatzes sind.
-  const bekannt = new Set(names)
-  const FEATURES = waehleKarte(names)
-  const passende = FEATURES.filter((f) => bekannt.has(f.properties.name))
+  const FEATURES = zuordnung.features
+  const passende = FEATURES.filter((f) => zuordnung.spalteFuer.has(f.properties.name))
   // Bei der Weltkarte alle Länder zeichnen, auch ohne Daten – eine Weltkarte mit Löchern
   // ist unlesbar. Bei Regionalkarten nur, was im Datensatz steht.
-  const weltkarte = FEATURES === KARTEN.welt
+  const weltkarte = zuordnung.karte === 'welt'
   const zuZeichnen = weltkarte ? FEATURES : passende
+  const flaechenWert = (flaeche: string, t: number) => {
+    const spalte = zuordnung.spalteFuer.get(flaeche)
+    return spalte ? wertAt(spalte, t) : null
+  }
 
   // Layout: Seitenpanel rechts, im Hochformat darunter. Die Panelbreite richtet sich nach dem
   // längsten Namen, damit die Karte nicht unnötig Platz abgibt – „Mecklenburg-Vorpommern“ braucht
   // deutlich mehr als „Bayern“.
   const hochformat = W / H < 0.9
   const zeilenSchrift = Math.min(input.labelSize * 0.82, 20)
-  const breitesterName = Math.max(...names.map((n) => measure(n, fontString(zeilenSchrift, 400, input.fontFamily))))
-  const breitesterWert = Math.max(...input.rows.map((r) => measure(formatValue(r.value, input.numberFormat), fontString(zeilenSchrift, 600, input.fontFamily))))
-  const panelBreite = hochformat ? W : Math.min(Math.max(breitesterName + breitesterWert + zeilenSchrift * 2.4, 170), W * 0.34)
-  const sichtbarMax = Math.max(1, Math.min(names.length, input.topN))
+  // Bei Stufen stehen die Stufennamen im Panel, nicht die Ländernamen – sonst wird „leicht mehr Katzen“ abgeschnitten.
+  const breitesterName = Math.max(...(divergiert ? STUFENNAMEN : names).map((n) => measure(n, fontString(zeilenSchrift, 400, input.fontFamily))))
+  const breitesterWert = Math.max(...kartenRows.map((r) => measure(formatValue(r.value, input.numberFormat), fontString(zeilenSchrift, 600, input.fontFamily))))
+  const mitSumme = summen.length > 0
+  const panelSpalte = hochformat ? W : Math.min(Math.max(breitesterName + breitesterWert + zeilenSchrift * 2.4, 170), W * 0.34)
+  // Im Hochformat teilen sich Liste und Mini-Linie die Breite, im Querformat die Höhe.
+  const panelBreite = hochformat && mitSumme ? W * 0.52 : panelSpalte
+  // Mit Stufen sind es immer genau fünf Zeilen, unabhängig von Top N.
+  const sichtbarMax = divergiert ? STUFENFARBEN.length : Math.max(1, Math.min(names.length, input.topN))
   // Kopfzeile bekommt eigene Höhe und muss im Hochformat mit in die Panelhöhe, sonst läuft
   // die letzte Zeile unten aus dem Bild.
   const kopfHoehe = input.divergingAt != null && input.primaryAxisLabel ? zeilenSchrift * 1.6 : 0
-  const panelHoehe = hochformat ? Math.min(H * 0.42, 16 + kopfHoehe + sichtbarMax * (zeilenSchrift * 1.6)) : H
-  const kartenB = hochformat ? W : W - panelBreite - 14
+  const panelHoehe = hochformat ? Math.min(H * 0.42, Math.max(16 + kopfHoehe + sichtbarMax * (zeilenSchrift * 1.6), mitSumme ? H * 0.3 : 0)) : H
+  const kartenB = hochformat ? W : W - panelSpalte - 14
   const kartenH = hochformat ? H - panelHoehe - 12 : H
 
   const svg = d3.select(container).append('svg')
@@ -139,9 +147,9 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
     const zeile = gKarte.append('text').attr('x', 2).attr('y', kartenH - 8)
       .attr('class', 'tick').attr('font-size', legSchrift)
     zeile.append('tspan').attr('fill', STUFENFARBEN[4]).attr('font-weight', 600).text('■ ')
-    zeile.append('tspan').attr('fill', mutedColor).text('mehr Hunde   ')
+    zeile.append('tspan').attr('fill', mutedColor).text(`${STUFENNAMEN[4]}   `)
     zeile.append('tspan').attr('fill', STUFENFARBEN[0]).attr('font-weight', 600).text('■ ')
-    zeile.append('tspan').attr('fill', mutedColor).text('mehr Katzen   ')
+    zeile.append('tspan').attr('fill', mutedColor).text(`${STUFENNAMEN[0]}   `)
     zeile.append('tspan').attr('fill', leerColor).attr('font-weight', 600).text('■ ')
     zeile.append('tspan').attr('fill', mutedColor).text('keine Daten')
   } else {
@@ -162,9 +170,12 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
   // Seitenpanel: die Werte des aktuellen Jahres, absteigend. Der Block wird vertikal zentriert,
   // sonst klebt eine kurze Liste oben in der Ecke und die Fläche darunter bleibt leer.
   const sichtbar = sichtbarMax
-  const zeilenHoehe = Math.max(zeilenSchrift * 1.2, Math.min(zeilenSchrift * 2.6, (panelHoehe - kopfHoehe - 10) / sichtbar))
+  // Querformat mit Summe: Die Liste bekommt den oberen Teil, die Mini-Linie das untere Drittel.
+  const summenHoehe = mitSumme && !hochformat ? Math.min(H * 0.4, 300) : 0
+  const listenHoehe = panelHoehe - summenHoehe
+  const zeilenHoehe = Math.max(zeilenSchrift * 1.2, Math.min(zeilenSchrift * 2.6, (listenHoehe - kopfHoehe - 10) / sichtbar))
   const schrift = zeilenSchrift
-  const oben = kopfHoehe + Math.max(0, (panelHoehe - kopfHoehe - sichtbar * zeilenHoehe) / 2)
+  const oben = kopfHoehe + Math.max(0, (listenHoehe - kopfHoehe - sichtbar * zeilenHoehe) / 2)
   if (kopfHoehe) {
     gPanel.append('text').attr('x', 0).attr('y', oben - zeilenHoehe + schrift * 0.2)
       .attr('class', 'axisTitle').attr('font-size', schrift * 0.85).attr('font-weight', 600).attr('fill', mutedColor)
@@ -180,6 +191,60 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
     }
   })
 
+  // ---------- Mini-Linie der Summenspalten ----------
+  // Zeigt, was die Karte nicht zeigen kann: die absolute Menge. Feste Achse ab 0 über den ganzen
+  // Zeitraum, aus demselben Grund wie beim Line-Race – eine mitlaufende Achse ließe jedes Jahr
+  // gleich hoch aussehen.
+  const summe = (() => {
+    if (!mitSumme) return null
+    const box = hochformat
+      ? { x: panelBreite + 16, y: 0, b: W - panelBreite - 16, h: panelHoehe }
+      : { x: 0, y: listenHoehe + 8, b: panelSpalte, h: summenHoehe - 8 }
+    const g = gPanel.append('g').attr('transform', `translate(${box.x},${box.y})`)
+    const titelSchrift = schrift * 0.85
+    g.append('text').attr('y', titelSchrift).attr('class', 'axisTitle').attr('font-size', titelSchrift)
+      .attr('font-weight', 600).attr('fill', mutedColor)
+      .text(weltkarte ? 'Weltweit' : zuordnung.karte === 'bundeslaender' ? 'Deutschland' : 'Insgesamt')
+    const reihen = summen.map((spalte, k) => {
+      const { name, einheit } = summenSpalte(spalte)
+      const farbeR = /hund/i.test(name) ? STUFENFARBEN[4] : /katz/i.test(name) ? STUFENFARBEN[0] : input.colors[spalte]
+      const y = titelSchrift * 1.4 + (k + 1) * schrift * 1.5
+      const zg = g.append('g').attr('transform', `translate(0,${y})`)
+      zg.append('rect').attr('y', -schrift * 0.78).attr('width', schrift * 0.72).attr('height', schrift * 0.72).attr('rx', 2).attr('fill', farbeR)
+      zg.append('text').attr('x', schrift * 1.15).attr('class', 'label').attr('font-size', schrift).attr('fill', textColor).text(name)
+      const wert = zg.append('text').attr('x', box.b - 2).attr('text-anchor', 'end').attr('class', 'valueLabel')
+        .attr('font-size', schrift).attr('font-weight', 600).attr('fill', textColor)
+      return { spalte, einheit, farbe: farbeR, wert, reihe: serien.get(spalte) ?? [] }
+    })
+    const obenLinie = titelSchrift * 1.4 + (summen.length + 1) * schrift * 1.5 - schrift * 0.4
+    const achsSchrift = schrift * 0.7
+    const hoeheLinie = Math.max(30, box.h - obenLinie - achsSchrift * 1.8)
+    const maxS = Math.max(1, ...reihen.flatMap((r) => r.reihe.filter((v): v is number => v != null)))
+    const x = d3.scaleLinear().domain([0, Math.max(1, P - 1)]).range([0, box.b - 2])
+    const y = d3.scaleLinear().domain([0, maxS * 1.08]).range([obenLinie + hoeheLinie, obenLinie])
+    g.append('line').attr('x1', 0).attr('x2', box.b - 2).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', mutedColor).attr('stroke-opacity', 0.35)
+    const jahr = (i: number) => periods[i]?.label ?? ''
+    g.append('text').attr('x', 0).attr('y', y(0) + achsSchrift * 1.35).attr('class', 'tick').attr('font-size', achsSchrift).attr('fill', mutedColor).text(jahr(0))
+    g.append('text').attr('x', box.b - 2).attr('y', y(0) + achsSchrift * 1.35).attr('text-anchor', 'end').attr('class', 'tick').attr('font-size', achsSchrift).attr('fill', mutedColor).text(jahr(P - 1))
+    const linien = reihen.map((r) => ({
+      ...r,
+      pfad: g.append('path').attr('fill', 'none').attr('stroke', r.farbe).attr('stroke-width', Math.max(2, schrift * 0.14)).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round'),
+      punkt: g.append('circle').attr('r', Math.max(3, schrift * 0.22)).attr('fill', r.farbe),
+    }))
+    const zahl = (v: number, einheit: string) => `${v.toLocaleString('de-DE', { maximumFractionDigits: v >= 100 ? 0 : 1 })}${einheit ? ` ${einheit}` : ''}`
+    return (t: number) => {
+      for (const l of linien) {
+        const punkte: [number, number][] = []
+        for (let i = 0; i <= Math.floor(t); i++) if (l.reihe[i] != null) punkte.push([x(i), y(l.reihe[i] as number)])
+        const v = wertAt(l.spalte, t)
+        if (v != null) punkte.push([x(t), y(v)])
+        l.pfad.attr('d', punkte.length ? d3.line()(punkte) : null)
+        l.punkt.attr('opacity', v == null ? 0 : 1).attr('cx', x(t)).attr('cy', v == null ? 0 : y(v))
+        l.wert.text(v == null ? '' : zahl(v, l.einheit))
+      }
+    }
+  })()
+
   const nameFont = fontString(schrift, 400, input.fontFamily)
   const kuerze = (s: string, max: number) => {
     if (measure(s, nameFont) <= max) return s
@@ -194,15 +259,16 @@ export function createMapRace(container: HTMLElement, input: ChartInput): ChartH
   let aktuell = 0
   function renderAt(t: number) {
     aktuell = t
+    summe?.(t)
     flaechen.attr('fill', (f) => {
-      const v = wertAt(f.properties.name, t)
+      const v = flaechenWert(f.properties.name, t)
       return v == null ? leerColor : farbe(v)
     })
     // Bei der Ja/Nein-Karte ist eine Rangliste sinnlos – die Spitzenplätze sind Annahmewerte.
     // Stattdessen die Verteilung: wie viele Länder liegen in welcher Stufe.
     const rang = divergiert
       ? (() => {
-          const namen = ['mehr Katzen', 'leicht mehr Katzen', 'etwa gleich', 'leicht mehr Hunde', 'mehr Hunde']
+          const namen = STUFENNAMEN
           const zahl = [0, 0, 0, 0, 0]
           for (const n of names) {
             const v = wertAt(n, t)

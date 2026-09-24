@@ -38,7 +38,7 @@ export function DesignPanel() {
           <Segmented value={settings.chartType} onChange={(chartType) => update({ chartType })} ariaLabel="Diagrammtyp" options={[
             { value: 'bar', label: <span className="inline-flex items-center gap-1.5"><BarChart3 size={15} /> Bar Race</span> },
             { value: 'line', label: <span className="inline-flex items-center gap-1.5"><LineChart size={15} /> Line Race</span> },
-            { value: 'map', label: <span className="inline-flex items-center gap-1.5"><Map size={15} /> Karte</span>, title: 'Choroplethenkarte der Bundesländer – nur sinnvoll, wenn die Kategorien Bundesländer sind' },
+            { value: 'map', label: <span className="inline-flex items-center gap-1.5"><Map size={15} /> Karte</span>, title: 'Karte: Spalten sind Länder oder Bundesländer (deutsch, englisch oder ISO-Code)' },
           ]} />
           <Segmented value={settings.theme} onChange={(theme) => update({ theme })} ariaLabel="Farbschema" options={[
             { value: 'light', label: <Sun size={15} />, title: 'Hell' },
@@ -93,8 +93,11 @@ export function DesignPanel() {
         )}
       </Section>
 
-      <Section title="Balken & Beschriftung">
-        <Slider label={settings.chartType === 'bar' ? 'Sichtbare Balken (Top N)' : 'Hervorgehobene Linien (Top N)'} value={settings.topN} min={1} max={Math.max(3, Math.min(30, dataset?.names.length ?? 12))} onChange={(topN) => update({ topN })} />
+      <Section title={settings.chartType === 'map' ? 'Karte & Beschriftung' : settings.chartType === 'line' ? 'Linien & Achsen' : 'Balken & Beschriftung'}>
+        {settings.chartType !== 'map' && <Slider label={settings.chartType === 'bar' ? 'Sichtbare Balken (Top N)' : 'Hervorgehobene Linien (Top N)'} value={settings.topN} min={1} max={Math.max(3, Math.min(30, dataset?.names.length ?? 12))} onChange={(topN) => update({ topN })} />}
+        {settings.chartType === 'map' && settings.divergingAt == null && (
+          <Slider label="Zeilen der Rangliste im Panel" value={settings.topN} min={1} max={Math.max(3, Math.min(30, dataset?.names.length ?? 12))} onChange={(topN) => update({ topN })} />
+        )}
         {settings.chartType === 'bar' && (
           <Field label="Kategorie-Labels" inline>
             <Segmented value={settings.labelsPosition} onChange={(labelsPosition) => update({ labelsPosition })} options={[{ value: 'outside', label: 'Außerhalb links' }, { value: 'inside', label: 'Im Balken' }]} />
@@ -103,8 +106,24 @@ export function DesignPanel() {
         {settings.chartType === 'bar' && <Slider label="Eckenrundung" value={settings.barRounding} min={0} max={1} step={0.05} onChange={(barRounding) => update({ barRounding })} format={(v) => `${Math.round(v * 100)} %`} />}
         {settings.chartType === 'bar' ? (
           <Toggle label="Feste Achse (kein Mitwachsen)" checked={settings.fixedScale} onChange={(fixedScale) => update({ fixedScale })} />
-        ) : (
+        ) : settings.chartType === 'line' ? (
           <p className="text-[11px] text-ink-faint">Die Y-Achsen des Line Race sind über den gesamten Zeitraum fest, damit die Skala nicht springt.</p>
+        ) : (
+          <p className="text-[11px] text-ink-faint">Die Farbskala der Karte ist über den gesamten Zeitraum fest, damit Veränderungen sichtbar bleiben.</p>
+        )}
+        {settings.chartType === 'map' && (
+          <div className="flex flex-col gap-2 rounded-md border border-line p-2.5">
+            <Toggle label="Farbstufen um einen Kipppunkt" checked={settings.divergingAt != null} onChange={(an) => update({ divergingAt: an ? 50 : undefined })} />
+            <p className="text-xs text-ink-muted">Für Anteile, bei denen die Seite zählt, etwa „Hundeanteil“ mit Kipppunkt 50: fünf Stufen von „mehr unten“ bis „mehr oben“. Aus = stufenloser Verlauf ab 0.</p>
+            {settings.divergingAt != null && (
+              <div className="grid grid-cols-3 gap-2">
+                <Field label="Kipppunkt"><NumberInput value={settings.divergingAt} step={1} onChange={(divergingAt) => update({ divergingAt })} /></Field>
+                <Field label="Name unten"><input className="input" value={settings.divergingLabels?.[0] ?? ''} placeholder="z.B. Katzen" onChange={(e) => update({ divergingLabels: [e.target.value, settings.divergingLabels?.[1] ?? ''] })} /></Field>
+                <Field label="Name oben"><input className="input" value={settings.divergingLabels?.[1] ?? ''} placeholder="z.B. Hunde" onChange={(e) => update({ divergingLabels: [settings.divergingLabels?.[0] ?? '', e.target.value] })} /></Field>
+              </div>
+            )}
+            <Field label="Überschrift der Zählung"><input className="input" value={settings.primaryAxisLabel} onChange={(e) => update({ primaryAxisLabel: e.target.value })} placeholder="z.B. Länder je Stufe" /></Field>
+          </div>
         )}
         {settings.chartType === 'line' && (
           <div className="flex flex-col gap-2 rounded-md border border-line p-2.5">
@@ -128,7 +147,7 @@ export function DesignPanel() {
           <div className="grid grid-cols-3 gap-1.5">
             {PALETTES.map((p) => (
               <button key={p.id} type="button" aria-pressed={settings.paletteId === p.id} onClick={() => update({ paletteId: p.id })} className={`card flex flex-col gap-1 p-1.5 text-left text-[11px] hover:border-primary ${settings.paletteId === p.id ? '!border-primary' : ''}`}>
-                <span className="flex h-3 overflow-hidden rounded-sm">{p.colors.slice(0, 8).map((c) => <span key={c} className="flex-1" style={{ background: c }} />)}</span>
+                <span className="flex h-3 overflow-hidden rounded-sm">{p.colors.slice(0, 8).map((c, i) => <span key={`${i}-${c}`} className="flex-1" style={{ background: c }} />)}</span>
                 <span>{p.label}</span>
               </button>
             ))}

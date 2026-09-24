@@ -86,7 +86,7 @@ export function Stage() {
 
   return (
     <div ref={wrapRef} className="relative flex h-full w-full items-center justify-center overflow-hidden">
-      <div style={{ width: W * scale, height: H * scale }} className="relative shadow-[0_10px_40px_-12px_rgba(0,0,0,.35)]">
+      <div data-buehne style={{ width: W * scale, height: H * scale }} className="relative shadow-[0_10px_40px_-12px_rgba(0,0,0,.35)]">
         <div
           className="absolute left-0 top-0 origin-top-left select-none overflow-hidden"
           style={{ width: W, height: H, transform: `scale(${scale})`, background: colors.bg, color: colors.fg, fontFamily: family }}

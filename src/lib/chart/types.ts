@@ -27,6 +27,7 @@ export interface ChartInput {
   barRounding: number
   /** Nur Map: Kipppunkt einer divergierenden Skala (z. B. 50 bei Anteilen in Prozent) */
   divergingAt?: number
+  divergingLabels?: [string, string]
   /** Dauer je Datum (Periode inkl. Zwischenschritt) in ms */
   tickDuration: number
 }

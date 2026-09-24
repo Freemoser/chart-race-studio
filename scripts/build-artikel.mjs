@@ -59,11 +59,13 @@ function lesen(datei) {
     const k = zeile.match(/^(\w+):\s*(.*)$/)
     if (k) kopf[k[1]] = k[2].trim()
   }
-  for (const pflicht of ['post', 'slug', 'titel', 'beschreibung', 'frage', 'stand', 'bereit']) {
+  // Anleitungen gehören zu keinem Post: Sie erklären das Werkzeug und sind jederzeit gültig.
+  const anleitung = kopf.art === 'anleitung'
+  for (const pflicht of [...(anleitung ? [] : ['post']), 'slug', 'titel', 'beschreibung', 'frage', 'stand', 'bereit']) {
     if (!kopf[pflicht]) throw new Error(`${datei}: Feld „${pflicht}“ fehlt`)
   }
   if (!/^[a-z0-9-]+$/.test(kopf.slug)) throw new Error(`${datei}: slug nur aus a–z, 0–9 und Bindestrich`)
-  return { datei, ...kopf, post: Number(kopf.post), bereit: kopf.bereit === 'ja', text: m[2].trim() }
+  return { datei, ...kopf, anleitung, post: anleitung ? undefined : Number(kopf.post), bereit: kopf.bereit === 'ja', text: m[2].trim() }
 }
 
 // ---------- Kleines Markdown ----------
@@ -72,6 +74,7 @@ function lesen(datei) {
 // Konstrukt wäre eine Stelle, an der ein Entwurf anders aussieht als gedacht.
 function inline(s) {
   return esc(s)
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/(^|[^*])\*(?!\s)(.+?)\*/g, '$1<em>$2</em>')
     .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, t, u) => {
@@ -89,6 +92,19 @@ function markdown(text) {
     const b = bloecke[i].trim()
     if (!b) continue
     const zeilen = b.split('\n')
+    const bild = b.match(/^!\[([^\]]*)\]\(([^)\s]+)\)$/)
+    if (bild) {
+      // Bilder liegen unter public/beitrag/…; Breite und Höhe aus dem PNG-Kopf, damit die Seite
+      // beim Laden nicht springt.
+      const [, alt, src] = bild
+      let masse = ''
+      try {
+        const kopfBytes = fs.readFileSync(path.join('public', ZIEL, src)).subarray(16, 24)
+        masse = ` width="${kopfBytes.readUInt32BE(0) / 2}" height="${kopfBytes.readUInt32BE(4) / 2}"`
+      } catch { throw new Error(`Bild ${src} fehlt unter public/${ZIEL}/`) }
+      html.push(`<figure><img src="${src}" alt="${esc(alt)}"${masse} loading="lazy" /><figcaption>${inline(alt)}</figcaption></figure>`)
+      continue
+    }
     if (b.startsWith('## ')) {
       const t = b.slice(3).trim()
       inFaq = /^häufige fragen/i.test(t)
@@ -119,7 +135,7 @@ function markdown(text) {
 
 // ---------- Seite ----------
 function seite(a, { entwurf, alle }) {
-  const post = POSTS.find((p) => p.nr === a.post)
+  const post = a.anleitung ? { nr: 0, title: a.titel, refs: [] } : POSTS.find((p) => p.nr === a.post)
   if (!post) throw new Error(`${a.datei}: Post ${a.post} steht nicht im Redaktionsplan`)
   const tiefe = entwurf ? '../../' : '../'
   const { html, faq } = markdown(a.text)
@@ -135,6 +151,8 @@ function seite(a, { entwurf, alle }) {
   const entlinken = (h) => entwurf ? h : h.replace(/<a href="([a-z0-9-]+)\.html">(.*?)<\/a>/g, (m, slug, text) =>
     alle.some((x) => x.slug === slug && x.live) ? m : text)
   const rumpf = entlinken(restBloecke.join('\n\n').replace(/href="\.\.\//g, `href="${tiefe}`))
+    .replace(/<img src="(?!https?:|\.\.\/)/g, entwurf ? '<img src="../' : '<img src="')
+    .replace(/href="(vorlagen\/)/g, `href="${tiefe}$1`)
 
   // Verweise auf andere Posts: auf deren Artikel, wenn es ihn gibt, sonst auf den Redaktionsplan.
   const verweise = (post.refs ?? []).map((r) => {
@@ -172,6 +190,16 @@ function seite(a, { entwurf, alle }) {
       ...(ds.quelle ? { citation: ds.quelle } : {}),
       dateModified: a.stand,
       ...(basis ? { url: `${basis}/${ZIEL}/${a.slug}.html`, distribution: { '@type': 'DataDownload', encodingFormat: 'text/csv', contentUrl: `${basis}/daten/${ds.id}.csv` } } : {}),
+    })
+  }
+  // Anleitung: die Schritte als HowTo, aus den ###-Überschriften unter „Schritt für Schritt“.
+  if (a.anleitung) {
+    const teil = a.text.split(/\n## /).find((t) => /^Schritt für Schritt/.test(t)) ?? ''
+    const schritte = [...teil.matchAll(/^### (.+)$/gm)].map((m) => m[1].replace(/^\d+\.\s*/, ''))
+    if (schritte.length) jsonld.push({
+      '@context': 'https://schema.org', '@type': 'HowTo', name: a.titel, description: a.beschreibung, inLanguage: 'de-DE',
+      tool: { '@type': 'HowToTool', name: `Studio von ${L.siteName}` },
+      step: schritte.map((name, i) => ({ '@type': 'HowToStep', position: i + 1, name })),
     })
   }
   if (faq.length) {
@@ -217,7 +245,7 @@ ${entwurf ? `    <p class="entwurf">Entwurf · ${a.bereit ? 'bereit zur Freigabe
 
     <main class="wrap">
       <article>
-        <p class="meta">Visite ${visiteVon(post.nr)} · Post ${post.nr}: ${esc(post.title)}</p>
+        <p class="meta">${a.anleitung ? 'Anleitung' : `Visite ${visiteVon(post.nr)} · Post ${post.nr}: ${esc(post.title)}`}</p>
         <h1>${esc(a.titel)}</h1>
         ${lead}
         <p class="meta">Stand ${datumDe(a.stand)} · von ${esc(L.operator)}${post.publishedOn ? ` · auf LinkedIn seit ${datumDe(post.publishedOn)}` : ''}</p>
@@ -237,7 +265,10 @@ ${csv ? `          <p><a href="${csv}" download>Daten als CSV herunterladen</a> 
 // Die Drehscheibe für interne Links: Jeder Artikel ist von hier aus einen Klick entfernt, und
 // Crawler ohne JavaScript finden die Reihe, ohne die Single-Page-Anwendung ausführen zu müssen.
 function uebersicht(live) {
-  const nachKapitel = ARCS.map((arc) => ({ arc, liste: live.filter((a) => POSTS.find((p) => p.nr === a.post)?.arc === arc.id) })).filter((k) => k.liste.length)
+  const nachKapitel = [
+    ...ARCS.map((arc) => ({ arc, liste: live.filter((a) => POSTS.find((p) => p.nr === a.post)?.arc === arc.id) })),
+    { arc: { label: 'Anleitungen' }, liste: live.filter((a) => a.anleitung) },
+  ].filter((k) => k.liste.length)
   const jsonld = {
     '@context': 'https://schema.org', '@type': 'CollectionPage',
     name: 'Tiermedizin in Zahlen', inLanguage: 'de-DE',
@@ -291,13 +322,13 @@ ${k.liste.map((a) => `        <li><a href="${a.slug}.html">${esc(a.frage)}</a><b
 const dateien = fs.existsSync(QUELLE) ? fs.readdirSync(QUELLE).filter((f) => f.endsWith('.md') && f !== 'README.md').sort() : []
 const artikel = dateien.map(lesen)
 
-const doppelt = (feld) => artikel.map((a) => a[feld]).filter((v, i, xs) => xs.indexOf(v) !== i)
+const doppelt = (feld) => artikel.map((a) => a[feld]).filter((v, i, xs) => v !== undefined && xs.indexOf(v) !== i)
 if (doppelt('slug').length) throw new Error(`Doppelter slug: ${doppelt('slug').join(', ')}`)
 if (doppelt('post').length) throw new Error(`Zwei Entwürfe für Post ${doppelt('post').join(', ')}`)
 
 for (const a of artikel) {
   const post = POSTS.find((p) => p.nr === a.post)
-  a.live = Boolean(FREIGABE.artikelLive && FREIGABEFAEHIG.has(post?.status) && a.bereit)
+  a.live = Boolean(FREIGABE.artikelLive && (a.anleitung || FREIGABEFAEHIG.has(post?.status)) && a.bereit)
   // Veröffentlichungsdatum des Artikels: das LinkedIn-Datum, sonst der Stand beim Freischalten.
   a.veroeffentlicht = post?.publishedOn ?? (a.live ? a.stand : undefined)
 }
@@ -324,12 +355,12 @@ if (mitEntwuerfen) {
   fs.mkdirSync(ENTWURF, { recursive: true })
   for (const a of artikel) fs.writeFileSync(path.join(ENTWURF, `${a.slug}.html`), seite(a, { entwurf: true, alle: artikel }))
   fs.writeFileSync(path.join(ENTWURF, 'index.html'), `<!doctype html><html lang="de"><head><meta charset="UTF-8" /><meta name="robots" content="noindex, nofollow" /><title>Entwürfe</title><script type="module" src="/src/article.ts"></script></head><body><main class="wrap"><h1>Artikelentwürfe</h1><ol>\n${
-    artikel.map((a) => `<li><a href="${a.slug}.html">Post ${a.post}: ${esc(POSTS.find((p) => p.nr === a.post)?.title ?? a.slug)}</a>${a.bereit ? '' : ' (noch nicht bereit)'}</li>`).join('\n')}\n</ol></main></body></html>\n`)
+    artikel.map((a) => `<li><a href="${a.slug}.html">${a.anleitung ? `Anleitung: ${esc(a.titel)}` : `Post ${a.post}: ${esc(POSTS.find((p) => p.nr === a.post)?.title ?? a.slug)}`}</a>${a.bereit ? '' : ' (noch nicht bereit)'}</li>`).join('\n')}\n</ol></main></body></html>\n`)
 }
 
 // Übersicht für Oberfläche, Sitemap und llms.txt. Deterministisch sortiert, damit sie nur bei
 // echten Änderungen im Diff auftaucht.
-const index = artikel.map((a) => ({ post: a.post, slug: a.slug, titel: a.titel, beschreibung: a.beschreibung, frage: a.frage, stand: a.stand, bereit: a.bereit, live: a.live }))
+const index = artikel.map((a) => ({ post: a.post, ...(a.anleitung ? { art: 'anleitung' } : {}), slug: a.slug, titel: a.titel, beschreibung: a.beschreibung, frage: a.frage, stand: a.stand, bereit: a.bereit, live: a.live }))
 fs.writeFileSync('src/content/artikel-index.json', JSON.stringify(index, null, 2) + '\n')
 
 console.log(`Artikel: ${artikel.length} Entwürfe, ${artikel.filter((a) => a.bereit).length} bereit, ${live.length} online${FREIGABE.artikelLive ? '' : ' (Freigabe aus)'}${mitEntwuerfen ? `, Vorschau unter /${ENTWURF}/` : ''}`)

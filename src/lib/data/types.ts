@@ -106,6 +106,7 @@ export interface SampleDataset {
     suffix?: string
     chartType?: 'bar' | 'line' | 'map'
     divergingAt?: number
+    divergingLabels?: [string, string]
     labelsPosition?: 'inside' | 'outside'
     dateFormat?: string
     /** Line Race: Kategorien auf der rechten Achse */

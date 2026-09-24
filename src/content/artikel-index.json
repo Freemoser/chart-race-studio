@@ -298,5 +298,15 @@
     "stand": "2026-09-23",
     "bereit": false,
     "live": false
+  },
+  {
+    "art": "anleitung",
+    "slug": "weltkarte-laender-einfaerben-animieren",
+    "titel": "Weltkarte nach Daten einfärben und animieren – kostenlos",
+    "beschreibung": "Eine Excel-Tabelle mit Jahr, Ländern und Werten reicht: So wird daraus eine animierte Weltkarte als Video. Mit Vorlage, Datenstandard und Screenshots.",
+    "frage": "Wie kann ich eine Weltkarte nach Daten einfärben und animieren?",
+    "stand": "2026-09-24",
+    "bereit": true,
+    "live": true
   }
 ]

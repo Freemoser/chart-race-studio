@@ -48,6 +48,8 @@ footer.site { border-top: 1px solid var(--brand-line); margin-top: 3rem; padding
 .kasten { background: var(--brand-surface-2); border-radius: var(--brand-radius); padding: 0.5rem 1rem; margin: 2.5rem 0 0; font-size: 0.9375rem; }
 .kasten p { margin: 0.5rem 0; }
 figure { margin: 1.5rem 0; }
-figure img { width: 100%; height: auto; border-radius: var(--brand-radius); border: 1px solid var(--brand-line); }
+figure img { display: block; max-width: 100%; height: auto; border-radius: var(--brand-radius); border: 1px solid var(--brand-line); }
 .entwurf { margin: 0; padding: 0.5rem 1.25rem; background: var(--brand-accent); color: #fff; font-size: 0.8125rem; font-weight: 600; text-align: center; }
 .liste li { margin: 0.9rem 0; }
+figcaption { font-size: 0.8125rem; color: var(--brand-ink-faint); margin-top: 0.4rem; }
+code { font-size: 0.9em; background: var(--brand-surface-2); padding: 0.05em 0.3em; border-radius: 4px; }

@@ -81,6 +81,20 @@ for (const f of fs.existsSync('artikel') ? fs.readdirSync('artikel').filter((x) 
 // sollen aber schon jetzt die Regeln aus src/content/artikel/README.md einhalten.
 const AD = 'src/content/artikel'
 const entwuerfe = fs.existsSync(AD) ? fs.readdirSync(AD).filter((x) => /^\d{2,}-.*\.md$/.test(x)) : []
+// Anleitungen: eigene Pflichtabschnitte, kein Post
+for (const f of fs.existsSync(AD) ? fs.readdirSync(AD).filter((x) => /^anleitung-.*\.md$/.test(x)) : []) {
+  const roh = lies(`${AD}/${f}`)
+  const text = roh.replace(/^---[\s\S]*?\n---\n/, '')
+  const beschreibung = (roh.match(/^beschreibung: (.*)$/m) ?? [])[1] ?? ''
+  if (!/^art: anleitung$/m.test(roh)) melde('mangel', `Anleitung ${f}`, 'Kopf braucht „art: anleitung“')
+  if (beschreibung.length > 160) melde('mangel', `Anleitung ${f}`, `Beschreibung mit ${beschreibung.length} Zeichen über 160`)
+  for (const pflicht of ['## Das Wichtigste in Kürze', '## Schritt für Schritt', '## Häufige Fragen']) {
+    if (!text.includes(pflicht)) melde('mangel', `Anleitung ${f}`, `Abschnitt „${pflicht.slice(3)}“ fehlt`)
+  }
+  for (const [, bild] of text.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)) {
+    if (!fs.existsSync(`public/beitrag/${bild}`)) melde('mangel', `Anleitung ${f}`, `Bild ${bild} fehlt – node scripts/screenshots-anleitung.mjs`)
+  }
+}
 const mitArtikel = new Set()
 for (const f of entwuerfe) {
   const roh = lies(`${AD}/${f}`)

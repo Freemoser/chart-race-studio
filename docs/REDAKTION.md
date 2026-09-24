@@ -37,6 +37,10 @@ verschwinden dann ebenfalls. Das betrifft derzeit `hund-katze-welt` – er muss 
 lesbar, und die Datensätze liegen weiterhin im ausgelieferten JavaScript. Die Schalter steuern, was die Seite
 anbietet und was Suchmaschinen finden, nicht was geheim ist.
 
+## Anleitungen
+
+Artikel mit `art: anleitung` statt `post:` gehören zu keinem Post und gehen online, sobald sie `bereit: ja` tragen. Screenshots nie von Hand: `npm run dev`, dann `node scripts/screenshots-anleitung.mjs`. Nach Änderungen am Datenstandard (`docs/DATENSTANDARD.md`) Vorlagen neu erzeugen: `node scripts/build-vorlagen.mjs`.
+
 ## Artikel
 
 Format und Regeln: `src/content/artikel/README.md`. Vorschau aller Entwürfe mit `npm run dev` unter

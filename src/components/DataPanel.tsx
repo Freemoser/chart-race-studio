@@ -6,9 +6,11 @@ import { SICHTBARE_SAMPLES as SAMPLES } from '@/content/freigabe'
 import { TableEditor } from './TableEditor'
 import { Field, Section, Segmented } from './ui'
 import { SAMPLE_CATEGORIES, type ColumnMapping } from '@/lib/data/types'
+import { ordneZu } from '@/lib/chart/geo'
 
 export function DataPanel() {
   const { table, mapping, dataset, setTable, setMapping, loadSample, loadedSampleId, clearData } = useApp()
+  const chartType = useApp((s) => s.settings.chartType)
   const [dragOver, setDragOver] = useState(false)
   const [infoFor, setInfoFor] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -106,6 +108,13 @@ export function DataPanel() {
           <p className="text-[11px] text-ink-faint">
             Wide-Format (eine Spalte je Kategorie) oder Long-Format (Spalten: Zeit, Kategorie, Wert) – wird automatisch erkannt.
           </p>
+          <p className="text-[11px] text-ink-faint">
+            Vorlagen nach unserem Datenstandard:{' '}
+            <a className="underline hover:text-ink" href="vorlagen/vorlage-weltkarte.xlsx" download>Weltkarte</a>{' · '}
+            <a className="underline hover:text-ink" href="vorlagen/vorlage-bundeslaender.xlsx" download>Bundesländer</a>{' · '}
+            <a className="underline hover:text-ink" href="vorlagen/vorlage-zeitreihe.xlsx" download>Zeitreihe</a>
+            {' '}(Excel, auch als .csv) · <a className="underline hover:text-ink" href="beitrag/weltkarte-laender-einfaerben-animieren.html">Anleitung</a>
+          </p>
         </div>
         {error && <p className="flex items-center gap-2 text-[13px] text-err"><XCircle size={16} /> {error}</p>}
       </Section>
@@ -121,6 +130,8 @@ export function DataPanel() {
               </p>
             )}
           </Section>
+
+          {chartType === 'map' && dataset && <Kartenabgleich names={dataset.names} />}
 
           {(errors.length > 0 || warnings.length > 0) && (
             <Section title="Datenprüfung" hint={`${errors.length} Fehler, ${warnings.length} Hinweise`} defaultOpen={errors.length > 0}>
@@ -213,5 +224,36 @@ function MappingEditor({ headers, mapping, onChange }: { headers: string[]; mapp
         </div>
       )}
     </div>
+  )
+}
+
+/**
+ * Zeigt vor dem Export, was die Karte aus den Spalten macht – nach derselben Zuordnung, die der
+ * Renderer benutzt. Ein Ländername, der keiner Fläche entspricht, fällt sonst erst im fertigen
+ * Video als graue Fläche auf.
+ */
+function Kartenabgleich({ names }: { names: string[] }) {
+  const z = ordneZu(names)
+  const gesamt = names.length - z.summen.length
+  const ok = z.spalteFuer.size
+  return (
+    <Section title="Kartenabgleich" hint={`${ok} von ${gesamt} auf der Karte`}>
+      <div className="flex flex-col gap-2 text-[13px] text-ink-muted">
+        <p>
+          Erkannte Karte: <b className="text-ink">{z.karte === 'welt' ? 'Weltkarte' : 'Deutsche Bundesländer'}</b>.{' '}
+          {z.summen.length > 0 && <>Summenspalten als Mini-Linie: <b className="text-ink">{z.summen.join(', ')}</b>.</>}
+        </p>
+        {z.ohneFlaeche.length > 0 && (
+          <p className="text-warn">
+            <AlertTriangle size={14} className="mr-1 inline" />
+            Ohne eigene Fläche ({z.ohneFlaeche.length}): {z.ohneFlaeche.slice(0, 12).join(', ')}{z.ohneFlaeche.length > 12 ? ' …' : ''}.
+            {' '}Entweder ist der Name unbekannt oder das Land ist für diese Karte zu klein. Es zählt trotzdem in der Stufenzählung und in Summen mit.
+          </p>
+        )}
+        <p className="text-[12px] text-ink-faint">
+          Welche Namen gelten und wie Summenspalten heißen: <a className="underline" href="beitrag/weltkarte-laender-einfaerben-animieren.html">Anleitung und Datenstandard</a>.
+        </p>
+      </div>
+    </Section>
   )
 }
