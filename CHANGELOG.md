@@ -6,6 +6,8 @@ Alle nennenswerten Änderungen dieses Projekts. Format lose nach [Keep a Changel
 
 ### Neu
 
+- **Kopf- und Fußzeile aus einer Quelle** für alle statischen Seiten (Artikel, Übersicht, Rechtstexte, 404): Die Kopfzeile bleibt beim Scrollen stehen und enthält nur Navigation, Impressum und Datenschutz stehen im Fuß. Die Seiten tragen Platzhalter, die Vite beim Build mit tiefenrichtigen Pfaden füllt.
+
 - **Datenstandard 1.0** (`docs/DATENSTANDARD.md`) mit Vorlagen als Excel und CSV (`public/vorlagen/`, `scripts/build-vorlagen.mjs`) und der öffentlichen **Anleitung „Weltkarte nach Daten einfärben und animieren“** mit fünf Screenshots, die `scripts/screenshots-anleitung.mjs` aus dem echten Studio erzeugt (Chrome-Fernsteuerung ohne Abhängigkeit, `scripts/lib/cdp.mjs`).
 - **Summenspalten auf der Karte:** Spalten `Summe: Name (Einheit)` erscheinen als Mini-Linie mit aktuellem Wert im Seitenpanel. Weltkarte Hund/Katze zeigt damit die weltweite Zahl der Hunde und Katzen (`scripts/build-welt-summen.mjs`, China und Brasilien korrigiert).
 - **Ländernamen deutsch, englisch oder ISO-Code** (`src/assets/laendernamen.json`, 504 Schreibweisen). Behebt die grau gebliebene DR Kongo.

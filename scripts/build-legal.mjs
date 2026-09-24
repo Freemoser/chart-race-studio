@@ -46,22 +46,14 @@ const seite = (titel, beschreibung, inhalt) => `<!doctype html>
     <script type="module" src="/src/article.ts"></script>
   </head>
   <body>
-    <header class="site">
-      <div class="wrap">
-        <strong>${esc(L.siteName)}</strong>
-        <a href="./">Studio</a>
-        <a href="./#redaktionsplan">Redaktionsplan</a>
-        <a href="./impressum.html">Impressum</a>
-        <a href="./datenschutz.html">Datenschutz</a>
-      </div>
-    </header>
+    <!--rahmen:kopf-->
     <main class="wrap">
       <article>
         <h1>${titel}</h1>
 ${inhalt}
       </article>
-      <footer class="site"><p><a href="./">Zurück zum Studio</a></p></footer>
     </main>
+    <!--rahmen:fuss-->
   </body>
 </html>
 `

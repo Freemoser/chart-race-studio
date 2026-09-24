@@ -233,15 +233,7 @@ ${ogBild ? `    <meta property="og:image" content="${ogBild}" />\n    <meta prop
     <script type="module" src="/src/article.ts"></script>
   </head>
   <body>
-${entwurf ? `    <p class="entwurf">Entwurf · ${a.bereit ? 'bereit zur Freigabe' : 'noch nicht bereit'} · nicht öffentlich</p>\n` : ''}    <header class="site">
-      <div class="wrap">
-        <strong>${esc(L.siteName)}</strong>
-        <a href="${tiefe}">Studio</a>
-        <a href="${entwurf ? '../' : './'}">Alle Artikel</a>
-        <a href="${tiefe}artikel/datenherkunft.html">Datenherkunft</a>
-        <a href="${tiefe}impressum.html">Impressum</a>
-      </div>
-    </header>
+${entwurf ? `    <p class="entwurf">Entwurf · ${a.bereit ? 'bereit zur Freigabe' : 'noch nicht bereit'} · nicht öffentlich</p>\n` : ''}    <!--rahmen:kopf-->
 
     <main class="wrap">
       <article>
@@ -256,6 +248,7 @@ ${csv ? `          <p><a href="${csv}" download>Daten als CSV herunterladen</a> 
         </aside>
       </article>
     </main>
+    <!--rahmen:fuss-->
   </body>
 </html>
 `
@@ -295,15 +288,7 @@ function uebersicht(live) {
     <script type="module" src="/src/article.ts"></script>
   </head>
   <body>
-    <header class="site">
-      <div class="wrap">
-        <strong>${esc(L.siteName)}</strong>
-        <a href="../">Studio</a>
-        <a href="../#redaktionsplan">Redaktionsplan</a>
-        <a href="../artikel/datenherkunft.html">Datenherkunft</a>
-        <a href="../impressum.html">Impressum</a>
-      </div>
-    </header>
+    <!--rahmen:kopf-->
     <main class="wrap">
       <h1>Tiermedizin in Zahlen</h1>
       <p class="lead">Wie viele Tierärzte, Tierarztpraxen und Haustiere gibt es in Deutschland, und wie hat sich das seit 1991 verändert? Jeder Artikel beantwortet eine Frage mit Zahl, Jahr und Quelle und nennt, was die Zahl nicht sagt.</p>
@@ -313,6 +298,7 @@ ${k.liste.map((a) => `        <li><a href="${a.slug}.html">${esc(a.frage)}</a><b
       </ul>`).join('\n')}
       <p class="meta">Dazu: <a href="../artikel/tierarztketten-deutschland.html">Wer betreibt die Tierarztpraxen in Deutschland?</a> · <a href="../artikel/datenherkunft.html">Woher die Zahlen kommen</a></p>
     </main>
+    <!--rahmen:fuss-->
   </body>
 </html>
 `

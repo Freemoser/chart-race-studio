@@ -26,12 +26,47 @@ const BEITRAEGE: Beitrag[] = (JSON.parse(readFileSync('src/content/artikel-index
  * und der Cloudflare-Beacon soll ohne Umweg über React geladen werden.
  * Ohne gesetzte Variable wird nichts eingefügt.
  */
+/** Kopfzeile: nur Navigation. Rechtliches steht im Fuß – so erwarten es Leser, und der Kopf bleibt kurz. */
+function rahmenKopf(hoch: string) {
+  return `<header class="site">
+      <div class="wrap">
+        <a class="marke" href="${hoch}beitrag/">${MARKE}</a>
+        <nav aria-label="Hauptnavigation">
+          <a href="${hoch}beitrag/">Alle Artikel</a>
+          <a href="${hoch}artikel/datenherkunft.html">Datenherkunft</a>
+          <a href="${hoch}#redaktionsplan">Redaktionsplan</a>
+          <a class="studio" href="${hoch}">Studio</a>
+        </nav>
+      </div>
+    </header>`
+}
+function rahmenFuss(hoch: string) {
+  return `<footer class="seite">
+      <div class="wrap">
+        <p><strong>${MARKE}</strong> · Zahlen zu Tierärzten, Praxen und Haustieren in Deutschland, jede mit Quelle. Ein privates Projekt von Thomas Freimoser.</p>
+        <p>
+          <a href="${hoch}beitrag/">Alle Artikel</a> · <a href="${hoch}artikel/tierarztketten-deutschland.html">Tierarztketten</a> ·
+          <a href="${hoch}artikel/datenherkunft.html">Datenherkunft</a> · <a href="${hoch}">Studio</a>
+        </p>
+        <p class="recht"><a href="${hoch}impressum.html">Impressum</a> · <a href="${hoch}datenschutz.html">Datenschutz</a></p>
+      </div>
+    </footer>`
+}
+
 function integrationen(env: Record<string, string>) {
   return {
     name: 'crs-integrationen',
     transformIndexHtml(html: string, ctx: { path?: string; filename?: string }) {
       html = html.replaceAll('%SITE_NAME%', MARKE)
       html = html.replaceAll('%BASE%', base)
+      // Kopf und Fuß aller statischen Seiten aus einer Quelle. Die Seiten tragen nur Platzhalter;
+      // die Pfade richten sich nach der Ordnertiefe, die 404-Seite bekommt absolute Pfade, weil
+      // GitHub Pages sie unter jeder beliebigen Adresse ausliefert.
+      if (html.includes('<!--rahmen:')) {
+        const seitePfad = (ctx.path ?? '/').replace(/^\/+/, '')
+        const hoch = seitePfad === '404.html' ? base : '../'.repeat(seitePfad.split('/').length - 1) || './'
+        html = html.replace('<!--rahmen:kopf-->', rahmenKopf(hoch)).replace('<!--rahmen:fuss-->', rahmenFuss(hoch))
+      }
       const tags: string[] = []
       if (env.VITE_GSC_VERIFICATION) tags.push(`<meta name="google-site-verification" content="${env.VITE_GSC_VERIFICATION}" />`)
       // Canonical JE SEITE. Ein einziges Canonical für alle Seiten – der erste Wurf hier –
