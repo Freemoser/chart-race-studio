@@ -1,4 +1,6 @@
-# Chart Race Studio
+# Tiermedizin in Zahlen
+
+Zahlen zu Tierärzten, Praxen und Haustieren in Deutschland, mit Quelle je Wert – und das Studio dahinter (vormals „Chart Race Studio“).
 
 Animierte **Bar Chart Races** und **Line Chart Races** aus eigenen Daten erstellen und direkt im Browser als **MP4** (außerdem GIF und PNG) für Social Media exportieren. Läuft komplett client-seitig auf GitHub Pages, ohne Login, ohne Backend, ohne Tracking.
 

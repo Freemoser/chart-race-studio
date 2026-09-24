@@ -187,8 +187,8 @@ export function Roadmap({ onOpenStudio }: { onOpenStudio: () => void }) {
       <section id="ueber" className="mt-12 border-t border-line pt-8">
         <h2 className="text-lg font-semibold text-ink">Über diese Seite</h2>
         <p className="mt-2 max-w-3xl text-sm leading-relaxed text-ink-muted">
-          {SITE.name} ist ein Werkzeug von {LEGAL.operator}, mit dem aus einer Tabelle ein fertiges Video für den Feed wird.
-          Es läuft vollständig im Browser, ist Open Source unter der MIT-Lizenz, und die Diagramm-Animation basiert auf{' '}
+          {SITE.name} ist ein privates Projekt von {LEGAL.operator}: Zahlen zur deutschen Tiermedizin, jede mit Quelle, und das Studio,
+          mit dem aus einer Tabelle ein fertiges Video für den Feed wird. Das Studio läuft vollständig im Browser, ist Open Source unter der MIT-Lizenz, und die Diagramm-Animation basiert auf{' '}
           <a className="underline hover:text-ink" href="https://github.com/hatemhosny/racing-bars" target="_blank" rel="noreferrer">racing-bars</a> (MIT).
         </p>
         <p className="mt-3 text-[13px] text-ink-muted">

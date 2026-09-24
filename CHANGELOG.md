@@ -6,6 +6,8 @@ Alle nennenswerten Änderungen dieses Projekts. Format lose nach [Keep a Changel
 
 ### Neu
 
+- **Umbenannt in „Tiermedizin in Zahlen“** (vormals Chart Race Studio). Das Werkzeug heißt jetzt „Studio“. Repository und Adresse bleiben vorerst, damit bestehende LinkedIn-Links weiter funktionieren.
+
 - `llms-full.txt` mit dem Volltext aller Live-Artikel für Antwortmaschinen; 404-Seite mit Wegweiser.
 - Artikelentwürfe 4 („Tierarztmangel in Deutschland: was die Zahlen zeigen“) und 16 (Weltvergleich Katze/Hund) auf gemessene Suchanfragen ausgerichtet.
 - Markenname nur noch in `src/content/legal.json` (`siteName`) – eine Umbenennung ist eine Zeile.

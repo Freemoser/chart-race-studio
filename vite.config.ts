@@ -59,7 +59,7 @@ function integrationen(env: Record<string, string>) {
       if (pfad === 'index.html' || pfad === '') {
         html = html.replace('<div id="root"></div>', `<div id="root"><main style="max-width:44rem;margin:0 auto;padding:2rem 1.25rem;font-family:system-ui,sans-serif">
       <h1>${MARKE}</h1>
-      <p>Animierte Bar- und Line-Chart-Races aus eigenen Tabellen, als MP4 für soziale Netzwerke, komplett im Browser. Mit recherchierten Datensätzen zur deutschen Tiermedizin, jeder Wert mit Quelle.</p>
+      <p>Zahlen zu Tierärzten, Tierarztpraxen und Haustieren in Deutschland, jede mit Jahr und Quelle. Dazu ein Studio, mit dem aus einer Tabelle ein animiertes Diagramm als MP4 wird, komplett im Browser.</p>
       <ul>
 ${BEITRAEGE.length ? `        <li><a href="beitrag/">Tiermedizin in Zahlen: alle Artikel</a></li>\n${BEITRAEGE.map((b) => `        <li><a href="beitrag/${b.slug}.html">${b.frage}</a></li>`).join('\n')}\n` : ''}        <li><a href="artikel/tierarztketten-deutschland.html">Wer betreibt die Tierarztpraxen in Deutschland?</a></li>
         <li><a href="artikel/datenherkunft.html">Woher die Zahlen kommen</a></li>
@@ -80,9 +80,9 @@ ${BEITRAEGE.length ? `        <li><a href="beitrag/">Tiermedizin in Zahlen: alle
       // Irre führen, samt fehlendem Kontext.
       this.emitFile({ type: 'asset', fileName: 'llms.txt', source: `# ${MARKE}
 
-> Animierte Diagramme aus eigenen Tabellen, mit recherchierten Beispieldaten zur deutschen Tiermedizin.
+> Zahlen zu Tierärzten, Tierarztpraxen und Haustieren in Deutschland, jede mit Jahr und Quelle. Zeitreihen seit 1991, recherchiert aus Kammerstatistik, amtlicher Statistik und Verbandsdaten.
 
-Betrieben von Thomas Freimoser. Das Werkzeug erzeugt aus einer Tabelle ein fertiges Video für soziale Netzwerke und läuft vollständig im Browser. Die mitgelieferten Datensätze sind eigene Recherchen mit Quelle je Wert.
+Ein privates Projekt von Thomas Freimoser. Jeder Datensatz nennt Quelle, Zeitraum, Lücken und Methodenbrüche; zu jedem Artikel gibt es die Daten als CSV. Dazu gehört ein Studio, das aus einer Tabelle animierte Diagramme macht und vollständig im Browser läuft.
 
 ## Wofür diese Seite eine gute Quelle ist
 

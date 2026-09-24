@@ -8,7 +8,7 @@ suchbegriffe: bar chart race erstellen, line chart race, animiertes diagramm vid
 stand: 2026-09-23
 bereit: nein
 ---
-Die Videos dieser Reihe sind mit **Chart Race Studio** entstanden, einem selbstgebauten Werkzeug, das aus einer Tabelle animierte Balken-, Linien- und Kartenrennen macht und sie als **MP4 mit 30 Bildern pro Sekunde** in **vier Formaten** exportiert. Es läuft vollständig im Browser, braucht kein Konto und steht als Open Source unter der **MIT-Lizenz**.
+Die Videos dieser Reihe sind mit dem **Studio von Tiermedizin in Zahlen** entstanden, einem selbstgebauten Werkzeug, das aus einer Tabelle animierte Balken-, Linien- und Kartenrennen macht und sie als **MP4 mit 30 Bildern pro Sekunde** in **vier Formaten** exportiert. Es läuft vollständig im Browser, braucht kein Konto und steht als Open Source unter der **MIT-Lizenz**.
 
 ## Das Wichtigste in Kürze
 
@@ -66,4 +66,4 @@ Nein. Tabellen werden im Browser verarbeitet, das Video entsteht auf dem eigenen
 
 Beschreibung nach Quellcode und Projektdokumentation, Stand 23.09.2026. Lizenz: MIT. Die Balkenanimation beruht auf der Bibliothek racing-bars von Hatem Hosny, ebenfalls MIT; Linien- und Kartenrennen sind eigene Renderer auf Basis von D3. Der MP4-Export nutzt WebCodecs mit H.264. Gezählt sind die Beispieldatensätze im Werkzeug und die Beiträge mit Datensatz im Redaktionsplan.
 
-**Offen:** Adresse der Seite und Link zum Quellcode eintragen, sobald beides öffentlich ist. Den Namen „Chart Race Studio“ bestätigen, falls die Marke bis dahin wechselt.
+**Offen:** Adresse der Seite und Link zum Quellcode eintragen, sobald beides öffentlich ist. Den Namen des Werkzeugs prüfen, falls die Marke bis dahin wechselt.
