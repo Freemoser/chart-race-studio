@@ -92,7 +92,8 @@ export const POSTS: RoadmapPost[] = [
     refs: [1],
   },
   {
-    nr: 3, arc: 'tiere', status: 'naechster',
+    nr: 3, arc: 'tiere', status: 'veroeffentlicht', publishedOn: '2026-09-24',
+    linkedInUrl: 'https://lnkd.in/p/gA27xkBt',
     title: 'Hund oder Katze – die Welt',
     hook: 'Weltweit gibt es mehr Hunde als Katzen. Noch. In 84 von 197 Ländern verschiebt sich das Verhältnis seit 2000, fast immer zur Katze.',
     figures: ['Weltweit 2026 (Modell): 521 Mio. Hunde, 443 Mio. Katzen; Euromonitor 2018: 471 zu 373 Mio.', 'Japan: Hundeanteil 57 auf 41 Prozent, China 2024: 71,5 Mio. Katzen gegen 52,6 Mio. Hunde', 'Deutschland: 15,7 Mio. Katzen, 10,0 Mio. Hunde (2025)', 'Die Zahl der Länder mit Hundemehrheit bleibt fast gleich (130 auf 133) – der Abstand schrumpft'],
@@ -101,7 +102,7 @@ export const POSTS: RoadmapPost[] = [
     refs: [1],
   },
   {
-    nr: 4, arc: 'praxis', status: 'geplant', vorabOnline: true,
+    nr: 4, arc: 'praxis', status: 'naechster', vorabOnline: true,
     title: 'Angestellte überholen die Praxisinhaber',
     hook: '2024 ist etwas passiert, das es in der deutschen Tiermedizin noch nie gab. Der Beruf wächst, die Selbstständigkeit nicht.',
     figures: ['1991: 8.510 Inhaber zu 1.880 Angestellten', '2024 kippt es: 11.264 zu 11.990', '2025: 11.216 zu 12.125', 'Höchststand der Inhaber war 2019 mit 12.019'],
