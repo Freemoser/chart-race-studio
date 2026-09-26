@@ -102,7 +102,8 @@ export const POSTS: RoadmapPost[] = [
     refs: [1],
   },
   {
-    nr: 4, arc: 'praxis', status: 'naechster', vorabOnline: true,
+    nr: 4, arc: 'praxis', status: 'veroeffentlicht', publishedOn: '2026-09-25', vorabOnline: true,
+    linkedInUrl: 'https://www.linkedin.com/posts/thomas-freimoser_tiermedizin-tierarztpraxis-praxisnachfolge-ugcPost-7509245935512670210-k7MY',
     title: 'Angestellte überholen die Praxisinhaber',
     hook: '2024 ist etwas passiert, das es in der deutschen Tiermedizin noch nie gab. Der Beruf wächst, die Selbstständigkeit nicht.',
     figures: ['1991: 8.510 Inhaber zu 1.880 Angestellten', '2024 kippt es: 11.264 zu 11.990', '2025: 11.216 zu 12.125', 'Höchststand der Inhaber war 2019 mit 12.019'],
@@ -213,7 +214,7 @@ export const POSTS: RoadmapPost[] = [
     refs: [2],
   },
   {
-    nr: 17, arc: 'tiere', status: 'geplant',
+    nr: 17, arc: 'tiere', status: 'naechster',
     title: 'Der Absturz des Deutschen Schäferhunds',
     hook: 'Der leichte Post für Reichweite, und trotzdem eine echte Geschichte über 30 Jahre Geschmackswandel.',
     figures: ['1992: 28.000 Welpen im VDH-Zuchtbuch', '2025: 6.374', 'Der Teckel fällt von 14.208 auf 4.508'],
